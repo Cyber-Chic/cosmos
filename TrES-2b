@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #030305;
+      color: #d1d9e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+    
+    /* Dedicated Editable Text Fields Outside the Simulation */
+    .custom-description-box {
+      width: 100%;
+      max-width: 650px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .custom-description-box h1 {
+      color: #ff4d4d;
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      margin: 0 0 10px 0;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px rgba(235, 40, 40, 0.4);
+    }
+    .custom-description-box p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #a0aec0;
+      margin: 0;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      margin-bottom: 25px;
+    }
+    canvas {
+      background: radial-gradient(circle, #08090f 0%, #030305 100%);
+      border-radius: 16px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.9);
+      cursor: grab;
+      touch-action: none;
+    }
+    canvas:active {
+      cursor: grabbing;
+    }
+    /* Sleek UI Controls Overlaid on Canvas */
+    .zoom-controls {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .zoom-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: rgba(20, 22, 35, 0.7);
+      border: 1px solid rgba(235, 40, 40, 0.3);
+      color: #ff4d4d;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(4px);
+    }
+    .zoom-btn:hover {
+      background: rgba(235, 40, 40, 0.2);
+      border-color: #ff4d4d;
+      box-shadow: 0 0 10px rgba(235, 40, 40, 0.4);
+    }
+    .zoom-btn:active {
+      transform: scale(0.95);
+    }
+    .info {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      color: #5f6e85;
+      font-size: 11px;
+      letter-spacing: 2px;
+      pointer-events: none;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    /* Additional Description Field Below the Simulation */
+    .custom-footer-box {
+      width: 100%;
+      max-width: 650px;
+      background: linear-gradient(135deg, rgba(15, 16, 28, 0.6) 0%, rgba(5, 5, 8, 0.8) 100%);
+      border: 1px solid rgba(235, 40, 40, 0.15);
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      box-sizing: border-box;
+    }
+    .custom-footer-box h2 {
+      font-size: 1.1rem;
+      letter-spacing: 3px;
+      color: #ff4d4d;
+      margin: 0 0 12px 0;
+      text-transform: uppercase;
+    }
+    .custom-footer-box p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #a0aec0;
+      margin: 0;
+    }
+
+    /* Dedicated Field for System Labels / Custom Organization Data */
+    .label-field {
+      margin-top: 15px;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      color: #63738a;
+      text-transform: uppercase;
+      border-top: 1px solid rgba(235, 40, 40, 0.1);
+      padding-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Editable Top Description Box -->
+<div class="custom-description-box">
+  <h1>The Charcoal World</h1>
+  <p>Type your top header description here. You can fully rewrite this text field to summarize any core planet overview details on your main page layout.</p>
+</div>
+
+<div class="container">
+  <canvas id="spaceCanvas" width="650" height="500"></canvas>
+  
+  <div class="zoom-controls">
+    <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+    <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+  </div>
+  
+  <div class="info">Drag to rotate system • Scroll or use buttons to zoom</div>
+</div>
+
+<!-- Editable Bottom Description Box and Label Field -->
+<div class="custom-footer-box">
+  <h2>Cosmic Data Retrieval</h2>
+  <p>Type your bottom description content here. This container is optimized to hold deep technical descriptions, project data overviews, or archive summary analyses right below the live canvas framework.</p>
+  
+  <!-- Dedicated Custom Label Area -->
+  <div class="label-field">
+    ARCHIVE ID: #000-TRES2B • CLASSIFICATION: HOT JUPITER SYSTEM
+  </div>
+</div>
+
+<script>
+  const canvas = document.getElementById('spaceCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Background Stars Setup
+  const stars = [];
+  for(let i=0; i<120; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 1.5,
+      alpha: Math.random() * 0.5 + 0.3
+    });
+  }
+
+  // System Core Positions
+  const starX = 80;
+  const starY = 120;
+  const starRadius = 55;
+
+  const planetX = canvas.width / 2 + 40;
+  const planetY = canvas.height / 2 + 20;
+  let radius = 100; 
+  
+  let rotX = 0; 
+  let rotY = 0; 
+  
+  let isDragging = false;
+  let lastX = 0;
+  let lastY = 0;
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    stars.forEach(star => {
+      ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+      ctx.fillRect(star.x, star.y, star.size, star.size);
+    });
+
+    ctx.font = 'bold 11px monospace';
+    ctx.fillStyle = 'rgba(235, 40, 40, 0.4)';
+    ctx.fillText('// EXOPLANET PROFILE: TrES-2b', 40, 45);
+    
+    ctx.font = '12px sans-serif';
+    ctx.fillStyle = 'rgba(122, 136, 155, 0.6)';
+    ctx.fillText('ALBEDO: < 1% (Darker than coal/acrylic paint)', 40, 420);
+    ctx.fillText('ORBITAL PERIOD: 2.47 Days (Extremely fast)', 40, 442);
+    ctx.fillText('SYSTEM DISTANCE: ~750 Light Years away', 40, 464);
+
+    let starGlow = ctx.createRadialGradient(starX, starY, starRadius - 15, starX, starY, starRadius + 60);
+    starGlow.addColorStop(0, 'rgba(255, 220, 120, 0.25)');
+    starGlow.addColorStop(0.4, 'rgba(255, 140, 50, 0.08)');
+    starGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = starGlow;
+    ctx.beginPath();
+    ctx.arc(starX, starY, starRadius + 60, 0, Math.PI * 2);
+    ctx.fill();
+
+    let starBody = ctx.createRadialGradient(starX - 10, starY - 10, 2, starX, starY, starRadius);
+    starBody.addColorStop(0, '#ffffff');
+    starBody.addColorStop(0.2, '#fff3cc');
+    starBody.addColorStop(0.8, '#ffcc66');
+    starBody.addColorStop(1, '#ff9933');
+    ctx.fillStyle = starBody;
+    ctx.beginPath();
+    ctx.arc(starX, starY, starRadius, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.font = '9px monospace';
+    ctx.fillStyle = 'rgba(255, 200, 100, 0.5)';
+    ctx.fillText('HOST STAR: TrES-2A', starX - 45, starY + starRadius + 18);
+
+    let outerGlow = ctx.createRadialGradient(planetX, planetY, radius - 10, planetX, planetY, radius + 20);
+    outerGlow.addColorStop(0, 'rgba(235, 40, 40, 0.07)');
+    outerGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = outerGlow;
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius + 20, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#060608'; 
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.clip();
+
+    let tiltFactor = Math.sin(rotY * 0.02); 
+    const bandPositions = [-35, 0, 35];
+    
+    bandPositions.forEach((baseY, index) => {
+      let speedMultiplier = (index % 2 === 0) ? 1.2 : 0.8;
+      let xOffset = ((rotX * speedMultiplier) % (radius * 4)) - (radius * 2);
+      let currentCenterY = planetY + (baseY * Math.cos(rotY * 0.02)) + (radius * 0.4 * tiltFactor);
+
+      for (let i = 0; i < 3; i++) {
+        let drawX = planetX + xOffset + (i * radius * 3.5) - (radius * 3.5);
+        
+        ctx.beginPath();
+        ctx.ellipse(drawX, currentCenterY, radius * 1.2, Math.abs(radius * 0.15 * tiltFactor) + 8, rotY * 0.01, 0, Math.PI * 2);
+        
+        let bandGradient = ctx.createRadialGradient(drawX, currentCenterY, 5, drawX, currentCenterY, radius);
+        bandGradient.addColorStop(0, 'rgba(220, 25, 25, 0.32)'); 
+        bandGradient.addColorStop(0.6, 'rgba(140, 15, 15, 0.08)');
+        bandGradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+        
+        ctx.fillStyle = bandGradient;
+        ctx.fill();
+      }
+    });
+
+    let shadow = ctx.createRadialGradient(planetX - (radius * 0.35), planetY - (radius * 0.35), radius * 0.1, planetX, planetY, radius);
+    shadow.addColorStop(0, 'rgba(255, 240, 200, 0.04)'); 
+    shadow.addColorStop(0.3, 'rgba(0, 0, 0, 0.3)');
+    shadow.addColorStop(0.95, 'rgba(0, 0, 0, 0.99)'); 
+    
+    ctx.fillStyle = shadow;
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+
+    requestAnimationFrame(draw);
+  }
+
+  function adjustZoom(amount) {
+    radius = Math.min(Math.max(radius + amount, 45), 180);
+  }
+
+  document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
+  document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
+
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    if (e.deltaY < 0) adjustZoom(6);
+    else adjustZoom(-6);
+  }, { passive: false });
+  // Multi-Direction Drag Listeners
+  function startDrag(e) {
+    isDragging = true;
+    if (e.touches && e.touches.length > 0) {
+      lastX = e.touches.clientX;
+      lastY = e.touches.clientY;
+    } else {
+      lastX = e.clientX;
+      lastY = e.clientY;
+    }
+  }
+
+  function doDrag(e) {
+    if (!isDragging) return;
+    
+    let currentX, currentY;
+    if (e.touches && e.touches.length > 0) {
+      currentX = e.touches.clientX;
+      currentY = e.touches.clientY;
+    } else {
+      currentX = e.clientX;
+      currentY = e.clientY;
+    }
+    
+    const deltaX = currentX - lastX;
+    const deltaY = currentY - lastY;
+    
+    rotX += deltaX * 0.5; 
+    rotY += deltaY * 0.5; 
+    
+    lastX = currentX;
+    lastY = currentY;
+  }
+
+  function stopDrag() {
+    isDragging = false;
+  }
+
+  canvas.addEventListener('mousedown', startDrag);
+  canvas.addEventListener('mousemove', doDrag);
+  canvas.addEventListener('mouseup', stopDrag);
+  canvas.addEventListener('mouseleave', stopDrag);
+
+  canvas.addEventListener('touchstart', startDrag, { passive: true });
+  canvas.addEventListener('touchmove', doDrag, { passive: true });
+  canvas.addEventListener('touchend', stopDrag);
+
+  draw();
+</script>
+
+</body>
+</html>
