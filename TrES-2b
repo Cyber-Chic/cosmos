@@ -79,15 +79,31 @@
 </head>
 <body>
 
-<div class="container">
-  <canvas id="spaceCanvas" width="650" height="500"></canvas>
+<div class="container" style="display: flex; flex-direction: column; align-items: center;">
   
-  <div class="zoom-controls">
-    <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
-    <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+  <!-- Minimalist Top Planet Label -->
+  <div style="color: #ff4d4d; font-size: 1.1rem; letter-spacing: 3px; font-weight: bold; text-transform: uppercase; margin-bottom: 15px; text-shadow: 0 0 10px rgba(235, 40, 40, 0.3);">
+    SYSTEM VISUALIZATION: TrES-2b
+  </div>
+
+  <!-- Wrapper gives absolute items an isolated home -->
+  <div style="position: relative; margin-bottom: 20px;">
+    <canvas id="spaceCanvas" width="650" height="500"></canvas>
+    
+    <div class="zoom-controls">
+      <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+      <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+    </div>
+    
+    <div class="info">Drag to rotate system • Scroll or use buttons to zoom</div>
+  </div>
+
+  <!-- Minimalist Bottom Fields Safely Separated Below canvas bounds -->
+  <div style="font-family: monospace; font-size: 0.85rem; letter-spacing: 1px; line-height: 1.6; color: #5f6e85; text-transform: uppercase; text-align: center; margin-top: 10px;">
+    <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
+    <div style="font-size: 0.75rem; color: #434f63; margin-top: 4px;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
   </div>
   
-  <div class="info">Drag to rotate system • Scroll or use buttons to zoom</div>
 </div>
 
 <script>
@@ -139,11 +155,12 @@
     ctx.fillStyle = 'rgba(235, 40, 40, 0.4)';
     ctx.fillText('// EXOPLANET PROFILE: TrES-2b', 40, 45);
     
+    // Spaced out to leave clear breathing room above the lower "info" text overlay
     ctx.font = '12px sans-serif';
     ctx.fillStyle = 'rgba(122, 136, 155, 0.6)';
-    ctx.fillText('ALBEDO: < 1% (Darker than coal/acrylic paint)', 40, 420);
-    ctx.fillText('ORBITAL PERIOD: 2.47 Days (Extremely fast)', 40, 442);
-    ctx.fillText('SYSTEM DISTANCE: ~750 Light Years away', 40, 464);
+    ctx.fillText('ALBEDO: < 1% (Darker than coal/acrylic paint)', 40, 395);
+    ctx.fillText('ORBITAL PERIOD: 2.47 Days (Extremely fast)', 40, 417);
+    ctx.fillText('SYSTEM DISTANCE: ~750 Light Years away', 40, 439);
 
     // 3. Draw Host Star (TrES-2A) in top left background
     // Star Glow
@@ -194,10 +211,11 @@
     ctx.clip();
 
     let tiltFactor = Math.sin(rotY * 0.02); 
-    const bandPositions = [-35, 0, 35];
+    const bandPositions = [-45, -15, 15, 45]; // Added an extra band for denser detail
     
     bandPositions.forEach((baseY, index) => {
-      let speedMultiplier = (index % 2 === 0) ? 1.2 : 0.8;
+      // Alternate band directions and speeds to make friction highly visible
+      let speedMultiplier = (index % 2 === 0) ? 1.4 : -0.9;
       let xOffset = ((rotX * speedMultiplier) % (radius * 4)) - (radius * 2);
       let currentCenterY = planetY + (baseY * Math.cos(rotY * 0.02)) + (radius * 0.4 * tiltFactor);
 
@@ -205,17 +223,33 @@
         let drawX = planetX + xOffset + (i * radius * 3.5) - (radius * 3.5);
         
         ctx.beginPath();
-        ctx.ellipse(drawX, currentCenterY, radius * 1.2, Math.abs(radius * 0.15 * tiltFactor) + 8, rotY * 0.01, 0, Math.PI * 2);
+        ctx.ellipse(drawX, currentCenterY, radius * 1.4, Math.abs(radius * 0.22 * tiltFactor) + 12, rotY * 0.01, 0, Math.PI * 2);
         
-        let bandGradient = ctx.createRadialGradient(drawX, currentCenterY, 5, drawX, currentCenterY, radius);
-        bandGradient.addColorStop(0, 'rgba(220, 25, 25, 0.32)'); // Glowing infrared heat bands
-        bandGradient.addColorStop(0.6, 'rgba(140, 15, 15, 0.08)');
+        // BOOSTED GRADIENT: Richer dark red cores with stronger outer neon-red boundaries
+        let bandGradient = ctx.createRadialGradient(drawX, currentCenterY, 2, drawX, currentCenterY, radius * 1.2);
+        bandGradient.addColorStop(0, 'rgba(255, 15, 15, 0.45)');  // Bright, hot thermal core
+        bandGradient.addColorStop(0.3, 'rgba(210, 10, 10, 0.35)'); // Rich Crimson middle
+        bandGradient.addColorStop(0.7, 'rgba(130, 0, 0, 0.15)');    // Visible red edge bleed
         bandGradient.addColorStop(1, 'rgba(0,0,0,0)');
         
         ctx.fillStyle = bandGradient;
         ctx.fill();
       }
     });
+
+    // BONUS VISUAL ANCHOR: Fine atmospheric storms that slide perfectly on the Y-axis
+    // This guarantees that vertical dragging looks incredibly active and reactive
+    ctx.fillStyle = 'rgba(240, 20, 20, 0.18)';
+    for(let j = 0; j < 4; j++) {
+      let stormX = planetX + Math.sin(rotX * 0.01 + j) * (radius * 0.5);
+      let stormY = planetY + Math.cos(rotY * 0.01 + j) * (radius * 0.6) + (rotY * 0.15 % (radius * 2)) - radius;
+      if (Math.hypot(stormX - planetX, stormY - planetY) < radius - 10) {
+        ctx.beginPath();
+        ctx.arc(stormX, stormY, 4 + j, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
 
     // 7. 3D Spherical Shadow Mask Overlay (Simulates light cast directly from TrES-2A)
     // Points the light source angle right at the coordinates of our top-left star!
@@ -249,12 +283,12 @@
     else adjustZoom(-6);
   }, { passive: false });
 
-  // Multi-Direction Drag Listeners
+    // Multi-Direction Drag Listeners
   function startDrag(e) {
     isDragging = true;
     if (e.touches && e.touches.length > 0) {
-      lastX = e.touches[0].clientX;
-      lastY = e.touches[0].clientY;
+      lastX = e.touches.clientX;
+      lastY = e.touches.clientY;
     } else {
       lastX = e.clientX;
       lastY = e.clientY;
@@ -266,8 +300,8 @@
     
     let currentX, currentY;
     if (e.touches && e.touches.length > 0) {
-      currentX = e.touches[0].clientX;
-      currentY = e.touches[0].clientY;
+      currentX = e.touches.clientX;
+      currentY = e.touches.clientY;
     } else {
       currentX = e.clientX;
       currentY = e.clientY;
@@ -287,7 +321,7 @@
     isDragging = false;
   }
 
-  // Canvas Interactions Bounds
+  // Bind All Interaction Hooks Directly to Canvas
   canvas.addEventListener('mousedown', startDrag);
   canvas.addEventListener('mousemove', doDrag);
   canvas.addEventListener('mouseup', stopDrag);
@@ -297,6 +331,7 @@
   canvas.addEventListener('touchmove', doDrag, { passive: true });
   canvas.addEventListener('touchend', stopDrag);
 
+  // Initialize display engine loop
   draw();
 </script>
 
