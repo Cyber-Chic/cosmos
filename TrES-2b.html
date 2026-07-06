@@ -167,6 +167,17 @@
       }
     }
 
+        /* Fixes iPad/Tablet Vertical Cut-offs */
+    @media (max-width: 1024px) or (max-height: 850px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+        /* Gives iPads gentle padding so elements never hit the absolute edge */
+        padding: 40px 20px !important; 
+      }
+    }
+
+
   </style>
 </head>
 
