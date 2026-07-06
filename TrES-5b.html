@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TrES-2b Interactive Simulation Profile</title>
+  <style>
+    /* 1. Global Page Settings & Strict Single-Screen Height Limits */
+    body {
+      margin: 0;
+      /* Scales padding down dynamically based on available screen height */
+      padding: clamp(20px, 4vh, 40px) 20px; 
+      background-color: #030305;
+      color: #d1d9e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      max-height: 100vh; /* Locks desktop from leaking or creating a scrollbar */
+      font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+      box-sizing: border-box;
+      touch-action: manipulation; 
+      overflow: hidden; /* Disables page scrolling entirely on desktop */
+    }
+    
+    /* 2. Container Layout */
+    .container {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      width: 100%; 
+      max-width: 650px; 
+      padding: 0 10px; 
+      box-sizing: border-box;
+      overflow-x: hidden; 
+      touch-action: none;
+    }
+
+    .container * {
+      touch-action: manipulation; 
+    }
+
+    /* 3. Top Planet Title (Beautiful Mobile Two-Line Wrapping) */
+    .main-title {
+      color: #ff4d4d; 
+      font-size: clamp(14px, 4vw, 18px); 
+      letter-spacing: 3px; 
+      font-weight: bold; 
+      text-transform: uppercase; 
+      margin: 0 0 clamp(10px, 2vh, 20px) 0; 
+      text-shadow: 0 0 10px rgba(235, 40, 40, 0.3); 
+      text-align: center;
+      /* FIXED: Text now wraps onto a second row safely instead of cutting off! */
+      white-space: normal; 
+      word-wrap: break-word;
+    }
+
+    /* 4. Canvas Map Box Layout (Shrinks based on screen height) */
+    .canvas-wrapper {
+      position: relative; 
+      width: 100%; 
+      max-width: 580px; /* Reduced slightly to help it fit on shorter laptop monitors */
+      margin-bottom: clamp(10px, 2vh, 20px);
+    }
+
+    canvas {
+      background: radial-gradient(circle, #08090f 0%, #030305 100%); 
+      border-radius: 16px; 
+      box-shadow: 0 0 40px rgba(0,0,0,0.9); 
+      cursor: grab; 
+      touch-action: none; 
+      width: 100%; 
+      height: auto; 
+      display: block;
+    }
+    canvas:active {
+      cursor: grabbing;
+    }
+
+    /* 5. Interactive UI Overlays */
+    .zoom-controls {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .zoom-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      background: rgba(20, 22, 35, 0.7);
+      border: 1px solid rgba(235, 40, 40, 0.3);
+      color: #ff4d4d;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(4px);
+    }
+    .zoom-btn:hover {
+      background: rgba(235, 40, 40, 0.2);
+      border-color: #ff4d4d;
+      box-shadow: 0 0 10px rgba(235, 40, 40, 0.4);
+    }
+    .zoom-btn:active {
+      transform: scale(0.95);
+    }
+
+    .info {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      font-size: clamp(9px, 2vw, 11px); 
+      padding: 0 10px; 
+      color: #ff4d4d; 
+      letter-spacing: 1px; 
+      font-weight: bold;
+      text-transform: uppercase;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    /* 6. Compact Scientific Telemetry Box */
+    .telemetry-box {
+      width: 100%; 
+      font-family: monospace; 
+      font-size: clamp(10px, 1.8vw, 12px); 
+      line-height: 1.6; 
+      color: #7a889b; 
+      border: 1px solid rgba(235, 40, 40, 0.15); 
+      background: rgba(12, 13, 20, 0.5); 
+      padding: clamp(10px, 1.5vh, 15px); 
+      border-radius: 10px; 
+      box-sizing: border-box; 
+      text-align: left; 
+      margin-bottom: clamp(10px, 2vh, 20px); 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    /* 7. Footer Branding Box */
+    .footer-box {
+      font-family: monospace; 
+      font-size: clamp(9px, 1.8vw, 11px); 
+      letter-spacing: 1px; 
+      line-height: 1.5; 
+      color: #5f6e85; 
+      text-transform: uppercase; 
+      text-align: center; 
+      width: 100%; 
+      white-space: nowrap;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+      }
+    }
+
+    /* Fixes iPad/Tablet Vertical Cut-offs */
+    @media (max-width: 1024px) or (max-height: 850px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+        /* Gives iPads gentle padding so elements never hit the absolute edge */
+        padding: 40px 20px !important; 
+      }
+    }
+
+  </style>
+</head>
+
+<div class="container">
+  
+  <!-- Minimalist Top Planet Label (Locked to beautiful two-line wrapping on mobile) -->
+  <h1 class="main-title">System Visualization: TrES-5b</h1>
+
+  <!-- Isolated Canvas Box Wrapper -->
+  <div class="canvas-wrapper">
+    <canvas id="spaceCanvas" width="650" height="500"></canvas>
+    
+    <div class="zoom-controls">
+      <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+      <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+    </div>
+    
+    <div class="info">Drag to rotate • Scroll or use buttons to zoom</div>
+  </div>
+
+  <!-- NEW SCI-FI DATA READOUT BOX (Framed under the NSF/Citizen Science aesthetic) -->
+  <div class="telemetry-box">
+    <div style="color: #ff4d4d; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// EXOPLANET TELEMETRY: TrES-5b</div>
+    <div>• <span style="color: #d1d9e6;">MASS:</span> ~1.79 Jupiters (An immensely dense, massive gas giant)</div>
+    <div>• <span style="color: #d1d9e6;">ORBITAL PERIOD:</span> 1.48 Days / 35.5 Hours (A crushing, high-velocity year)</div>
+    <div>• <span style="color: #d1d9e6;">SYSTEM DISTANCE:</span> ~1,180 Light Years away in Cygnus constellation</div>
+  </div>
+
+  <!-- Minimalist Bottom Fields Locked onto Single Lines -->
+  <div class="footer-box">
+    <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
+    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
+  </div>
+  
+</div>
+
+
+
+<script>
+  const canvas = document.getElementById('spaceCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Background Stars Setup
+  const stars = [];
+  for(let i=0; i<120; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 1.5,
+      alpha: Math.random() * 0.5 + 0.3
+    });
+  }
+
+  // System Core Positions
+  const starX = 80;
+  const starY = 120;
+  const starRadius = 55;
+
+  const planetX = canvas.width / 2 + 40;
+  const planetY = canvas.height / 2 + 20;
+  let radius = 100; 
+  
+  let rotX = 0; 
+  let rotY = 0; 
+  
+  let isDragging = false;
+  let lastX = 0;
+  let lastY = 0;
+
+
+
+
+
+
+
+   function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // 1. Draw Background Stars
+    stars.forEach(star => {
+      ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+      ctx.fillRect(star.x, star.y, star.size, star.size);
+    });
+
+    // 3. Draw Host Star (TrES-5) - Solar G-Type Bright White-Yellow Color Scheme
+    let starGlow = ctx.createRadialGradient(starX, starY, starRadius - 15, starX, starY, starRadius + 60);
+    starGlow.addColorStop(0, 'rgba(255, 245, 200, 0.25)'); // Crisp solar corona
+    starGlow.addColorStop(0.5, 'rgba(255, 210, 100, 0.07)');
+    starGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = starGlow;
+    ctx.beginPath();
+    ctx.arc(starX, starY, starRadius + 60, 0, Math.PI * 2);
+    ctx.fill();
+
+    let starBody = ctx.createRadialGradient(starX - 10, starY - 10, 2, starX, starY, starRadius);
+    starBody.addColorStop(0, '#ffffff');
+    starBody.addColorStop(0.2, '#fff6d5');
+    starBody.addColorStop(0.8, '#ffcc44'); // Blinding yellow core layer
+    starBody.addColorStop(1, '#ff9900');  // Sharp solar edge definition
+    ctx.fillStyle = starBody;
+    ctx.beginPath();
+    ctx.arc(starX, starY, starRadius, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.font = '9px monospace';
+    ctx.fillStyle = 'rgba(255, 210, 100, 0.5)';
+    ctx.fillText('HOST STAR: TrES-5', starX - 42, starY + starRadius + 18);
+
+    // 4. Planet Outer Atmosphere Glow
+    let outerGlow = ctx.createRadialGradient(planetX, planetY, radius - 10, planetX, planetY, radius + 20);
+    outerGlow.addColorStop(0, 'rgba(210, 30, 210, 0.08)'); // Subtle magenta atmospheric scattering
+    outerGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = outerGlow;
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius + 20, 0, Math.PI * 2);
+    ctx.fill();
+
+    // 5. Solid Pitch-Black Planet Surface
+    ctx.fillStyle = '#060608'; 
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.fill();
+
+    // 6. Draw Gas Bands Warping Into 3D Curves Based on Drag Direction
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.clip();
+
+    let tiltFactor = Math.sin(rotY * 0.02); 
+    const bandPositions = [-45, -15, 15, 45];
+    
+    bandPositions.forEach((baseY, index) => {
+      let speedMultiplier = (index % 2 === 0) ? 1.4 : -0.9;
+      let xOffset = ((rotX * speedMultiplier) % (radius * 4)) - (radius * 2);
+      let currentCenterY = planetY + (baseY * Math.cos(rotY * 0.02)) + (radius * 0.4 * tiltFactor);
+
+      for (let i = 0; i < 3; i++) {
+        let drawX = planetX + xOffset + (i * radius * 3.5) - (radius * 3.5);
+        
+        ctx.beginPath();
+        ctx.ellipse(drawX, currentCenterY, radius * 1.4, Math.abs(radius * 0.22 * tiltFactor) + 12, rotY * 0.01, 0, Math.PI * 2);
+        
+        // MAGENTA & VIOLET SPECTRAL BLEND: Representing immense atmospheric pressure density
+        let bandGradient = ctx.createRadialGradient(drawX, currentCenterY, 2, drawX, currentCenterY, radius * 1.2);
+        bandGradient.addColorStop(0, 'rgba(255, 30, 180, 0.45)');  // Bright, searing neon-magenta thermal core
+        bandGradient.addColorStop(0.3, 'rgba(170, 20, 240, 0.32)'); // Electric violet mid-layer
+        bandGradient.addColorStop(0.7, 'rgba(75, 0, 130, 0.15)');   // Deep indigo foundation haze
+        bandGradient.addColorStop(1, 'rgba(0,0,0,0)');
+        
+        ctx.fillStyle = bandGradient;
+        ctx.fill();
+      }
+    });
+
+    // High-pressure thermal storms shifted to matching exotic violet hues
+    ctx.fillStyle = 'rgba(230, 20, 255, 0.20)';
+    for(let j = 0; j < 4; j++) {
+      let stormX = planetX + Math.sin(rotX * 0.01 + j) * (radius * 0.5);
+      let stormY = planetY + Math.cos(rotY * 0.01 + j) * (radius * 0.6) + (rotY * 0.15 % (radius * 2)) - radius;
+      if (Math.hypot(stormX - planetX, stormY - planetY) < radius - 10) {
+        ctx.beginPath();
+        ctx.arc(stormX, stormY, 4 + j, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // 7. 3D Spherical Shadow Mask Overlay (Simulates bright white-yellow light casting from TrES-5)
+    let shadow = ctx.createRadialGradient(planetX - (radius * 0.35), planetY - (radius * 0.35), radius * 0.1, planetX, planetY, radius);
+    shadow.addColorStop(0, 'rgba(255, 250, 230, 0.05)'); // Crisp solar rim reflection
+    shadow.addColorStop(0.3, 'rgba(0, 0, 0, 0.3)');
+    shadow.addColorStop(0.95, 'rgba(0, 0, 0, 0.99)'); 
+    
+    ctx.fillStyle = shadow;
+    ctx.beginPath();
+    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+
+    requestAnimationFrame(draw);
+  }
+
+  function adjustZoom(amount) {
+    radius = Math.min(Math.max(radius + amount, 45), 180);
+  }
+
+  document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
+  document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
+
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    if (e.deltaY < 0) adjustZoom(6);
+    else adjustZoom(-6);
+  }, { passive: false });
+
+
+
+
+
+
+  // Unified Pointer Input Handlers
+  function startDrag(e) {
+    isDragging = true;
+    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+  }
+
+  function doDrag(e) {
+    if (!isDragging) return;
+    
+    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+    
+    if (currentX === undefined || currentY === undefined) return;
+
+    const deltaX = currentX - lastX;
+    const deltaY = currentY - lastY;
+    
+    rotX += deltaX * 0.5; 
+    rotY += deltaY * 0.5; 
+    
+    lastX = currentX;
+    lastY = currentY;
+  }
+
+  function stopDrag() {
+    isDragging = false;
+  }
+
+  canvas.addEventListener('mousedown', startDrag);
+  window.addEventListener('mousemove', doDrag);
+  window.addEventListener('mouseup', stopDrag);
+
+  canvas.addEventListener('touchstart', startDrag, { passive: true });
+  window.addEventListener('touchmove', doDrag, { passive: false });
+  window.addEventListener('touchend', stopDrag);
+
+  draw();
+</script>
+
+</body>
+</html>
