@@ -169,10 +169,10 @@
 
 <div class="container">
   
-  <!-- Sleek Main Header: Clickable Nickel-Silver link mapped directly to public catalogs -->
+  <!-- Sleek Main Header: Now dynamically fed and linked via automation -->
   <h1 class="main-title">
     System Visualization // 
-    <a href="https://caltech.edu" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);">WASP-10 b</a>
+    <a id="displayTitleLink" href="https://caltech.edu" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);"></a>
   </h1>
 
   <!-- HIGH-IMMERSIVE POETRY GRID: Author-signed content lanes -->
@@ -246,7 +246,7 @@
     viewMode: "STAR", 
 
     // Upgraded Telemetry Text Strings (Shorn of conversational fluff)
-    mainTitle: "Galaxy Simulator // Subject 105418882",
+    mainTitle: "ID 105418882",
     projectType: "Citizen Science (The Daily Minor Planet)",
     dataLog: "Active cosmic anomaly flagged by public volunteers",
     
@@ -471,6 +471,8 @@
   window.addEventListener('touchend', stopDrag);
 
   // AUTOMATION CONTROLLER: Connects config dashboard inputs directly to the display fields
+  // Dynamic Title Pipeline: Surgically injects name directly into header hyperlink
+  document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
   document.getElementById('lblProject').innerText = MASTER_CONFIG.projectType;
   document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
   
