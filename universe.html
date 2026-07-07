@@ -48,8 +48,10 @@
       word-wrap: break-word;
     }
     
-    /* FIXES MOBILE VISITED LINK COLOR FROM LIFTING THE SILVER STATE */
-    #displayTitleLink, #displayTitleLink:visited {
+    /* FIXES MOBILE VISITED & ACTIVE TAP COLORS FROM LOCKING RED */
+    #displayTitleLink, 
+    #displayTitleLink:visited, 
+    #displayTitleLink:active {
       color: #cbd5e1 !important;
       text-decoration: none; 
       font-weight: bold; 
@@ -57,11 +59,15 @@
       transition: all 0.2s;
     }
     
-    #displayTitleLink:hover {
-      color: #ff4d4d !important;
-      text-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
-      border-bottom-color: rgba(255, 77, 77, 0.5);
+    /* Only apply the red accent on hover for desktop screens */
+    @media (hover: hover) {
+      #displayTitleLink:hover {
+        color: #ff4d4d !important;
+        text-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
+        border-bottom-color: rgba(255, 77, 77, 0.5);
+      }
     }
+
 
     
     .canvas-wrapper {
@@ -187,8 +193,9 @@
   
   <h1 class="main-title">
     System Visualization // 
-    <a id="displayTitleLink" href="#" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5); transition: all 0.2s;"></a>
+    <a id="displayTitleLink" href="#"></a>
   </h1>
+
 
   <!-- HIGH-IMMERSIVE POETRY GRID: Configured with frictionless mobile swipe tracking -->
   <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase; width: 100%;">
