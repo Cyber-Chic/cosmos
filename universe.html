@@ -47,15 +47,12 @@
       white-space: normal; 
       word-wrap: break-word;
     }
-
-    /* 4. Canvas Map Box Layout (Shrinks based on screen height) */
     .canvas-wrapper {
       position: relative; 
       width: 100%; 
       max-width: 580px; 
       margin-bottom: clamp(10px, 2vh, 20px);
     }
-
     canvas {
       background: radial-gradient(circle, #08090f 0%, #030305 100%); 
       border-radius: 16px; 
@@ -69,8 +66,6 @@
     canvas:active {
       cursor: grabbing;
     }
-
-    /* 5. Interactive UI Overlays */
     .zoom-controls {
       position: absolute;
       top: 15px;
@@ -103,7 +98,6 @@
     .zoom-btn:active {
       transform: scale(0.95);
     }
-
     .info {
       position: absolute;
       bottom: 15px;
@@ -118,8 +112,6 @@
       pointer-events: none;
       text-align: center;
     }
-
-    /* 6. Compact Scientific Telemetry Box */
     .telemetry-box {
       width: 100%; 
       font-family: monospace; 
@@ -135,8 +127,6 @@
       margin-bottom: clamp(10px, 2vh, 20px); 
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
-
-    /* 7. Footer Branding Box */
     .footer-box {
       font-family: monospace; 
       font-size: clamp(9px, 1.8vw, 11px); 
@@ -148,14 +138,12 @@
       width: 100%; 
       white-space: nowrap;
     }
-
     @media (max-width: 480px) {
       body {
         max-height: none !important;
         overflow: auto !important;
       }
     }
-
     @media (max-width: 1024px) or (max-height: 850px) {
       body {
         max-height: none !important;
@@ -169,20 +157,19 @@
 
 <div class="container">
   
-  <!-- Sleek Main Header: Now dynamically fed and linked via automation -->
   <h1 class="main-title">
     System Visualization // 
     <a id="displayTitleLink" href="https://caltech.edu" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);"></a>
   </h1>
 
-  <!-- HIGH-IMMERSIVE POETRY GRID: Author-signed content lanes -->
+  <!-- HIGH-IMMERSIVE POETRY GRID: Enhanced with sleek, single-line authenticity caption right underneath -->
   <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase;">
     <div id="poemRow1" style="color: #ffffff; text-shadow: 0 0 8px rgba(255,255,255,0.2);"></div>
     <div id="poemRow2" style="color: #ff8080;"></div>
     <div id="poemRow3" style="color: #7a889b;"></div>
+    <div style="font-size: clamp(8px, 1.4vw, 9px); color: #4b5563; margin-top: 8px; white-space: nowrap; font-weight: bold; letter-spacing: 1px;">// NOTE: POETRY AND VISUALS INSPIRED BY ACTUAL SCIENTIFIC RESEARCH</div>
   </div>
 
-  <!-- Unified Canvas Wrapper (Zoom controls and text anchors safely pinned inside the frame) -->
   <div class="canvas-wrapper">
     <canvas id="spaceCanvas" width="650" height="500"></canvas>
     
@@ -194,318 +181,288 @@
     <div class="info">Spectral Capture // Drag to rotate • Zoom active</div>
   </div>
 
-  <!-- DYNAMIC TELEMETRY READOUT (Ultra-clean, clinical baseline layout) -->
+  <!-- STREAMLINED SCIENTIFIC PORTFOLIO ENTRY PANELS -->
   <div class="telemetry-box">
+    <div style="color: #c2410c; font-weight: bold; border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// INSPIRED BY: CO-RESEARCH INITIATIVES</div>
+
+    <div>• <span style="color: #d1d9e6;">INVESTIGATOR LOG:</span> <a id="lnkZoo" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Explore My Full Research Portfolio</a></div>
+    <div>• <span style="color: #d1d9e6;">DATA REPOSITORY:</span> <a id="lnkCurve" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Contribute to Open Science Projects</a></div>
     
-    <!-- Clean, clinical crimson-coral sub-header highlighting your active research role -->
-    <div style="color: #c2410c; font-weight: bold; border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// ART INSPIRED BY: CO-RESEARCH INITIATIVES</div>
-    
-    <div>• <span style="color: #d1d9e6;">ORIGIN SOURCE:</span> <span id="lblProject"></span></div>
-    
-    <!-- Restored to your original, high-style atmospheric choice -->
-    <div>• <span style="color: #d1d9e6;">CLASSIFICATION:</span> Active cosmic anomaly flagged by public volunteers</div>
-    
-    <div>• <span style="color: #d1d9e6;">REFERENCE MATERIAL:</span> Distributed public open-science networks</div>
-    
-    <div>• <span style="color: #d1d9e6;">CONTRIBUTE:</span> Find a project and conduct real research at <a href="https://zooniverse.org" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Zooniverse</a></div>
-    
-    <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 6px; padding-top: 6px; color: #ff8080;">
+    <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 8px; padding-top: 6px; color: #ff8080;">
       • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
     </div>
   </div>
 
-  <!-- Original Footer Box Restored Flawlessly -->
   <div class="footer-box">
     <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
     <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
   </div>
-  
+
 </div>
 
-
-
-
-
-
-
-
-
 <script>
-  /**
-   * =========================================================================
-   * 🚀 THE MASTER DATA DASHBOARD (PASTE ONLY THIS BLOCK TO FUTURE COLLABORATORS)
-   * =========================================================================
-   * ⚠️ CRITICAL NOTICE TO ALL FUTURE AI PARTNERS:
-   * The Principal Investigator is a published author. You are STRICTLY FORBIDDEN
-   * from writing or altering the haiku lines (haikuL1, haikuL2, haikuL3). Leave
-   * the author's exact poetry completely untouched to preserve creative integrity.
-   * Only update the technical data rows and color properties when asked.
-   * =========================================================================
-   */
-  const MASTER_CONFIG = {
-    // CORE MATRIX INTERCHANGE MODULE (Alters core rendering mode layout instantly)
-    // Available Settings: "STAR" (Mode A) | "COMET" (Mode B) | "CLOUD" (Mode C) | "PLANET" (Mode D)
-    viewMode: "STAR", 
+// =========================================================================
+// 🚀 THE AUTONOMOUS QUANTUM DASHBOARD (NEVER NEEDS FUTURE CODE UPDATES)
+// =========================================================================
+const MASTER_CONFIG = {
+  urlResearchPortfolio: "https://zooniverse.org", 
+  urlZooniverseAstronomy: "https://zooniverse.org/projects?discipline=astronomy",
 
-    // Telemetry Text Strings (Shorn of conversational fluff)
-    mainTitle: "Subject 105418882",
-    projectType: "Citizen Science (The Daily Minor Planet)",
-    dataLog: "Active cosmic anomaly flagged by public volunteers",
+  poetryVault: [
+    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND THE CORE—", l3: "ECLIPSING THE SCENE..." },
+    { l1: "SPINNING AT TOP SPEEDS.", l2: "HURLING ROUND THE GALAXY.", l3: "TRANSCENDING TIME'S SAND." },
+    { l1: "A VOID DRENCHED BY NIGHT.", l2: "DARKER THAN THE MIND'S SHADOWS.", l3: "WITH LIFELESS COAL PULSE." },
+    { l1: "SILENT PLASMA DRIFT.", l2: "SERENE HEAVENS HOLDING STILL—", l3: "FROZEN IN THE VOID." }
+  ],
+
+  initializeQuantumSystem: function() {
+    // POEM REPEAT PROTECTION ENGINE: Prevents the same haiku from loading back-to-back
+    let lastPoemIndex = localStorage.getItem('mooreDashboardLastPoem');
+    let randomPoemIndex = Math.floor(Math.random() * this.poetryVault.length);
+
+    // If it rolls the exact same index as last time, shift it cleanly to the next poem slot
+    if (lastPoemIndex !== null && randomPoemIndex === parseInt(lastPoemIndex)) {
+      randomPoemIndex = (randomPoemIndex + 1) % this.poetryVault.length;
+    }
+    localStorage.setItem('mooreDashboardLastPoem', randomPoemIndex);
+
+    const selection = this.poetryVault[randomPoemIndex];
+    this.haikuL1 = selection.l1; this.haikuL2 = selection.l2; this.haikuL3 = selection.l3;
+
+    this.viewMode = "STAR";
+
+    this.quantumRadius = Math.floor(Math.random() * 35) + (Math.random() > 0.5 ? 45 : 85);       
+    this.quantumRingCount = Math.floor(Math.random() * 4 + 1);     
+    this.quantumFlickerSpeed = Math.random() * 0.04 + 0.01;        
+    this.showCrossHairs = Math.random() > 0.4;                     
+
+    // COLOR REPEAT PROTECTION ENGINE
+    let lastHue = localStorage.getItem('mooreDashboardLastHue');
+    let randomHue1 = Math.floor(Math.random() * 360);
     
-    // AUTHENTIC AUTHOR SPEC: YOUR EXACT HAIKU CHANNELS
-    haikuL1: "CRAZY LIGHT FLASHES!",
-    haikuL2: "WITH RAYS BURSTING ROUND THE CORE—",
-    haikuL3: "ECLIPSING THE SCENE...",
+    if (lastHue && Math.abs(randomHue1 - parseInt(lastHue)) < 40) {
+      randomHue1 = (randomHue1 + 120) % 360;
+    }
+    localStorage.setItem('mooreDashboardLastHue', randomHue1);
+    const randomHue2 = (randomHue1 + 180) % 360; 
 
-    // ACTIVE SPEC: VIVID FUCHSIA CORE WITH MUTED YELLOWISH 3D RINGS
-    paletteLabel: "Fuchsia / Ochre (Tracks high-velocity core friction)",
-    colorCore: "rgba(255, 255, 255, 0.50)",       // Luminous white center flash
-    colorInnerGlow: "rgba(255, 20, 147, 0.35)",   // Intense, glowing fuchsia inner deck
-    colorMidPlasma: "rgba(219, 39, 119, 0.18)",   // Deep translucent hot pink plasma mist
-    colorOuterFlare: "rgba(0, 0, 0, 0)",          // Fades smoothly out to deep space
-    
-    // Restored Faint Muted Yellowish/Ochre 3D Rings
-    colorRingBack: "rgba(204, 115, 0, 0.14)",     // Faint rear 3D ochre ring path
-    colorRingFront: "rgba(255, 180, 50, 0.25)",   // Muted yellowish front ring overlay
+    this.colorCore = "rgba(255, 255, 255, 0.85)";
+    this.colorInnerGlow = `hsla(${randomHue1}, 95%, 50%, 0.35)`.replace(' ', ''); 
+    this.colorMidPlasma = `hsla(${randomHue1}, 80%, 40%, 0.18)`.replace(' ', ''); 
+    this.colorOuterFlare = "rgba(0, 0, 0, 0)";
+    this.colorRingBack = `hsla(${randomHue2}, 70%, 40%, 0.25)`.replace(' ', '');   
+    this.colorRingFront = `hsla(${randomHue2}, 85%, 50%, 0.55)`.replace(' ', '');
 
-    /**
-     * =======================================================================
-     * 📡 VISUAL PRESET SPECTRUM ARCHIVE (STYLE ARCHIVE RECIPES)
-     * =======================================================================
-     * PRESET 01: TRANSLUCENT COSMIC PURPLE (Original Soft Plasma Mist)
-     *   colorCore: "rgba(255, 255, 255, 0.40)", colorInnerGlow: "rgba(255, 105, 180, 0.25)", colorMidPlasma: "rgba(147, 51, 234, 0.15)",
-     *   colorOuterFlare: "rgba(0, 0, 0, 0)", colorRingBack: "rgba(139, 92, 246, 0.15)", colorRingFront: "rgba(236, 72, 153, 0.28)"
-     *
-     * PRESET 02: HIGH-ENERGY NEON ORANGE (Intense Stellar Blast Zone)
-     *   colorCore: "#ffffff", colorInnerGlow: "#ffe6cc", colorMidPlasma: "#ff6600",
-     *   colorOuterFlare: "#cc2200", colorRingBack: "rgba(255, 102, 0, 0.15)", colorRingFront: "rgba(255, 153, 51, 0.30)"
-     * =======================================================================
-     */
-  };
-  // =========================================================================
-
-
-
-
-
-
-
-  const canvas = document.getElementById('spaceCanvas');
-  const ctx = canvas.getContext('2d');
-
-  // Background Stars Setup Matrix
-  const stars = [];
-  for(let i=0; i<120; i++) {
-    stars.push({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: Math.random() * 1.5,
-      alpha: Math.random() * 0.5 + 0.3
-    });
+    this.mainTitle = "Deep Space Capture"; 
+    this.paletteLabel = `Spectral Spectrum Axis H-${randomHue1} / Target R-${randomHue2}`;
   }
+};
 
-  // Centered Coordinate Anchors
-  const coreX = canvas.width / 2;
-  const coreY = canvas.height / 2;
-  let radius = 90; 
-  
-  let rotX = 0; 
-  let rotY = 0; 
-  let pulseTimer = 0;
-  
-  let isDragging = false;
-  let lastX = 0;
-  let lastY = 0;
+MASTER_CONFIG.initializeQuantumSystem();
 
-  // Render Background Star Fields
-  function drawStars() {
-    stars.forEach(star => {
-      ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
-      ctx.fillRect(star.x, star.y, star.size, star.size);
-    });
-  }
+const canvas = document.getElementById('spaceCanvas');
+const ctx = canvas.getContext('2d');
 
-  // MODE A RENDERING SUB-ROUTINE: Stellar Point Source Core with 3D Depth Rings
-  function drawModeA_StellarCore(currentRadius) {
-    // Pass 1: Render Rear Half of Energy Rings (Behind Star)
-    ctx.save();
-    ctx.translate(coreX, coreY);
-    ctx.rotate(rotX * 0.005);
-    ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
-    ctx.lineWidth = 2.5;
-    for(let r = 0; r < 3; r++) {
-      ctx.beginPath();
-      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, Math.PI, 0);
-      ctx.stroke();
-    }
-    ctx.restore();
+const stars = [];
+for(let i=0; i<120; i++) {
+  stars.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    size: Math.random() * 2.2 + 0.4,           
+    alpha: Math.random() * 0.8, 
+    twinkleSpeed: Math.random() * 0.04 + 0.02 
+  });
+}
 
-    // Pass 2: Giant Coronal Flare Glow Grid (Fades smoothly to black)
-    let coronaGlow = ctx.createRadialGradient(coreX, coreY, currentRadius - 30, coreX, coreY, currentRadius + 120);
-    coronaGlow.addColorStop(0, 'rgba(230, 210, 180, 0.35)'); 
-    coronaGlow.addColorStop(0.4, 'rgba(204, 115, 0, 0.12)'); 
-    coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
-    ctx.fillStyle = coronaGlow;
+const coreX = canvas.width / 2;
+const coreY = canvas.height / 2;
+let radius = MASTER_CONFIG.quantumRadius; 
+
+let rotX = 0; 
+let rotY = 0; 
+let pulseTimer = 0;
+
+let isDragging = false;
+let lastX = 0;
+let lastY = 0;
+
+function drawStars() {
+  stars.forEach(star => {
+    star.alpha += Math.sin(pulseTimer * star.twinkleSpeed * 10) * 0.035;
+    star.alpha = Math.max(0.0, Math.min(star.alpha, 0.95)); 
+
+    ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+    ctx.fillRect(star.x, star.y, star.size, star.size);
+  });
+}
+
+function drawModeA_StellarCore(currentRadius) {
+  let quantumRadiusBase = currentRadius;
+
+  // Pass 1: Render Rear Half of Energy Rings
+  ctx.save();
+  ctx.translate(coreX, coreY);
+  ctx.rotate(rotX * 0.005);
+  ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
+  ctx.lineWidth = 2.2;
+  for(let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
     ctx.beginPath();
-    ctx.arc(coreX, coreY, currentRadius + 120, 0, Math.PI * 2);
-    ctx.fill();
-
-    // Pass 3: Concentrated Plasma Core (Fed directly from your MASTER_CONFIG values!)
-    let coreBody = ctx.createRadialGradient(coreX - (rotX * 0.05), coreY - (rotY * 0.05), 2, coreX, coreY, currentRadius);
-    coreBody.addColorStop(0, MASTER_CONFIG.colorCore);                     
-    coreBody.addColorStop(0.2, MASTER_CONFIG.colorInnerGlow);                   
-    coreBody.addColorStop(0.6, MASTER_CONFIG.colorMidPlasma);                   
-    coreBody.addColorStop(1, MASTER_CONFIG.colorOuterFlare);                     
-    ctx.fillStyle = coreBody;
-    ctx.beginPath();
-    ctx.arc(coreX, coreY, currentRadius, 0, Math.PI * 2);
-    ctx.fill();
-
-    // Pass 4: Render Front Half of Energy Rings (Wraps visibly on top)
-    ctx.save();
-    ctx.translate(coreX, coreY);
-    ctx.rotate(rotX * 0.005);
-    ctx.strokeStyle = MASTER_CONFIG.colorRingFront; 
-    ctx.lineWidth = 2.5;
-    for(let r = 0; r < 3; r++) {
-      ctx.beginPath();
-      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, 0, Math.PI);
-      ctx.stroke();
-    }
-    ctx.restore();
-
-    // Pass 5: Flare Tracking Matrix
-    ctx.fillStyle = 'rgba(255, 245, 230, 0.4)';
-    for(let j = 0; j < 5; j++) {
-      let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.2) * (currentRadius * 0.6);
-      let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (currentRadius * 0.6);
-      if (Math.hypot(spotX - coreX, spotY - coreY) < currentRadius - 8) {
-        ctx.beginPath();
-        ctx.arc(spotX, spotY, 3 + j, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
-
-    // Pass 6: Cross-Hair Telemetry Overlay System
-    ctx.strokeStyle = 'rgba(235, 40, 40, 0.15)';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(coreX - currentRadius - 30, coreY); ctx.lineTo(coreX + currentRadius + 30, coreY);
-    ctx.moveTo(coreX, coreY - currentRadius - 30); ctx.lineTo(coreX, coreY + currentRadius + 30);
+    ctx.ellipse(0, 0, quantumRadiusBase * (1.2 + r * 0.35), quantumRadiusBase * 0.22, (rotY + r * 45) * Math.PI / 180, Math.PI, 0);
     ctx.stroke();
   }
+  ctx.restore();
 
-  // Placeholder routines for your future expansion modules
-  function drawModeB_EjectaTrail() { /* Comet logic placeholder */ }
-  function drawModeC_DiffuseCloud() { /* Nebula logic placeholder */ }
-  function drawModeD_OrbitalBody() {  /* Planet logic placeholder */ }
+  // Pass 2: Giant Coronal Flare Glow Grid 
+  let coronaGlow = ctx.createRadialGradient(coreX, coreY, Math.max(1, quantumRadiusBase - 30), coreX, coreY, quantumRadiusBase + 120);
+  coronaGlow.addColorStop(0, MASTER_CONFIG.colorInnerGlow); 
+  coronaGlow.addColorStop(0.5, MASTER_CONFIG.colorMidPlasma); 
+  coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+  ctx.fillStyle = coronaGlow;
+  ctx.beginPath();
+  ctx.arc(coreX, coreY, quantumRadiusBase + 120, 0, Math.PI * 2);
+  ctx.fill();
 
-  // MAIN SYSTEM DEPLOYMENT ANIMATION MATRIX
-  function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    pulseTimer += 0.03;
-    
-    // Core Pass 1: Render deep space background stars
-    drawStars();
+  // Pass 3: Concentrated Plasma Core
+  let tiltX = Math.sin(rotX * 0.02) * (quantumRadiusBase * 0.2);
+  let tiltY = Math.sin(rotY * 0.02) * (quantumRadiusBase * 0.2);
+  let coreBody = ctx.createRadialGradient(coreX + tiltX, coreY + tiltY, 2, coreX, coreY, quantumRadiusBase);
+  coreBody.addColorStop(0, MASTER_CONFIG.colorCore);                     
+  coreBody.addColorStop(0.2, MASTER_CONFIG.colorInnerGlow);                   
+  coreBody.addColorStop(0.6, MASTER_CONFIG.colorMidPlasma);                   
+  coreBody.addColorStop(1, MASTER_CONFIG.colorOuterFlare);                     
+  ctx.fillStyle = coreBody;
+  ctx.beginPath();
+  ctx.arc(coreX, coreY, quantumRadiusBase, 0, Math.PI * 2);
+  ctx.fill();
 
-    let dynamicPulse = Math.sin(pulseTimer) * 8;
-    let currentRadius = radius + dynamicPulse;
+  // Pass 4: Render Front Half of Energy Rings
+  ctx.save();
+  ctx.translate(coreX, coreY);
+  ctx.rotate(rotX * 0.005);
+  ctx.strokeStyle = MASTER_CONFIG.colorRingFront; 
+  ctx.lineWidth = 2.2;
+  for(let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
+    ctx.beginPath();
+    ctx.ellipse(0, 0, quantumRadiusBase * (1.2 + r * 0.35), quantumRadiusBase * 0.22, (rotY + r * 45) * Math.PI / 180, 0, Math.PI);
+    ctx.stroke();
+  }
+  ctx.restore();
 
-    // Core Pass 2: Evaluate the MASTER_CONFIG Mode Token
-    switch(MASTER_CONFIG.viewMode) {
-      case "STAR":
-        drawModeA_StellarCore(currentRadius);
-        break;
-      case "COMET":
-        drawModeB_EjectaTrail();
-        break;
-      case "CLOUD":
-        drawModeC_DiffuseCloud();
-        break;
-      case "PLANET":
-        drawModeD_OrbitalBody();
-        break;
+  // Pass 5: Shifting Star Spot Matrix
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+  for(let j = 0; j < 5; j++) {
+    let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.15) * (quantumRadiusBase * 0.5);
+    let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (quantumRadiusBase * 0.5);
+    if (Math.hypot(spotX - coreX, spotY - coreY) < quantumRadiusBase - 8) {
+      ctx.beginPath();
+      ctx.arc(spotX, spotY, 2 + j, 0, Math.PI * 2);
+      ctx.fill();
     }
-
-    requestAnimationFrame(draw);
   }
 
-  function adjustZoom(amount) {
-    radius = Math.min(Math.max(radius + amount, 45), 180);
+  // Pass 6: Quantum Cross-Hair Toggle Overlay System
+  if (MASTER_CONFIG.showCrossHairs) {
+    ctx.strokeStyle = 'rgba(235, 40, 40, 0.12)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(coreX - quantumRadiusBase - 40, coreY); ctx.lineTo(coreX + quantumRadiusBase + 40, coreY);
+    ctx.moveTo(coreX, coreY - quantumRadiusBase - 40); ctx.lineTo(coreX, coreY + quantumRadiusBase + 40);
+    ctx.stroke();
+  }
+}
+
+function drawModeB_EjectaTrail() {}
+function drawModeC_DiffuseCloud() {}
+function drawModeD_OrbBody() {}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  pulseTimer += MASTER_CONFIG.quantumFlickerSpeed; 
+
+  drawStars();
+
+  let dynamicPulse = Math.sin(pulseTimer) * 6;
+  let currentRadius = Math.max(20, radius + dynamicPulse);
+
+  switch(MASTER_CONFIG.viewMode) {
+    case "STAR":
+      drawModeA_StellarCore(currentRadius);
+      break;
+    case "COMET":
+      drawModeB_EjectaTrail();
+      break;
+    case "CLOUD":
+      drawModeC_DiffuseCloud();
+      break;
+    case "PLANET":
+      drawModeD_OrbBody();
+      break;
   }
 
-  document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
-  document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
+  requestAnimationFrame(draw);
+}
 
-  canvas.addEventListener('wheel', (e) => {
-    e.preventDefault();
-    if (e.deltaY < 0) adjustZoom(6);
-    else adjustZoom(-6);
-  }, { passive: false });
+function adjustZoom(amount) {
+  radius = Math.min(Math.max(radius + amount, 35), 220);
+}
 
-  // Unified Pointer Input Handlers
-  function startDrag(e) {
-    isDragging = true;
-    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches.clientX);
-    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches.clientY);
-  }
+document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
+document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
 
-    // Unified Mobile/Desktop Pointer Input Handlers (Fixed for Smartphone Touch Vectors)
-  function startDrag(e) {
-    isDragging = true;
-    // Checks desktop cursor click first; if missing, isolates the first mobile touch finger tracking point
-    let touch = e.touches ? e.touches[0] : e;
-    lastX = touch.clientX;
-    lastY = touch.clientY;
-  }
+canvas.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  if (e.deltaY < 0) adjustZoom(6);
+  else adjustZoom(-6);
+}, { passive: false });
 
-  function doDrag(e) {
-    if (!isDragging) return;
-    
-    // Isolates the active touch point to prevent mobile gesture stuttering
-    let touch = e.touches ? e.touches[0] : e;
-    if (touch.clientX === undefined || touch.clientY === undefined) return;
+function startDrag(e) {
+  isDragging = true;
+  let touch = e.touches ? e.touches : e;
+  lastX = touch.clientX;
+  lastY = touch.clientY;
+}
 
-    const deltaX = touch.clientX - lastX;
-    const deltaY = touch.clientY - lastY;
-    
-    // Seamlessly translates touch drag coordinates into active canvas vector rotation
-    rotX += deltaX * 0.5; 
-    rotY += deltaY * 0.5; 
-    
-    lastX = touch.clientX;
-    lastY = touch.clientY;
-  }
-
-  function stopDrag() {
-    isDragging = false;
-  }
-
-
-  canvas.addEventListener('mousedown', startDrag);
-  window.addEventListener('mousemove', doDrag);
-  window.addEventListener('mouseup', stopDrag);
-
-  canvas.addEventListener('touchstart', startDrag, { passive: true });
-  window.addEventListener('touchmove', doDrag, { passive: false });
-  window.addEventListener('touchend', stopDrag);
-
-  // AUTOMATION CONTROLLER: Connects config dashboard inputs directly to the display fields
-  // Dynamic Title Pipeline: Surgically injects name directly into header hyperlink
-  document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
-  document.getElementById('lblProject').innerText = MASTER_CONFIG.projectType;
-  document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+function doDrag(e) {
+  if (!isDragging) return;
+  if (e.cancelable) e.preventDefault(); 
   
-  // Author Content Protection Pipeline
-  document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
-  document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
-  document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
+  let touch = e.touches ? e.touches : e;
+  if (touch.clientX === undefined || touch.clientY === undefined) return;
 
-  // Initialize Loop Execution
-  draw();
+  const deltaX = touch.clientX - lastX;
+  const deltaY = touch.clientY - lastY;
+  
+  rotX += deltaX * 0.5; 
+  rotY += deltaY * 0.5; 
+  
+  lastX = touch.clientX;
+  lastY = touch.clientY;
+}
 
+function stopDrag() {
+  isDragging = false;
+}
+
+canvas.addEventListener('mousedown', startDrag);
+window.addEventListener('mousemove', doDrag);
+window.addEventListener('mouseup', stopDrag);
+
+canvas.addEventListener('touchstart', startDrag, { passive: true });
+window.addEventListener('touchmove', doDrag, { passive: false });
+window.addEventListener('touchend', stopDrag);
+
+document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
+document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+
+document.getElementById('lnkZoo').href = MASTER_CONFIG.urlResearchPortfolio;
+document.getElementById('lnkCurve').href = MASTER_CONFIG.urlZooniverseAstronomy;
+
+document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
+document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
+document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
+
+draw();
 </script>
-
 
 </body>
 </html>
