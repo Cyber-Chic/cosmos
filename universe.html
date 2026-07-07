@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Subject 105418882 Spectrum Profile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: clamp(20px, 4vh, 40px) 20px; 
+      background-color: #030305;
+      color: #d1d9e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      max-height: 100vh; 
+      font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+      box-sizing: border-box;
+      touch-action: manipulation; 
+      overflow: hidden; 
+    }
+    .container {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      width: 100%; 
+      max-width: 650px; 
+      padding: 0 10px; 
+      box-sizing: border-box;
+      overflow-x: hidden; 
+      touch-action: none;
+    }
+    .container * {
+      touch-action: manipulation; 
+    }
+    .main-title {
+      color: #ff4d4d; 
+      font-size: clamp(14px, 4vw, 18px); 
+      letter-spacing: 3px; 
+      font-weight: bold; 
+      text-transform: uppercase; 
+      margin: 0 0 clamp(10px, 2vh, 20px) 0; 
+      text-shadow: 0 0 10px rgba(235, 40, 40, 0.3); 
+      text-align: center;
+      white-space: normal; 
+      word-wrap: break-word;
+    }
+
+    /* 4. Canvas Map Box Layout (Shrinks based on screen height) */
+    .canvas-wrapper {
+      position: relative; 
+      width: 100%; 
+      max-width: 580px; 
+      margin-bottom: clamp(10px, 2vh, 20px);
+    }
+
+    canvas {
+      background: radial-gradient(circle, #08090f 0%, #030305 100%); 
+      border-radius: 16px; 
+      box-shadow: 0 0 40px rgba(0,0,0,0.9); 
+      cursor: grab; 
+      touch-action: none; 
+      width: 100%; 
+      height: auto; 
+      display: block;
+    }
+    canvas:active {
+      cursor: grabbing;
+    }
+
+    /* 5. Interactive UI Overlays */
+    .zoom-controls {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .zoom-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      background: rgba(20, 22, 35, 0.7);
+      border: 1px solid rgba(235, 40, 40, 0.3);
+      color: #ff4d4d;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(4px);
+    }
+    .zoom-btn:hover {
+      background: rgba(235, 40, 40, 0.2);
+      border-color: #ff4d4d;
+      box-shadow: 0 0 10px rgba(235, 40, 40, 0.4);
+    }
+    .zoom-btn:active {
+      transform: scale(0.95);
+    }
+
+    .info {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      font-size: clamp(9px, 2vw, 11px); 
+      padding: 0 10px; 
+      color: #ff4d4d; 
+      letter-spacing: 1px; 
+      font-weight: bold;
+      text-transform: uppercase;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    /* 6. Compact Scientific Telemetry Box */
+    .telemetry-box {
+      width: 100%; 
+      font-family: monospace; 
+      font-size: clamp(10px, 1.8vw, 12px); 
+      line-height: 1.6; 
+      color: #7a889b; 
+      border: 1px solid rgba(235, 40, 40, 0.15); 
+      background: rgba(12, 13, 20, 0.5); 
+      padding: clamp(10px, 1.5vh, 15px); 
+      border-radius: 10px; 
+      box-sizing: border-box; 
+      text-align: left; 
+      margin-bottom: clamp(10px, 2vh, 20px); 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    /* 7. Footer Branding Box */
+    .footer-box {
+      font-family: monospace; 
+      font-size: clamp(9px, 1.8vw, 11px); 
+      letter-spacing: 1px; 
+      line-height: 1.5; 
+      color: #5f6e85; 
+      text-transform: uppercase; 
+      text-align: center; 
+      width: 100%; 
+      white-space: nowrap;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+      }
+    }
+
+    @media (max-width: 1024px) or (max-height: 850px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+        padding: 40px 20px !important; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+</head>
+<body>
+
+<div class="container">
+  
+  <h1 class="main-title">Signal Reconnaissance: Subject 105418882</h1>
+
+  <div class="canvas-wrapper">
+    <canvas id="spaceCanvas" width="650" height="500"></canvas>
+    
+    <div class="zoom-controls">
+      <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+      <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+    </div>
+    
+    <div class="info">Drag to rotate flare spectrum • Scroll or use buttons to zoom</div>
+  </div>
+
+  <div class="telemetry-box">
+    <div style="color: #ff4d4d; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// ZOONIVERSE OPEN-DATA SPECTRUM: MAIN SEQUENCE TARGET</div>
+    <div>• <span style="color: #d1d9e6;">SOURCE ID:</span> Subject 105418882 (Daily Minor Planet Cadence)</div>
+    <div>• <span style="color: #d1d9e6;">SIGNAL TYPE:</span> High-Cadence Rapid Main Sequence Tracker</div>
+    <div>• <span style="color: #d1d9e6;">PHENOMENOLOGY:</span> Active stellar core undergoing rapid light velocity fluctuations</div>
+    
+    <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 6px; padding-top: 6px; color: #ff8080;">
+      • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> Nickel-Silver / Ochre (Tracks thermal signatures of stellar flares)
+    </div>
+  </div>
+
+  <div class="footer-box">
+    <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
+    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  /**
+   * =========================================================================
+   * 🛰️ STRATEGIC PROTOCOL FOR FUTURE AI COLLABORATORS & CO-DEVELOPERS
+   * =========================================================================
+   * 1. LAYOUT & HEIGHT PRESERVATION: Never expand, wrap, or split code blocks 
+   *    clunkily into multiple separate code containers. Maintain single-file structure.
+   * 2. DESKTOP SINGLE-LINE SAFETY: Keep telemetry rows and paragraph lines short. 
+   *    Trim string lengths strictly to prevent horizontal text-wrapping on laptop monitors.
+   * 3. UNIFORM BRANDING SPECS: Never alter or deviate from the hexadecimal color 
+   *    standards. The primary UI accent/dot remains pure Neon Red (#ff4d4d). The lower 
+   *    sensor palette bullet container row must stay locked to Soft Red (#ff8080).
+   * 4. UNIVERSAL MODULAR LENS SWITCHES: Use radial transparency stops (rgba(0,0,0,0)) 
+   *    without hard circle clippings to smoothly transition between Mode A (Stars), 
+   *    Mode B (Comets), or Mode C (Nebulae).
+   * =========================================================================
+   */
+
+  const canvas = document.getElementById('spaceCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Background Stars Setup Matrix
+  const stars = [];
+  for(let i=0; i<120; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 1.5,
+      alpha: Math.random() * 0.5 + 0.3
+    });
+  }
+
+  // MODE A ANCHORS: Centered Stellar Core Tracking
+  const coreX = canvas.width / 2;
+  const coreY = canvas.height / 2;
+  let radius = 90; // Star baseline boundary scale
+  
+  let rotX = 0; 
+  let rotY = 0; 
+  let pulseTimer = 0;
+  
+  let isDragging = false;
+  let lastX = 0;
+  let lastY = 0;
+
+
+
+
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    pulseTimer += 0.03;
+
+    // 1. Draw Background Stars
+    stars.forEach(star => {
+      ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+      ctx.fillRect(star.x, star.y, star.size, star.size);
+    });
+
+    // MODE A MECHANICS: Radiant Energy Field Backing
+    let dynamicPulse = Math.sin(pulseTimer) * 8;
+    let currentRadius = radius + dynamicPulse;
+
+    // 2. Giant Coronal Flare Glow Grid (Nickel-Silver to Ochre)
+    let coronaGlow = ctx.createRadialGradient(coreX, coreY, currentRadius - 30, coreX, coreY, currentRadius + 120);
+    coronaGlow.addColorStop(0, 'rgba(230, 210, 180, 0.35)'); // Luminous nickel-silver base
+    coronaGlow.addColorStop(0.4, 'rgba(204, 115, 0, 0.12)'); // Deep radiant ochre transition
+    coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = coronaGlow;
+    ctx.beginPath();
+    ctx.arc(coreX, coreY, currentRadius + 120, 0, Math.PI * 2);
+    ctx.fill();
+
+    // 3. Dynamic Radiating Stellar Energy Rings (Rotates based on User Drag)
+    ctx.save();
+    ctx.translate(coreX, coreY);
+    ctx.rotate(rotX * 0.005);
+    
+    ctx.strokeStyle = 'rgba(255, 170, 50, 0.15)';
+    ctx.lineWidth = 2;
+    for(let r = 0; r < 3; r++) {
+      ctx.beginPath();
+      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.2, (rotY + r * 45) * Math.PI / 180, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // 4. Concentrated Plasma Core (Pure Nickel-Silver and Luminous Ochre Shading)
+    let coreBody = ctx.createRadialGradient(coreX - (rotX * 0.05), coreY - (rotY * 0.05), 2, coreX, coreY, currentRadius);
+coreBody.addColorStop(0, 'rgba(255, 255, 255, 0.40)'); // Soft center glow instead of solid white
+coreBody.addColorStop(0.5, 'rgba(255, 105, 180, 0.15)'); // Soft cosmic pink plasma mist
+coreBody.addColorStop(1, 'rgba(0, 0, 0, 0)'); // Fades completely to dark space at the edges
+
+    ctx.fillStyle = coreBody;
+    ctx.beginPath();
+    ctx.arc(coreX, coreY, currentRadius, 0, Math.PI * 2);
+    ctx.fill();
+
+    // 5. High-Velocity Star Spot & Flare Tracking Matrix (Moves cleanly on drag layout)
+    ctx.fillStyle = 'rgba(255, 245, 230, 0.4)';
+    for(let j = 0; j < 5; j++) {
+      let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.2) * (currentRadius * 0.6);
+      let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (currentRadius * 0.6);
+      
+      if (Math.hypot(spotX - coreX, spotY - coreY) < currentRadius - 8) {
+        ctx.beginPath();
+        ctx.arc(spotX, spotY, 3 + j, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // 6. Cross-Hair Telemetry Overlay System
+    ctx.strokeStyle = 'rgba(235, 40, 40, 0.15)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(coreX - currentRadius - 30, coreY); ctx.lineTo(coreX + currentRadius + 30, coreY);
+    ctx.moveTo(coreX, coreY - currentRadius - 30); ctx.lineTo(coreX, coreY + currentRadius + 30);
+    ctx.stroke();
+
+    requestAnimationFrame(draw);
+  }
+
+
+  function adjustZoom(amount) {
+    radius = Math.min(Math.max(radius + amount, 45), 180);
+  }
+
+  document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
+  document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
+
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    if (e.deltaY < 0) adjustZoom(6);
+    else adjustZoom(-6);
+  }, { passive: false });
+
+  // Unified Pointer Input Handlers
+  function startDrag(e) {
+    isDragging = true;
+    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+  }
+
+  function doDrag(e) {
+    if (!isDragging) return;
+    
+    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+    
+    if (currentX === undefined || currentY === undefined) return;
+
+    const deltaX = currentX - lastX;
+    const deltaY = currentY - lastY;
+    
+    rotX += deltaX * 0.5; 
+    rotY += deltaY * 0.5; 
+    
+    lastX = currentX;
+    lastY = currentY;
+  }
+
+  function stopDrag() {
+    isDragging = false;
+  }
+
+  canvas.addEventListener('mousedown', startDrag);
+  window.addEventListener('mousemove', doDrag);
+  window.addEventListener('mouseup', stopDrag);
+
+  canvas.addEventListener('touchstart', startDrag, { passive: true });
+  window.addEventListener('touchmove', doDrag, { passive: false });
+  window.addEventListener('touchend', stopDrag);
+
+  // Initialize Loop Execution
+  draw();
+</script>
+
+</body>
+</html>
