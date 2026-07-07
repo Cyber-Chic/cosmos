@@ -240,13 +240,12 @@
 // 🚀 THE AUTONOMOUS QUANTUM DASHBOARD (NEVER NEEDS FUTURE CODE UPDATES)
 // =========================================================================
 const MASTER_CONFIG = {
-  // Update these targets with your exact custom landing routes!
   urlMainSimulationPage: "https://github.io", 
   urlResearchPortfolio: "https://github.com", 
   urlZooniverseAstronomy: "https://zooniverse.org",
 
   poetryVault: [
-    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND the CORE—", l3: "ECLIPSING THE SCENE..." },
+    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND THE CORE—", l3: "ECLIPSING THE SCENE..." },
     { l1: "SPINNING AT TOP SPEEDS.", l2: "HURLING ROUND THE GALAXY.", l3: "TRANSCENDING TIME'S SAND." },
     { l1: "A VOID DRENCHED BY NIGHT.", l2: "DARKER THAN THE MIND'S SHADOWS.", l3: "WITH LIFELESS COAL PULSE." },
     { l1: "SILENT PLASMA DRIFT.", l2: "SERENE HEAVENS HOLDING STILL—", l3: "FROZEN IN THE VOID." }
@@ -292,30 +291,34 @@ const MASTER_CONFIG = {
   }
 };
 
-// Extracted configuration wrapper to allow seamless inline click re-captures
+const canvas = document.getElementById('spaceCanvas');
+const ctx = canvas.getContext('2d');
+const stars = [];
+
+// UPGRADED: Wipes and completely regenerates a unique night sky pattern on every single inline capture click
 function runCaptureCycle() {
   MASTER_CONFIG.initializeQuantumSystem();
   radius = MASTER_CONFIG.quantumRadius;
+  
+  // Wipe old positions clean
+  stars.length = 0; 
+  
+  // Repopulate starry coordinates fresh
+  for(let i=0; i<120; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 2.2 + 0.4,           
+      alpha: Math.random() * 0.8, 
+      twinkleSpeed: Math.random() * 0.04 + 0.02 
+    });
+  }
   
   document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
   document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
   document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
   document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
   document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
-}
-
-const canvas = document.getElementById('spaceCanvas');
-const ctx = canvas.getContext('2d');
-
-const stars = [];
-for(let i=0; i<120; i++) {
-  stars.push({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
-    size: Math.random() * 2.2 + 0.4,           
-    alpha: Math.random() * 0.8, 
-    twinkleSpeed: Math.random() * 0.04 + 0.02 
-  });
 }
 
 const coreX = canvas.width / 2;
@@ -459,7 +462,6 @@ canvas.addEventListener('wheel', (e) => {
   else adjustZoom(-6);
 }, { passive: false });
 
-// FIXED MOBILE HANDLERS: Isolates active touch vectors to allow mobile dragging rotations
 function startDrag(e) {
   isDragging = true;
   let touch = e.touches ? e.touches[0] : e;
@@ -496,18 +498,15 @@ canvas.addEventListener('touchstart', startDrag, { passive: true });
 window.addEventListener('touchmove', doDrag, { passive: false });
 window.addEventListener('touchend', stopDrag);
 
-// INLINE INSTANT RE-CAPTURE ATTACHMENT
 document.getElementById('displayTitleLink').addEventListener('click', (e) => {
   e.preventDefault();
   runCaptureCycle();
 });
 
-// Dynamic Asset Link Mapping Pipelines
 document.getElementById('lnkZoo').href = MASTER_CONFIG.urlResearchPortfolio;
 document.getElementById('lnkCurve').href = MASTER_CONFIG.urlZooniverseAstronomy;
 document.getElementById('displayTitleLink').href = MASTER_CONFIG.urlMainSimulationPage;
 
-// Trigger baseline initialization states
 runCaptureCycle();
 draw();
 </script>
