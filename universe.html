@@ -450,24 +450,37 @@
     lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches.clientY);
   }
 
-  // Unified Drag Input Handlers
+    // Unified Mobile/Desktop Pointer Input Handlers (Fixed for Smartphone Touch Vectors)
+  function startDrag(e) {
+    isDragging = true;
+    // Checks desktop cursor click first; if missing, isolates the first mobile touch finger tracking point
+    let touch = e.touches ? e.touches[0] : e;
+    lastX = touch.clientX;
+    lastY = touch.clientY;
+  }
+
   function doDrag(e) {
     if (!isDragging) return;
-    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches.clientX);
-    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches.clientY);
-    if (currentX === undefined || currentY === undefined) return;
+    
+    // Isolates the active touch point to prevent mobile gesture stuttering
+    let touch = e.touches ? e.touches[0] : e;
+    if (touch.clientX === undefined || touch.clientY === undefined) return;
 
-    const deltaX = currentX - lastX;
-    const deltaY = currentY - lastY;
+    const deltaX = touch.clientX - lastX;
+    const deltaY = touch.clientY - lastY;
+    
+    // Seamlessly translates touch drag coordinates into active canvas vector rotation
     rotX += deltaX * 0.5; 
     rotY += deltaY * 0.5; 
-    lastX = currentX;
-    lastY = currentY;
+    
+    lastX = touch.clientX;
+    lastY = touch.clientY;
   }
 
   function stopDrag() {
     isDragging = false;
   }
+
 
   canvas.addEventListener('mousedown', startDrag);
   window.addEventListener('mousemove', doDrag);
@@ -496,3 +509,4 @@
 
 </body>
 </html>
+
