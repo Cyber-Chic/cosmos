@@ -48,11 +48,21 @@
       word-wrap: break-word;
     }
     
-    /* REFRESH ICON INTERACTION LOOKS STELLAR */
+    /* FIXES MOBILE VISITED LINK COLOR FROM LIFTING THE SILVER STATE */
+    #displayTitleLink, #displayTitleLink:visited {
+      color: #cbd5e1 !important;
+      text-decoration: none; 
+      font-weight: bold; 
+      border-bottom: 1px dashed rgba(203, 213, 225, 0.5); 
+      transition: all 0.2s;
+    }
+    
     #displayTitleLink:hover {
       color: #ff4d4d !important;
       text-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
+      border-bottom-color: rgba(255, 77, 77, 0.5);
     }
+
     
     .canvas-wrapper {
       position: relative; 
@@ -497,5 +507,3 @@ draw();
 
 </body>
 </html>
-
-
