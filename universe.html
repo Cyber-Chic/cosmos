@@ -167,25 +167,22 @@
 </head>
 <body>
 
-
-</head>
-<body>
-
 <div class="container">
   
-  <!-- Sleek Main Lens Tracker Header with built-in Clickable Data Number Link -->
+  <!-- Sleek Main Header: Clickable ID link text mapped straight to public archives -->
   <h1 class="main-title">
-    Galaxy Simulator // 
-    <a href="https://zooniverse.org" target="_blank" style="color: #e2e8f0; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">ID 105418882</a>
+    System Visualization // 
+    <a href="https://zooniverse.org" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);">ID 105418882</a>
   </h1>
 
-  <!-- HIGH-IMMERSIVE POETRY GRID: Fits any theme seamlessly -->
+  <!-- HIGH-IMMERSIVE POETRY GRID: Author-signed content lanes -->
   <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase;">
     <div id="poemRow1" style="color: #ffffff; text-shadow: 0 0 8px rgba(255,255,255,0.2);"></div>
     <div id="poemRow2" style="color: #ff8080;"></div>
     <div id="poemRow3" style="color: #7a889b;"></div>
   </div>
 
+  <!-- Unified Canvas Wrapper (Zoom controls and text anchors safely pinned inside the frame) -->
   <div class="canvas-wrapper">
     <canvas id="spaceCanvas" width="650" height="500"></canvas>
     
@@ -194,16 +191,21 @@
       <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
     </div>
     
-    <!-- Switch between "animate flare rotation" or "scan micro-layers" depending on your poem's mood! -->
-    <div class="info">Spectral Capture // Drag to animate flare rotation • Zoom enabled</div>
+    <div class="info">Spectral Capture // Drag to animate rotation • Zoom active</div>
   </div>
-
-  <!-- DYNAMIC TELEMETRY READOUT (Ultra-clean, clinical baseline layout) -->
+  <!-- DYNAMIC TELEMETRY READOUT (Flawless, non-redundant, and desktop-safe) -->
   <div class="telemetry-box">
-    <div style="color: #ff4d4d; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// CITIZEN SCIENCE DISPATCH: UNKNOWN ANOMALY</div>
-    <div>• <span style="color: #d1d9e6;">PROJECT TYPE:</span> <span id="lblProject"></span></div>
-    <div>• <span style="color: #d1d9e6;">DATA LOG:</span> <span id="lblData"></span></div>
-    <div>• <span style="color: #d1d9e6;">JOIN THE HUNT:</span> Conduct research at <a href="https://zooniverse.org" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Zooniverse</a> to log discoveries</div>
+    
+    <!-- Clean, high-end sub-header celebrating your active research role -->
+    <div style="color: #c2410c; font-weight: bold; border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// ART INSPIRED BY: CO-RESEARCH INITIATIVES</div>
+    
+    <div>• <span style="color: #d1d9e6;">ORIGIN SOURCE:</span> <span id="lblProject"></span></div>
+    <div>• <span style="color: #d1d9e6;">CLASSIFICATION:</span> <span id="lblData"></span></div>
+    
+    <!-- Stable, highly clinical third row to fulfill your fourth-line visual weight goal -->
+    <div>• <span style="color: #d1d9e6;">REFERENCE MATERIAL:</span> Distributed public open-science networks</div>
+    
+    <div>• <span style="color: #d1d9e6;">CONTRIBUTE:</span> Conduct real astronomical research at <a href="https://zooniverse.org" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Zooniverse</a></div>
     
     <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 6px; padding-top: 6px; color: #ff8080;">
       • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
@@ -216,14 +218,6 @@
   </div>
   
 </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -244,26 +238,24 @@
    * =========================================================================
    */
   const MASTER_CONFIG = {
-    // CORE MATRIX INTERCHANGE MODULE (Alters core rendering mode layout instantly)
     viewMode: "STAR", 
 
-    // Telemetry Text Fields (Keep short to ensure single-line desktop safety)
+    // Upgraded Telemetry Text Strings (Shorn of conversational fluff)
     mainTitle: "Galaxy Simulator // Subject 105418882",
     projectType: "Citizen Science (The Daily Minor Planet)",
     dataLog: "Active cosmic anomaly flagged by public volunteers",
     
-    // AUTHENTIC AUTHOR SPEC: DO NOT ALTER THESE POETRY LINES
+    // AUTHENTIC AUTHOR SPEC: YOUR EXACT HAIKU CHANNELS
     haikuL1: "CRAZY LIGHT FLASHES!",
     haikuL2: "WITH RAYS BURSTING ROUND THE CORE—",
     haikuL3: "ECLIPSING THE SCENE...",
 
-    // ACTIVE SPEC: VIVID FUCHSIA CORE WITH MUTED YELLOWISH 3D RINGS
+    // ACTIVE RECIPIE SPECTRUM VARIABLES
     paletteLabel: "Fuchsia / Ochre (Tracks high-velocity core friction)",
     colorCore: "rgba(255, 255, 255, 0.50)",       
     colorInnerGlow: "rgba(255, 20, 147, 0.35)",   
     colorMidPlasma: "rgba(219, 39, 119, 0.18)",   
     colorOuterFlare: "rgba(0, 0, 0, 0)",          
-    
     colorRingBack: "rgba(204, 115, 0, 0.14)",     
     colorRingFront: "rgba(255, 180, 50, 0.25)",
 
@@ -279,6 +271,13 @@
   };
   // =========================================================================
 
+
+
+
+
+
+
+
   const canvas = document.getElementById('spaceCanvas');
   const ctx = canvas.getContext('2d');
 
@@ -292,12 +291,6 @@
       alpha: Math.random() * 0.5 + 0.3
     });
   }
-
-
-
-
-
-
 
   // Centered Coordinate Anchors
   const coreX = canvas.width / 2;
@@ -441,14 +434,15 @@
   // Unified Pointer Input Handlers
   function startDrag(e) {
     isDragging = true;
-    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches[0].clientX);
-    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches.clientX);
+    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches.clientY);
   }
 
+  // Unified Drag Input Handlers
   function doDrag(e) {
     if (!isDragging) return;
-    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches[0].clientX);
-    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches.clientX);
+    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches.clientY);
     if (currentX === undefined || currentY === undefined) return;
 
     const deltaX = currentX - lastX;
@@ -471,25 +465,20 @@
   window.addEventListener('touchmove', doDrag, { passive: false });
   window.addEventListener('touchend', stopDrag);
 
-  // AUTOMATION CONTROLLER: Feeds your text dashboard inputs directly into the canvas display elements
+  // AUTOMATION CONTROLLER: Safely maps text config nodes directly to your screen elements
   document.getElementById('lblProject').innerText = MASTER_CONFIG.projectType;
   document.getElementById('lblData').innerText = MASTER_CONFIG.dataLog;
   document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
   
-  // Author Content Protection Gate
+  // Poetry Content Protection Pass
   document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
   document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
   document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
 
   // Initialize Loop Execution
   draw();
-
-
-
-  // Initialize Loop Execution
-  draw();
 </script>
+
 
 </body>
 </html>
-
