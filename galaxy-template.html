@@ -243,10 +243,12 @@
    * =========================================================================
    */
   const MASTER_CONFIG = {
+    // CORE MATRIX INTERCHANGE MODULE (Alters core rendering mode layout instantly)
+    // Available Settings: "STAR" (Mode A) | "COMET" (Mode B) | "CLOUD" (Mode C) | "PLANET" (Mode D)
     viewMode: "STAR", 
 
-    // Upgraded Telemetry Text Strings (Shorn of conversational fluff)
-    mainTitle: "ID 105418882",
+    // Telemetry Text Strings (Shorn of conversational fluff)
+    mainTitle: "Subject 105418882",
     projectType: "Citizen Science (The Daily Minor Planet)",
     dataLog: "Active cosmic anomaly flagged by public volunteers",
     
@@ -255,14 +257,16 @@
     haikuL2: "WITH RAYS BURSTING ROUND THE CORE—",
     haikuL3: "ECLIPSING THE SCENE...",
 
-    // ACTIVE RECIPIE SPECTRUM VARIABLES
+    // ACTIVE SPEC: VIVID FUCHSIA CORE WITH MUTED YELLOWISH 3D RINGS
     paletteLabel: "Fuchsia / Ochre (Tracks high-velocity core friction)",
-    colorCore: "rgba(255, 255, 255, 0.50)",       
-    colorInnerGlow: "rgba(255, 20, 147, 0.35)",   
-    colorMidPlasma: "rgba(219, 39, 119, 0.18)",   
-    colorOuterFlare: "rgba(0, 0, 0, 0)",          
-    colorRingBack: "rgba(204, 115, 0, 0.14)",     
-    colorRingFront: "rgba(255, 180, 50, 0.25)",
+    colorCore: "rgba(255, 255, 255, 0.50)",       // Luminous white center flash
+    colorInnerGlow: "rgba(255, 20, 147, 0.35)",   // Intense, glowing fuchsia inner deck
+    colorMidPlasma: "rgba(219, 39, 119, 0.18)",   // Deep translucent hot pink plasma mist
+    colorOuterFlare: "rgba(0, 0, 0, 0)",          // Fades smoothly out to deep space
+    
+    // Restored Faint Muted Yellowish/Ochre 3D Rings
+    colorRingBack: "rgba(204, 115, 0, 0.14)",     // Faint rear 3D ochre ring path
+    colorRingFront: "rgba(255, 180, 50, 0.25)",   // Muted yellowish front ring overlay
 
     /**
      * =======================================================================
@@ -271,11 +275,14 @@
      * PRESET 01: TRANSLUCENT COSMIC PURPLE (Original Soft Plasma Mist)
      *   colorCore: "rgba(255, 255, 255, 0.40)", colorInnerGlow: "rgba(255, 105, 180, 0.25)", colorMidPlasma: "rgba(147, 51, 234, 0.15)",
      *   colorOuterFlare: "rgba(0, 0, 0, 0)", colorRingBack: "rgba(139, 92, 246, 0.15)", colorRingFront: "rgba(236, 72, 153, 0.28)"
+     *
+     * PRESET 02: HIGH-ENERGY NEON ORANGE (Intense Stellar Blast Zone)
+     *   colorCore: "#ffffff", colorInnerGlow: "#ffe6cc", colorMidPlasma: "#ff6600",
+     *   colorOuterFlare: "#cc2200", colorRingBack: "rgba(255, 102, 0, 0.15)", colorRingFront: "rgba(255, 153, 51, 0.30)"
      * =======================================================================
      */
   };
   // =========================================================================
-
 
 
 
