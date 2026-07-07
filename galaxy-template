@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Subject 105418882 Spectrum Profile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: clamp(20px, 4vh, 40px) 20px; 
+      background-color: #030305;
+      color: #d1d9e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      max-height: 100vh; 
+      font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+      box-sizing: border-box;
+      touch-action: manipulation; 
+      overflow: hidden; 
+    }
+    .container {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      width: 100%; 
+      max-width: 650px; 
+      padding: 0 10px; 
+      box-sizing: border-box;
+      overflow-x: hidden; 
+      touch-action: none;
+    }
+    .container * {
+      touch-action: manipulation; 
+    }
+    .main-title {
+      color: #ff4d4d; 
+      font-size: clamp(14px, 4vw, 18px); 
+      letter-spacing: 3px; 
+      font-weight: bold; 
+      text-transform: uppercase; 
+      margin: 0 0 clamp(10px, 2vh, 20px) 0; 
+      text-shadow: 0 0 10px rgba(235, 40, 40, 0.3); 
+      text-align: center;
+      white-space: normal; 
+      word-wrap: break-word;
+    }
+
+    /* 4. Canvas Map Box Layout (Shrinks based on screen height) */
+    .canvas-wrapper {
+      position: relative; 
+      width: 100%; 
+      max-width: 580px; 
+      margin-bottom: clamp(10px, 2vh, 20px);
+    }
+
+    canvas {
+      background: radial-gradient(circle, #08090f 0%, #030305 100%); 
+      border-radius: 16px; 
+      box-shadow: 0 0 40px rgba(0,0,0,0.9); 
+      cursor: grab; 
+      touch-action: none; 
+      width: 100%; 
+      height: auto; 
+      display: block;
+    }
+    canvas:active {
+      cursor: grabbing;
+    }
+
+    /* 5. Interactive UI Overlays */
+    .zoom-controls {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .zoom-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      background: rgba(20, 22, 35, 0.7);
+      border: 1px solid rgba(235, 40, 40, 0.3);
+      color: #ff4d4d;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(4px);
+    }
+    .zoom-btn:hover {
+      background: rgba(235, 40, 40, 0.2);
+      border-color: #ff4d4d;
+      box-shadow: 0 0 10px rgba(235, 40, 40, 0.4);
+    }
+    .zoom-btn:active {
+      transform: scale(0.95);
+    }
+
+    .info {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      font-size: clamp(9px, 2vw, 11px); 
+      padding: 0 10px; 
+      color: #ff4d4d; 
+      letter-spacing: 1px; 
+      font-weight: bold;
+      text-transform: uppercase;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    /* 6. Compact Scientific Telemetry Box */
+    .telemetry-box {
+      width: 100%; 
+      font-family: monospace; 
+      font-size: clamp(10px, 1.8vw, 12px); 
+      line-height: 1.6; 
+      color: #7a889b; 
+      border: 1px solid rgba(235, 40, 40, 0.15); 
+      background: rgba(12, 13, 20, 0.5); 
+      padding: clamp(10px, 1.5vh, 15px); 
+      border-radius: 10px; 
+      box-sizing: border-box; 
+      text-align: left; 
+      margin-bottom: clamp(10px, 2vh, 20px); 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    /* 7. Footer Branding Box */
+    .footer-box {
+      font-family: monospace; 
+      font-size: clamp(9px, 1.8vw, 11px); 
+      letter-spacing: 1px; 
+      line-height: 1.5; 
+      color: #5f6e85; 
+      text-transform: uppercase; 
+      text-align: center; 
+      width: 100%; 
+      white-space: nowrap;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+      }
+    }
+
+    @media (max-width: 1024px) or (max-height: 850px) {
+      body {
+        max-height: none !important;
+        overflow: auto !important;
+        padding: 40px 20px !important; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- Smoother, sleek single-line desktop title -->
+  <h1 class="main-title">Galaxy Simulator // ID 105418882</h1>
+
+  <div class="canvas-wrapper">
+    <canvas id="spaceCanvas" width="650" height="500"></canvas>
+    
+    <div class="zoom-controls">
+      <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+      <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+    </div>
+    
+    <div class="info">Drag to rotate flare spectrum • Scroll or use buttons to zoom</div>
+  </div>
+
+  <!-- DYNAMIC ZOONIVERSE DISPATCH (Sleek, inviting, and desktop-safe) -->
+  <div class="telemetry-box">
+    <div style="color: #ff4d4d; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// CITIZEN SCIENCE DISPATCH: UNKNOWN ANOMALY</div>
+    <div>• <span style="color: #d1d9e6;">PROJECT TYPE:</span> Citizen Science (The Daily Minor Planet)</div>
+    <div>• <span style="color: #d1d9e6;">DATA LOG:</span> Active cosmic anomaly flagged by public volunteers</div>
+    
+    <!-- Fixed clickable URL line: Perfectly short to guarantee single-line desktop safety -->
+    <div>• <span style="color: #d1d9e6;">JOIN THE HUNT:</span> Conduct research at <a href="https://www.zooniverse.org/projects?discipline=astronomy" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);"><!--#42--><!--#43-->Zooniverse</a> to log your own discoveries</div>
+    
+    <!-- Updated to mirror your restored Cosmic Purple / Pink & Faint 3D Ring styles -->
+    <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 6px; padding-top: 6px; color: #ff8080;">
+      • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> Cosmic Purple / Pink (Tracks soft plasma mist & faint rings)
+    </div>
+  </div>
+
+  <div class="footer-box">
+    <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
+    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// =========================================================================
+// 🚀 THE MASTER DATA DASHBOARD (PASTE ONLY THIS BLOCK TO FUTURE COLLABORATORS)
+// =========================================================================
+const MASTER_CONFIG = {
+  // CORE MATRIX INTERCHANGE MODULE (Change this line to alter layout logic)
+  // Available Settings: "STAR" (Mode A) | "COMET" (Mode B) | "CLOUD" (Mode C) | "PLANET" (Mode D)
+  viewMode: "STAR", 
+
+  // Telemetry Text (Desktop Single-Line Guard Rails Enabled)
+  mainTitle: "Galaxy Simulator // ID 105418882",
+  projectType: "Citizen Science (The Daily Minor Planet)",
+  dataLog: "Active cosmic anomaly flagged by public volunteers",
+  
+  // ACTIVE SPEC: VIVID FUCHSIA CORE WITH MUTED YELLOWISH 3D RINGS
+  paletteLabel: "Fuchsia / Ochre (Tracks high-velocity core friction)",
+  colorCore: "rgba(255, 255, 255, 0.50)",       // Luminous white center flash
+  colorInnerGlow: "rgba(255, 20, 147, 0.35)",   // Intense, glowing fuchsia inner deck
+  colorMidPlasma: "rgba(219, 39, 119, 0.18)",   // Deep translucent hot pink plasma mist
+  colorOuterFlare: "rgba(0, 0, 0, 0)",          // Fades smoothly out to deep space
+  
+  // Restored Faint Muted Yellowish/Ochre 3D Rings
+  colorRingBack: "rgba(204, 115, 0, 0.14)",     // Faint rear 3D ochre ring path
+  colorRingFront: "rgba(255, 180, 50, 0.25)"    // Muted yellowish front ring overlay overlay
+
+  /**
+   * =======================================================================
+   * 📡 VISUAL PRESET SPECTRUM ARCHIVE (STYLE ARCHIVE RECIPES)
+   * =======================================================================
+   * PRESET 01: TRANSLUCENT COSMIC PURPLE (Original Soft Plasma Mist)
+   *   colorCore: "rgba(255, 255, 255, 0.40)", colorInnerGlow: "rgba(255, 105, 180, 0.25)", colorMidPlasma: "rgba(147, 51, 234, 0.15)",
+   *   colorOuterFlare: "rgba(0, 0, 0, 0)", colorRingBack: "rgba(139, 92, 246, 0.15)", colorRingFront: "rgba(236, 72, 153, 0.28)"
+   *
+   * PRESET 02: HIGH-ENERGY NEON ORANGE (Intense Stellar Blast Zone)
+   *   colorCore: "#ffffff", colorInnerGlow: "#ffe6cc", colorMidPlasma: "#ff6600",
+   *   colorOuterFlare: "#cc2200", colorRingBack: "rgba(255, 102, 0, 0.15)", colorRingFront: "rgba(255, 153, 51, 0.30)"
+   * =======================================================================
+   */
+};
+// =========================================================================
+
+
+  const canvas = document.getElementById('spaceCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Background Stars Setup Matrix
+  const stars = [];
+  for(let i=0; i<120; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 1.5,
+      alpha: Math.random() * 0.5 + 0.3
+    });
+  }
+
+  // Centered Coordinate Anchors
+  const coreX = canvas.width / 2;
+  const coreY = canvas.height / 2;
+  let radius = 90; 
+  
+  let rotX = 0; 
+  let rotY = 0; 
+  let pulseTimer = 0;
+  
+  let isDragging = false;
+  let lastX = 0;
+  let lastY = 0;
+
+  // Render Background Star Fields
+  function drawStars() {
+    stars.forEach(star => {
+      ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+      ctx.fillRect(star.x, star.y, star.size, star.size);
+    });
+  }
+
+  // MODE A RENDERING SUB-ROUTINE: Stellar Point Source Core with 3D Depth Rings
+  function drawModeA_StellarCore(currentRadius) {
+    // Pass 1: Render Rear Half of Energy Rings (Behind Star)
+    ctx.save();
+    ctx.translate(coreX, coreY);
+    ctx.rotate(rotX * 0.005);
+    ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
+    ctx.lineWidth = 2.5;
+    for(let r = 0; r < 3; r++) {
+      ctx.beginPath();
+      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, Math.PI, 0);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // Pass 2: Giant Coronal Flare Glow Grid (Fades smoothly to black)
+    let coronaGlow = ctx.createRadialGradient(coreX, coreY, currentRadius - 30, coreX, coreY, currentRadius + 120);
+    coronaGlow.addColorStop(0, 'rgba(230, 210, 180, 0.35)'); 
+    coronaGlow.addColorStop(0.4, 'rgba(204, 115, 0, 0.12)'); 
+    coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = coronaGlow;
+    ctx.beginPath();
+    ctx.arc(coreX, coreY, currentRadius + 120, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Pass 3: Concentrated Plasma Core (Fed directly from your MASTER_CONFIG values!)
+    let coreBody = ctx.createRadialGradient(coreX - (rotX * 0.05), coreY - (rotY * 0.05), 2, coreX, coreY, currentRadius);
+    coreBody.addColorStop(0, MASTER_CONFIG.colorCore);                     
+    coreBody.addColorStop(0.2, MASTER_CONFIG.colorInnerGlow);                   
+    coreBody.addColorStop(0.6, MASTER_CONFIG.colorMidPlasma);                   
+    coreBody.addColorStop(1, MASTER_CONFIG.colorOuterFlare);                     
+    ctx.fillStyle = coreBody;
+    ctx.beginPath();
+    ctx.arc(coreX, coreY, currentRadius, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Pass 4: Render Front Half of Energy Rings (Wraps visibly on top)
+    ctx.save();
+    ctx.translate(coreX, coreY);
+    ctx.rotate(rotX * 0.005);
+    ctx.strokeStyle = MASTER_CONFIG.colorRingFront; 
+    ctx.lineWidth = 2.5;
+    for(let r = 0; r < 3; r++) {
+      ctx.beginPath();
+      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, 0, Math.PI);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // Pass 5: Flare Tracking Matrix
+    ctx.fillStyle = 'rgba(255, 245, 230, 0.4)';
+    for(let j = 0; j < 5; j++) {
+      let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.2) * (currentRadius * 0.6);
+      let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (currentRadius * 0.6);
+      if (Math.hypot(spotX - coreX, spotY - coreY) < currentRadius - 8) {
+        ctx.beginPath();
+        ctx.arc(spotX, spotY, 3 + j, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // Pass 6: Cross-Hair Telemetry Overlay System
+    ctx.strokeStyle = 'rgba(235, 40, 40, 0.15)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(coreX - currentRadius - 30, coreY); ctx.lineTo(coreX + currentRadius + 30, coreY);
+    ctx.moveTo(coreX, coreY - currentRadius - 30); ctx.lineTo(coreX, coreY + currentRadius + 30);
+    ctx.stroke();
+  }
+
+  // Placeholder routines for your future expansion modules
+  function drawModeB_EjectaTrail() { /* Comet logic placeholder */ }
+  function drawModeC_DiffuseCloud() { /* Nebula logic placeholder */ }
+  function drawModeD_OrbitalBody() {  /* Planet logic placeholder */ }
+
+  // MAIN SYSTEM DEPLOYMENT ANIMATION MATRIX
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    pulseTimer += 0.03;
+    
+    // Core Pass 1: Render deep space background stars
+    drawStars();
+
+    let dynamicPulse = Math.sin(pulseTimer) * 8;
+    let currentRadius = radius + dynamicPulse;
+
+    // Core Pass 2: Evaluate the MASTER_CONFIG Mode Token
+    switch(MASTER_CONFIG.viewMode) {
+      case "STAR":
+        drawModeA_StellarCore(currentRadius);
+        break;
+      case "COMET":
+        drawModeB_EjectaTrail();
+        break;
+      case "CLOUD":
+        drawModeC_DiffuseCloud();
+        break;
+      case "PLANET":
+        drawModeD_OrbitalBody();
+        break;
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  function adjustZoom(amount) {
+    radius = Math.min(Math.max(radius + amount, 45), 180);
+  }
+
+  document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
+  document.getElementById('zoomOut').addEventListener('click', () => adjustZoom(-15));
+
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    if (e.deltaY < 0) adjustZoom(6);
+    else adjustZoom(-6);
+  }, { passive: false });
+
+  // Unified Pointer Input Handlers
+  function startDrag(e) {
+    isDragging = true;
+    lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    lastY = e.clientY || (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+  }
+
+  function doDrag(e) {
+    if (!isDragging) return;
+    let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches[0].clientX);
+    let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches[0].clientY);
+    if (currentX === undefined || currentY === undefined) return;
+
+    const deltaX = currentX - lastX;
+    const deltaY = currentY - lastY;
+    rotX += deltaX * 0.5; 
+    rotY += deltaY * 0.5; 
+    lastX = currentX;
+    lastY = currentY;
+  }
+
+  function stopDrag() {
+    isDragging = false;
+  }
+
+  canvas.addEventListener('mousedown', startDrag);
+  window.addEventListener('mousemove', doDrag);
+  window.addEventListener('mouseup', stopDrag);
+
+  canvas.addEventListener('touchstart', startDrag, { passive: true });
+  window.addEventListener('touchmove', doDrag, { passive: false });
+  window.addEventListener('touchend', stopDrag);
+
+  // Initialize Loop Execution
+  draw();
+</script>
+
+</body>
+</html>
