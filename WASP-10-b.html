@@ -2,16 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>WASP-10 b Interactive Simulation Profile</title>
+  <title>WASP-10 b Spectrum Profile</title>
   <style>
     /* 1. Global Page Settings & Strict Single-Screen Height Limits */
     body {
       margin: 0;
-      /* Scales padding down dynamically based on available screen height */
       padding: clamp(20px, 4vh, 40px) 20px; 
       background-color: #030305;
       color: #d1d9e6;
@@ -20,11 +16,11 @@
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      max-height: 100vh; /* Locks desktop from leaking or creating a scrollbar */
+      max-height: 100vh; 
       font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
       box-sizing: border-box;
       touch-action: manipulation; 
-      overflow: hidden; /* Disables page scrolling entirely on desktop */
+      overflow: hidden; 
     }
     
     /* 2. Container Layout */
@@ -54,17 +50,17 @@
       margin: 0 0 clamp(10px, 2vh, 20px) 0; 
       text-shadow: 0 0 10px rgba(235, 40, 40, 0.3); 
       text-align: center;
-      /* FIXED: Text now wraps onto a second row safely instead of cutting off! */
       white-space: normal; 
       word-wrap: break-word;
     }
 
-    /* 4. Canvas Map Box Layout (Shrinks based on screen height) */
+       /* 4. Canvas Wrapper Layout (Forces children overlays to stay bounded inside) */
     .canvas-wrapper {
       position: relative; 
       width: 100%; 
-      max-width: 580px; /* Reduced slightly to help it fit on shorter laptop monitors */
+      max-width: 580px; 
       margin-bottom: clamp(10px, 2vh, 20px);
+      box-sizing: border-box;
     }
 
     canvas {
@@ -81,7 +77,7 @@
       cursor: grabbing;
     }
 
-    /* 5. Interactive UI Overlays */
+    /* 5. Interactive UI Overlays (Surgically pinned inside the upper-right canvas boundary) */
     .zoom-controls {
       position: absolute;
       top: 15px;
@@ -89,7 +85,9 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
+      z-index: 10; /* Keeps controls on top of the drawing layer */
     }
+    
     .zoom-btn {
       width: 32px;
       height: 32px;
@@ -115,9 +113,10 @@
       transform: scale(0.95);
     }
 
+    /* Telemetry Text Anchor (Surgically lifted to stay securely inside the bottom edge) */
     .info {
       position: absolute;
-      bottom: 15px;
+      bottom: 15px; /* Pinned exactly 15 pixels from the bottom interior canvas edge */
       left: 0;
       right: 0;
       font-size: clamp(9px, 2vw, 11px); 
@@ -128,7 +127,9 @@
       text-transform: uppercase;
       pointer-events: none;
       text-align: center;
+      z-index: 10;
     }
+
 
     /* 6. Compact Scientific Telemetry Box */
     .telemetry-box {
@@ -167,51 +168,115 @@
       }
     }
 
-    /* Fixes iPad/Tablet Vertical Cut-offs */
     @media (max-width: 1024px) or (max-height: 850px) {
       body {
         max-height: none !important;
         overflow: auto !important;
-        /* Gives iPads gentle padding so elements never hit the absolute edge */
         padding: 40px 20px !important; 
       }
     }
-
   </style>
 </head>
+<body>
 
 <div class="container">
-  <h1 class="main-title">System Visualization: WASP-10 b</h1>
+  
+  <!-- Sleek Main Header: Clickable Nickel-Silver link mapped directly to public catalogs -->
+  <h1 class="main-title">
+    Galaxy Simulator // 
+    <a href="https://caltech.edu" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);">WASP-10 b</a>
+  </h1>
+
+  <!-- HIGH-IMMERSIVE POETRY GRID: Author-signed content lanes -->
+  <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase;">
+    <div id="poemRow1" style="color: #ffffff; text-shadow: 0 0 8px rgba(255,255,255,0.2);"></div>
+    <div id="poemRow2" style="color: #ff8080;"></div>
+    <div id="poemRow3" style="color: #7a889b;"></div>
+  </div>
+
+  <!-- Unified Canvas Wrapper (Zoom controls and text anchors safely pinned inside the frame) -->
   <div class="canvas-wrapper">
     <canvas id="spaceCanvas" width="650" height="500"></canvas>
+    
     <div class="zoom-controls">
       <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
       <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
     </div>
-    <div class="info">Drag to rotate • Scroll or use buttons to zoom</div>
+    
+    <div class="info">Spectral Capture // Drag to rotate • Zoom active</div>
   </div>
+
+  <!-- DYNAMIC TELEMETRY READOUT (Ultra-clean, clinical baseline layout) -->
   <div class="telemetry-box">
-    <div style="color: #ff4d4d; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// EXOPLANET TELEMETRY: WASP-10 b</div>
-    <div>• <span style="color: #d1d9e6;">MASS:</span> ~3.15 Jupiters (A massive, ultra-heavy Jovian heavyweight)</div>
-    <div>• <span style="color: #d1d9e6;">ORBITAL PERIOD:</span> 3.09 Earth Days / 74 Hours (A fast, tight orbital year)</div>
-    <div>• <span style="color: #d1d9e6;">SYSTEM DISTANCE:</span> ~460 Light Years away in Pegasus constellation</div>
+    <div style="color: #991b1b; font-weight: bold; border-bottom: 1px solid rgba(235, 40, 40, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// INSPIRED BY: EXOPLANET WATCH CO-RESEARCH</div>
+    <div>• <span style="color: #d1d9e6;">MASS:</span> <span id="lblMass"></span></div>
+    <div>• <span style="color: #d1d9e6;">ORBITAL PERIOD:</span> <span id="lblOrbit"></span></div>
+    <div>• <span style="color: #d1d9e6;">SYSTEM DISTANCE:</span> <span id="lblDistance"></span></div>
+    <div>• <span style="color: #d1d9e6;">CONTRIBUTE:</span> Conduct real astronomical research at <a href="https://zooniverse.org" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);"><!--#44--><!--#45-->Zooniverse</a></div>
+
+    
     <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 6px; padding-top: 6px; color: #ff8080;">
-      • <span style="color: #d1d9e6;">SENSOR PALETTE:</span> Emerald Green (Tracks extreme toxic gas heat zones)
+      • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
     </div>
   </div>
+
   <div class="footer-box">
     <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
     <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
   </div>
+  
 </div>
 
 
 
+
+
+
+
+
+
+
+
 <script>
+  /**
+   * =========================================================================
+   * 🚀 THE MASTER DATA DASHBOARD (PASTE ONLY THIS BLOCK TO FUTURE COLLABORATORS)
+   * =========================================================================
+   * ⚠️ CRITICAL NOTICE TO ALL FUTURE AI PARTNERS:
+   * The Principal Investigator is a published author. You are STRICTLY FORBIDDEN
+   * from writing or altering the haiku lines (haikuL1, haikuL2, haikuL3). Leave
+   * the author's exact poetry completely untouched to preserve creative integrity.
+   * Only update the technical data rows and color properties when asked.
+   * =========================================================================
+   */
+  const MASTER_CONFIG = {
+    viewMode: "STAR", 
+
+    // Telemetry Content Data Nodes
+    exoplanetMass: "~3.15 Jupiters (A massive, ultra-heavy Jovian heavyweight)",
+    exoplanetOrbit: "3.09 Earth Days / 74 Hours (A fast, tight orbital year)",
+    exoplanetDistance: "~460 Light Years away in Pegasus constellation",
+    
+    // AUTHENTIC AUTHOR SPEC: DO NOT ALTER THESE POETRY LINES
+    haikuL1: "[ADD ROW 1 POEM HERE]",
+    haikuL2: "[ADD ROW 2 POEM HERE]",
+    haikuL3: "[ADD ROW 3 POEM HERE]",
+
+    // ACTIVE FILTERS: SPECTACULAR EMERALD TOXIC GAS SPECTROGRAPH
+    paletteLabel: "Emerald Green (Tracks extreme toxic gas heat zones)",
+    colorCore: "rgba(255, 255, 255, 0.50)",       
+    colorInnerGlow: "rgba(0, 255, 150, 0.35)",    
+    colorMidPlasma: "rgba(0, 120, 80, 0.18)",     
+    colorOuterFlare: "rgba(0, 0, 0, 0)",          
+    colorRingBack: "rgba(0, 200, 100, 0.14)",     
+    colorRingFront: "rgba(100, 255, 180, 0.25)"   
+  };
+  // =========================================================================
+
   const canvas = document.getElementById('spaceCanvas');
   const ctx = canvas.getContext('2d');
 
-  // Background Stars Setup
+  // Background Stars Setup Matrix
   const stars = [];
   for(let i=0; i<120; i++) {
     stars.push({
@@ -222,132 +287,107 @@
     });
   }
 
-  // System Core Positions
-  const starX = 80;
-  const starY = 120;
-  const starRadius = 55;
-
-  const planetX = canvas.width / 2 + 40;
-  const planetY = canvas.height / 2 + 20;
-  let radius = 100; 
+  // Centered Coordinate Anchors
+  const coreX = canvas.width / 2;
+  const coreY = canvas.height / 2;
+  let radius = 90; 
   
   let rotX = 0; 
   let rotY = 0; 
+  let pulseTimer = 0;
   
   let isDragging = false;
   let lastX = 0;
   let lastY = 0;
 
-
-
-
-
-
-
-    function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // 1. Draw Background Stars
+  function drawStars() {
     stars.forEach(star => {
       ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
       ctx.fillRect(star.x, star.y, star.size, star.size);
     });
+  }
 
-    // 3. Draw Host Star (WASP-10) - Active K-Type Golden-Orange Color Scheme
-    let starGlow = ctx.createRadialGradient(starX, starY, starRadius - 15, starX, starY, starRadius + 60);
-    starGlow.addColorStop(0, 'rgba(255, 145, 20, 0.28)'); // Warm orange corona flare
-    starGlow.addColorStop(0.5, 'rgba(235, 90, 10, 0.08)');
-    starGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
-    ctx.fillStyle = starGlow;
-    ctx.beginPath();
-    ctx.arc(starX, starY, starRadius + 60, 0, Math.PI * 2);
-    ctx.fill();
-
-    let starBody = ctx.createRadialGradient(starX - 10, starY - 10, 2, starX, starY, starRadius);
-    starBody.addColorStop(0, '#ffffff');
-    starBody.addColorStop(0.3, '#ffb84d'); // Bright golden flares
-    starBody.addColorStop(0.8, '#ff7700');
-    starBody.addColorStop(1, '#d44400');  // Deep amber starspot base edges
-    ctx.fillStyle = starBody;
-    ctx.beginPath();
-    ctx.arc(starX, starY, starRadius, 0, Math.PI * 2);
-    ctx.fill();
-
-    ctx.font = '9px monospace';
-    ctx.fillStyle = 'rgba(255, 160, 60, 0.5)';
-    ctx.fillText('HOST STAR: WASP-10', starX - 44, starY + starRadius + 18);
-
-    // 4. Planet Outer Atmosphere Glow
-    let outerGlow = ctx.createRadialGradient(planetX, planetY, radius - 10, planetX, planetY, radius + 20);
-    outerGlow.addColorStop(0, 'rgba(20, 255, 100, 0.08)'); // Green atmospheric scattering
-    outerGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
-    ctx.fillStyle = outerGlow;
-    ctx.beginPath();
-    ctx.arc(planetX, planetY, radius + 20, 0, Math.PI * 2);
-    ctx.fill();
-
-    // 5. Solid Pitch-Black Planet Surface
-    ctx.fillStyle = '#060608'; 
-    ctx.beginPath();
-    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
-    ctx.fill();
-
-    // 6. Draw Gas Bands Warping Into 3D Curves Based on Drag Direction
+  function drawModeA_StellarCore(currentRadius) {
     ctx.save();
+    ctx.translate(coreX, coreY);
+    ctx.rotate(rotX * 0.005);
+    ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
+    ctx.lineWidth = 2.5;
+    for(let r = 0; r < 3; r++) {
+      ctx.beginPath();
+      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, Math.PI, 0);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    let coronaGlow = ctx.createRadialGradient(coreX, coreY, currentRadius - 30, coreX, coreY, currentRadius + 120);
+    coronaGlow.addColorStop(0, 'rgba(200, 255, 220, 0.25)'); 
+    coronaGlow.addColorStop(0.4, 'rgba(0, 150, 90, 0.08)'); 
+    coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = coronaGlow;
     ctx.beginPath();
-    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
-    ctx.clip();
+    ctx.arc(coreX, coreY, currentRadius + 120, 0, Math.PI * 2);
+    ctx.fill();
 
-    let tiltFactor = Math.sin(rotY * 0.02); 
-    const bandPositions = [-45, -15, 15, 45];
-    
-    bandPositions.forEach((baseY, index) => {
-      let speedMultiplier = (index % 2 === 0) ? 1.4 : -0.9;
-      let xOffset = ((rotX * speedMultiplier) % (radius * 4)) - (radius * 2);
-      let currentCenterY = planetY + (baseY * Math.cos(rotY * 0.02)) + (radius * 0.4 * tiltFactor);
+    let coreBody = ctx.createRadialGradient(coreX - (rotX * 0.05), coreY - (rotY * 0.05), 2, coreX, coreY, currentRadius);
+    coreBody.addColorStop(0, MASTER_CONFIG.colorCore);                     
+    coreBody.addColorStop(0.2, MASTER_CONFIG.colorInnerGlow);                   
+    coreBody.addColorStop(0.6, MASTER_CONFIG.colorMidPlasma);                   
+    coreBody.addColorStop(1, MASTER_CONFIG.colorOuterFlare);                     
+    ctx.fillStyle = coreBody;
+    ctx.beginPath();
+    ctx.arc(coreX, coreY, currentRadius, 0, Math.PI * 2);
+    ctx.fill();
 
-      for (let i = 0; i < 3; i++) {
-        let drawX = planetX + xOffset + (i * radius * 3.5) - (radius * 3.5);
-        
+    ctx.save();
+    ctx.translate(coreX, coreY);
+    ctx.rotate(rotX * 0.005);
+    ctx.strokeStyle = MASTER_CONFIG.colorRingFront; 
+    ctx.lineWidth = 2.5;
+    for(let r = 0; r < 3; r++) {
+      ctx.beginPath();
+      ctx.ellipse(0, 0, currentRadius * (1.2 + r * 0.3), currentRadius * 0.22, (rotY + r * 45) * Math.PI / 180, 0, Math.PI);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    ctx.fillStyle = 'rgba(230, 255, 240, 0.35)';
+    for(let j = 0; j < 5; j++) {
+      let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.2) * (currentRadius * 0.6);
+      let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (currentRadius * 0.6);
+      if (Math.hypot(spotX - coreX, spotY - coreY) < currentRadius - 8) {
         ctx.beginPath();
-        ctx.ellipse(drawX, currentCenterY, radius * 1.4, Math.abs(radius * 0.22 * tiltFactor) + 12, rotY * 0.01, 0, Math.PI * 2);
-        
-        // ELECTRIC EMERALD & NEON JADE THERMAL DECK TUNING
-        let bandGradient = ctx.createRadialGradient(drawX, currentCenterY, 2, drawX, currentCenterY, radius * 1.2);
-        bandGradient.addColorStop(0, 'rgba(0, 255, 120, 0.45)');   // Searing radioactive emerald core
-        bandGradient.addColorStop(0.3, 'rgba(0, 180, 80, 0.32)');  // Rich glowing neon-jade mid-band
-        bandGradient.addColorStop(0.7, 'rgba(0, 90, 40, 0.15)');    // Deep toxic green foundation haze
-        bandGradient.addColorStop(1, 'rgba(0,0,0,0)');
-        
-        ctx.fillStyle = bandGradient;
-        ctx.fill();
-      }
-    });
-
-    // Intense magnetic compression storms shifted to matching green glow vectors
-    ctx.fillStyle = 'rgba(0, 255, 150, 0.20)';
-    for(let j = 0; j < 4; j++) {
-      let stormX = planetX + Math.sin(rotX * 0.01 + j) * (radius * 0.5);
-      let stormY = planetY + Math.cos(rotY * 0.01 + j) * (radius * 0.6) + (rotY * 0.15 % (radius * 2)) - radius;
-      if (Math.hypot(stormX - planetX, stormY - planetY) < radius - 10) {
-        ctx.beginPath();
-        ctx.arc(stormX, stormY, 4 + j, 0, Math.PI * 2);
+        ctx.arc(spotX, spotY, 3 + j, 0, Math.PI * 2);
         ctx.fill();
       }
     }
 
-    // 7. 3D Spherical Shadow Mask Overlay (Simulates golden starlight casting from WASP-10)
-    let shadow = ctx.createRadialGradient(planetX - (radius * 0.35), planetY - (radius * 0.35), radius * 0.1, planetX, planetY, radius);
-    shadow.addColorStop(0, 'rgba(255, 230, 180, 0.05)'); // Warm amber rim reflection
-    shadow.addColorStop(0.3, 'rgba(0, 0, 0, 0.3)');
-    shadow.addColorStop(0.95, 'rgba(0, 0, 0, 0.99)'); 
-    
-    ctx.fillStyle = shadow;
+    ctx.strokeStyle = 'rgba(235, 40, 40, 0.15)';
+    ctx.lineWidth = 1;
     ctx.beginPath();
-    ctx.arc(planetX, planetY, radius, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
+    ctx.moveTo(coreX - currentRadius - 30, coreY); ctx.lineTo(coreX + currentRadius + 30, coreY);
+    ctx.moveTo(coreX, coreY - currentRadius - 30); ctx.lineTo(coreX, coreY + currentRadius + 30);
+    ctx.stroke();
+  }
 
+  function drawModeB_EjectaTrail() {}
+  function drawModeC_DiffuseCloud() {}
+  function drawModeD_OrbitalBody() {}
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    pulseTimer += 0.03;
+    drawStars();
+
+    let dynamicPulse = Math.sin(pulseTimer) * 8;
+    let currentRadius = radius + dynamicPulse;
+
+    switch(MASTER_CONFIG.viewMode) {
+      case "STAR": drawModeA_StellarCore(currentRadius); break;
+      case "COMET": drawModeB_EjectaTrail(); break;
+      case "CLOUD": drawModeC_DiffuseCloud(); break;
+      case "PLANET": drawModeD_OrbitalBody(); break;
+    }
     requestAnimationFrame(draw);
   }
 
@@ -364,13 +404,6 @@
     else adjustZoom(-6);
   }, { passive: false });
 
-
-
-
-
-
-
-  // Unified Pointer Input Handlers
   function startDrag(e) {
     isDragging = true;
     lastX = e.clientX || (e.touches && e.touches.length > 0 && e.touches[0].clientX);
@@ -379,36 +412,40 @@
 
   function doDrag(e) {
     if (!isDragging) return;
-    
     let currentX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches.length > 0 && e.touches[0].clientX);
     let currentY = e.clientY !== undefined ? e.clientY : (e.touches && e.touches.length > 0 && e.touches[0].clientY);
-    
     if (currentX === undefined || currentY === undefined) return;
 
     const deltaX = currentX - lastX;
     const deltaY = currentY - lastY;
-    
     rotX += deltaX * 0.5; 
     rotY += deltaY * 0.5; 
-    
     lastX = currentX;
     lastY = currentY;
   }
 
-  function stopDrag() {
-    isDragging = false;
-  }
+  function stopDrag() { isDragging = false; }
 
   canvas.addEventListener('mousedown', startDrag);
   window.addEventListener('mousemove', doDrag);
   window.addEventListener('mouseup', stopDrag);
-
   canvas.addEventListener('touchstart', startDrag, { passive: true });
   window.addEventListener('touchmove', doDrag, { passive: false });
   window.addEventListener('touchend', stopDrag);
+
+  // AUTOMATION ROUTINES: Connect nodes to viewport
+  document.getElementById('lblMass').innerText = MASTER_CONFIG.exoplanetMass;
+  document.getElementById('lblOrbit').innerText = MASTER_CONFIG.exoplanetOrbit;
+  document.getElementById('lblDistance').innerText = MASTER_CONFIG.exoplanetDistance;
+  document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+  
+  document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
+  document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
+  document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
 
   draw();
 </script>
 
 </body>
 </html>
+
