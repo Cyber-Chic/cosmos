@@ -47,6 +47,13 @@
       white-space: normal; 
       word-wrap: break-word;
     }
+    
+    /* REFRESH ICON INTERACTION LOOKS STELLAR */
+    #displayTitleLink:hover {
+      color: #ff4d4d !important;
+      text-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
+    }
+    
     .canvas-wrapper {
       position: relative; 
       width: 100%; 
@@ -138,6 +145,17 @@
       width: 100%; 
       white-space: nowrap;
     }
+    
+    /* MOBILE-FORTIFIED SWIPE CONTROLS: Stops layout wrapping while opening touch scroll lanes */
+    .mobile-scroll-row {
+      white-space: nowrap; 
+      overflow-x: auto; 
+      scrollbar-width: none; /* Hides bulky scroll bars on Firefox */
+    }
+    .mobile-scroll-row::-webkit-scrollbar {
+      display: none; /* Hides bulky scroll bars on Safari & Chrome */
+    }
+
     @media (max-width: 480px) {
       body {
         max-height: none !important;
@@ -159,15 +177,15 @@
   
   <h1 class="main-title">
     System Visualization // 
-    <a id="displayTitleLink" href="https://caltech.edu" target="_blank" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5);"></a>
+    <a id="displayTitleLink" href="#" style="color: #cbd5e1; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(203, 213, 225, 0.5); transition: all 0.2s;"></a>
   </h1>
 
-  <!-- HIGH-IMMERSIVE POETRY GRID: Enhanced with sleek, single-line authenticity caption right underneath -->
-  <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase;">
+  <!-- HIGH-IMMERSIVE POETRY GRID: Configured with frictionless mobile swipe tracking -->
+  <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase; width: 100%;">
     <div id="poemRow1" style="color: #ffffff; text-shadow: 0 0 8px rgba(255,255,255,0.2);"></div>
     <div id="poemRow2" style="color: #ff8080;"></div>
     <div id="poemRow3" style="color: #7a889b;"></div>
-    <div style="font-size: clamp(8px, 1.4vw, 9px); color: #4b5563; margin-top: 8px; white-space: nowrap; font-weight: bold; letter-spacing: 1px;">// NOTE: POETRY AND VISUALS INSPIRED BY ACTUAL SCIENTIFIC RESEARCH</div>
+    <div class="mobile-scroll-row" style="font-size: clamp(8px, 1.4vw, 9px); color: #4b5563; margin-top: 8px; font-weight: bold; letter-spacing: 1px;">// NOTE: POETRY AND VISUALS INSPIRED BY ACTUAL SCIENTIFIC RESEARCH</div>
   </div>
 
   <div class="canvas-wrapper">
@@ -181,21 +199,21 @@
     <div class="info">Spectral Capture // Drag to rotate • Zoom active</div>
   </div>
 
-  <!-- STREAMLINED SCIENTIFIC PORTFOLIO ENTRY PANELS -->
   <div class="telemetry-box">
     <div style="color: #c2410c; font-weight: bold; border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px;">// INSPIRED BY: CO-RESEARCH INITIATIVES</div>
 
-    <div>• <span style="color: #d1d9e6;">INVESTIGATOR LOG:</span> <a id="lnkZoo" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Explore My Full Research Portfolio</a></div>
-    <div>• <span style="color: #d1d9e6;">DATA REPOSITORY:</span> <a id="lnkCurve" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Contribute to Open Science Projects</a></div>
+    <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">INVESTIGATOR LOG:</span> <a id="lnkZoo" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Explore My Full Research Portfolio</a></div>
+    <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">DATA REPOSITORY:</span> <a id="lnkCurve" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Contribute to Open Science Projects</a></div>
     
-    <div style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 8px; padding-top: 6px; color: #ff8080;">
+    <div class="mobile-scroll-row" style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 8px; padding-top: 6px; color: #ff8080;">
       • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
     </div>
   </div>
 
-  <div class="footer-box">
+  <!-- Swipe enabled copyright signature lanes -->
+  <div class="footer-box mobile-scroll-row">
     <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
-    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px; white-space: nowrap;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
+    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
   </div>
 
 </div>
@@ -205,22 +223,22 @@
 // 🚀 THE AUTONOMOUS QUANTUM DASHBOARD (NEVER NEEDS FUTURE CODE UPDATES)
 // =========================================================================
 const MASTER_CONFIG = {
-  urlResearchPortfolio: "https://zooniverse.org", 
-  urlZooniverseAstronomy: "https://zooniverse.org/projects?discipline=astronomy",
+  // Update these targets with your exact custom landing routes!
+  urlMainSimulationPage: "https://github.io", 
+  urlResearchPortfolio: "https://github.com", 
+  urlZooniverseAstronomy: "https://zooniverse.org",
 
   poetryVault: [
-    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND THE CORE—", l3: "ECLIPSING THE SCENE..." },
+    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND the CORE—", l3: "ECLIPSING THE SCENE..." },
     { l1: "SPINNING AT TOP SPEEDS.", l2: "HURLING ROUND THE GALAXY.", l3: "TRANSCENDING TIME'S SAND." },
     { l1: "A VOID DRENCHED BY NIGHT.", l2: "DARKER THAN THE MIND'S SHADOWS.", l3: "WITH LIFELESS COAL PULSE." },
     { l1: "SILENT PLASMA DRIFT.", l2: "SERENE HEAVENS HOLDING STILL—", l3: "FROZEN IN THE VOID." }
   ],
 
   initializeQuantumSystem: function() {
-    // POEM REPEAT PROTECTION ENGINE: Prevents the same haiku from loading back-to-back
     let lastPoemIndex = localStorage.getItem('mooreDashboardLastPoem');
     let randomPoemIndex = Math.floor(Math.random() * this.poetryVault.length);
 
-    // If it rolls the exact same index as last time, shift it cleanly to the next poem slot
     if (lastPoemIndex !== null && randomPoemIndex === parseInt(lastPoemIndex)) {
       randomPoemIndex = (randomPoemIndex + 1) % this.poetryVault.length;
     }
@@ -236,7 +254,6 @@ const MASTER_CONFIG = {
     this.quantumFlickerSpeed = Math.random() * 0.04 + 0.01;        
     this.showCrossHairs = Math.random() > 0.4;                     
 
-    // COLOR REPEAT PROTECTION ENGINE
     let lastHue = localStorage.getItem('mooreDashboardLastHue');
     let randomHue1 = Math.floor(Math.random() * 360);
     
@@ -253,12 +270,22 @@ const MASTER_CONFIG = {
     this.colorRingBack = `hsla(${randomHue2}, 70%, 40%, 0.25)`.replace(' ', '');   
     this.colorRingFront = `hsla(${randomHue2}, 85%, 50%, 0.55)`.replace(' ', '');
 
-    this.mainTitle = "Deep Space Capture"; 
+    this.mainTitle = "Deep Space Capture ⟳"; 
     this.paletteLabel = `Spectral Spectrum Axis H-${randomHue1} / Target R-${randomHue2}`;
   }
 };
 
-MASTER_CONFIG.initializeQuantumSystem();
+// Extracted configuration wrapper to allow seamless inline click re-captures
+function runCaptureCycle() {
+  MASTER_CONFIG.initializeQuantumSystem();
+  radius = MASTER_CONFIG.quantumRadius;
+  
+  document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
+  document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+  document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
+  document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
+  document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
+}
 
 const canvas = document.getElementById('spaceCanvas');
 const ctx = canvas.getContext('2d');
@@ -276,7 +303,7 @@ for(let i=0; i<120; i++) {
 
 const coreX = canvas.width / 2;
 const coreY = canvas.height / 2;
-let radius = MASTER_CONFIG.quantumRadius; 
+let radius = 90; 
 
 let rotX = 0; 
 let rotY = 0; 
@@ -415,9 +442,10 @@ canvas.addEventListener('wheel', (e) => {
   else adjustZoom(-6);
 }, { passive: false });
 
+// FIXED MOBILE HANDLERS: Isolates active touch vectors to allow mobile dragging rotations
 function startDrag(e) {
   isDragging = true;
-  let touch = e.touches ? e.touches : e;
+  let touch = e.touches ? e.touches[0] : e;
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
@@ -426,7 +454,7 @@ function doDrag(e) {
   if (!isDragging) return;
   if (e.cancelable) e.preventDefault(); 
   
-  let touch = e.touches ? e.touches : e;
+  let touch = e.touches ? e.touches[0] : e;
   if (touch.clientX === undefined || touch.clientY === undefined) return;
 
   const deltaX = touch.clientX - lastX;
@@ -451,19 +479,23 @@ canvas.addEventListener('touchstart', startDrag, { passive: true });
 window.addEventListener('touchmove', doDrag, { passive: false });
 window.addEventListener('touchend', stopDrag);
 
-document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
-document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+// INLINE INSTANT RE-CAPTURE ATTACHMENT
+document.getElementById('displayTitleLink').addEventListener('click', (e) => {
+  e.preventDefault();
+  runCaptureCycle();
+});
 
+// Dynamic Asset Link Mapping Pipelines
 document.getElementById('lnkZoo').href = MASTER_CONFIG.urlResearchPortfolio;
 document.getElementById('lnkCurve').href = MASTER_CONFIG.urlZooniverseAstronomy;
+document.getElementById('displayTitleLink').href = MASTER_CONFIG.urlMainSimulationPage;
 
-document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
-document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
-document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
-
+// Trigger baseline initialization states
+runCaptureCycle();
 draw();
 </script>
 
 </body>
 </html>
+
 
