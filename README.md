@@ -119,29 +119,14 @@ A light curve measures pixel intensity and solar brightness variations over fixe
 
 <br>
 
-#### 🌌 [ DATASET #001 ] | [ 🛰️ VIEW OPEN COSMIC MAP ](https://eyes.nasa.gov/apps/solar-system/)
+#### 🌌 [ DATASET #001 ]  | [ 🪐 LAUNCH HUB ](EMAZE.ME)
 > ### **CRAZY LIGHT FLASHES!**
-> ### **WITH RAYS BURSTING ROUND THE CORE-**
+> ### **WITH RAYS BURSTING ROUND THE CORE—**
 > ### **ECLIPSING THE SCENE...**
 > — *Phenomena: The Daily Minor Planet // Subject Word: Captivated*
 >
-> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (SUBJECT ID: 105418882)](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)
-
-<br>
-
-#### 🌌 [ DATASET #002 ] | [ 🛰️ VIEW OPEN COSMIC MAP ](https://eyes.nasa.gov/apps/solar-system/)
-> ### **DECRYPTING SIGNAL...**
-> *Raw data archived // Synthesis pending.*
->
-> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (QUEUED)](https://www.zooniverse.org/users/Zooniverse-Volunteer/favorites)
-
-<br>
-
-#### 🌌 [ DATASET #003 ] | [ 🛰️ VIEW OPEN COSMIC MAP ](https://eyes.nasa.gov/apps/solar-system/)
-> ### **SIGNAL PENDING...**
-> *Astronomical data queued // Awaiting entry.*
->
-> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (QUEUED)](https://www.zooniverse.org/users/Zooniverse-Volunteer/favorites)
+> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (SUBJECT ID: 105418882)](https://zooniverse.org)  
+> **[ // EXPLORE MORE ASTRO-POETRY ALONGSIDE 3D GALAXY VISUALIZATIONS ](https://cyber-chic.github.io/nasa/universe)**
 
 <br>
 
