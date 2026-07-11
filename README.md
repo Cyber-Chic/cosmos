@@ -46,76 +46,93 @@ A light curve measures pixel intensity and solar brightness variations over fixe
 
 <br>
 
-🚀 [ STATION MAIN PORTAL: THE DATA ENGINE ]
-👉 **[ 🪐 LAUNCH THE LIVE INTERACTIVE SPACE APP ](https://github.io)**
+### 🌌 [ EXOPLANETARY FIELD OVERVIEWS ]
+> [**TrES-2 b**](https://science.nasa.gov/exoplanet-catalog/tres-2-b/) • [**TrES-3 b**](https://science.nasa.gov/exoplanet-catalog/tres-3-b/) • [**TrES-5 b**](https://science.nasa.gov/exoplanet-catalog/tres-5-b/) • [**Qatar-2 b**](https://science.nasa.gov/exoplanet-catalog/qatar-2-b/) • [**WASP-10 b**](https://science.nasa.gov/exoplanet-catalog/wasp-10-b/) • [**WASP-12 b**](https://science.nasa.gov/exoplanet-catalog/wasp-12-b/) • [**WASP-49 b**](https://science.nasa.gov/exoplanet-catalog/wasp-49-b/) • [**WASP-52 b**](https://science.nasa.gov/exoplanet-catalog/wasp-52-b/) • [**WASP-140 b**](https://science.nasa.gov/exoplanet-catalog/wasp-140-b/)
 
 ---
 
-### 🛰️ [ Citizen Science: The Core Research Database ]
-> **TrES-2 b** • **TrES-3 b** • **TrES-5 b** • **Qatar-2 b** • **WASP-10 b** • **WASP-12 b** • **WASP-49 b** • **WASP-52 b** • **WASP-140 b** • **Zooniverse Dataset #001**
-*Every planet listed here represents a real world in deep space that I have personally tracked, alongside active cosmic phenomena cataloged through my citizen science research on Zooniverse.*
-
----
-
-### 🎨 [ The Integrated Poem Gallery ]
-*The following verses serve as the creative fuel directly powering my live interactive galaxy map. Together, they translate cold data coordinates into living, visual art.*
+### 🎨 [ THE DESCRIPTIVE GALLERY: FEATURED SIGNALS ]
+*Selected "Signal Captures" merging astronomical open-source coordinates with our interdisciplinary micro-verse.*
 
 <br>
 
-#### 🌌 [ Research File: Zooniverse Dataset #001 ]
-> ### **CRAZY LIGHT FLASHES!**
-> ### **WITH RAYS BURSTING ROUND THE CORE—**
-> ### **ECLIPSING THE SCENE...**
-> — *Original Poetry // [Active Star Classification Log](https://www.zooniverse.org)*
->
-> **My Data Log:** Saved to official personal favorites database [Subject ID: 105418882].
-
-<br>
-
-#### 🔭 [ Planet File: TrES-2 b ]
+#### 🔭 [ TrES-2 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-2-b/)
 > ### **A VOID DRENCHED BY NIGHT.**
 > ### **DARKER THAN THE MIND'S SHADOWS.**
 > ### **WITH LIFELESS COAL PULSE.**
-> — *Original Haiku by Angela N. Moore // Integrated App Fuel*
+> — *Descriptive Haiku // Principal Investigator A. Moore*
 >
-> **My Data Log:** Successful transit observation on May 26, 2021 // [View Generated Light-Curve](https://aavso.org)
+> **VERIFIED STACKED DATA:** [MANBA-SET 2021-05-26](https://apps.aavso.org/exosite/g/10056)
 
 <br>
 
-#### 🔭 [ Planet File: WASP-12 b ]
+#### 🔭 [ WASP-12 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-12-b/)
 > ### **RAGING HOT FLAMES REIGN.**
 > ### **FURIOUSLY SCORCHING AIRS.**
 > ### **RULED BY PURE CHAOS.**
-> — *Original Haiku by Angela N. Moore // Integrated App Fuel*
+> — *Descriptive Haiku // Principal Investigator A. Moore*
 >
-> **My Data Log:** Successful transit observation on November 21, 2015 // [View Generated Light-Curve](https://aavso.org)
+> **VERIFIED STACKED DATA:** [MANBA-SET 2015-11-21](https://apps.aavso.org/exosite/g/11335)
 
 <br>
 
-#### 🔭 [ Planet File: TrES-3 b ]
+#### 🔭 [ TrES-3 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-3-b/)
 > ### **SPINNING AT TOP SPEEDS.**
 > ### **HURLING ROUND THE GALAXY.**
 > ### **TRANSCENDING TIME'S SAND.**
-> — *Original Haiku by Angela N. Moore // Integrated App Fuel*
+> — *Descriptive Haiku // Principal Investigator A. Moore*
 >
-> **My Data Log:** Multi-transit dataset verified (2011 • 2014 • 2022) // [View Master Observation Archive](https://aavso.org)
-
+> **VERIFIED STACKED DATA:** [2011-08-24](https://apps.aavso.org/exosite/g/9996) • [2014-06-22](https://apps.aavso.org/exosite/g/10889) • [2022-03-16](https://apps.aavso.org/exosite/g/11122)
 <br>
 
 <details>
-<summary>📂 <b>CLICK TO UNROLL: QUEUED DATA TARGETS IN THE CULTIVATION PIPELINE</b></summary>
+<summary>📂 <b>CLICK TO EXPAND: FULL ARCHIVAL GALLERY (SETS 003-013)</b></summary>
 <br>
 
-> [!NOTE]
-> **A Note on Future Adaptations:** The remaining research targets listed in my database are fully verified. I am currently crafting original poems for them, which will be added directly to the random generator inside the live 3D visualizer over time.
+#### 🔭 [ WASP-49 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-49-b)
+> ### **DECRYPTING SIGNAL...**
+> *Archival inquiry active // Literary synthesis in progress.*
+>
+> **VERIFIED STACKED DATA:** [MANBA-SET 2019-02-09](https://apps.aavso.org/exosite/g/10171)
 
-#### 📡 [ Queued System Adaptations: WASP-49 b • WASP-52 b • TrES-5 b • Qatar-2 b • WASP-10 b • WASP-140 b ]
-*   **Current State:** Deep-space transit data processed and safely stored // [Review Pipeline Ledger Coordinates](https://aavso.org)
-*   **The Creative Plan:** Expanding the interactive randomizer with new poetry layers.
+<br>
+
+#### 🔭 [ WASP-52 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-52-b/)
+> ### **SIGNAL PENDING...**
+>*Raw data archived (2 Observations) // Decryption queued.*
+>
+> **VERIFIED STACKED DATA:** [2015-11-19](https://apps.aavso.org/exosite/g/11239) • [2020-10-20](https://apps.aavso.org/exosite/g/10772)
+
+<br>
+
+#### 🔭 [ TrES-5 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-5-b/)
+> ### **SIGNAL PENDING...**
+> *Historical observation archived // Awaiting interdisciplinary synthesis.*
+>
+> **VERIFIED STACKED DATA:** [2013-04-15](https://apps.aavso.org/exosite/g/10123) • [2019-05-07](https://apps.aavso.org/exosite/g/11576)
 
 ---
+<br>
+
+#### 🛰️ [ STEWARDSHIP RECORD: ZOONIVERSE DISPATCHES ]
+*Active classifications recorded via public citizen science networks.*
+
+<br>
+
+#### 🌌 [ DATASET #001 ]  | [ 🪐 LAUNCH HUB ](EMAZE.ME)
+> ### **CRAZY LIGHT FLASHES!**
+> ### **WITH RAYS BURSTING ROUND THE CORE—**
+> ### **ECLIPSING THE SCENE...**
+> — *Phenomena: The Daily Minor Planet // Subject Word: Captivated*
+>
+> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (SUBJECT ID: 105418882)](https://zooniverse.org)  
+> **[ // EXPLORE MORE ASTRO-POETRY ALONGSIDE 3D GALAXY VISUALIZATIONS ](https://cyber-chic.github.io/nasa/universe)**
+
+<br>
+
 </details>
 
+---
 
 ## 🛰️ SIGNAL GUARDIANS // COLLABORATIVE ARCHIVE
 **MISSION LOG: // CO-CREATIVE NAVIGATORS**
