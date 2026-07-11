@@ -4,9 +4,7 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f1847e83-7011-45f8-b8e1-5218ccd9243a" width="100%" alt="Exoplanet Watch Header">
-</p>
+![Exoplanet Watch Header](https://github.com/user-attachments/assets/f1847e83-7011-45f8-b8e1-5218ccd9243a)
 
 <br>
 
@@ -25,127 +23,53 @@ I utilize the open-source **EXOTIC** (Exoplanet Timing Interpretation Code) Pyth
 
 <br>
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/user-attachments/assets/3bb90e63-2d81-40cc-ab98-5635f5c2c719" width="100%" style="max-width: 600px;" alt="EXOTIC Data Pipeline">
-</p>
+</div>
+
 
 ---
 
-## 📈 DATA VISUALIZATION: LIGHT CURVES
-A light curve measures pixel intensity and solar brightness variations over fixed time domains. When a planetary body transits its host star, it creates a clean, measurable dip in the light-curve array. These calculated dips mathematically reveal orbital length, thermal conditions, and structural density.
-* **Scientific Background:** [The Physics of Transits](https://exoplanets.nasa.gov/exoplanet-watch/about-exoplanet-watch/background/)
+<table>
+<tr>
+<td bgcolor="#08090f">
 
-<br>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0bfd70c7-2b1a-45c8-a47c-5bc736e7c962" width="100%" alt="Outer Space Planets">
-</p>
-
-## 🏛️ VETTED DISPATCHES: PROCESSED WORLDS
+## 🛰️ [ Citizen Science: The Poetry of Space ]
 *The following orbital targets have been successfully processed via our independent EXOTIC pipeline and archived into custom MANBA data structures.*
 
+> **TrES-2 b** • **TrES-3 b** • **TrES-5 b** • **Qatar-2 b** • **WASP-10 b** • **WASP-12 b** • **WASP-49 b** • **WASP-52 b** • **WASP-140 b**
+
+### 🎨 [ The App & Integrated Poetry ]
+*Every planet listed here represents a real world in deep space that I have personally tracked and generated light curves for. Mapped alongside active cosmic phenomena cataloged through my citizen science research on Zooniverse, these structural poetry logs serve as the creative fuel directly powering my live interactive galaxy map, translating cold data coordinates into living, visual art.*
+
+To experience these processed research targets as living, generative art, launch our interactive visualizer engine below. The system dynamically reads our raw database coordinates to map a rotating 3D galaxy network on your screen.
+
 <br>
 
-### 🌌 [ EXOPLANETARY FIELD OVERVIEWS ]
-> [**TrES-2 b**](https://science.nasa.gov/exoplanet-catalog/tres-2-b/) • [**TrES-3 b**](https://science.nasa.gov/exoplanet-catalog/tres-3-b/) • [**TrES-5 b**](https://science.nasa.gov/exoplanet-catalog/tres-5-b/) • [**Qatar-2 b**](https://science.nasa.gov/exoplanet-catalog/qatar-2-b/) • [**WASP-10 b**](https://science.nasa.gov/exoplanet-catalog/wasp-10-b/) • [**WASP-12 b**](https://science.nasa.gov/exoplanet-catalog/wasp-12-b/) • [**WASP-49 b**](https://science.nasa.gov/exoplanet-catalog/wasp-49-b/) • [**WASP-52 b**](https://science.nasa.gov/exoplanet-catalog/wasp-52-b/) • [**WASP-140 b**](https://science.nasa.gov/exoplanet-catalog/wasp-140-b/)
+> ### 👉 [ 🪐 LAUNCH THE LIVE INTERACTIVE SPACE APP ](https://github.io)
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🎨 [ THE DESCRIPTIVE GALLERY: FEATURED SIGNALS ]
-*Selected "Signal Captures" merging astronomical open-source coordinates with our interdisciplinary micro-verse.*
+## 🛰️ RECONNAISSANCE REVIEW // CT TECH WEEK BRIEFING
+**A Brief Report on My Recent Summit Exhibit**
+
+*   **The Showcase:** An interactive gallery presentation blending open citizen science data with independent poetry.
+*   **The Result:** A highly successful live demonstration with an excellent audience turn-out. 
+*   **Status Update:** The community request queue is now closed so the studio can focus entirely on expanding the core visual art features of the application.
+
+> [!IMPORTANT]
+> **SUMMIT METRIC UPDATE:** Our live demonstration concluded with excellent audience turnout. The raw community request queue is now closed so the studio can focus entirely on expanding the core visual art features of the application.
+> 
+> *“Explored the intersection of NASA’s data via the citizen science projects and interdisciplinary arts with The Moore Signal Archive LLC... Looking forward to analyzing Zooniverse data!”*  
+> — **Prakaithip Romanow**, Intelligent Automation & AI Leader // CT Tech Week Feedback
+
+
 
 <br>
-
-#### 🔭 [ TrES-2 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-2-b/)
-> ### **A VOID DRENCHED BY NIGHT.**
-> ### **DARKER THAN THE MIND'S SHADOWS.**
-> ### **WITH LIFELESS COAL PULSE.**
-> — *Descriptive Haiku // Principal Investigator A. Moore*
->
-> **VERIFIED STACKED DATA:** [MANBA-SET 2021-05-26](https://apps.aavso.org/exosite/g/10056)
-
-<br>
-
-#### 🔭 [ WASP-12 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-12-b/)
-> ### **RAGING HOT FLAMES REIGN.**
-> ### **FURIOUSLY SCORCHING AIRS.**
-> ### **RULED BY PURE CHAOS.**
-> — *Descriptive Haiku // Principal Investigator A. Moore*
->
-> **VERIFIED STACKED DATA:** [MANBA-SET 2015-11-21](https://apps.aavso.org/exosite/g/11335)
-
-<br>
-
-#### 🔭 [ TrES-3 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-3-b/)
-> ### **SPINNING AT TOP SPEEDS.**
-> ### **HURLING ROUND THE GALAXY.**
-> ### **TRANSCENDING TIME'S SAND.**
-> — *Descriptive Haiku // Principal Investigator A. Moore*
->
-> **VERIFIED STACKED DATA:** [2011-08-24](https://apps.aavso.org/exosite/g/9996) • [2014-06-22](https://apps.aavso.org/exosite/g/10889) • [2022-03-16](https://apps.aavso.org/exosite/g/11122)
-<br>
-
-<details>
-<summary>📂 <b>CLICK TO EXPAND: FULL ARCHIVAL GALLERY (SETS 003-013)</b></summary>
-<br>
-
-#### 🔭 [ WASP-49 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-49-b)
-> ### **DECRYPTING SIGNAL...**
-> *Archival inquiry active // Literary synthesis in progress.*
->
-> **VERIFIED STACKED DATA:** [MANBA-SET 2019-02-09](https://apps.aavso.org/exosite/g/10171)
-
-<br>
-
-#### 🔭 [ WASP-52 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/wasp-52-b/)
-> ### **SIGNAL PENDING...**
->*Raw data archived (2 Observations) // Decryption queued.*
->
-> **VERIFIED STACKED DATA:** [2015-11-19](https://apps.aavso.org/exosite/g/11239) • [2020-10-20](https://apps.aavso.org/exosite/g/10772)
-
-<br>
-
-#### 🔭 [ TrES-5 b ] | [ 🪐 VIEW ORBIT ](https://science.nasa.gov/exoplanet-catalog/tres-5-b/)
-> ### **SIGNAL PENDING...**
-> *Historical observation archived // Awaiting interdisciplinary synthesis.*
->
-> **VERIFIED STACKED DATA:** [2013-04-15](https://apps.aavso.org/exosite/g/10123) • [2019-05-07](https://apps.aavso.org/exosite/g/11576)
-
----
-<br>
-
-#### 🛰️ [ STEWARDSHIP RECORD: ZOONIVERSE DISPATCHES ]
-*Active classifications recorded via public citizen science networks.*
-
-<br>
-
-#### 🌌 [ DATASET #001 ]  | [ 🪐 LAUNCH HUB ](EMAZE.ME)
-> ### **CRAZY LIGHT FLASHES!**
-> ### **WITH RAYS BURSTING ROUND THE CORE—**
-> ### **ECLIPSING THE SCENE...**
-> — *Phenomena: The Daily Minor Planet // Subject Word: Captivated*
->
-> **VERIFIED FIELD DATA:** [THE MOORE ARCHIVE FAVORITES COLL. (SUBJECT ID: 105418882)](https://zooniverse.org)  
-> **[ // EXPLORE MORE ASTRO-POETRY ALONGSIDE 3D GALAXY VISUALIZATIONS ](https://cyber-chic.github.io/nasa/universe)**
-
-<br>
-
-</details>
-
----
-
-## 🛰️ SIGNAL GUARDIANS // COLLABORATIVE ARCHIVE
-**MISSION LOG: // CO-CREATIVE NAVIGATORS**
-
-The following navigators provided intentional observations during our archival briefings. By matching a **single-word frequency** to a specific **target orbit**, they help manifest the cosmic haiku archive.
-
-| NAVIGATOR | TARGET ANALYZED | SIGNAL LENGTH | DECRYPTED HAIKU | EVENT HUB |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Navigator Handle]** | TBD | 1 WORD | *Synthesis Pending* | CT TECH WEEK |
-| **[Navigator Handle]** | TBD | 1 WORD | *Synthesis Pending* | CT TECH WEEK |
-
-> [!TIP]
-> **PI NOTE:** The "Single-Word Protocol" ensures the highest signal-to-noise ratio. Each word acts as the anchor for a future Descriptive Haiku.
 
 ---
 
