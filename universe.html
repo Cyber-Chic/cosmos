@@ -350,10 +350,12 @@ let isDragging = false;
 let lastX = 0;
 let lastY = 0;
 
+// UPDATED STARFIELD REGISTRY: Guarantees visibility floors even on washed-out displays
 function drawStars() {
   stars.forEach(star => {
     star.alpha += Math.sin(pulseTimer * star.twinkleSpeed * 10) * 0.035;
-    star.alpha = Math.max(0.0, Math.min(star.alpha, 0.95)); 
+    // Raised the visibility floor from 0.0 to 0.25 so stars never completely vanish
+    star.alpha = Math.max(0.25, Math.min(star.alpha, 0.95));
 
     ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
     ctx.fillRect(star.x, star.y, star.size, star.size);
