@@ -46,30 +46,12 @@ To experience these processed research targets as living, generative art, launch
 
 <br>
 
-> ### 👉 [ 🪐 LAUNCH THE LIVE INTERACTIVE SPACE APP ](https://github.io)
+> ### 👉 [ 🪐 LAUNCH THE LIVE INTERACTIVE SPACE APP ](https://cyber-chic.github.io/cosmos/universe)
 
 </td>
 </tr>
 </table>
 
----
-
-## 🛰️ RECONNAISSANCE REVIEW // CT TECH WEEK BRIEFING
-**A Brief Report on My Recent Summit Exhibit**
-
-*   **The Showcase:** An interactive gallery presentation blending open citizen science data with independent poetry.
-*   **The Result:** A highly successful live demonstration with an excellent audience turn-out. 
-*   **Status Update:** The community request queue is now closed so the studio can focus entirely on expanding the core visual art features of the application.
-
-> [!IMPORTANT]
-> **SUMMIT METRIC UPDATE:** Our live demonstration concluded with excellent audience turnout. The raw community request queue is now closed so the studio can focus entirely on expanding the core visual art features of the application.
-> 
-> *“Explored the intersection of NASA’s data via the citizen science projects and interdisciplinary arts with The Moore Signal Archive LLC... Looking forward to analyzing Zooniverse data!”*  
-> — **Prakaithip Romanow**, Intelligent Automation & AI Leader // CT Tech Week Feedback
-
-
-
-<br>
 
 ---
 
@@ -81,8 +63,22 @@ To experience these processed research targets as living, generative art, launch
 | **JOINT SCOPES** | Universal Open-Science Data Briefing | [VIEW DATA PROFILES](https://www.aavso.org/exoplanet-watch-pr) |
 | **TECHNICAL DATA** | Direct MANBA Telemetry & Exosite Portal | [ACCESS DATA PACKETS](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) |
 | **OBSERVER HUB** | Official AAVSO Research Record // MANBA | [VIEW REPOSITORIES](https://www.aavso.org/users/angelamoore) |
-
 ---
+
+## 🛰️ RECONNAISSANCE REVIEW // CT TECH WEEK BRIEFING
+**A Brief Report on My Recent Summit Exhibit**
+
+*   **The Showcase:** [An interactive gallery presentation](https://luma.com/q0lm15pz) blending open citizen science data with independent poetry.
+*   **The Live Dynamic:** A studio session demonstrating how I bridge deep-space data analysis with handwritten literature.
+*   **Current Status:** The event intake portal is now closed so I can focus entirely on expanding the core visual repository and poetry vaults within the application.
+
+> [!IMPORTANT]
+> **SUMMIT FEEDBACK:** Our interactive briefing concluded with excellent professional reception from technology industry leadership who attended the session.
+> 
+> *“Explored the intersection of NASA’s data via the citizen science projects and interdisciplinary arts with The Moore Signal Archive LLC... Looking forward to analyzing Zooniverse data!”*  
+> — **[Prakaithip Romanow](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-activity-7468021299215310849-EIHr)**, Intelligent Automation & AI Leader // CT Tech Week Feedback
+
+
 
 ## 🛰️ RESEARCH FREQUENCY: TRANSITIONED
 **STATUS: ACTIVE // DEEP-SPACE ARCHIVE PROTOCOL**
@@ -91,10 +87,10 @@ To experience these processed research targets as living, generative art, launch
 
 **04 // THE ZOONIVERSE OPEN PROJECT**  
 [Ongoing Research Portfolio](https://www.zooniverse.org/users/Zooniverse-Volunteer/collections) — *Expansion of The Moore Signal Archive research scopes into deep space investigations. While the manual EXOTIC pipeline remains a closed archival set, active research persists through public open-science networks.*
-
 <br>
 
 ---
+
 
 ## 🛰️ RESEARCH COLLABORATION PROTOCOL
 **STATUS: INQUIRIES OPEN // 2026-2027 CYCLE**
