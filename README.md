@@ -48,7 +48,7 @@ To experience these processed research targets as living, generative art, launch
 
 > ### 👉 [ 🪐 LAUNCH THE LIVE INTERACTIVE SPACE APP ](https://cyber-chic.github.io/cosmos/universe)
 > <!-- Add this line directly beneath your main Launch button inside your dark box -->
->📖 [ **EXPLORE THE FULL POETRY TEXT INDEX (KEYWORD SEARCH ACTIVE)** ](https://github.com)
+>🪙 [ **VALIDATE PHYSICAL GEOCACHING COINS (COIN-001 REGISTERED)** ](COIN_LEDGER.md)
 
 
 </td>
