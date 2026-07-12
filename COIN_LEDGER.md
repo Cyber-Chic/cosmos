@@ -18,7 +18,7 @@ Here is how the art works:
 ---
 
 ### 🌌 [ CAPTURE ID: COIN-001 ]
-*   **Status:** Successfully Minted // Physical Drop Active
+*   **Status:** In Curation Pipeline // Production Queued
 *   **Space Data:** Zooniverse Research (Cosmic Targets & Signals)
 *   **The Master Verification Verse:**
     > ### **CRAZY LIGHT FLASHES!**
@@ -28,7 +28,7 @@ Here is how the art works:
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-002 ]
-*   **Status:** Successfully Minted // Physical Drop Active
+*   **Status:** In Curation Pipeline // Production Queued
 *   **Space Data:** Planet Space Data (TrES-2 b Transit Logs)
 *   **The Master Verification Verse:**
     > ### **A VOID DRENCHED BY NIGHT.**
@@ -38,7 +38,7 @@ Here is how the art works:
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-003 ]
-*   **Status:** Successfully Minted // Physical Drop Active
+*   **Status:** In Curation Pipeline // Production Queued
 *   **Space Data:** Planet Space Data (WASP-12 b Transit Logs)
 *   **The Master Verification Verse:**
     > ### **RAGING HOT FLAMES REIGN.**
