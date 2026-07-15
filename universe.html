@@ -14,24 +14,24 @@
     }
 
     /* 2. BODY RULES (Cleaned, sanitized, and safe) */
-    body {
-      max-width: 100vw;    /* Forces the layout to match the absolute mobile glass width */
-      overflow-x: hidden;  /* Cuts off and prevents any horizontal scrolling or shifting */
-      margin: 0;
-      padding: clamp(20px, 4vh, 40px) 20px; 
-      background-color: #030305;
-      color: #d1d9e6;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      max-height: 100vh; 
-      font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
-      box-sizing: border-box;
-      touch-action: manipulation; 
-      overflow: hidden; 
-    }
+body {
+  margin: 0;
+  padding: clamp(20px, 4vh, 40px) 20px; 
+  background-color: #030305;
+  color: #d1d9e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: 100vh; 
+  font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+  box-sizing: border-box;
+  touch-action: manipulation; 
+  overflow: hidden; 
+  overscroll-behavior: none; /* FIX: Completely kills mobile pull-to-refresh and rubber-band screen bouncing everywhere! */
+}
+
 
     /* 3. YOUR EXISTING SYSTEM RULES (Completely preserved and intact) */
 .container {
@@ -598,9 +598,14 @@ canvas.addEventListener('wheel', (e) => {
   else adjustZoom(-6);
 }, { passive: false });
 
-// UPGRADED: Core touch down tracking that cleanly maps the first active mobile finger point
+// UPGRADED: Core touch down tracking that intercepts native mobile page gestures completely
 function startDrag(e) {
+  // FIX: Stops the mobile operating system from treating edge touches as a pull-to-refresh gesture
+  if (e.cancelable) {
+    e.preventDefault();
+  }
   isDragging = true;
+  // Index 0 explicitly locks onto the first active finger tip to prevent multi-touch crashes
   let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e;
   lastX = touch.clientX;
   lastY = touch.clientY;
@@ -615,8 +620,8 @@ function doDrag(e) {
     e.preventDefault();
   }
   
-  // Extract coordinate data from the first active mobile touch point index list safely
-  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e; // FIX: Anchored safely to first finger index position context
+  // Index 0 extracts the precise moving coordinates from the first active finger trace
+  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e;
   if (touch.clientX === undefined || touch.clientY === undefined) return;
 
   const deltaX = touch.clientX - lastX;
@@ -628,7 +633,6 @@ function doDrag(e) {
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
-
 
 function stopDrag() { isDragging = false; }
 
