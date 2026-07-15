@@ -88,16 +88,18 @@
       max-width: 580px; 
       margin-bottom: clamp(10px, 2vh, 20px);
     }
-    canvas {
-      background: radial-gradient(circle, #08090f 0%, #030305 100%); 
-      border-radius: 16px; 
-      box-shadow: 0 0 40px rgba(0,0,0,0.9); 
-      cursor: grab; 
-      touch-action: none; 
-      width: 100%; 
-      height: auto; 
-      display: block;
-    }
+
+canvas {
+  background: radial-gradient(circle, #08090f 0%, #030305 100%); 
+  border-radius: 16px; 
+  box-shadow: 0 0 40px rgba(0,0,0,0.9); 
+  cursor: grab; 
+  touch-action: none; /* FIX: Tells mobile phone browsers NEVER to page-scroll while dragging on the image context */
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
     canvas:active {
       cursor: grabbing;
     }
@@ -604,12 +606,17 @@ function startDrag(e) {
   lastY = touch.clientY;
 }
 
-// UPGRADED: High-precision mobile finger tracking extraction loop
+// High-precision mobile finger tracking extraction loop
 function doDrag(e) {
   if (!isDragging) return;
   
+  // FIX: Intercepts mobile events and explicitly kills page-scrolling while actively spinning the 3D grid
+  if (e.cancelable) {
+    e.preventDefault();
+  }
+  
   // Extract coordinate data from the first active mobile touch point index list safely
-  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e;
+  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e; // FIX: Anchored safely to first finger index position context
   if (touch.clientX === undefined || touch.clientY === undefined) return;
 
   const deltaX = touch.clientX - lastX;
@@ -621,6 +628,7 @@ function doDrag(e) {
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
+
 
 function stopDrag() { isDragging = false; }
 
