@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Subject 105418882 Spectrum Profile</title>
+  <title>Deep Space Capture</title>
   <style>
     /* 1. DESKTOP MAX-WIDTH PICTURE FRAME (Locks content perfectly centered on big screens) */
     .archive-frame {
@@ -248,157 +248,264 @@
         
     </div> <!-- Correctly closes the .container block -->
 
-    <!-- SWIPE ENABLED COPYRIGHT SIGNATURE LANES (Sits cleanly below your main container) -->
-    <div class="footer-box mobile-scroll-row" style="margin-top: clamp(10px, 2vh, 20px); width: 100%; text-align: center;">
-      <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
-      <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
-      
-      <!-- TRADEMARK LIABILITY SHIELD: Seamless one-line footer protection -->
-      <div style="font-size: clamp(7px, 1.2vw, 8px); color: #313b4d; margin-top: 8px; letter-spacing: 0.5px;">Independent data art utilizing open public domain assets. Not affiliated with, funded by, or endorsed by NASA or Zooniverse.</div>
-    </div>
 
-  </div> <!-- Closes the .archive-frame container cleanly -->
+  <!-- SWIPE ENABLED COPYRIGHT SIGNATURE LANES (Sits cleanly below your main container) -->
+  <div class="footer-box mobile-scroll-row" style="margin-top: clamp(10px, 2vh, 20px); width: 100%; text-align: center; white-space: nowrap;">
+    <div>PROPERTY OF: <span style="color: #d1d9e6; font-weight: bold;">THE MOORE SIGNAL ARCHIVE LLC</span></div>
+    <div style="font-size: clamp(8px, 1.5vw, 10px); color: #434f63; margin-top: 4px;">Conceived by Angela N. Moore • Co-Engineered with AI Systems</div>
+
+    <!-- TRADEMARK LIABILITY SHIELD: Seamless one-line footer protection -->
+    <div style="font-size: clamp(7px, 1.2vw, 8px); color: #313b4d; margin-top: 8px; letter-spacing: 0.5px;">Independent data art utilizing open public domain assets. Not affiliated with, funded by, or endorsed by NASA or Zooniverse.</div>
+    
+    <!-- HIGH-IMMERSION SAFETY SHIELD: Tucked cleanly inside the footer grid -->
+    <div style="border-top: 1px dashed rgba(235, 40, 40, 0.12); margin-top: 8px; padding-top: 6px; font-size: clamp(8px, 1.4vw, 9.5px); color: #4b5563; letter-spacing: 1px;">
+      • SAFETY NOTE: High-intensity luminance blooms active during maximum focal zoom.
+    </div>
+  </div>
+
+</div> <!-- Closes the .container wrapper perfectly to prevent mobile layout clipping -->
 
 <script>
-// =========================================================================
-// 🚀 THE AUTONOMOUS QUANTUM DASHBOARD (NEVER NEEDS FUTURE CODE UPDATES)
-// =========================================================================
-const MASTER_CONFIG = {
-  urlMainSimulationPage: "https://github.io", 
-  urlResearchPortfolio: "https://github.com/cyber-chic", 
-  urlZooniverseAstronomy: "https://www.zooniverse.org/projects?discipline=astronomy",
+// ==========================================
+// 🛡️ PART A: DYNAMIC SCIENCE DATA & CONFIG ENGINE
+// ==========================================
 
-  poetryVault: [
-    { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND THE CORE—", l3: "ECLIPSING THE SCENE..." },
+const HAICU_POOL = [
+  { l1: "CRAZY LIGHT FLASHES!", l2: "WITH RAYS BURSTING ROUND THE CORE—", l3: "ECLIPSING THE SCENE..." },
     { l1: "SPINNING AT TOP SPEEDS.", l2: "HURLING ROUND THE GALAXY.", l3: "TRANSCENDING TIME'S SAND." },
     { l1: "A VOID DRENCHED BY NIGHT.", l2: "DARKER THAN THE MIND'S SHADOWS.", l3: "WITH LIFELESS COAL PULSE." },
     { l1: "RAGING HOT FLAMES REIGN.", l2: "FURIOUSLY SCORCHING AIRS.", l3: "RULED BY PURE CHAOS." }
-  ],
+];
 
-  initializeQuantumSystem: function() {
-    let lastPoemIndex = localStorage.getItem('mooreDashboardLastPoem');
-    let randomPoemIndex = Math.floor(Math.random() * this.poetryVault.length);
-
-    if (lastPoemIndex !== null && randomPoemIndex === parseInt(lastPoemIndex)) {
-      randomPoemIndex = (randomPoemIndex + 1) % this.poetryVault.length;
-    }
-    localStorage.setItem('mooreDashboardLastPoem', randomPoemIndex);
-
-    const selection = this.poetryVault[randomPoemIndex];
-    this.haikuL1 = selection.l1; this.haikuL2 = selection.l2; this.haikuL3 = selection.l3;
-
-    this.viewMode = "STAR";
-
-    this.quantumRadius = Math.floor(Math.random() * 35) + (Math.random() > 0.5 ? 45 : 85);       
-    this.quantumRingCount = Math.floor(Math.random() * 4 + 1);     
-    this.quantumFlickerSpeed = Math.random() * 0.04 + 0.01;        
-    this.showCrossHairs = Math.random() > 0.4;                     
-
-    let lastHue = localStorage.getItem('mooreDashboardLastHue');
-    let randomHue1 = Math.floor(Math.random() * 360);
-    
-    if (lastHue && Math.abs(randomHue1 - parseInt(lastHue)) < 40) {
-      randomHue1 = (randomHue1 + 120) % 360;
-    }
-    localStorage.setItem('mooreDashboardLastHue', randomHue1);
-    const randomHue2 = (randomHue1 + 180) % 360; 
-
-    this.colorCore = "rgba(255, 255, 255, 0.85)";
-    this.colorInnerGlow = `hsla(${randomHue1}, 95%, 50%, 0.35)`.replace(' ', ''); 
-    this.colorMidPlasma = `hsla(${randomHue1}, 80%, 40%, 0.18)`.replace(' ', ''); 
-    this.colorOuterFlare = "rgba(0, 0, 0, 0)";
-    this.colorRingBack = `hsla(${randomHue2}, 70%, 40%, 0.25)`.replace(' ', '');   
-    this.colorRingFront = `hsla(${randomHue2}, 85%, 50%, 0.55)`.replace(' ', '');
-
-    this.mainTitle = "Deep Space Capture ⟳"; 
-    this.paletteLabel = `Spectral Spectrum Axis H-${randomHue1} / Target R-${randomHue2}`;
+// EXPANDED: 8 Distinct, High-Immersion Sci-Fi Color Profiles
+const PALETTE_POOL = [
+  {
+    name: "CRIMSON QUANTUM EMISSION // CORONAL FLARE ACTIVE",
+    core: "#ffffff", inner: "rgba(255, 77, 77, 0.8)", mid: "rgba(235, 40, 40, 0.35)", outer: "rgba(235, 40, 40, 0.1)",
+    back: "rgba(235, 40, 40, 0.35)", front: "rgba(255, 120, 120, 0.8)", theme: "#ff4d4d", telemetryBorder: "rgba(235, 40, 40, 0.15)"
+  },
+  {
+    name: "AMBER PLASMA IGNITION // STELLAR DYNAMICS RECORDED",
+    core: "#ffffff", inner: "rgba(245, 158, 11, 0.8)", mid: "rgba(217, 119, 6, 0.35)", outer: "rgba(217, 119, 6, 0.1)",
+    back: "rgba(217, 119, 6, 0.35)", front: "rgba(251, 191, 36, 0.8)", theme: "#f59e0b", telemetryBorder: "rgba(217, 119, 6, 0.15)"
+  },
+  {
+    name: "CYAN ION EMISSION // COLD COBALT SHIELDS ONLINE",
+    core: "#ffffff", inner: "rgba(6, 182, 212, 0.8)", mid: "rgba(8, 145, 178, 0.35)", outer: "rgba(8, 145, 178, 0.1)",
+    back: "rgba(8, 145, 178, 0.35)", front: "rgba(34, 211, 238, 0.8)", theme: "#06b6d4", telemetryBorder: "rgba(8, 145, 178, 0.15)"
+  },
+  {
+    name: "VIOLET NEBULA CONDENSATION // EXOTIC MATTER DETECTED",
+    core: "#ffffff", inner: "rgba(168, 85, 247, 0.8)", mid: "rgba(147, 51, 234, 0.35)", outer: "rgba(147, 51, 234, 0.1)",
+    back: "rgba(147, 51, 234, 0.35)", front: "rgba(192, 132, 252, 0.8)", theme: "#a855f7", telemetryBorder: "rgba(147, 51, 234, 0.15)"
+  },
+  {
+    name: "SOLAR IGNITION ARRAY // HELIOSPHERIC MAXIMA SPIKE",
+    core: "#ffffff", inner: "rgba(239, 68, 68, 0.8)", mid: "rgba(249, 115, 22, 0.4)", outer: "rgba(253, 224, 71, 0.1)",
+    back: "rgba(249, 115, 22, 0.3)", front: "rgba(254, 240, 138, 0.85)", theme: "#f97316", telemetryBorder: "rgba(249, 115, 22, 0.15)"
+  },
+  {
+    name: "EMERALD VOID RADIATION // AURORAL FILAMENT TRACKING",
+    core: "#ffffff", inner: "rgba(34, 197, 94, 0.8)", mid: "rgba(16, 185, 129, 0.35)", outer: "rgba(20, 184, 166, 0.1)",
+    back: "rgba(16, 185, 129, 0.35)", front: "rgba(187, 247, 208, 0.8)", theme: "#22c55e", telemetryBorder: "rgba(16, 185, 129, 0.15)"
+  },
+  {
+    name: "DEEP SAPPHIRE QUASAR // HIGH-ENERGY ACCRETION FIELD",
+    core: "#ffffff", inner: "rgba(59, 130, 246, 0.8)", mid: "rgba(29, 78, 216, 0.4)", outer: "rgba(30, 58, 138, 0.15)",
+    back: "rgba(29, 78, 216, 0.35)", front: "rgba(147, 197, 253, 0.8)", theme: "#3b82f6", telemetryBorder: "rgba(29, 78, 216, 0.15)"
+  },
+  {
+    name: "SUPERNOVA WHITE CORE // CHRONO-SILVER MATRIX",
+    core: "#ffffff", inner: "rgba(226, 232, 240, 0.8)", mid: "rgba(148, 163, 184, 0.4)", outer: "rgba(71, 85, 105, 0.1)",
+    back: "rgba(148, 163, 184, 0.35)", front: "rgba(255, 255, 255, 0.9)", theme: "#e2e8f0", telemetryBorder: "rgba(148, 163, 184, 0.15)"
   }
+];
+
+// Fetch historical variables from browser cache
+let lastRingCount = parseInt(localStorage.getItem('lastRingCount')) || 0;
+let lastPaletteIndex = parseInt(localStorage.getItem('lastPaletteIndex')) || 0;
+let lastCoreRadius = parseInt(localStorage.getItem('lastCoreRadius')) || 0;
+let viewedPoemIndices = JSON.parse(localStorage.getItem('viewedPoemIndices')) || [];
+
+// 1. Calculate Fresh Ring Count (3 to 7)
+let currentRingCount = Math.floor(Math.random() * 5) + 3;
+while (currentRingCount === lastRingCount) {
+  currentRingCount = Math.floor(Math.random() * 5) + 3;
+}
+localStorage.setItem('lastRingCount', currentRingCount);
+
+// 2. Calculate Fresh Color Scheme Profile
+let currentPaletteIndex = Math.floor(Math.random() * PALETTE_POOL.length);
+while (currentPaletteIndex === lastPaletteIndex) {
+  currentPaletteIndex = Math.floor(Math.random() * PALETTE_POOL.length);
+}
+localStorage.setItem('lastPaletteIndex', currentPaletteIndex);
+const activePalette = PALETTE_POOL[currentPaletteIndex];
+
+// 3. UPDATED: Calculate Fresh Scale (With 30% chance for a Micro-Zoomed-Out background entity!)
+let currentCoreRadius = 75;
+let isDeepField = Math.random() < 0.30; 
+
+if (isDeepField) {
+  currentCoreRadius = Math.floor(Math.random() * 16) + 12; // Tiny Deep Field Object (12px to 27px)
+} else {
+  currentCoreRadius = Math.floor(Math.random() * 61) + 55; // Nearby Massive Object (55px to 115px)
+}
+while (Math.abs(currentCoreRadius - lastCoreRadius) < 8) {
+  currentCoreRadius = isDeepField ? (Math.floor(Math.random() * 16) + 12) : (Math.floor(Math.random() * 61) + 55);
+}
+localStorage.setItem('lastCoreRadius', currentCoreRadius);
+
+// 4. Calculate Non-Repeating Poetry Exhaustion Array
+if (viewedPoemIndices.length >= HAICU_POOL.length) { viewedPoemIndices = []; }
+let availablePoemIndices = HAICU_POOL.map((_, index) => index).filter(index => !viewedPoemIndices.includes(index));
+let chosenPoemIndex = availablePoemIndices[Math.floor(Math.random() * availablePoemIndices.length)];
+viewedPoemIndices.push(chosenPoemIndex);
+localStorage.setItem('viewedPoemIndices', JSON.stringify(viewedPoemIndices));
+const activePoem = HAICU_POOL[chosenPoemIndex];
+
+// Append descriptor text if a Deep Field object was captured
+let calculatedLabel = activePalette.name;
+if (isDeepField) {
+  calculatedLabel = "DEEP CONFIG FIELD // MICRO-OBJECT RESIDUE DETECTED // " + calculatedLabel;
+}
+
+window.MASTER_CONFIG = window.MASTER_CONFIG || {
+  mainTitle: "Deep Space Capture ⟳", 
+  paletteLabel: calculatedLabel,
+  viewMode: "STAR",
+  quantumRadius: currentCoreRadius, 
+  quantumRingCount: currentRingCount,
+  quantumFlickerSpeed: 0.015,
+  showCrossHairs: true,
+  
+  colorCore: activePalette.core,                     
+  colorInnerGlow: activePalette.inner,  
+  colorMidPlasma: activePalette.mid, 
+  colorOuterFlare: activePalette.outer, 
+  colorRingBack: activePalette.back,  
+  colorRingFront: activePalette.front,
+  
+  urlResearchPortfolio: "https://caltech.edu",
+  urlZooniverseAstronomy: "https://zooniverse.org",
+  
+  haikuL1: activePoem.l1,
+  haikuL2: activePoem.l2,
+  haikuL3: activePoem.l3,
+  
+  initializeQuantumSystem: function() { console.log("Quantum simulation stabilized."); }
 };
+
+MASTER_CONFIG.initializeQuantumSystem();
 
 const canvas = document.getElementById('spaceCanvas');
 const ctx = canvas.getContext('2d');
-const stars = [];
 
-// UPGRADED: Wipes and completely regenerates a unique night sky pattern on every single inline capture click
-function runCaptureCycle() {
-  MASTER_CONFIG.initializeQuantumSystem();
-  radius = MASTER_CONFIG.quantumRadius;
-  
-  // Wipe old positions clean
-  stars.length = 0; 
-  
-  // Repopulate starry coordinates fresh
-  for(let i=0; i<120; i++) {
-    stars.push({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: Math.random() * 2.2 + 0.4,           
-      alpha: Math.random() * 0.8, 
-      twinkleSpeed: Math.random() * 0.04 + 0.02 
-    });
-  }
-  
-  document.getElementById('displayTitleLink').innerText = MASTER_CONFIG.mainTitle;
-  document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
-  document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
-  document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
-  document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
+const stars = [];
+for(let i=0; i<120; i++) {
+  stars.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    size: Math.random() * 2.2 + 0.4,           
+    alpha: Math.random() * 0.8, 
+    twinkleSpeed: Math.random() * 0.04 + 0.02 
+  });
+}
+
+const ringProfiles = [];
+for(let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
+  ringProfiles.push({
+    radiusMultiplier: 1.3 + (r * 0.4) + (Math.random() * 0.2), 
+    tiltOffset: (Math.random() - 0.5) * 75, // Upgraded: slightly higher tilt range                   
+    spinPhase: Math.random() * Math.PI * 2,                    
+    driftSpeed: (Math.random() * 0.02 + 0.005) * (Math.random() > 0.5 ? 1 : -1) 
+  });
 }
 
 const coreX = canvas.width / 2;
 const coreY = canvas.height / 2;
-let radius = 90; 
+let radius = MASTER_CONFIG.quantumRadius; 
 
-let rotX = 0; 
-let rotY = 0; 
+let rotX = 45; 
+let rotY = 25; 
 let pulseTimer = 0;
 
 let isDragging = false;
 let lastX = 0;
 let lastY = 0;
 
-// UPDATED STARFIELD REGISTRY: Guarantees visibility floors even on washed-out displays
 function drawStars() {
   stars.forEach(star => {
     star.alpha += Math.sin(pulseTimer * star.twinkleSpeed * 10) * 0.035;
-    // Raised the visibility floor from 0.0 to 0.25 so stars never completely vanish
-    star.alpha = Math.max(0.25, Math.min(star.alpha, 0.95));
-
+    star.alpha = Math.max(0.0, Math.min(star.alpha, 0.95)); 
     ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
     ctx.fillRect(star.x, star.y, star.size, star.size);
   });
 }
 
+function project3D(radius3D, angle3D, localTilt, globalPitch, globalYaw) {
+  let x3d = radius3D * Math.cos(angle3D);
+  let y3d = radius3D * Math.sin(angle3D) * Math.sin(localTilt * Math.PI / 180); 
+  let z3d = radius3D * Math.sin(angle3D) * Math.cos(localTilt * Math.PI / 180);
+
+  let x1 = x3d * Math.cos(globalYaw) - z3d * Math.sin(globalYaw);
+  let z1 = x3d * Math.sin(globalYaw) + z3d * Math.cos(globalYaw);
+  let y2 = y3d * Math.cos(globalPitch) - z1 * Math.sin(globalPitch);
+  let z2 = y3d * Math.sin(globalPitch) + z1 * Math.cos(globalPitch);
+
+  const focalLength = 450; 
+  const scale = focalLength / (focalLength + z2);
+  return { x: coreX + x1 * scale, y: coreY + y2 * scale, depth: z2, size: scale };
+}
+
+// ==========================================
+// 🎨 PART C: LAYERED DEPTH RENDERING LOOP
+// ==========================================
 function drawModeA_StellarCore(currentRadius) {
   let quantumRadiusBase = currentRadius;
+  const globalPitch = rotX * Math.PI / 180; 
+  const globalYaw = rotY * Math.PI / 180;
 
-  // Pass 1: Render Rear Half of Energy Rings
+  // PASS 1: Rear Half of the Cosmic Rings (Behind Core)
   ctx.save();
-  ctx.translate(coreX, coreY);
-  ctx.rotate(rotX * 0.005);
-  ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
-  ctx.lineWidth = 2.2;
-  for(let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
-    ctx.beginPath();
-    ctx.ellipse(0, 0, quantumRadiusBase * (1.2 + r * 0.35), quantumRadiusBase * 0.22, (rotY + r * 45) * Math.PI / 180, Math.PI, 0);
-    ctx.stroke();
+  ctx.globalCompositeOperation = 'lighter'; 
+  for (let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
+    let profile = ringProfiles[r];
+    let ringRadius = quantumRadiusBase * profile.radiusMultiplier;
+    ctx.strokeStyle = MASTER_CONFIG.colorRingBack;
+    
+    for (let step = 0; step < 180; step++) {
+      let angleA = (step / 180) * Math.PI * 2 + (pulseTimer * profile.driftSpeed) + profile.spinPhase;
+      let angleB = ((step + 1) / 180) * Math.PI * 2 + (pulseTimer * profile.driftSpeed) + profile.spinPhase;
+
+      let pA = project3D(ringRadius, angleA, profile.tiltOffset, globalPitch, globalYaw);
+      let pB = project3D(ringRadius, angleB, profile.tiltOffset, globalPitch, globalYaw);
+
+      if (pA.depth > 0 && pB.depth > 0) {
+        ctx.beginPath();
+        ctx.lineWidth = (1.8 * pA.size) + Math.sin(step * 0.08 + pulseTimer) * 0.3;
+        ctx.moveTo(pA.x, pA.y);
+        ctx.lineTo(pB.x, pB.y);
+        ctx.stroke();
+      }
+    }
   }
   ctx.restore();
 
-  // Pass 2: Giant Coronal Flare Glow Grid 
-  let coronaGlow = ctx.createRadialGradient(coreX, coreY, Math.max(1, quantumRadiusBase - 30), coreX, coreY, quantumRadiusBase + 120);
+  // PASS 2: Coronal Plasma Flare Atmosphere
+  let coronaGlow = ctx.createRadialGradient(coreX, coreY, Math.max(1, quantumRadiusBase - 25), coreX, coreY, quantumRadiusBase + 110);
   coronaGlow.addColorStop(0, MASTER_CONFIG.colorInnerGlow); 
   coronaGlow.addColorStop(0.5, MASTER_CONFIG.colorMidPlasma); 
   coronaGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
   ctx.fillStyle = coronaGlow;
   ctx.beginPath();
-  ctx.arc(coreX, coreY, quantumRadiusBase + 120, 0, Math.PI * 2);
+  ctx.arc(coreX, coreY, quantumRadiusBase + 110, 0, Math.PI * 2);
   ctx.fill();
 
-  // Pass 3: Concentrated Plasma Core
-  let tiltX = Math.sin(rotX * 0.02) * (quantumRadiusBase * 0.2);
-  let tiltY = Math.sin(rotY * 0.02) * (quantumRadiusBase * 0.2);
-  let coreBody = ctx.createRadialGradient(coreX + tiltX, coreY + tiltY, 2, coreX, coreY, quantumRadiusBase);
+  // PASS 3: High-Intensity Central Core
+  let tiltX = Math.sin(globalYaw) * (quantumRadiusBase * 0.12);
+  let tiltY = Math.sin(globalPitch) * (quantumRadiusBase * 0.12);
+  let coreBody = ctx.createRadialGradient(coreX + tiltX, coreY - tiltY, 2, coreX, coreY, quantumRadiusBase);
   coreBody.addColorStop(0, MASTER_CONFIG.colorCore);                     
   coreBody.addColorStop(0.2, MASTER_CONFIG.colorInnerGlow);                   
   coreBody.addColorStop(0.6, MASTER_CONFIG.colorMidPlasma);                   
@@ -408,34 +515,47 @@ function drawModeA_StellarCore(currentRadius) {
   ctx.arc(coreX, coreY, quantumRadiusBase, 0, Math.PI * 2);
   ctx.fill();
 
-  // Pass 4: Render Front Half of Energy Rings
+  // PASS 4: Front Half of the Cosmic Rings (Wraps Over Core)
   ctx.save();
-  ctx.translate(coreX, coreY);
-  ctx.rotate(rotX * 0.005);
-  ctx.strokeStyle = MASTER_CONFIG.colorRingFront; 
-  ctx.lineWidth = 2.2;
-  for(let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
-    ctx.beginPath();
-    ctx.ellipse(0, 0, quantumRadiusBase * (1.2 + r * 0.35), quantumRadiusBase * 0.22, (rotY + r * 45) * Math.PI / 180, 0, Math.PI);
-    ctx.stroke();
+  ctx.globalCompositeOperation = 'lighter';
+  for (let r = 0; r < MASTER_CONFIG.quantumRingCount; r++) {
+    let profile = ringProfiles[r];
+    let ringRadius = quantumRadiusBase * profile.radiusMultiplier;
+    ctx.strokeStyle = MASTER_CONFIG.colorRingFront;
+    
+    for (let step = 0; step < 180; step++) {
+      let angleA = (step / 180) * Math.PI * 2 + (pulseTimer * profile.driftSpeed) + profile.spinPhase;
+      let angleB = ((step + 1) / 180) * Math.PI * 2 + (pulseTimer * profile.driftSpeed) + profile.spinPhase;
+
+      let pA = project3D(ringRadius, angleA, profile.tiltOffset, globalPitch, globalYaw);
+      let pB = project3D(ringRadius, angleB, profile.tiltOffset, globalPitch, globalYaw);
+
+      if (pA.depth <= 0 && pB.depth <= 0) {
+        ctx.beginPath();
+        ctx.lineWidth = (2.2 * pA.size) + Math.cos(step * 0.08 + pulseTimer) * 0.3;
+        ctx.moveTo(pA.x, pA.y);
+        ctx.lineTo(pB.x, pB.y);
+        ctx.stroke();
+      }
+    }
   }
   ctx.restore();
 
-  // Pass 5: Shifting Star Spot Matrix
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+  // PASS 5: Rotating Photon Core Spots
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
   for(let j = 0; j < 5; j++) {
-    let spotX = coreX + Math.sin(rotX * 0.01 + j + pulseTimer * 0.15) * (quantumRadiusBase * 0.5);
-    let spotY = coreY + Math.cos(rotY * 0.01 + j + pulseTimer * 0.1) * (quantumRadiusBase * 0.5);
-    if (Math.hypot(spotX - coreX, spotY - coreY) < quantumRadiusBase - 8) {
+    let spotX = coreX + Math.sin(globalPitch + j + pulseTimer * 0.12) * (quantumRadiusBase * 0.4);
+    let spotY = coreY + Math.cos(globalYaw + j + pulseTimer * 0.08) * (quantumRadiusBase * 0.4);
+    if (Math.hypot(spotX - coreX, spotY - coreY) < quantumRadiusBase - 6) {
       ctx.beginPath();
-      ctx.arc(spotX, spotY, 2 + j, 0, Math.PI * 2);
+      ctx.arc(spotX, spotY, 1.5 + j, 0, Math.PI * 2);
       ctx.fill();
     }
   }
 
-  // Pass 6: Quantum Cross-Hair Toggle Overlay System
+  // PASS 6: Sci-Fi HUD Cross-Hair Overlay
   if (MASTER_CONFIG.showCrossHairs) {
-    ctx.strokeStyle = 'rgba(235, 40, 40, 0.12)';
+    ctx.strokeStyle = activePalette.inner; 
     ctx.lineWidth = 1;
     ctx.beginPath();
     ctx.moveTo(coreX - quantumRadiusBase - 40, coreY); ctx.lineTo(coreX + quantumRadiusBase + 40, coreY);
@@ -450,33 +570,26 @@ function drawModeD_OrbBody() {}
 
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  pulseTimer += MASTER_CONFIG.quantumFlickerSpeed; 
-
+  pulseTimer += MASTER_CONFIG.quantumFlickerSpeed;
   drawStars();
 
   let dynamicPulse = Math.sin(pulseTimer) * 6;
-  let currentRadius = Math.max(20, radius + dynamicPulse);
+  let currentRadius = Math.max(5, radius + dynamicPulse); // Lowered minimum threshold to fit micro-cores safely
 
   switch(MASTER_CONFIG.viewMode) {
-    case "STAR":
-      drawModeA_StellarCore(currentRadius);
-      break;
-    case "COMET":
-      drawModeB_EjectaTrail();
-      break;
-    case "CLOUD":
-      drawModeC_DiffuseCloud();
-      break;
-    case "PLANET":
-      drawModeD_OrbBody();
-      break;
+    case "STAR": drawModeA_StellarCore(currentRadius); break;
+    case "COMET": drawModeB_EjectaTrail(); break;
+    case "CLOUD": drawModeC_DiffuseCloud(); break;
+    case "PLANET": drawModeD_OrbBody(); break;
   }
-
   requestAnimationFrame(draw);
 }
 
+// ==========================================
+// 🕹️ PART D: INTERACTION & HUD EVENT HANDLERS
+// ==========================================
 function adjustZoom(amount) {
-  radius = Math.min(Math.max(radius + amount, 35), 220);
+  radius = Math.min(Math.max(radius + amount, 8), 250); // Extended limits to protect both zoom extremes
 }
 
 document.getElementById('zoomIn').addEventListener('click', () => adjustZoom(15));
@@ -490,7 +603,7 @@ canvas.addEventListener('wheel', (e) => {
 
 function startDrag(e) {
   isDragging = true;
-  let touch = e.touches ? e.touches[0] : e;
+  let touch = e.touches ? e.touches : e;
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
@@ -498,23 +611,20 @@ function startDrag(e) {
 function doDrag(e) {
   if (!isDragging) return;
   if (e.cancelable) e.preventDefault(); 
-  
-  let touch = e.touches ? e.touches[0] : e;
+  let touch = e.touches ? e.touches : e;
   if (touch.clientX === undefined || touch.clientY === undefined) return;
 
   const deltaX = touch.clientX - lastX;
   const deltaY = touch.clientY - lastY;
   
-  rotX += deltaX * 0.5; 
-  rotY += deltaY * 0.5; 
+  rotY += deltaX * 0.35; 
+  rotX -= deltaY * 0.35; 
   
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
 
-function stopDrag() {
-  isDragging = false;
-}
+function stopDrag() { isDragging = false; }
 
 canvas.addEventListener('mousedown', startDrag);
 window.addEventListener('mousemove', doDrag);
@@ -524,18 +634,47 @@ canvas.addEventListener('touchstart', startDrag, { passive: true });
 window.addEventListener('touchmove', doDrag, { passive: false });
 window.addEventListener('touchend', stopDrag);
 
-document.getElementById('displayTitleLink').addEventListener('click', (e) => {
-  e.preventDefault();
-  runCaptureCycle();
-});
+const refreshTitleLink = document.getElementById('displayTitleLink');
+if (refreshTitleLink) {
+  refreshTitleLink.addEventListener('click', (e) => {
+    e.preventDefault(); 
+    window.location.reload(); 
+  });
+}
 
+const infoLabel = document.querySelector('.info');
+if (infoLabel) {
+  infoLabel.style.pointerEvents = "auto"; 
+  infoLabel.style.cursor = "pointer";
+  infoLabel.addEventListener('click', (e) => {
+    e.stopPropagation();
+    window.location.reload();
+  });
+}
+
+// Dynamic UI elements recolor
+document.querySelector('.main-title').style.color = "#cbd5e1"; 
+document.querySelector('.main-title').style.textShadow = "none";
+if (refreshTitleLink) {
+  refreshTitleLink.style.color = activePalette.theme;
+  refreshTitleLink.style.textShadow = `0 0 10px ${activePalette.inner}`;
+}
+document.querySelectorAll('.zoom-btn').forEach(btn => {
+  btn.style.color = activePalette.theme;
+  btn.style.borderColor = activePalette.inner;
+});
+document.querySelector('.telemetry-box').style.borderColor = activePalette.telemetryBorder;
+if(infoLabel) infoLabel.style.color = activePalette.theme;
+
+if (refreshTitleLink) refreshTitleLink.innerText = MASTER_CONFIG.mainTitle;
+document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
 document.getElementById('lnkZoo').href = MASTER_CONFIG.urlResearchPortfolio;
 document.getElementById('lnkCurve').href = MASTER_CONFIG.urlZooniverseAstronomy;
-document.getElementById('displayTitleLink').href = MASTER_CONFIG.urlMainSimulationPage;
+document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
+document.getElementById('poemRow2').innerText = MASTER_CONFIG.haikuL2;
+document.getElementById('poemRow3').innerText = MASTER_CONFIG.haikuL3;
 
-runCaptureCycle();
 draw();
 </script>
-
 </body>
 </html>
