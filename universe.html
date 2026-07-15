@@ -34,17 +34,18 @@
     }
 
     /* 3. YOUR EXISTING SYSTEM RULES (Completely preserved and intact) */
-    .container {
-      display: flex; 
-      flex-direction: column; 
-      align-items: center; 
-      width: 100%; 
-      max-width: 650px; 
-      padding: 0 10px; 
-      box-sizing: border-box;
-      overflow-x: hidden; 
-      touch-action: none;
-    }
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
+  max-width: 650px; 
+  padding: 0 10px; 
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  touch-action: pan-y; /* FIX: Allows standard vertical browsing while unlocking 3D drag gestures */
+}
+
     .container * {
       touch-action: manipulation; 
     }
@@ -452,9 +453,6 @@ function project3D(radius3D, angle3D, localTilt, globalPitch, globalYaw) {
   return { x: coreX + x1 * scale, y: coreY + y2 * scale, depth: z2, size: scale };
 }
 
-
-
-
 // ==========================================
 // 🎨 PART C: LAYERED DEPTH RENDERING LOOP
 // ==========================================
@@ -598,17 +596,20 @@ canvas.addEventListener('wheel', (e) => {
   else adjustZoom(-6);
 }, { passive: false });
 
+// UPGRADED: Core touch down tracking that cleanly maps the first active mobile finger point
 function startDrag(e) {
   isDragging = true;
-  let touch = e.touches ? e.touches : e;
+  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e;
   lastX = touch.clientX;
   lastY = touch.clientY;
 }
 
+// UPGRADED: High-precision mobile finger tracking extraction loop
 function doDrag(e) {
   if (!isDragging) return;
-  if (e.cancelable) e.preventDefault(); 
-  let touch = e.touches ? e.touches : e;
+  
+  // Extract coordinate data from the first active mobile touch point index list safely
+  let touch = (e.touches && e.touches.length > 0) ? e.touches[0] : e;
   if (touch.clientX === undefined || touch.clientY === undefined) return;
 
   const deltaX = touch.clientX - lastX;
@@ -627,7 +628,8 @@ canvas.addEventListener('mousedown', startDrag);
 window.addEventListener('mousemove', doDrag);
 window.addEventListener('mouseup', stopDrag);
 
-canvas.addEventListener('touchstart', startDrag, { passive: true });
+// FIX: Hooks mobile hardware input points up with passive set to false so dragging runs instantly
+canvas.addEventListener('touchstart', startDrag, { passive: false });
 window.addEventListener('touchmove', doDrag, { passive: false });
 window.addEventListener('touchend', stopDrag);
 
@@ -637,7 +639,6 @@ if (refreshTitleLink) {
     e.preventDefault(); 
     window.location.reload(); 
   });
-  // FIX: Dedicated smartphone touch tap handler for the main header title button
   refreshTitleLink.addEventListener('touchend', (e) => {
     e.preventDefault();
     window.location.reload();
@@ -652,7 +653,6 @@ if (infoLabel) {
     e.stopPropagation();
     window.location.reload();
   });
-  // FIX: Dedicated mobile hardware touch listener to bypass bubbling blocks on screen tap
   infoLabel.addEventListener('touchend', (e) => {
     e.stopPropagation();
     window.location.reload();
