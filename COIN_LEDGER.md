@@ -14,7 +14,7 @@
 > 1. Digital text art of the dedicated poem is transmitted via radio ground waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth.
 > 2. The satellite network routes and displays the text layout on a physical **Google Pixel smartphone screen** nested inside its orbital chassis.
 > 3. An onboard aerospace camera snaps a physical photograph of the glowing phone screen with the **literal curvature, cloud systems, and oceans of Planet Earth** visible in the background.
-> 4. To independently verify the satellite's active position, altitude, and live telemetry data right now, you can cross-reference the [SAT GUS Space-Track Registry](https://satnogs.org).
+> 4. To independently verify the satellite's active position, altitude, and live telemetry data right now, you can cross-reference the [SAT GUS Space-Track Registry (NORAD ID: 55432)](https://satnogs.org).
 
 ---
 
@@ -32,8 +32,9 @@ Here is how the art works:
 ### 🌌 [ CAPTURE ID: COIN-001 ]
 *   **Status:** 🛰️ Beamed to Orbit
 *   **Orbital Proof:** [📷 View Raw Space Photograph (TBB2WKZ Trackable Gallery)](https://geocaching.com)
-*   **Telemetry Log:** Launched via SpaceX // Orbiting aboard SAT GUS CubeSat at ~512km altitude.
+*   **Uplink Log:** Transmitted via L-band radio frequencies to SAT GUS (NORAD ID: 55432). Captured over geographic bounds: New England Horizon.
 *   **Space Data:** Zooniverse Research (Cosmic Targets & Signals)
+*   **Research Data Log:** [📊 View Project Classifications & Analysis Dashboard (Zooniverse)](https://zooniverse.org)
 *   **The Master Verification Verse:**
     > ### **CRAZY LIGHT FLASHES!**
     > ### **WITH RAYS BURSTING ROUND THE CORE—**
@@ -42,10 +43,11 @@ Here is how the art works:
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-002 ]
-*   **Status:** 🛰️ Beamed to Orbit
-*   **Orbital Proof:** [📷 View Raw Space Photograph (TBB2WKZ Trackable Gallery)](https://geocaching.com)
-*   **Telemetry Log:** Capture triggered on orbital overpass directly above project origin: Glastonbury, CT.
+*   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
+*   **Orbital Proof:** *Pending satellite transmission queue.*
+*   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (TrES-2 b Transit Logs)
+*   **Research Data Log:** [📊 View Fitted Transit Light Curve Dataset (NASA Exoplanet Watch)](https://nasa.gov)
 *   **The Master Verification Verse:**
     > ### **A VOID DRENCHED BY NIGHT.**
     > ### **DARKER THAN THE MIND'S SHADOWS.**
@@ -54,10 +56,11 @@ Here is how the art works:
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-003 ]
-*   **Status:** ⏳ Telemetry Scheduled // In Curation Pipeline
+*   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
 *   **Orbital Proof:** *Pending satellite transmission queue.*
-*   **Telemetry Log:** Uplink sequence preparing for next regional atmospheric horizon crossover.
+*   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (WASP-12 b Transit Logs)
+*   **Research Data Log:** [📊 View Target Transit Curve & Star Properties (NASA Exoplanet Watch)](https://nasa.gov)
 *   **The Master Verification Verse:**
     > ### **RAGING HOT FLAMES REIGN.**
     > ### **FURIOUSLY SCORCHING AIRS.**
@@ -66,10 +69,11 @@ Here is how the art works:
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-004 ]
-*   **Status:** ⏳ Telemetry Scheduled // In Curation Pipeline
+*   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
 *   **Orbital Proof:** *Pending satellite transmission queue.*
-*   **Telemetry Log:** Uplink sequence preparing for next regional atmospheric horizon crossover.
+*   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (TrES-3 b Transit Logs)
+*   **Research Data Log:** [📊 View Photometric Light Curve Analysis Data (NASA Exoplanet Watch)](https://nasa.gov)
 *   **The Master Verification Verse:**
     > ### **SPINNING AT TOP SPEEDS.**
     > ### **HURLING ROUND THE GALAXY.**
