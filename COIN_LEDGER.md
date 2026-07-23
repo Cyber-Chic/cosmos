@@ -7,7 +7,7 @@
 ---
 
 ### 👋 WELCOME, TRAVELER!
-Whether you discovered a physical coin tucked inside a **[Free Little Art Gallery [ FEATURE ]](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** as part of a global treasure hunt for collectible art pieces—or you are an independent explorer tracking this network from afar, welcome to the archive.
+Whether you discovered a physical coin tucked inside a **[Free Little Art Gallery [ FEATURE ]](https://freelittleartgalleries.art)** as part of a global treasure hunt for collectible art pieces—or you are an independent explorer tracking this network from afar, welcome to the archive.
 
 Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying galaxies & other celestial phenomena on the **Zooniverse** network. I wanted to turn these cold celestial records into living, emotional art.
 
@@ -15,7 +15,7 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 
 **CHOOSE YOUR PATH TO EXPLORE:**
 * 🪐 **The Visual Universe:** Launch my live **[Interactive 3D Galaxy Map](https://github.io)** to explore the cosmos and see these handwritten verses cycle dynamically on your screen.
-* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://space.crunchlabs.com/livestream)**.
+* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://crunchlabs.com)**.
 
 ---
 
