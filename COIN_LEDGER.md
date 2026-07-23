@@ -22,61 +22,61 @@
 If you found one of my physical, custom space poetry coins out in the real world—welcome! Every coin I drop is a unique collectible stamped with an official ID code. 
 
 Here is how the art works:
-1. **The Space Data:** This lines up your coin with actual astronomical research I personally conducted, including tracking distant planet transits for Exoplanet Watch, or classifying stars, galaxies, and other celestial phenomena on the public Zooniverse network.
-2. **The Verification Verse:** This is the hand-crafted, original poem I wrote to match those exact cosmic data points, translating cold space records into living, emotional art.
+1. **The Verification Verse:** This is the hand-crafted, original poem I wrote to match specific cosmic data points, translating cold space records into living, emotional art.
+2. **The Space Data:** This lines up your coin with actual astronomical research I personally conducted, including tracking distant planet transits for Exoplanet Watch, or classifying stars, galaxies, and other celestial phenomena on the public Zooniverse network.
 
 *Launch my live **[🪐 Interactive 3D Galaxy Map](https://github.io)** to view artistic visualizations of these celestial targets & see the poetry cycle dynamically on your screen!*
 
 ---
 
 ### 🌌 [ CAPTURE ID: COIN-001 ]
+> ### **CRAZY LIGHT FLASHES!**
+> ### **WITH RAYS BURSTING ROUND THE CORE—**
+> ### **ECLIPSING THE SCENE...**
+
 *   **Status:** 🛰️ Beamed to Orbit
-*   **Orbital Proof:** [📷 View Raw Space Photograph (TBB2WKZ Trackable Gallery)](https://geocaching.com)
+*   **Orbital Proof:** [📷 View Raw Space Photograph (GitHub Archive Master Copy)](https://github.com)
 *   **Uplink Log:** Transmitted via L-band radio frequencies to SAT GUS (NORAD ID: 55432). Captured over geographic bounds: New England Horizon.
 *   **Space Data:** Zooniverse Research (Cosmic Targets & Signals)
-*   **Research Data Log:** [📊 View Project Classifications & Analysis Dashboard (Zooniverse)](https://zooniverse.org)
-*   **The Master Verification Verse:**
-    > ### **CRAZY LIGHT FLASHES!**
-    > ### **WITH RAYS BURSTING ROUND THE CORE—**
-    > ### **ECLIPSING THE SCENE...**
+*   **Research Data Log:** [📊 View Project Classifications & Analysis Dashboard](https://zooniverse.org)
 
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-002 ]
+> ### **A VOID DRENCHED BY NIGHT.**
+> ### **DARKER THAN THE MIND'S SHADOWS.**
+> ### **WITH LIFELESS COAL PULSE.**
+
 *   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
-*   **Orbital Proof:** *Pending satellite transmission queue.*
+*   **Orbital Proof:** *Pending satellite transmission queue. Full portrait will unlock on GitHub upon downlink confirmation.*
 *   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (TrES-2 b Transit Logs)
-*   **Research Data Log:** [📊 View Fitted Transit Light Curve Dataset (NASA Exoplanet Watch)](https://nasa.gov)
-*   **The Master Verification Verse:**
-    > ### **A VOID DRENCHED BY NIGHT.**
-    > ### **DARKER THAN THE MIND'S SHADOWS.**
-    > ### **WITH LIFELESS COAL PULSE.**
+*   **Research Data Log:** [📊 View Fitted Transit Light Curve Dataset](https://nasa.gov)
 
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-003 ]
+> ### **RAGING HOT FLAMES REIGN.**
+> ### **FURIOUSLY SCORCHING AIRS.**
+> ### **RULED BY PURE CHAOS.**
+
 *   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
-*   **Orbital Proof:** *Pending satellite transmission queue.*
+*   **Orbital Proof:** *Pending satellite transmission queue. Full portrait will unlock on GitHub upon downlink confirmation.*
 *   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (WASP-12 b Transit Logs)
-*   **Research Data Log:** [📊 View Target Transit Curve & Star Properties (NASA Exoplanet Watch)](https://nasa.gov)
-*   **The Master Verification Verse:**
-    > ### **RAGING HOT FLAMES REIGN.**
-    > ### **FURIOUSLY SCORCHING AIRS.**
-    > ### **RULED BY PURE CHAOS.**
+*   **Research Data Log:** [📊 View Target Transit Curve & Star Properties](https://nasa.gov)
 
 <br>
 
 ### 🌌 [ CAPTURE ID: COIN-004 ]
+> ### **SPINNING AT TOP SPEEDS.**
+> ### **HURLING ROUND THE GALAXY.**
+> ### **TRANSCENDING TIME'S SAND.**
+
 *   **Status:** ⏳ Uplink Scheduled // Staged in Ground Buffer
-*   **Orbital Proof:** *Pending satellite transmission queue.*
+*   **Orbital Proof:** *Pending satellite transmission queue. Full portrait will unlock on GitHub upon downlink confirmation.*
 *   **Uplink Log:** Payload data staging in ground station buffer. Awaiting scheduled orbital overpass window.
 *   **Space Data:** Planet Space Data (TrES-3 b Transit Logs)
-*   **Research Data Log:** [📊 View Photometric Light Curve Analysis Data (NASA Exoplanet Watch)](https://nasa.gov)
-*   **The Master Verification Verse:**
-    > ### **SPINNING AT TOP SPEEDS.**
-    > ### **HURLING ROUND THE GALAXY.**
-    > ### **TRANSCENDING TIME'S SAND.**
+*   **Research Data Log:** [📊 View Photometric Light Curve Analysis Data](https://nasa.gov)
 
 ---
