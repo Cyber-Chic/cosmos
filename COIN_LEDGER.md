@@ -5,31 +5,26 @@
 > **📱 MOBILE FILTER LOGIC:** Use your browser's menu to select **"Find on Page"** and type your exact coin number to skip straight to your asset validation log.
 
 ---
+### 👋 WELCOME, TRAVELER!
+Whether you found a physical coin inside a Free Little Art Gallery, or you are a map explorer browsing our digital tracking network—we are glad you are here. 
 
-### 👋 QUICK START: YOU FOUND A SPACE POEM!
-If you just scanned a coin from a Free Little Art Gallery—congratulations! 
+**CHOOSE YOUR PATH:**
+*   **✨ If You Found a Coin:** Match the number on your coin to the ledger below to read your full, completed cosmic poem!
+*   **🛰️ If You Are Just Browsing:** You are warmly invited to explore our alternative digital spaces:
+    *   Launch our live **[🪐 Interactive 3D Galaxy Map](https://github.io)** to see these celestial targets mapped in 3D alongside dynamically cycling, handwritten poetry.
+    *   Read our official **[🎨 Free Little Art Gallery Project Story](https://github.com)** to see exactly how this physical-digital experiment came to life.
 
-*   **The Art:** Your coin holds a line of a custom poem. Full texts are listed below.
-*   **The Science:** Every verse translates real astronomical research I personally conducted, including tracking distant planet transits for Exoplanet Watch, or classifying stars, galaxies, and other celestial phenomena on the public Zooniverse network.
-*   **The Orbit:** Text files are beamed up to a real satellite computer orbiting 500km high.
-*   **The 3D Map:** Launch the live **[🪐 Interactive 3D Galaxy Map](https://github.io)** to see these celestial targets and watch the poetry cycle dynamically on your screen!
-*   **The Backstory:** Read our official **[🎨 Free Little Art Gallery Project Story](https://github.com)** to see how this physical-digital experiment came to life.
-
----
-
-<details>
-<summary>🛰️ PROOF OF ORBIT: HOW THIS WORKS (TAP TO EXPAND)</summary>
-
-Every asset marked **[🛰️ Beamed to Orbit]** has physically traveled into outer space. The studio does not use CGI or digital filters.
-1. **The Uplink:** Poem text art is transmitted via radio waves to the **SAT GUS** CubeSat.
-2. **The Display:** Onboard systems display the layout on a physical smartphone screen in space.
-3. **The Photo:** An aerospace camera snaps a picture of the screen with **Planet Earth** behind it.
-4. **Tracking:** Verify live orbital position via the [SAT GUS Registry (NORAD ID: 55432)](https://satnogs.org).
-</details>
 
 ---
 
-### 🌌 [ CAPTURE ID: COIN-001 ]
+### 🛰️ THE ORBITAL BROADCAST: HOW THIS WORKS
+Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying stars and galaxies on the **Zooniverse** network. 
+
+To complete the physical-digital loop, text files of these poems are beamed into orbit via radio waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth. The satellite displays the poem layout on a physical **Google Pixel smartphone screen** nested inside its chassis, and an onboard camera snaps a physical photograph of the screen with **Planet Earth** visible in the background! You can verify live tracking details via the [SAT GUS Space Registry (NORAD ID: 55432)](https://satnogs.org).
+
+---
+
+### 🌌 [ COIN ID: 001 ]
 > ### **CRAZY LIGHT FLASHES!**
 > ### **WITH RAYS BURSTING ROUND THE CORE—**
 > ### **ECLIPSING THE SCENE...**
@@ -46,7 +41,7 @@ Every asset marked **[🛰️ Beamed to Orbit]** has physically traveled into ou
 
 <br>
 
-### 🌌 [ CAPTURE ID: COIN-002 ]
+### 🌌 [ COIN ID: 002 ]
 > ### **A VOID DRENCHED BY NIGHT.**
 > ### **DARKER THAN THE MIND'S SHADOWS.**
 > ### **WITH LIFELESS COAL PULSE.**
@@ -63,7 +58,7 @@ Every asset marked **[🛰️ Beamed to Orbit]** has physically traveled into ou
 
 <br>
 
-### 🌌 [ CAPTURE ID: COIN-003 ]
+### 🌌 [ COIN ID: 003 ]
 > ### **RAGING HOT FLAMES REIGN.**
 > ### **FURIOUSLY SCORCHING AIRS.**
 > ### **RULED BY PURE CHAOS.**
@@ -80,7 +75,7 @@ Every asset marked **[🛰️ Beamed to Orbit]** has physically traveled into ou
 
 <br>
 
-### 🌌 [ CAPTURE ID: COIN-004 ]
+### 🌌 [ COIN ID: 004 ]
 > ### **SPINNING AT TOP SPEEDS.**
 > ### **HURLING ROUND THE GALAXY.**
 > ### **TRANSCENDING TIME'S SAND.**
