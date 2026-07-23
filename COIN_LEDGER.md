@@ -20,7 +20,14 @@ Whether you found a physical coin inside a Free Little Art Gallery, or you are a
 ### 🛰️ THE ORBITAL BROADCAST: HOW THIS WORKS
 Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying stars and galaxies on the **Zooniverse** network. 
 
-To complete the physical-digital loop, text files of these poems are beamed into orbit via radio waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth. The satellite displays the poem layout on a physical **Google Pixel smartphone screen** nested inside its chassis, and an onboard camera snaps a physical photograph of the screen with **Planet Earth** visible in the background! You can verify live tracking details via the [SAT GUS Space Registry (NORAD ID: 55432)](https://satnogs.org).
+To complete the physical-digital loop, text files of these poems are beamed into orbit via radio waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth.
+
+**The Space Camera Process:**
+1. The satellite displays the poem layout on a physical **Google Pixel smartphone screen** nested inside its chassis.
+2. An onboard aerospace camera snaps a physical photograph of the screen.
+3. The **literal curvature, cloud systems, and oceans of Planet Earth** serve as the backdrop!
+
+You can independently verify live tracking details via the [SAT GUS Space Registry (NORAD ID: 55432)](https://satnogs.org).
 
 ---
 
