@@ -47,7 +47,7 @@ While our signature emblem remains a constant message—like a repeating heartbe
 <summary>✨ View Cosmic Target & Space Photo Data</summary>
 
 *   **Project Status:** ⏳ Staged for Orbit // Preparing for Launch
-*   **Satellite Footage:** `[ Queue Active ]` *Orbital downlink pending. Your unique space snapshot will unlock here upon verification.*
+*   **Satellite Footage:** `[ Queue Active ]` *Orbital space capture pending. Your unique portrait will unlock here upon downlink confirmation.*
 *   **The Inspiration:** Planet Space Data (TrES-2b Transit Records)
 *   **Explore the Science:** 📊 [View my Planetary Transit Curve (Python)](https://nasa.gov)
 </details>
