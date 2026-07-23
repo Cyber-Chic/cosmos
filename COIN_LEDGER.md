@@ -15,7 +15,7 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 
 **CHOOSE YOUR PATH TO EXPLORE:**
 * 🪐 **The Visual Universe:** Launch my live **[Interactive 3D Galaxy Map](https://github.io)** to explore the cosmos and see these handwritten verses cycle dynamically on your screen.
-* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://crunchlabs.com)**.
+* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://spaceselfie.com/)**.
 
 ---
 
