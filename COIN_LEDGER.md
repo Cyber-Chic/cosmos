@@ -27,8 +27,8 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 <details>
 <summary>✨ View Cosmic Target & Space Photo Data</summary>
 
-*   **Project Status:** 🛰️ Beamed to Space // Transmission Complete
-*   **Satellite Footage:** `[ Access Granted ]` 📷 [View the Raw Space Photograph](https://github.io)
+*   **Project Status:** ⏳ Staged for Orbit // [ Preparing for Launch  (EST. 1 - 2 years)](https://spaceselfie.com/)*
+*   **Satellite Footage:** `[ Queue Active ]` 📷 *Orbital space capture pending.*
 *   **The Inspiration:** My Citizen Science Research (Cosmic Targets & Signals)
 *   **Explore the Science:** 📊 [View the Public Research Log & Dashboard](https://zooniverse.org)
 </details>
@@ -43,7 +43,7 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 <details>
 <summary>✨ View Cosmic Target & Space Photo Data</summary>
 
-*   **Project Status:** ⏳ Staged for Orbit // Preparing for Launch
+*   **Project Status:** ⏳ Staged for Orbit // [ Preparing for Launch  (EST. 1 - 2 years)](https://spaceselfie.com/)*
 *   **Satellite Footage:** `[ Queue Active ]` 📷 *Orbital space capture pending.*
 *   **The Inspiration:** Planet Space Data (TrES-2b Transit Records)
 *   **Explore the Science:** 📊 [View my Planetary Transit Curve (Python)](https://nasa.gov)
@@ -59,7 +59,7 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 <details>
 <summary>✨ View Cosmic Target & Space Photo Data</summary>
 
-*   **Project Status:** ⏳ Staged for Orbit // Preparing for Launch
+*   **Project Status:** ⏳ Staged for Orbit // [ Preparing for Launch  (EST. 1 - 2 years)](https://spaceselfie.com/)*
 *   **Satellite Footage:** `[ Queue Active ]` 📷 *Orbital space capture pending.*
 *   **The Inspiration:** Planet Space Data (WASP-12b Transit Records)
 *   **Explore the Science:** 📊 [View my Planetary Transit Curve (Python)](https://nasa.gov)
@@ -75,7 +75,7 @@ To complete this physical-to-orbital transmission, a digital rendering of our si
 <details>
 <summary>✨ View Cosmic Target & Space Photo Data</summary>
 
-*   **Project Status:** ⏳ Staged for Orbit // Preparing for Launch
+*   **Project Status:** ⏳ Staged for Orbit // [ Preparing for Launch  (EST. 1 - 2 years)](https://spaceselfie.com/)*
 *   **Satellite Footage:** `[ Queue Active ]` 📷 *Orbital space capture pending.*
 *   **The Inspiration:** Planet Space Data (TrES-3b Transit Records)
 *   **Explore the Science:** 📊 [View my Planetary Transit Curve (Python)](https://nasa.gov)
