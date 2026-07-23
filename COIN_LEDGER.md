@@ -18,7 +18,7 @@ While our signature emblem remains a constant message—like a repeating heartbe
 **CHOOSE YOUR PATH TO EXPLORE:**
 * 🪐 **The Visual Universe:** Launch our live **[Interactive 3D Galaxy Map](https://github.io)** to rotate the cosmos and see these handwritten verses cycle dynamically on your screen.
 * 🗺️ **The Big Picture:** Read our official **[Flagship Project Story](https://github.com)** to explore our global community treasure hunt and see how our collectible art pieces connect.
-* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://satnogs.org)**.
+* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://space.crunchlabs.com/)**.
 
 ---
 
