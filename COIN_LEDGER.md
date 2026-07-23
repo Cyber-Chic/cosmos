@@ -7,20 +7,21 @@
 ---
 
 ### 👋 WELCOME, TRAVELER!
-Whether you discovered a physical coin tucked inside a Free Little Art Gallery, or you are an independent explorer tracking our network from across the globe—we are so glad you are here. 
+Whether you discovered a physical coin tucked inside a Free Little Art Gallery—discovered as part of our **[Featured FLAG Story](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** showcasing how our collectible art pieces connect across the globe—or you are an independent explorer tracking our network from afar, we are so glad you are here. 
 
-Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying stars and galaxies on the **Zooniverse** network. I wanted to turn these cold celestial records into living, emotional art. 
+Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying stars and galaxies on the **Zooniverse** network. I wanted to turn these cold celestial records into living, emotional art.
 
-To complete this physical-to-orbital transmission, a digital rendering of our signature obsidian-black coin face is beamed directly into outer space, uplinking via radio waves to **SAT GUS**, an active satellite orbiting 500km above Earth. The satellite displays our minimalist coin design on an internal smartphone screen inside its casing, while an onboard camera takes a real photograph of it with the gorgeous blue oceans, swirling cloud systems, and literal curvature of Planet Earth as the background! 
+To complete this physical-to-orbital transmission, a digital rendering of our signature obsidian-black coin face is beamed directly into outer space, uplinking via radio waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth. The satellite displays our minimalist coin design on an internal Google Pixel smartphone screen inside its chassis, while an onboard aerospace camera takes a real photograph of it with the gorgeous blue oceans, swirling cloud systems, and literal curvature of Planet Earth as the background! 
 
 While our signature emblem remains a constant message—like a repeating heartbeat in the night—the changing weather patterns of Earth give each scheduled photo a completely unique, unrepeatable snapshot in time.
 
 **CHOOSE YOUR PATH TO EXPLORE:**
-* 🪐 **The Visual Universe:** Launch our live **[Interactive 3D Galaxy Map](https://github.io)** to rotate the cosmos and see these handwritten verses cycle dynamically on your screen.
-* 🗺️ **The Big Picture:** Read our official **[Flagship Project Story](https://github.com)** to explore our global community treasure hunt and see how our collectible art pieces connect.
-* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://space.crunchlabs.com/)**.
+* 🪐 **The Visual Universe:** Launch our live **[Interactive 3D Galaxy Map](https://github.io)** to explore the cosmos and see these handwritten verses cycle dynamically on your screen.
+* 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://space.crunchlabs.com/livestream)**.
 
 ---
+
+
 
 ### 🌌 [ CAPTURE ID: COIN-001 ]
 > ### **CRAZY LIGHT FLASHES!**
