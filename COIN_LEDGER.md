@@ -9,7 +9,7 @@
 ### 👋 WELCOME, TRAVELER!
 Whether you discovered a physical coin tucked inside a **[Free Little Art Gallery [ FEATURE ]](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** as part of a global treasure hunt for collectible art pieces—or you are an independent explorer tracking this network from afar, welcome to the archive.
 
-Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying stars and galaxies on the **Zooniverse** network. I wanted to turn these cold celestial records into living, emotional art.
+Every verse listed below translates real astronomical research I personally conducted—including tracking planet transits for **Exoplanet Watch** or classifying galaxies & other celestial phenomena on the **Zooniverse** network. I wanted to turn these cold celestial records into living, emotional art.
 
 To complete this physical-to-orbital transmission, a digital rendering of our signature obsidian-black coin face is beamed directly into outer space, uplinking via radio waves to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth. The satellite displays our minimalist coin design on an internal Google Pixel smartphone screen inside its chassis, while an onboard aerospace camera takes a real photograph of it with the gorgeous blue oceans, swirling cloud systems, and literal curvature of Planet Earth as the background! While this signature emblem remains a constant message—like a repeating heartbeat in the night—the changing weather patterns of Earth give each scheduled photo a completely unique, unrepeatable snapshot in time.
 
