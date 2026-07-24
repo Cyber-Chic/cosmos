@@ -13,7 +13,7 @@ Every verse listed below translates real astronomical research I personally cond
 
 To complete this physical-to-orbital transmission, our custom 3D Galaxy Simulator art prints are actively being sent straight into outer space! Our artwork reaches the cosmos through two unique signals:
 * 🛰️ **The Broadcast Signal:** A digital rendering of our signature coin face is beamed directly to **SAT GUS**, an active 12U CubeSat satellite orbiting 500km above Earth, displaying on-screen against the real curvature of the planet.
-* 🚀 **The Rocket Signal:** High-fidelity 4x4 prints of our digital cosmos artwork are launched physically past the Karman Line into zero-gravity space aboard commercial rocket flights.
+* 🚀 **The Rocket Signal:** High-fidelity 4x6 prints of our digital cosmos artwork are launched physically past the Karman Line into zero-gravity space aboard commercial rocket flights.
 
 ---
 
@@ -28,7 +28,9 @@ Check out the real 3D images of our cosmos art that are currently being sent to 
 * 🪐 **The Visual Universe:** Launch my live **[Interactive 3D Galaxy Map](https://github.io)** to explore the cosmos and see these handwritten verses cycle dynamically on your screen.
 * 🛰️ **The Satellite Orbit:** You can quietly follow our satellite's live tracking path via the **[SAT GUS Tracker (NORAD ID: 55432)](https://crunchlabs.com)**.
 
+
 ---
+
 
 ### 🌌 [ CAPTURE ID: COIN-001 ]
 > ### **CRAZY LIGHT FLASHES!**
