@@ -23,6 +23,7 @@ To complete this physical-to-orbital transmission, our custom 3D Galaxy Simulato
 
 **CHOOSE YOUR PATH TO EXPLORE:**
 * 🪐 **The Visual Universe:** Launch my live **[Interactive 3D Galaxy Map](https://github.io)** to explore the cosmos and see these handwritten verses cycle dynamically on your screen.
+* 🪙 **The Master Coin Portfolio:** Visit our official **[Geocaching Trackable Log Book (ID: TBB2WKZ)](https://geocaching.com)** to log your physical coin discovery, share photos, and read our global traveler notes.
 
 ---
 
