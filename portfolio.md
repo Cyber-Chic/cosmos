@@ -1,7 +1,12 @@
 # 📡 The Moore Signal Archive // Visual Registry Log
 *A public, open-access inventory separating our data signal from the noise.*
 
+> ### 🌐 [ ENTER CENTRAL INDEX ](https://linktr.ee/themooresignal)
+> *Navigational portal to celestial logs, gallery snapshots, and full archival records.*
+
 ---
+
+
 
 <details>
 <summary><b>📦 REGISTRY ➔ #TMA-001 │ Traveling Key [ WA DROP ]</b></summary>
