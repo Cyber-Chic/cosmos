@@ -4,7 +4,7 @@
 ---
 
 <details>
-<summary><b>📦 REGISTRY ➔ #TMA-001 (Traveling Key)</b></summary>
+<summary><b>📦 REGISTRY ➔ #TMA-001 (Traveling Key | WA DROP)</b></summary>
 <br>
 
 | | |
@@ -25,7 +25,7 @@
 ---
 
 <details>
-<summary><b>📦 REGISTRY ➔ #ID-972411 (Metallic Canvas Print)</b></summary>
+<summary><b>📦 REGISTRY ➔ #ID-972411 (Poetry Print | CT FLAG)</b></summary>
 <br>
 
 | | |
@@ -50,7 +50,7 @@
 ---
 
 <details>
-<summary><b>📦 REGISTRY ➔ #ID-819420 (Poetry Literature Piece)</b></summary>
+<summary><b>📦 REGISTRY ➔ #ID-819420 (Poetry Book | NY FLAG)</b></summary>
 <br>
 
 | | |
@@ -73,7 +73,7 @@
 ---
 
 <details>
-<summary><b>📦 REGISTRY ➔ #TMA-FLAG-CT01 (Exhibition Print)</b></summary>
+<summary><b>📦 REGISTRY ➔ #ID-143527 (Poetry Book | CT Exhibit)</b></summary>
 <br>
 
 | | |
