@@ -79,7 +79,7 @@ Each artifact features a fragmented poetry verse translating citizen science res
 These artifacts are scheduled for deployment into outer space via two distinct celestial pathways:
 
 *   **1. Commercial Rocket Flight Manifests:**
-    *   Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, snapshot **[captures](https://tr.ee/9DnwSyN7xp)** of the 3D Galaxy Visualizations will also be printed as physical mementos to accompany these flagship treasures. 
+    *   Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, **[snapshot captures](https://tr.ee/9DnwSyN7xp)** of the 3D Galaxy Visualizations will also be printed as physical mementos to accompany these flagship treasures. 
     *   These physical artifacts are slated to cross the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://www.clubforfuture.org/postcards)** before returning to Earth.
     
 *   **2. The Cosmic Exhibition (Scheduled Space Capture):**
