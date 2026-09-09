@@ -17,7 +17,7 @@
 | **Artifact** | HIDDEN KEY • Mixed-media print on a metallic canvas substrate. |
 | **Medium** | Ink, watercolor, and colored pencil. |
 | **Provenance** | CT ➔ WA ➔ AR ➔ OK ➔ OH |
-| **Context** | Dispatched 2/27/26 • Anchored at [Geocaching HQ](https://geocaching.com) |
+| **Context** | Dispatched 2/27/26 • Anchored at [Geocaching HQ](https://coord.info/TBB8P4T) |
 | **Logistics** | Code en verso unlocks virtual archive entry. |
 
 #### 📂 Archive Documentation
@@ -63,7 +63,7 @@
 | **Artifact** | Limited-release autographed poetry edition. |
 | **Medium** | Literature featuring original mixed-media illustration. |
 | **Provenance** | Buffalo Free Little Art Gallery, NY |
-| **Context** | Featured Release • [EXHIBIT DETAILS](https://instagram.com) |
+| **Context** | Featured Release • [EXHIBIT DETAILS](https://www.instagram.com/p/DYdeVJhxhDX/) |
 
 #### 📂 Archive Documentation
 [🔍 View Layout Part 1](https://github.com/user-attachments/assets/bcbb2821-a7a4-4f32-baee-3ed2717aea84) • [🔍 View Layout Part 2](https://github.com/user-attachments/assets/f028a613-ced2-4346-8d35-1ed883074af6)
@@ -86,7 +86,7 @@
 | **Artifact** | Limited-release autographed poetry edition. |
 | **Medium** | Literature featuring original mixed-media illustration. |
 | **Provenance** | Ely Center for Contemporary Art `[ CT ]` |
-| **Context** | Deployed @ [#CTTechWeek](https://luma.com) • [EXHIBIT DETAILS](https://linkedin.com) |
+| **Context** | Deployed @ [#CTTechWeek](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAYfOpcBrnwtnS9rgebG859ruEu2Hp25ylk) • [EXHIBIT DETAILS](https://luma.com/q0lm15pz) |
 | **Documentation** | Imagery captured by Gallery Director Aimée Burg. |
 
 #### 📂 Archive Documentation
