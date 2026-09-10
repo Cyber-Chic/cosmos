@@ -92,7 +92,8 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 <br>
 
-🪐 **EXPLORE THE MAP:** Launch the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to view these handwritten verses procedurally mapped within a simulated celestial environment. Select **[images ](https://tr.ee/9DnwSyN7xp)** are transmitted to space.
+🪐 **EXPLORE THE MAP:** Launch the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to view these handwritten verses procedurally mapped within a simulated celestial environment. Select snapshot captures are manifested for spacebound rocket flight.
+
 
 ---
 
