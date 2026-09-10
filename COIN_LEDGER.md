@@ -68,7 +68,7 @@ Each artifact features a fragmented poetry verse translating citizen science res
 
 These artifacts are scheduled for deployment into outer space via two distinct celestial pathways:
 
-* **1. Rocket Flight Manifests:** Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, snapshot captures of the 3D Galaxy Visualizations will be printed as physical mementos to accompany these flagship treasures across the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://tr.ee/9DnwSyN7xpg)** before returning to Earth.
+* **1. Rocket Flight Manifests:** Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, snapshot captures of the 3D Galaxy Visualizations will be printed as physical mementos to accompany these flagship treasures across the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://www.clubforfuture.org/postcards)** before returning to Earth.
 * **2. The Cosmic Exhibition:** A digital rendering featuring the hand-inked *verso* side of COIN-001 and COIN-002 interwoven with my additional artwork has been formally scheduled for a live broadcast. As the satellite orbits Planet Earth, it will display my work on its external screen, capturing an authentic photographic record of the piece traversing past the Pyramids of Giza. 
 
 *This cosmic installation executes precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.*
