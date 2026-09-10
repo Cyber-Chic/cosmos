@@ -33,7 +33,7 @@ You do not need a physical artifact to experience the cosmos. This archive serve
 This physical token is a complimentary gift for you to take home. To extend this positive momentum, please perform one anonymous act of kindness in your neighborhood today.
 
 ### 🚀 2. Your Art is Slated for Space
-While you retain the physical token, a custom postcard matching your coin's design will be loaded onto a designated **[commercial rocket flight](https://www.clubforfuture.org/postcards)** to cross the line into outer space. The project's flagship imagery is also scheduled to **[broadcast](https://space.crunchlabs.com/selfie/VnpvzMO)** from orbit, displaying on a satellite as it traverses directly past the Pyramids of Giza.
+While you retain the physical token, a custom postcard matching your coin's design will be loaded onto a designated **[commercial rocket flight](https://www.clubforfuture.org/postcards)** to cross the line into outer space. The project's flagship imagery is also scheduled to **[broadcast](https://tr.ee/P8Bv63Qkk6)** from orbit, displaying on a satellite as it traverses directly past the Pyramids of Giza.
 
 ### 🌌 3. Decode Your Cosmic Poem
 Locate the identifier number on your coin (Example: **COIN-001**). Scroll down this ledger page to find your specific designation and read a custom verse written to translate real-world astrophysical anomalies.
@@ -85,7 +85,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **2. The Cosmic Exhibition (Scheduled Space Capture):**
     *   A digital rendering—featuring the hand-inked *verso* side of COIN-001 and COIN-002 interwoven with my additional artwork—has been formally scheduled for a live broadcast. 
     *   As the satellite orbits Planet Earth, it will display my work on its external screen, capturing an authentic photographic record of the piece traversing past the Pyramids of Giza. 
-*   This cosmic installation is timed to execute precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://space.crunchlabs.com/selfie/VnpvzMO)**.
+*   This cosmic installation is timed to execute precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.
 
 
 </details>
