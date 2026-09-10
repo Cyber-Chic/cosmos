@@ -1,13 +1,11 @@
 # 🪙 [ THE MOORE SIGNAL ARCHIVE: COIN LEDGER & POETRY REGISTRY ]
-*The official verification page for our orbital art drops.*
+*The official verification page for our space-bound art drops.*
 
 > [!TIP]
-> **📱 MOBILE LOGIC:** Reading on a phone? Use your browser's menu to select **"Find on Page"** and type your coin number to jump straight to your verse!
+> **🗺️ FOUND A COIN:** You discovered a piece of a global treasure hunt!<br>
+> **👀 DON'T HAVE A COIN:** No problem! You do not need a coin to explore!
 
 ---
-
-# 🪙 The Cosmic Artifact Hunt 🪐
-*Welcome to our art hunt bridging Earth and Outer Space.*
 
 <div align="center">
   <br />
@@ -26,22 +24,21 @@
   <br />
 </div>
 
-### 🔍 For Digital Explorers
-You do not need a physical artifact to experience the cosmos. This archive serves as the permanent digital hub for a global, real-world hidden art installation. Everyone is welcome to explore our interactive maps, read the space poetry, or engage with the archival research below.
+### 🔍 Archival Directory Overview
+This portal serves as the permanent digital registry for a global, real-world treasure hunt bridging Earth and Outer Space. If you found a coin, you can search your unique Coin ID below to unveil a full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
 
-### 🎁 1. If You Found a Coin
-This physical token is a complimentary gift for you to take home. To extend this positive momentum, please perform one anonymous act of kindness in your neighborhood today.
-
-### 🚀 2. Your Art is Slated for Space
-While you retain the physical token, a custom postcard matching your coin's design will be loaded onto a designated **[commercial rocket flight](https://www.clubforfuture.org/postcards)** to cross the line into outer space. The project's flagship imagery is also scheduled to **[broadcast](https://tr.ee/P8Bv63Qkk6)** from orbit, displaying on a satellite as it traverses directly past the Pyramids of Giza.
-
-### 🌌 3. Decode Your Cosmic Poem
-Locate the identifier number on your coin (Example: **COIN-001**). Scroll down this ledger page to find your specific designation and read a custom verse written to translate real-world astrophysical anomalies.
+* **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
+* **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
 
 ---
 
+### 🛰️ SYSTEM LOGISTICS ➔ SCIENTIFIC OPERATIONS
 
-### 🎨 MISSION LOG // VISUAL SURVEILLANCE
+<details>
+<summary><b>✨ Click to reveal mission details & research methodology...</b></summary>
+<br>
+
+#### 🎨 VISUAL SURVEILLANCE // ACTIVE PIPELINE
 *An active transmission from the principal investigator's desk.*
 
 <pre style="font-family: monospace; white-space: pre; font-size: 13px; line-height: 1.2; overflow-x: auto; background-color: #0d1117; padding: 16px; border-radius: 6px;">
@@ -66,27 +63,15 @@ Locate the identifier number on your coin (Example: **COIN-001**). Scroll down t
 
 *“Treasures dwell on Earth, destined for the stars. The journey begins.”* 🚀 🪐
 
----
-
-### 🛰️ THE DEEP SCIENCE
-
-<details>
-<summary>✨ Click here to explore the celestial methodology...</summary>
-<br>
-
+#### 🧪 THE DEEP SCIENCE
 Each artifact features a fragmented poetry verse translating citizen science research conducted across global astrophysical networks. Every inscription directly reflects data from my real-world celestial **[initiatives](https://github.com/Cyber-Chic/cosmos/)**, including analyzing planetary transits for **Exoplanet Watch** and classifying deep-space anomalies on the **Zooniverse** platform.
 
 These artifacts are scheduled for deployment into outer space via two distinct celestial pathways:
 
-*   **1. Commercial Rocket Flight Manifests:**
-    *   Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, **[snapshot captures](https://tr.ee/9DnwSyN7xp)** of the 3D Galaxy Visualizations will also be printed as physical mementos to accompany these flagship treasures. 
-    *   These physical artifacts are slated to cross the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://www.clubforfuture.org/postcards)** before returning to Earth.
-    
-*   **2. The Cosmic Exhibition (Scheduled Space Capture):**
-    *   A digital rendering—featuring the hand-inked *verso* side of COIN-001 and COIN-002 interwoven with my additional artwork—has been formally scheduled for a live broadcast. 
-    *   As the satellite orbits Planet Earth, it will display my work on its external screen, capturing an authentic photographic record of the piece traversing past the Pyramids of Giza. 
-*   This cosmic installation is timed to execute precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.
+* **1. Rocket Flight Manifests:** Postcards showcasing the face side of the cosmic coins are signed by hand and queued as physical cargo. At selected intervals, snapshot captures of the 3D Galaxy Visualizations will be printed as physical mementos to accompany these flagship treasures across the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://tr.ee/9DnwSyN7xpg)** before returning to Earth.
+* **2. The Cosmic Exhibition:** A digital rendering featuring the hand-inked *verso* side of COIN-001 and COIN-002 interwoven with my additional artwork has been formally scheduled for a live broadcast. As the satellite orbits Planet Earth, it will display my work on its external screen, capturing an authentic photographic record of the piece traversing past the Pyramids of Giza. 
 
+*This cosmic installation executes precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.*
 
 </details>
 
@@ -94,97 +79,85 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 🪐 **EXPLORE THE MAP:** Launch the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to view these handwritten verses procedurally mapped within a simulated celestial environment. Select snapshot captures are manifested for spacebound rocket flight.
 
-
 ---
 
-
 ### 🌌 [ CAPTURE ID: COIN-001 ]
-> ### **CRAZY LIGHT FLASHES!**
-> ### **WITH RAYS BURSTING ROUND THE CORE—**
-> ### **ECLIPSING THE SCENE...**
 
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
+
+> *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
 
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection)**
 *   **The Inspiration:** My Astrophysics Research **[(View Inspirational Image)](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
 *   **Explore the Methodology:** 📊 **[View The Official Process (Zooniverse)](https://www.zooniverse.org/about)**
-</br>
 </details>
 
 ---
 
 ### 🌌 [ CAPTURE ID: COIN-002 ]
-> ### **A VOID DRENCHED BY NIGHT.**
-> ### **DARKER THAN THE MIND'S SHADOWS.**
-> ### **WITH LIFELESS COAL PULSE.**
 
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
+
+> *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
 
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=the+Pretty+Coinz+Collection)**
 *   **The Inspiration:** Planet Space Data **[(View TrES-2b Planetary Record)](https://simple.wikipedia.org/wiki/TrES-2b)**
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/10772/)**
-</br>
 </details>
 
 ---
 
 ### 🌌 [ CAPTURE ID: COIN-003 ]
-> ### **RAGING HOT FLAMES REIGN.**
-> ### **FURIOUSLY SCORCHING AIRS.**
-> ### **RULED BY PURE CHAOS.**
 
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
+
+> *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
 
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=the+Pretty+Coinz+Collection)**
 *   **The Inspiration:** Planet Space Data **[(View WASP-12b Planetary Record)](https://simple.wikipedia.org/wiki/WASP-12b)**
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11335/)**
-</br>
 </details>
 
 ---
 
 ### 🌌 [ CAPTURE ID: COIN-004 ]
-> ### **SPINNING AT TOP SPEEDS.**
-> ### **HURLING ROUND THE GALAXY.**
-> ### **TRANSCENDING TIME'S SAND.**
 
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
+
+> *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
+
 
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=the+Pretty+Coinz+Collection)**
 *   **The Inspiration:** Planet Space Data **[(View TrES-3b Planetary Record)](https://en.wikipedia.org/wiki/TrES-3b)**
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11122/)**
-</br>
 </details>
 
 ---
 
-
 ### 🌌 [ CAPTURE ID: COIN-005 ]
-> ### **A FROSTED SCAPE LOOMS.**
-> ### **SEARING AN ICE COLD BEAUTY-**
-> ### **ON THE EYES CANVAS...**
 
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
 
+> *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
+
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview TBD | Coin Design ]` 📷 **[ Mockup Pending ]**
 *   **The Inspiration:** My Astrophysics Research **[(View Inspirational Image)](https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995)**
 *   **Explore the Methodology:** 📊 **[View The Official Process (Zooniverse)](https://www.zooniverse.org/about)**
-</br>
 </details>
 
 ---
@@ -195,7 +168,6 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 <br>
 
 **ART COLLECTOR NOTE & SAFETY COMPLIANCE:** This artifact is a solid piece of independent contemporary art. It is a custom keepsake intended solely for adult collectors and supervised youth explorers. It contains small parts and poses a choking hazard; please keep it completely out of reach of infants, toddlers, and pets.
-</br>
 </details>
 
 ---
