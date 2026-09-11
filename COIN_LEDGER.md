@@ -78,7 +78,26 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 <br>
 
-🪐 **EXPLORE THE MAP:** Launch the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to view these handwritten verses procedurally mapped within a simulated celestial environment. Select snapshot captures are manifested for spacebound rocket flight.
+### 🌌 THE CELESTIAL HORIZON ➔ 3D GALAXY VISUALIZER MATRIX
+
+<div align="center">
+  <br />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" />
+        <br />
+        <hr />
+        <p align="center" width="400">
+          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br />
+</div>
+
+🪐 **EXPLORE THE SKYMAP:** Access the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to see where these handwritten coin verses sit within their simulated celestial environment. Select snapshots from this generator will also be launched into space as limited-edition prints.
 
 ---
 
