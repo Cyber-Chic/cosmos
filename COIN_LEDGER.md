@@ -27,7 +27,6 @@
 ### 🔍 Archival Directory Overview
 This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** bridging Earth and Outer Space. If you found a coin, you can search your unique Coin ID below to unveil a full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
 
-
 * **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
 * **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
 
@@ -89,7 +88,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
         <br />
         <hr />
         <p align="center" width="400">
-          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment</i></sup>
+          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
         </p>
       </td>
     </tr>
@@ -100,6 +99,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 🪐 **EXPLORE THE SKYMAP:** Access the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to see where these handwritten coin verses sit within their simulated celestial environment. Select snapshots from this generator will also be launched into space as limited-edition prints.
 
 ---
+
 
 ### 🌌 [ CAPTURE ID: COIN-001 ]
 
