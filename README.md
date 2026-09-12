@@ -27,9 +27,9 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 ## 🎨 Art Integration & Global Distribution
 
 *   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and other celestial phenomena cataloged during research—into minimalist haiku poetry.
-*   **Traveling Artwork:** Fragmented verses are hand-inscribed onto physical tokens for global distribution networks, with limited-edition art prints routed for space aboard commercial rockets. *[Track traveling artifacts.](https://www.geocaching.com/track/details.aspx?tracker=TBB8P4T)*
+*   **Traveling Artwork:** Fragmented verses are hand-inscribed onto physical tokens for global distribution networks, with limited-edition art prints routed for space aboard commercial rockets. *[Track traveling artifacts.](https://tr.ee/9DnwSyN7xp)*
 *   **3D Galaxy Visualizer:** [Launch the Interactive Visualizer](https://cyber-chic.github.io/cosmos/universe)  
-    *This web application uses recreational geometry math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape.*
+    *This web application uses geometric math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape.*
 
 ---
 
