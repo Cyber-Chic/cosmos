@@ -25,10 +25,12 @@
 </div>
 
 ### 🔍 Archival Directory Overview
-This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** bridging Earth and Outer Space. If you found a coin, you can search your unique Coin ID below to unveil a full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
 
-* **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
-* **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
+This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply enter your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
+
+*   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
+*   **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
+
 
 ---
 
