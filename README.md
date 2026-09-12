@@ -28,13 +28,13 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 
 <div align="center">
   <br />
-  <table>
+  <table style="border: none; border-collapse: collapse;">
     <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" />
+      <td align="center" style="border: none; padding: 0;">
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px;" />
         <br />
-        <hr />
-        <p align="center" width="400">
+        <br />
+        <p align="center" style="margin: 0; max-width: 420px; line-height: 1.4;">
           <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
         </p>
       </td>
