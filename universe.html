@@ -253,21 +253,24 @@ canvas {
 <div class="info" style="position: absolute; bottom: 15px; left: 0; right: 0; font-size: clamp(8px, 1.8vw, 11px); padding: 0 10px; color: #ff4d4d; letter-spacing: 1px; font-weight: bold; text-transform: uppercase; pointer-events: none; text-align: center; white-space: nowrap;">Spectral Capture // Drag to rotate • Zoom active</div>
       </div>
 
-      <!-- TELEMETRY SYSTEM LOGGER -->
-      <div class="telemetry-box">
-        
-        <!-- SURGICAL LINE-WARP FIX: Protects single-row telemetry alignment on tiny screens -->
-<div style="color: #c2410c; font-weight: bold; font-size: clamp(9px, 2.2vw, 12px); border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px; letter-spacing: 1px; text-transform: uppercase; white-space: nowrap;">// INSPIRED BY: CO-RESEARCH INITIATIVES</div>
+<!-- TELEMETRY SYSTEM LOGGER -->
+<div class="telemetry-box">
+  
+  <!-- SURGICAL LINE-WARP FIX: Protects single-row telemetry alignment on tiny screens -->
+  <div style="border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 5px; margin-bottom: 8px;">
+    <a id="lnkInspired" href="#" target="_blank" style="color: #c2410c; font-weight: bold; font-size: clamp(9px, 2.2vw, 12px); letter-spacing: 1px; text-transform: uppercase; white-space: nowrap; text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='#ea580c'" onmouseout="this.style.color='#c2410c'">
+      // INSPIRED BY: CO-RESEARCH INITIATIVES
+    </a>
+  </div>
 
-        <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">INVESTIGATOR LOG:</span> <a id="lnkZoo" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Explore My Full Research Portfolio</a></div>
-        <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">DATA REPOSITORY:</span> <a id="lnkCurve" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Contribute to Open Science Projects</a></div>
-        
-        <div class="mobile-scroll-row" style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 8px; padding-top: 6px; color: #ff8080;">
-          • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
-        </div>
-      </div> <!-- Correctly closes the telemetry-box -->
-        
-    </div> <!-- Correctly closes the .container block -->
+  <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">INVESTIGATOR LOG:</span> <a id="lnkZoo" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Explore My Full Research Portfolio</a></div>
+  <div class="mobile-scroll-row">• <span style="color: #d1d9e6;">DATA REPOSITORY:</span> <a id="lnkCurve" href="#" target="_blank" style="color: #ff4d4d; text-decoration: none; font-weight: bold; border-bottom: 1px dashed rgba(235, 40, 40, 0.5);">Contribute to Open Science Projects</a></div>
+  
+  <div class="mobile-scroll-row" style="border-top: 1px dashed rgba(122, 136, 155, 0.2); margin-top: 8px; padding-top: 6px; color: #ff8080;">
+    • <span style="color: #d1d9e6;">SPECTRAL LENS:</span> <span id="lblLens"></span>
+  </div>
+</div> <!-- Correctly closes the telemetry-box -->
+      
 
     
   <!-- SWIPE ENABLED COPYRIGHT SIGNATURE LANES (Sits cleanly below your main container) -->
@@ -402,7 +405,8 @@ window.MASTER_CONFIG = window.MASTER_CONFIG || {
   colorRingBack: activePalette.back,  
   colorRingFront: activePalette.front,
   
-  urlResearchPortfolio: "https://github.com/cyber-chic",
+  urlMainProfile: "https://github.com/Cyber-Chic/cosmos/blob/main/README.md", // Fuses your newly revised landing page link
+  urlResearchPortfolio: "https://github.com/Cyber-Chic",
   urlZooniverseAstronomy: "https://www.zooniverse.org/projects?discipline=astronomy",
   
   haikuL1: activePoem.l1,
@@ -706,6 +710,7 @@ if(infoLabel) infoLabel.style.color = activePalette.theme;
 
 if (refreshTitleLink) refreshTitleLink.innerText = MASTER_CONFIG.mainTitle;
 document.getElementById('lblLens').innerText = MASTER_CONFIG.paletteLabel;
+document.getElementById('lnkInspired').href = MASTER_CONFIG.urlMainProfile; // Fuses your newly revised page link
 document.getElementById('lnkZoo').href = MASTER_CONFIG.urlResearchPortfolio;
 document.getElementById('lnkCurve').href = MASTER_CONFIG.urlZooniverseAstronomy;
 document.getElementById('poemRow1').innerText = MASTER_CONFIG.haikuL1;
@@ -716,3 +721,4 @@ draw();
 </script>
 </body>
 </html>
+
