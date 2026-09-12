@@ -66,7 +66,7 @@ This portal serves as the permanent digital registry for a global, real-world **
 *“Treasures dwell on Earth, destined for the stars. The journey begins.”* 🚀 🪐
 
 #### 🧪 THE DEEP SCIENCE
-Each artifact features a fragmented poetry verse translating citizen science research conducted across global astrophysical networks. Every inscription directly reflects data from my real-world celestial **[initiatives](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**, including analyzing planetary transits for **Exoplanet Watch** and classifying deep-space anomalies on the **Zooniverse** platform.
+Each artifact contains original haiku poetry describing cosmic phenomena I've analyzed as a citizen scientist. Every inscription directly reflects data from my real-world celestial **[research](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**, including examining planetary transits for **Exoplanet Watch** and classifying deep-space anomalies on the **Zooniverse** platform.
 
 These artifacts are scheduled for deployment into outer space via two distinct celestial pathways:
 
