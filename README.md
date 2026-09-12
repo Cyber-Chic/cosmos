@@ -26,6 +26,23 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 
 ## 🎨 Art Integration & Global Distribution
 
+<div align="center">
+  <br />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" />
+        <br />
+        <hr />
+        <p align="center" width="400">
+          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br />
+</div>
+
 *   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and other celestial phenomena cataloged during research—into minimalist haiku poetry.
 *   **Traveling Artwork:** Fragmented verses are hand-inscribed onto physical tokens for global distribution networks, with limited-edition art prints routed for space aboard commercial rockets. *[Track traveling artifacts.](https://tr.ee/9DnwSyN7xp)*
 *   **3D Galaxy Visualizer:** [Launch the Interactive Visualizer](https://cyber-chic.github.io/cosmos/universe)  
