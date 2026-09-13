@@ -5,7 +5,7 @@
 ---
 
 ## 🔭 About the Archive
-The Moore Signal Archive is an autonomous, creative studio & research hub pairing open public data with minimalist art. This initiative operates independently and is entirely unaffiliated with any government space agency or administration.
+The Moore Signal Archive is an autonomous, creative studio pairing open public data with minimalist art. As a privately run, independent archive, it contributes to collaborative citizen science research initiatives with no official ties to NASA or government space agencies.
 
 *   📡 **Active Verification Records:** [Zooniverse Data](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
 *   🛠️ **Exhibition Bookings & Inquiries:** `themoorearchive@proton.me`
@@ -52,7 +52,8 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 
 ## 🛠️ Sharing & Attribution Protocol
 
-*   **Data Credit:** Records logged under observer code `MANBA` remain open-access public records. If a research team utilizes these specific transit curves as a component of a study, standard data attribution (Co-Author or Co-Investigator designations where applicable) is required.
+*   **Open-Access Data:** All astronomical records logged under the observer code `MANBA` are publicly available. 
+*   **Research Attribution:** If a professional research team utilizes these transit curves in a formal study, standard academic credit (such as Co-Author or Co-Investigator designations) is required.
 *   **Official Website:** https://bio.site/mooresignal
 
 ---
