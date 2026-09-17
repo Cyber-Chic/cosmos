@@ -3,9 +3,7 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
-> 
-> Simultaneously, the exhibition grounds are expanding right here on Earth through an interactive treasure hunt. I am hiding custom coins, books, and art pieces across multiple states containing clues to the space phenomena that inspire my work. 
+> A historic art exhibition in outer space is officially underway. Simultaneously, the collection grounds are expanding right here on Earth through an interactive treasure hunt; I am hiding custom coins, books, and art pieces across the world, with select releases containing clues to the space phenomena that inspire my work.
 
 | 🗺️ FOUND A COIN | 👀 DON'T HAVE A COIN |
 | :--- | :--- |
