@@ -31,84 +31,54 @@
   <br />
 </div>
 
+---
+
 ### 🔍 Archival Directory Overview
 
-This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply enter your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
+This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
 *   **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
 
 ---
 
-### 🛰️ SYSTEM LOGISTICS ➔ SCIENTIFIC OPERATIONS
+<table>
+<tr valign="center">
+<td width="55%">
 
-<details>
-<summary><b>✨ Click to reveal mission details & research methodology...</b></summary>
+### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER 
 <br>
 
-#### 🎨 VISUAL SURVEILLANCE // ACTIVE PIPELINE
-*An active transmission from the principal investigator's desk.*
+**🔭 THE SCIENCE BACKSTORY**
 
-<pre style="font-family: monospace; white-space: pre; font-size: 13px; line-height: 1.2; overflow-x: auto; background-color: #0d1117; padding: 16px; border-radius: 6px;">
- ____________________________________________________________________
+**The Inspiration:** Each art piece contains a unique haiku poem about space that I wrote based on my actual research as a citizen scientist. The poems are inspired by real cosmic data I helped analyze, from hunting planets for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
 
-|                                                                    |
-| [ PANEL 1: THE LAB 🪙 ]           | [ PANEL 2: THE LAUNCH 🛰️ ]    |
-|                                   |                                |
-|    \ | /   *  SPACE DATA PIPELINE |        _______                 |
-|   -- o --    [ANALYSIS COMPLETE]  |       /      /                 |
-|    / | \            |             |      /  /\  /    *             |
-|      |              v             |     |  |  | |                  |
-|   _______     ___________         |     |  |  | |        *         |
-|  |=======|   |  (o) COIN |        |     |  |  | |   (THE SIGNAL    |
-|  |_______|   |__QUEUED___|        |    / ==  == \    IGNITED)      |
-|     ||            ||              |   /__________\                 |
-| ____||____________||____________  |       ||||        *            |
-| \  "We have a cosmic signal."  /  |       ||||                     |
-|  ------------------------------   |   ____/  \____________________ |
-|___________________________________|________________________________|
-</pre>
+**The Space Journeys:**
+* **1. Rocket Flights:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon return.
+* **2. Satellite Broadcast:** The flagship artwork—combining poetry tokens layered over an original mixed media painting—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
-*“Treasures dwell on Earth, destined for the stars. The journey begins.”* 🚀 🪐
+</td>
+<td width="45%" align="center">
 
-#### 🧪 THE DEEP SCIENCE
-Each artifact contains original haiku poetry describing cosmic phenomena I've analyzed as a citizen scientist. Every inscription directly reflects data from my real-world celestial **[research](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**, including examining planetary transits for **Exoplanet Watch** and classifying deep-space anomalies on the **Zooniverse** platform.
+**🌌 GALAXY VISUALIZER ENGINE**
 
-These artifacts are scheduled for deployment into outer space via two distinct celestial pathways:
+<img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="340" style="border-radius: 6px; display: block; margin: 0 auto;" />
 
-*   **1. Rocket Flight Manifests:** Postcards showcasing the front side of these cosmic tokens are signed by hand and queued as physical cargo. At selected intervals, snapshot captures of galaxy visualizations containing full cosmic poems will be printed as physical mementos. These flagship treasures journey across the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://www.clubforfuture.org/postcards)** before returning to Earth.
-*   **2. The Cosmic Exhibition:** A digital rendering featuring COIN-001 and COIN-002 interwoven with my curated artwork has been formally scheduled for a live broadcast to a satellite in outer space. As it orbits Planet Earth, the spacecraft will display this visual composition on its external screen, capturing an authentic photographic record of the work traversing past the Pyramids of Giza.
+<sup><i>Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
 
-*This cosmic installation executes precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.*
+🪐 **EXPLORE THE SKYMAP:** Access the interactive web app to see exactly where your hidden coin verses live inside our rotating 3D space canvas. *[Launch the 3D Galaxy Map.](https://cyber-chic.github.io/cosmos/universe)*
 
-</details>
-
-<br>
-
-### 🌌 THE CELESTIAL HORIZON ➔ 3D GALAXY VISUALIZER MATRIX
-
-<div align="center">
-  <br />
-  <table style="border: none; border-collapse: collapse;">
-    <tr>
-      <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px;" />
-        <br />
-        <br />
-        <p align="center" style="margin: 0; max-width: 420px; line-height: 1.4;">
-          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
-  <br />
-</div>
-
-🪐 **EXPLORE THE SKYMAP:** Access the live **[Interactive 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)** to see where these handwritten coin verses sit within their simulated celestial environment. Select snapshots from this generator will also be launched into space as limited-edition prints.
+</td>
+</tr>
+</table>
 
 ---
 
 ### 🌌 Active Token Registry
+
+
+
+
 
 #### 🪐 [ CAPTURE ID: COIN-001 ]
 <details>
