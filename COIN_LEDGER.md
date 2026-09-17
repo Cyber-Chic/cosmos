@@ -1,22 +1,32 @@
-# 🪙 [ THE MOORE SIGNAL ARCHIVE: COIN LEDGER & POETRY REGISTRY ]
-*The official verification page for our space-bound art drops.*
-
-> [!TIP]
-> **🗺️ FOUND A COIN:** You discovered a piece of a global treasure hunt!<br>
-> **👀 DON'T HAVE A COIN:** No problem! You do not need a coin to explore!
+# 🛰️ COSMIC ARTIFACTS
 
 ---
 
+> ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
+> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
+> 
+> Simultaneously, the exhibition grounds are expanding right here on Earth through an interactive treasure hunt. I am hiding custom coins, books, and art pieces across multiple states containing clues to the space phenomena that inspire my work. 
+
+| 🗺️ FOUND A COIN | 👀 DON'T HAVE A COIN |
+| :--- | :--- |
+| Expand the **Mission Control** portal below, match your unique ID, and unlock your coin's hidden poem & data profile. | No problem! You do not need a token to explore. Expand the portal below to launch the interactive skymap or browse the logs. |
+
+---
+
+<details>
+<summary><b>🛰️ ENTER MISSION CONTROL // VIEW SYSTEM REGISTRY</b></summary>
+<br>
+
 <div align="center">
   <br />
-  <table>
+  <table style="border: none; border-collapse: collapse;">
     <tr>
-      <td>
-        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact" width="480" />
+      <td align="center" style="border: none; padding: 0;">
+        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact" width="480" style="border-radius: 6px;" />
         <br />
-        <hr />
-        <p align="center" width="450">
-          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for an orbital display passing over the Pyramids of Giza.</i></sup>
+        <br />
+        <p align="center" style="margin: 0; max-width: 480px; line-height: 1.4;">
+          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
         </p>
       </td>
     </tr>
@@ -30,7 +40,6 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
 *   **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
-
 
 ---
 
@@ -73,7 +82,6 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **1. Rocket Flight Manifests:** Postcards showcasing the front side of these cosmic tokens are signed by hand and queued as physical cargo. At selected intervals, snapshot captures of galaxy visualizations containing full cosmic poems will be printed as physical mementos. These flagship treasures journey across the Kármán Line into zero-gravity space on designated **[commercial rocket flights](https://www.clubforfuture.org/postcards)** before returning to Earth.
 *   **2. The Cosmic Exhibition:** A digital rendering featuring COIN-001 and COIN-002 interwoven with my curated artwork has been formally scheduled for a live broadcast to a satellite in outer space. As it orbits Planet Earth, the spacecraft will display this visual composition on its external screen, capturing an authentic photographic record of the work traversing past the Pyramids of Giza.
 
-
 *This cosmic installation executes precisely as the satellite passes over **Al Haram, Nazlet El-Semman, Giza Governorate, Egypt**. The live orbital trajectory can be monitored directly via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**.*
 
 </details>
@@ -84,13 +92,13 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 <div align="center">
   <br />
-  <table>
+  <table style="border: none; border-collapse: collapse;">
     <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" />
+      <td align="center" style="border: none; padding: 0;">
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px;" />
         <br />
-        <hr />
-        <p align="center" width="400">
+        <br />
+        <p align="center" style="margin: 0; max-width: 420px; line-height: 1.4;">
           <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
         </p>
       </td>
@@ -103,9 +111,9 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 ---
 
+### 🌌 Active Token Registry
 
-### 🌌 [ CAPTURE ID: COIN-001 ]
-
+#### 🪐 [ CAPTURE ID: COIN-001 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
@@ -118,10 +126,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **Explore the Methodology:** 📊 **[View The Official Process (Zooniverse)](https://www.zooniverse.org/about)**
 </details>
 
----
-
-### 🌌 [ CAPTURE ID: COIN-002 ]
-
+#### 🪐 [ CAPTURE ID: COIN-002 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
@@ -134,10 +139,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/10772/)**
 </details>
 
----
-
-### 🌌 [ CAPTURE ID: COIN-003 ]
-
+#### 🪐 [ CAPTURE ID: COIN-003 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
@@ -150,16 +152,12 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11335/)**
 </details>
 
----
-
-### 🌌 [ CAPTURE ID: COIN-004 ]
-
+#### 🪐 [ CAPTURE ID: COIN-004 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
 
 > *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
-
 
 *   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
 *   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=the+Pretty+Coinz+Collection)**
@@ -167,10 +165,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 *   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11122/)**
 </details>
 
----
-
-### 🌌 [ CAPTURE ID: COIN-005 ]
-
+#### 🪐 [ CAPTURE ID: COIN-005 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
 <br>
@@ -185,7 +180,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 
 ---
 
-`📡 [ REGULATORY NOTE ]`
+#### 📡 [ REGULATORY NOTE ]
 <details>
 <summary>🛠️ Click to View Studio Safety Protocols & Disclaimers</summary>
 <br>
@@ -193,5 +188,7 @@ These artifacts are scheduled for deployment into outer space via two distinct c
 **ART COLLECTOR NOTE & SAFETY COMPLIANCE:** This artifact is a solid piece of independent contemporary art. It is a custom keepsake intended solely for adult collectors and supervised youth explorers. It contains small parts and poses a choking hazard; please keep it completely out of reach of infants, toddlers, and pets.
 </details>
 
----
+</details>
+
+
 
