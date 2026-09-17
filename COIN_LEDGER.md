@@ -78,11 +78,6 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 ### 🌌 Active Token Registry
 
-
-
-
-
-
 #### 🪐 [ CAPTURE ID: COIN-001 ]
 <details>
 <summary>✨ View Cosmic Target & Expedition Details</summary>
@@ -90,10 +85,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 > *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
 
-*   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
-*   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection)**
-*   **The Inspiration:** My Astrophysics Research **[(View Inspirational Image)](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
-*   **Explore the Methodology:** 📊 **[View The Official Process (Zooniverse)](https://www.zooniverse.org/about)**
+* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
+* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection)
+* 🔭 **Science:** [View Research Target](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882) • [Zooniverse Process](https://www.zooniverse.org/about)
 </details>
 
 #### 🪐 [ CAPTURE ID: COIN-002 ]
@@ -103,10 +97,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 > *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
 
-*   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
-*   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=the+Pretty+Coinz+Collection)**
-*   **The Inspiration:** Planet Space Data **[(View TrES-2b Planetary Record)](https://simple.wikipedia.org/wiki/TrES-2b)**
-*   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/10772/)**
+* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
+* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=the+Pretty+Coinz+Collection)
+* 🔭 **Science:** [TrES-2b Planet Record](https://simple.wikipedia.org/wiki/TrES-2b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/10772/)
 </details>
 
 #### 🪐 [ CAPTURE ID: COIN-003 ]
@@ -116,10 +109,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 > *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
 
-*   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
-*   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=the+Pretty+Coinz+Collection)**
-*   **The Inspiration:** Planet Space Data **[(View WASP-12b Planetary Record)](https://simple.wikipedia.org/wiki/WASP-12b)**
-*   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11335/)**
+* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
+* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=the+Pretty+Coinz+Collection)
+* 🔭 **Science:** [WASP-12b Planet Record](https://simple.wikipedia.org/wiki/WASP-12b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/11335/)
 </details>
 
 #### 🪐 [ CAPTURE ID: COIN-004 ]
@@ -129,10 +121,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 > *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
 
-*   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
-*   **Log Footage:** `[ Preview | Coin Design ]` 📷 **[View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=the+Pretty+Coinz+Collection)**
-*   **The Inspiration:** Planet Space Data **[(View TrES-3b Planetary Record)](https://en.wikipedia.org/wiki/TrES-3b)**
-*   **Explore the Methodology:** 📊 **[View My Graph (Exoplanet Watch)](https://apps.aavso.org/exosite/g/11122/)**
+* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
+* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=the+Pretty+Coinz+Collection)
+* 🔭 **Science:** [TrES-3b Planet Record](https://en.wikipedia.org/wiki/TrES-3b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/11122/)
 </details>
 
 #### 🪐 [ CAPTURE ID: COIN-005 ]
@@ -142,10 +133,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 > *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
 
-*   **Official Pipeline:** 🚀 View Trajectory // **[Spacecraft & Flight Manifest](https://www.clubforfuture.org/postcards)**
-*   **Log Footage:** `[ Preview TBD | Coin Design ]` 📷 **[ Mockup Pending ]**
-*   **The Inspiration:** My Astrophysics Research **[(View Inspirational Image)](https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995)**
-*   **Explore the Methodology:** 📊 **[View The Official Process (Zooniverse)](https://www.zooniverse.org/about)**
+* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
+* 🪙 **Artifact:** `[ Preview TBD | Coin Design ]` • *Mockup Pending*
+* 🔭 **Science:** [View Research Target](https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995) • [Zooniverse Process](https://www.zooniverse.org/about)
 </details>
 
 ---
