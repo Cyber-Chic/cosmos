@@ -56,14 +56,14 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 **The Space Journeys:**
 * **1. Rocket Flights:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon return.
-* **2. Satellite Broadcast:** The flagship artwork—combining poetry tokens layered over original digital paintings—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
+* **2. Satellite Broadcast:** The flagship artwork—combining custom mints layered over an original mixed media painting—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
 ---
 
 #### 🌌 GALAXY VISUALIZER ENGINE
 
 <div align="center">
-  <img src="https://githubusercontent.com" alt="Galaxy Map Visual Capture" width="440" style="border-radius: 6px; max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="440" style="border-radius: 6px; max-width: 100%;" />
   <br />
   <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
     <sup><i>Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
