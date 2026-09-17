@@ -3,11 +3,10 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> A historic art exhibition in outer space is officially underway. Simultaneously, the collection grounds are expanding right here on Earth through an interactive treasure hunt; I am hiding custom coins, books, and art pieces across the world, with select releases containing clues to the space phenomena that inspire my work.
+> I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a historic orbital exhibition is underway: my flagship artwork is queued to broadcast from a satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
+> 
+> Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the space phenomena that inspire my work.
 
-| 🗺️ FOUND A COIN | 👀 DON'T HAVE A COIN |
-| :--- | :--- |
-| Expand the **Mission Control** portal below, match your unique ID, and unlock your coin's hidden poem & data profile. | No problem! You do not need a token to explore. Expand the portal below to launch the interactive skymap or browse the logs. |
 
 ---
 
@@ -34,7 +33,7 @@
 
 ### 🔍 Archival Directory Overview
 
-This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply enter your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
+This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply enter your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
 *   **The Flight Manifests:** Custom prints matching each coin are loaded onto commercial rockets and launched into space. Signature work is also slated for a live broadcast via a satellite passing directly over the Pyramids of Giza.
