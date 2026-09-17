@@ -46,8 +46,9 @@ This portal serves as the permanent digital registry for a global, real-world **
 <tr valign="center">
 <td width="55%">
 
-### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER 
-<br>
+---
+
+### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER
 
 **🔭 THE SCIENCE BACKSTORY**
 
@@ -55,26 +56,28 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 **The Space Journeys:**
 * **1. Rocket Flights:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon return.
-* **2. Satellite Broadcast:** The flagship artwork—combining poetry tokens layered over an original mixed media painting—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
+* **2. Satellite Broadcast:** The flagship artwork—combining poetry tokens layered over original digital paintings—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
-</td>
-<td width="45%" align="center">
+---
 
-**🌌 GALAXY VISUALIZER ENGINE**
+#### 🌌 GALAXY VISUALIZER ENGINE
 
-<img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="340" style="border-radius: 6px; display: block; margin: 0 auto;" />
+<div align="center">
+  <img src="https://githubusercontent.com" alt="Galaxy Map Visual Capture" width="440" style="border-radius: 6px; max-width: 100%;" />
+  <br />
+  <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
+    <sup><i>Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+  </p>
+</div>
 
-<sup><i>Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+<br />
 
 🪐 **EXPLORE THE SKYMAP:** Access the interactive web app to see exactly where your hidden coin verses live inside our rotating 3D space canvas. *[Launch the 3D Galaxy Map.](https://cyber-chic.github.io/cosmos/universe)*
-
-</td>
-</tr>
-</table>
 
 ---
 
 ### 🌌 Active Token Registry
+
 
 
 
