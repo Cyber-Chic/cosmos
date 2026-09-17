@@ -1,8 +1,21 @@
+# 🛰️ THE SPACE EXHIBIT
+
+---
+
+> ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
+> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
+> 
+> Simultaneously, the exhibition grounds are expanding right here on Earth. The global treasure hunt has officially begun, with physical art already hidden across multiple states. This includes hidden books, art pieces, and custom coins containing clues to the space phenomena that inspire my work. Find a hidden piece, unlock the archive, and connect the cosmos to Earth.
+
+---
+
+<details>
+<summary><b>✨ Click to reveal details & research methodology...</b></summary>
+<br>
+
 # 🛰️ THE MOORE SIGNAL ARCHIVE
 ### *Independent Citizen Science & Generative Art*
 **Conceived by Angela N. Moore • Developed in Collaboration with AI Systems**
-
----
 
 ## 🔭 About the Archive
 The Moore Signal Archive is an autonomous, creative studio pairing open public data with minimalist art. As a privately run, independent archive, it contributes to collaborative citizen science research initiatives with no official ties to NASA or government space agencies.
@@ -43,12 +56,11 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
   <br />
 </div>
 
-*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and other celestial phenomena cataloged during research—into minimalist haiku poetry.
-*   **Traveling Artwork:** Fragmented verses are hand-inscribed onto physical tokens for global distribution networks, with limited-edition art prints routed for space aboard commercial rockets. *[Track traveling artifacts.](https://tr.ee/9DnwSyN7xp)*
-*   **3D Galaxy Visualizer:** [Launch the Interactive Visualizer](https://cyber-chic.github.io/cosmos/universe)  
-    *This web application uses geometric math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape.*
+*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist haiku poetry.
+*   **Physical Artifacts:** Fragmented verses are hand-inscribed onto custom coins alongside additional treasures destined to cross multiple borders. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
+*   **Space Missions:** Limited-edition poetry prints are routed to launch beyond the clouds & above the globe on commercial rockets, attaining official flight-certified status upon their return to Earth.
+*   **3D Galaxy Visualizer:** This web application uses geometric math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape. *[Launch the interactive visualizer.](https://cyber-chic.github.io/cosmos/universe)*
 
----
 
 ## 🛠️ Sharing & Attribution Protocol
 
@@ -61,3 +73,7 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 <p align="center">
   🏢 <b>Administration:</b> The Moore Signal Archive LLC, Glastonbury, CT 06033
 </p>
+
+</details>
+
+
