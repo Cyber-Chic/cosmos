@@ -74,39 +74,38 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 🪐 **EXPLORE THE SKYMAP:** Access the interactive web app to see exactly where your hidden coin verses live inside our rotating 3D space canvas. *[Launch the 3D Galaxy Map.](https://cyber-chic.github.io/cosmos/universe)*
 
----
-
 ### 🌌 Active Token Registry
 
 #### 🪐 `CAPTURE ID: COIN-001`
-> **Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Cosmic Target (Sky Data)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> 📜 **Full Poem //** *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Verify Research Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Cosmic Target (Sky Data)</a></i></p>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-002`
-> **A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/10056/">Exoplanet Graph</a></i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-2b">Cosmic Target (TrES-2b)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> 📜 **Full Poem //** *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/10056/">Verify Research Data</a></i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-2b">Cosmic Target (TrES-2b)</a></i></p>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-003`
-> **Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11335/">Exoplanet Graph</a></i> • 🪐 <i><a href="https://simple.wikipedia.org/wiki/WASP-12b">Cosmic Target (WASP-12b)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> 📜 **Full Poem //** *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11335/">Verify Research Data</a></i> • 🪐 <i><a href="https://simple.wikipedia.org/wiki/WASP-12b">Cosmic Target (WASP-12b)</a></i></p>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-004`
-> **Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11122/">Exoplanet Graph</a></i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-3b">Cosmic Target (TrES-3b)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> 📜 **Full Poem //** *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11122/">Verify Research Data</a></i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-3b">Cosmic Target (TrES-3b)</a></i></p>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-005`
-> **A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Cosmic Target (Sky Data)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> 📜 **Full Poem //** *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Verify Research Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Cosmic Target (Sky Data)</a></i></p>
 
 ---
+
 
 
 #### 📡 [ REGULATORY NOTE ]
