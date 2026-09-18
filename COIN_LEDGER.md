@@ -78,65 +78,33 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 ### 🌌 Active Token Registry
 
-#### 🪐 [ CAPTURE ID: COIN-001 ]
-<details>
-<summary>✨ View Cosmic Target & Expedition Details</summary>
-<br>
+#### 🪐 `CAPTURE ID: COIN-001`
+> **Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...**
+> <p align="left">🛸 <i>Mockup Pending</i> • 🚀 <i><a href="https://clubforfuture.org">Flight Manifest</a></i> • 🔬 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Zooniverse Data</a></i></p>
 
-> *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
+---
 
-* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
-* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection)
-* 🔭 **Science:** [View Research Target](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882) • [Zooniverse Process](https://www.zooniverse.org/about)
-</details>
+#### 🪐 `CAPTURE ID: COIN-002`
+> **A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.**
+> <p align="left">🛸 <i>Mockup Pending</i> • 🚀 <i><a href="https://clubforfuture.org">Flight Manifest</a></i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/10772">Exoplanet Graph</a></i></p>
 
-#### 🪐 [ CAPTURE ID: COIN-002 ]
-<details>
-<summary>✨ View Cosmic Target & Expedition Details</summary>
-<br>
+---
 
-> *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
+#### 🪐 `CAPTURE ID: COIN-003`
+> **Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.**
+> <p align="left">🛸 <i>Mockup Pending</i> • 🚀 <i><a href="https://clubforfuture.org">Flight Manifest</a></i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11335/">Exoplanet Graph</a></i></p>
 
-* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
-* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=the+Pretty+Coinz+Collection)
-* 🔭 **Science:** [TrES-2b Planet Record](https://simple.wikipedia.org/wiki/TrES-2b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/10772/)
-</details>
+---
 
-#### 🪐 [ CAPTURE ID: COIN-003 ]
-<details>
-<summary>✨ View Cosmic Target & Expedition Details</summary>
-<br>
+#### 🪐 `CAPTURE ID: COIN-004`
+> **Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.**
+> <p align="left">🛸 <i>Mockup Pending</i> • 🚀 <i><a href="https://clubforfuture.org">Flight Manifest</a></i> • 🔬 <i><a href="https://apps.aavso.org/exosite/g/11122/">Exoplanet Graph</a></i></p>
 
-> *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
+---
 
-* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
-* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=the+Pretty+Coinz+Collection)
-* 🔭 **Science:** [WASP-12b Planet Record](https://simple.wikipedia.org/wiki/WASP-12b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/11335/)
-</details>
-
-#### 🪐 [ CAPTURE ID: COIN-004 ]
-<details>
-<summary>✨ View Cosmic Target & Expedition Details</summary>
-<br>
-
-> *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
-
-* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
-* 🪙 **Artifact:** `[ Preview | Coin Design ]` • [View Visual Mockup](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=the+Pretty+Coinz+Collection)
-* 🔭 **Science:** [TrES-3b Planet Record](https://en.wikipedia.org/wiki/TrES-3b) • [Exoplanet Watch Graph](https://apps.aavso.org/exosite/g/11122/)
-</details>
-
-#### 🪐 [ CAPTURE ID: COIN-005 ]
-<details>
-<summary>✨ View Cosmic Target & Expedition Details</summary>
-<br>
-
-> *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
-
-* 🚀 **Mission:** [Flight Manifest](https://www.clubforfuture.org/postcards)
-* 🪙 **Artifact:** `[ Preview TBD | Coin Design ]` • *Mockup Pending*
-* 🔭 **Science:** [View Research Target](https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995) • [Zooniverse Process](https://www.zooniverse.org/about)
-</details>
+#### 🪐 `CAPTURE ID: COIN-005`
+> **A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...**
+> <p align="left">🛸 <i>Mockup Pending</i> • 🚀 <i><a href="https://clubforfuture.org">Flight Manifest</a></i> • 🔬 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Zooniverse Data</a></i></p>
 
 ---
 
