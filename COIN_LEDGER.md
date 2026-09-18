@@ -80,7 +80,7 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 #### 🪐 `CAPTURE ID: COIN-001`
 > **Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Cosmic Target</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Cosmic Target (Sky Data)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
 
 ---
 
@@ -104,7 +104,7 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 #### 🪐 `CAPTURE ID: COIN-005`
 > **A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...**
-> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Cosmic Target</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
+> <p align="left">🛸 <i>Mockup Pending</i> • 🔬 <i><a href="https://www.zooniverse.org/about">Zooniverse Data</a></i> • 🪐 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Cosmic Target (Sky Data)</a></i> • 📡 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Research Hub</a></i></p>
 
 ---
 
