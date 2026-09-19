@@ -3,14 +3,22 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
+> I contribute to **[open science projects](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16)** and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a **[digital satellite screen](https://tr.ee/P8Bv63Qkk6)** directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
 > 
-> Simultaneously, the exhibition grounds are expanding right here on Earth. The global treasure hunt has officially begun, with physical art already hidden across multiple states. This includes hidden books, art pieces, and custom coins containing clues to the space phenomena that inspire my work. Find a hidden piece, unlock the archive, and connect the cosmos to Earth.
+> Simultaneously, the exhibition grounds are expanding right here on Earth. The global treasure hunt has officially begun, with physical books and art pieces already hidden across multiple states, alongside an upcoming release of custom coins containing clues to the space phenomena that inspire my work. Find a hidden piece, unveil the full verse, and connect the cosmos to Earth.
+
+---
+
+### 🎛️ CORESYSTEM NETWORKS // PROJECT GATEWAYS
+
+| 🌌 INTERACTIVE APP | 🪙 COLLECTOR REGISTRY | 📊 OPEN DATA STREAM |
+| :--- | :--- | :--- |
+| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by citizen science research. | **[Cosmic Artifact Registry](https://bio.site/mooresignal)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
 
 ---
 
 <details>
-<summary><b>✨ Click to reveal details & research methodology...</b></summary>
+<summary><b>🔬 ENTER SYSTEM CONTROL // TECHNICAL LOGS & METHODOLOGY</b></summary>
 <br>
 
 # 🛰️ THE MOORE SIGNAL ARCHIVE
@@ -58,9 +66,8 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 
 *   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist haiku poetry.
 *   **Physical Artifacts:** Fragmented verses are hand-inscribed onto custom coins alongside additional treasures destined to cross multiple borders. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
-*   **Space Missions:** Limited-edition poetry prints are routed to launch beyond the clouds & above the globe on commercial rockets, attaining official flight-certified status upon their return to Earth.
+*   **Space Missions:** Limited-edition poetry prints are routed to launch beyond the clouds & above the globe on <i><a href="https://www.clubforfuture.org/postcards">commercial rocket missions</a></i>, attaining official flight-certified status upon their return to Earth.
 *   **3D Galaxy Visualizer:** This web application uses geometric math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape. *[Launch the interactive visualizer.](https://cyber-chic.github.io/cosmos/universe)*
-
 
 ## 🛠️ Sharing & Attribution Protocol
 
