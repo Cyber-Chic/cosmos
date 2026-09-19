@@ -13,7 +13,7 @@
 
 | 🌌 INTERACTIVE APP | 🪙 COLLECTOR REGISTRY | 📊 OPEN DATA STREAM |
 | :--- | :--- | :--- |
-| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by Zooniverse research. | **[Cosmic Artifact Registry](https://bio.site/mooresignal)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
+| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by Zooniverse research. | **[Cosmic Artifact Registry](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
 
 ---
 
