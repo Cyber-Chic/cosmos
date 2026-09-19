@@ -3,17 +3,17 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I contribute to **[open science projects](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16)** and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a **[digital satellite screen](https://tr.ee/P8Bv63Qkk6)** directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
+> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a historic art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of my cosmic prints is slated to launch into space aboard commercial rockets. 
 > 
 > Simultaneously, the exhibition grounds are expanding right here on Earth. The global treasure hunt has officially begun, with physical books and art pieces already hidden across multiple states, alongside an upcoming release of custom coins containing clues to the space phenomena that inspire my work. Find a hidden piece, unveil the full verse, and connect the cosmos to Earth.
 
 ---
 
-### 🎛️ CORESYSTEM NETWORKS // PROJECT GATEWAYS
+### 🎛️ DIGITAL REPOSITORY // PROJECT GATEWAYS
 
 | 🌌 INTERACTIVE APP | 🪙 COLLECTOR REGISTRY | 📊 OPEN DATA STREAM |
 | :--- | :--- | :--- |
-| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by citizen science research. | **[Cosmic Artifact Registry](https://bio.site/mooresignal)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
+| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by Zooniverse research. | **[Cosmic Artifact Registry](https://bio.site/mooresignal)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
 
 ---
 
@@ -28,13 +28,13 @@
 ## 🔭 About the Archive
 The Moore Signal Archive is an autonomous, creative studio pairing open public data with minimalist art. As a privately run, independent archive, it contributes to collaborative citizen science research initiatives with no official ties to NASA or government space agencies.
 
-*   📡 **Active Verification Records:** [Zooniverse Data](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
+  *   📡 **Active Verification Records:** [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
 *   🛠️ **Exhibition Bookings & Inquiries:** `themoorearchive@proton.me`
 
 ---
 
 ## 📊 My Citizen Science Logs
-My research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via `Zooniverse`. Additionally, the exoplanets below were analyzed for [Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/) using the [EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/) Python software.
+My research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via [`Zooniverse`](https://www.zooniverse.org/about). Additionally, the exoplanets below were analyzed for [Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/) using the [EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/) Python software.
 
 ### 🌌 Exoplanets Ledger
 > **Observer Code:** `MANBA`
@@ -82,5 +82,4 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 </p>
 
 </details>
-
 
