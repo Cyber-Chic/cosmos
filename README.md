@@ -9,17 +9,32 @@
 
 ---
 
-### 🎛️ DIGITAL REPOSITORY // PROJECT GATEWAYS
+### ⚙️ DIGITAL REPOSITORY // PROJECT GATEWAYS
 
-| 🌌 INTERACTIVE APP | 🪙 COLLECTOR REGISTRY | 📊 OPEN DATA STREAM |
-| :--- | :--- | :--- |
-| **[Launch 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe)**<br>Procedural celestial backdrops rendering original astropoetic verses inspired by Zooniverse research. | **[Cosmic Artifact Registry](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**<br>An official resource hub for treasure hunters to locate and match coin IDs to reveal hidden data profiles and complete poems. | **[AAVSO Research Ledger](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true)**<br>Direct access to verified light curve datasets generated for Exoplanet Watch. |
+<div align="left">
+  <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 580px; margin-left: 0;">
+    <tr style="border: none;">
+      <td align="left" style="border: none; padding: 6px 4px 6px 0; white-space: nowrap;">
+        <a href="https://cyber-chic.github.io/cosmos/universe" style="text-decoration: none;"><b style="padding: 8px 14px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #c9d1d9; font-size: 14px; display: inline-block;">🌌 3D GALAXY MAP</b></a>
+      </td>
+      <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
+        <a href="https://tr.ee/9DnwSyN7xp" style="text-decoration: none;"><b style="padding: 8px 14px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #c9d1d9; font-size: 14px; display: inline-block;">🪙 COSMIC ARTIFACTS</b></a>
+      </td>
+      <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
+        <a href="https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true" style="text-decoration: none;"><b style="padding: 8px 14px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #c9d1d9; font-size: 14px; display: inline-block;">📊 EXOPLANET GRAPHS</b></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+> **Inside the Portal:** The interactive icons above provide a direct gateway across our core directories. Launch the custom celestial 3D engine, trace hidden treasure hunt releases, or review my Exoplanet Watch light curves.
 
 ---
 
 <details>
-<summary><b>🔬 ENTER SYSTEM CONTROL // TECHNICAL LOGS & METHODOLOGY</b></summary>
+<summary><b>🔬 RESEARCH SCOPES & INITIATIVES // ARCHIVE OVERVIEW</b></summary>
 <br>
+
 
 # 🛰️ THE MOORE SIGNAL ARCHIVE
 ### *Independent Citizen Science & Generative Art*
@@ -28,7 +43,7 @@
 ## 🔭 About the Archive
 The Moore Signal Archive is an autonomous, creative studio pairing open public data with minimalist art. As a privately run, independent archive, it contributes to collaborative citizen science research initiatives with no official ties to NASA or government space agencies.
 
-  *   📡 **Active Verification Records:** [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
+*   📡 **Active Verification Records:** [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
 *   🛠️ **Exhibition Bookings & Inquiries:** `themoorearchive@proton.me`
 
 ---
@@ -48,6 +63,28 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 ## 🎨 Art Integration & Global Distribution
 
 <div align="center">
+  <table style="border: none; border-collapse: collapse; background: transparent;">
+    <tr style="border: none;">
+      <td align="center" style="border: none; padding: 0;">
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px; border: 1px solid #30363d;" />
+        <br />
+        <br />
+        <p align="center" style="margin: 0; max-width: 420px; line-height: 1.4;">
+          <sup><i>Generative Visualizer Engine Snapshot:<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist haiku poetry.
+*   **Physical Artifacts:** Fragmented verses are hand-inscribed onto custom coins alongside additional treasures destined to cross multiple borders. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
+*   **Space Missions:** Limited-edition poetry prints are queued to board commercial rocket missions, attaining official flight certification upon return to Earth.
+*   **3D Galaxy Visualizer:** This application maps handwritten logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape. *[Launch the interactive visualizer.](https://cyber-chic.github.io/cosmos/universe)*
+
+<br />
+
+<div align="center">
   <br />
   <table style="border: none; border-collapse: collapse;">
     <tr>
@@ -64,10 +101,7 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
   <br />
 </div>
 
-*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist haiku poetry.
-*   **Physical Artifacts:** Fragmented verses are hand-inscribed onto custom coins alongside additional treasures destined to cross multiple borders. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
-*   **Space Missions:** Limited-edition poetry prints are routed to launch beyond the clouds & above the globe on <i><a href="https://www.clubforfuture.org/postcards">commercial rocket missions</a></i>, attaining official flight-certified status upon their return to Earth.
-*   **3D Galaxy Visualizer:** This web application uses geometric math to procedurally map handwritten haiku logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape. *[Launch the interactive visualizer.](https://cyber-chic.github.io/cosmos/universe)*
+---
 
 ## 🛠️ Sharing & Attribution Protocol
 
@@ -82,4 +116,3 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
 </p>
 
 </details>
-
