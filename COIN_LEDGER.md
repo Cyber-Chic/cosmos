@@ -66,10 +66,7 @@ The archive celebrates community discovery by randomly selecting tracking initia
 💻 *Finders can verify if their initials have been archived into the mission manifest by checking the source code of our flagship satellite exhibit image featured above.*
 
 
-
 ---
-
-
 
 ### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER
 
@@ -77,9 +74,7 @@ The archive celebrates community discovery by randomly selecting tracking initia
 
 **The Inspiration:** Each art piece contains a unique haiku poem about space that I wrote based on my actual research as a citizen scientist. The poems are inspired by real cosmic data I helped analyze, from hunting planets for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
 
-**The Space Journeys:**
-* 🚀 **Rocket Flights:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon return.
-* 🛰️ **Satellite Broadcast:** The flagship artwork—combining custom mints layered over an original mixed media painting—is queued for a live space broadcast. A satellite orbiting Earth will flash the exhibit piece on its screen directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
+**The Space Journeys:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon their return to Earth.
 
 ---
 
@@ -89,7 +84,7 @@ The archive celebrates community discovery by randomly selecting tracking initia
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot (WASP-12b). Custom astropoetic verse mapped over a procedurally generated celestial grid." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot (WASP-12b). Custom astropoetic verse mapped over a procedurally generated celestial grid mesh." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
         <br />
         <br />
         <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
