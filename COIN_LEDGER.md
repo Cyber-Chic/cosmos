@@ -3,7 +3,7 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a historic orbital exhibition is underway: my flagship artwork is queued to broadcast from a satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
+> I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
 > 
 > Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the space phenomena that inspire my work.
 
@@ -13,11 +13,21 @@
 <summary><b>🛰️ ENTER MISSION CONTROL // VIEW REPOSITORY MANIFEST</b></summary>
 <br />
 
+### 🔍 Archival Directory Overview
+
+This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching portal.
+
+*   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
+*   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures from the galaxy visualizer are also releasing as limited-edition spacebound prints. 
+*   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
+
+<br />
+
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact" alt="Flagship Mixed-Media Artifact" width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
+        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Scheduled for a satellite broadcast over the Pyramids of Giza. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
         <br />
         <br />
         <p align="center" style="margin: 0; max-width: 480px; line-height: 1.4;">
@@ -28,17 +38,18 @@
   </table>
 </div>
 
+<br />
+
+### 📡 PARTICIPANT FEATURES & SPACE LEGACIES
+
+> 🛠️ **Archival Notice:** To protect your privacy, you are never required to fill out long forms or share personal tracking links to join our space manifests.
+
+The archive celebrates community discovery by randomly selecting tracking initials from active geocaching logs and other social shares. To thank participants for their role in the journey, these initials are embedded directly into the alternative metadata code of our single flagship image—scheduled for a live satellite broadcast over the Pyramids of Giza—and are subject to cycle randomly over time.
+
+💻 *Finders can verify if their initials have been archived into the mission manifest by checking the source code of our flagship satellite exhibit image featured above.*
+
 ---
 
-### 🔍 Archival Directory Overview
-
-This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching website.
-
-*   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
-*   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures from my galaxy visualizer are also releasing as limited-edition astropoetic prints. 
-*   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza.
-
----
 
 ### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER
 
@@ -58,11 +69,11 @@ This portal serves as the permanent digital registry for a global, real-world **
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot (WASP-12b). Custom astropoetic verse mapped over a procedurally generated celestial grid." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
         <br />
         <br />
         <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
-          <sup><i>Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+          <sup><i>Generative Visualizer Engine Snapshot (WASP-12b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
         </p>
       </td>
     </tr>
