@@ -79,33 +79,104 @@ This portal serves as the permanent digital registry for a global, real-world **
 
 #### 🪐 `CAPTURE ID: COIN-001`
 > 📜 **Full Poem //** *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
-> <p align="left">🛸 <i>Mockup Pending</i> • 🪐 <i><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882">Celestial Source (Sky Data)</a></i> • 🔬 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Explore Research Hub</a></i></p>
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #8b949e; font-size: 12px; display: inline-block;">🛸 MOCKUP PENDING</b>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-002`
 > 📜 **Full Poem //** *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
-> <p align="left">🛸 <i>Mockup Pending</i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-2b">Celestial Source (TrES-2b)</a></i> • 🔬 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Explore Research Hub</a></i></p>
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #8b949e; font-size: 12px; display: inline-block;">🛸 MOCKUP PENDING</b>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://en.wikipedia.org/wiki/TrES-2b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-003`
 > 📜 **Full Poem //** *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
-> <p align="left">🛸 <i>Mockup Pending</i> • 🪐 <i><a href="https://simple.wikipedia.org/wiki/WASP-12b">Celestial Source (WASP-12b)</a></i> • 🔬 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Explore Research Hub</a></i></p>
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #8b949e; font-size: 12px; display: inline-block;">🛸 MOCKUP PENDING</b>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://simple.wikipedia.org/wiki/WASP-12b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-004`
 > 📜 **Full Poem //** *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
-> <p align="left">🛸 <i>Mockup Pending</i> • 🪐 <i><a href="https://en.wikipedia.org/wiki/TrES-3b">Celestial Source (TrES-3b)</a></i> • 🔬 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Explore Research Hub</a></i></p>
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #8b949e; font-size: 12px; display: inline-block;">🛸 MOCKUP PENDING</b>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://en.wikipedia.org/wiki/TrES-3b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-005`
 > 📜 **Full Poem //** *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
-> <p align="left">🛸 <i>Mockup Pending</i> • 🪐 <i><a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995">Celestial Source (Sky Data)</a></i> • 🔬 <i><a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md">Explore Research Hub</a></i></p>
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #8b949e; font-size: 12px; display: inline-block;">🛸 MOCKUP PENDING</b>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
 
 ---
+
 
 #### 📡 [ REGULATORY NOTE ]
 <details>
