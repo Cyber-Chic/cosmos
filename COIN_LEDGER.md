@@ -27,6 +27,23 @@ This portal serves as the permanent digital registry for a global, real-world **
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
+        <img src="https://ugc.production.linktr.ee/1d34978d-0549-4a50-9f17-c7a79ce0fbab_deep-space-capture-hurling-speeds-2.jpeg?io=true&size=gallery-image" alt="Generative Visualizer Engine Snapshot (TrES-3b). Custom astropoetic verse mapped over a procedurally generated celestial grid mesh." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
+        <br />
+        <br />
+        <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
+          <sup><i>Generative Visualizer Engine Snapshot (TrES-3b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+<div align="center">
+  <table style="border: none; border-collapse: collapse; background: transparent;">
+    <tr style="border: none;">
+      <td align="center" style="border: none; padding: 0;">
         <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Scheduled for a satellite broadcast over the Pyramids of Giza. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
         <br />
         <br />
@@ -48,7 +65,10 @@ The archive celebrates community discovery by randomly selecting tracking initia
 
 💻 *Finders can verify if their initials have been archived into the mission manifest by checking the source code of our flagship satellite exhibit image featured above.*
 
+
+
 ---
+
 
 
 ### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER
