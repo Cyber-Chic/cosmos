@@ -2,69 +2,56 @@
 
 ---
 
-> ### 📜 Archival Ledger: The Space Exhibition & Cosmic Registry
-> **This manifest functions as the primary visual ledger tracking our art prints slated for spacebound release.** 
-> Our orbital exhibition is featured below, set to display over the Pyramids of Giza alongside physical prints launching into **[space](https://www.clubforfuture.org/postcards)** as conceptual counterparts.
+### 📜 MISSION OVERVIEW // COSMIC REGISTRY
+
+> **ORBITAL PARAMETER:** *This manifest serves as the primary visual ledger tracking conceptual art prints slated for spacebound release.*
+> 
+> Our upcoming orbital exhibition will broadcast directly over the **Pyramids of Giza**, operating in tandem with physical limited-edition prints launching into space via **[Club for the Future](https://clubforfuture.org)**.
 
 ---
 
-| 🛰️ FLIGHT MANIFEST // FEATURED SHOWPIECE |
+### 🎨 POSITION 1 // THE CELESTIAL STAGE
+
+| 🛰️ BROADCAST TRANSMISSION // [SAT GUS](https://linktr.ee) |
 | :--- |
-| **Mission Parameter:** Satellite Transmission Vector // **[SAT GUS](https://linktr.ee/themooresignal)**  <br> **Payload Status:** *Manifested / Slated for Broadcast* |
-| <br> <div align="center"> <img src="images.css/IMG_9495.jpeg" width="65%" alt="Flagship Mixed-Media Artifact slated for satellite broadcast" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
-| 📜 **Archival Ledger Artifact (Full Composition):** <br> *Flagship artwork featuring physical cosmic tokens destined for discovery. Unique astro-haikus are permanently inscribed on the reverse of each physical coin. Scheduled for an orbital display passing over the Pyramids of Giza.* |
+| **PAYLOAD STATUS:** `🟢 MANIFESTED / SLATED FOR BROADCAST` |
+| <br> <div align="center"> <img src="images.css/IMG_9495.jpeg" width="550" alt="Flagship Mixed-Media Artifact" style="border-radius:6px; border:1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" /> </div> |
+| **Ledger Entry // Full Composition:**<br>Original flagship artwork featuring conceptual tokens destined for discovery as part of a global treasure hunt. Fragmented cosmic poetry is hand-inked on the verso side of each token. |
 
 ---
 
-#### 📂 Archive Documentation // SNAP-CTTW-001
-[🔍 View Fullsize Asset](images.css/black.jpg)
+### 📷 POSITION 2 // STUDIO FEATURES & RELEASES
 
-<img src="images.css/black.jpg" width="400" alt="CT Tech Week community feature collage snapshot" style="border-radius:6px; border:1px solid #30363d;" />
-
-**EVENT DETAILS** // CT Tech Week Pop-Up Exhibition  
-**PHOTO CREDIT** // *Ely Center for Contemporary Art*  
-**PAYLOAD STATUS** // *Selection in process*
-
----
-
-#### 📂 Archive Documentation // SNAP-CTTW-002
-[🔍 View Fullsize Asset](images.css/black.jpg)
-
-<img src="images.css/black.jpg" width="400" alt="CT Tech Week interactive table layout snapshot" style="border-radius:6px; border:1px solid #30363d;" />
-
-**EVENT DETAILS** // CT Tech Week Pop-Up Exhibition  
-**PHOTO CREDIT** // *Ely Center for Contemporary Art*  
-**PAYLOAD STATUS** // *Selection in process*
+| 📂 ARCHIVE DOCUMENTATION // SNAP-CTTW-001 |
+| :--- |
+| **EXHIBITION HISTORY:** CT Tech Week Pop-Up Exhibition <br> **PROVENANCE:** Ely Center for Contemporary Art <br> **PAYLOAD STATUS:** `🟡 SELECTION IN PROGRESS` |
+| <br> <div align="center"> <img src="images.css/black.jpg" width="450" alt="CT Tech Week community feature" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
+| <a href="images.css/black.jpg">🔍 View Fullsize Asset</a> |
 
 ---
 
-#### 📂 Archive Documentation // SNAP-WASP-12b
-[🔍 View Fullsize Asset](images.css/deep-space-capture-silver-exoplanet.jpg)
+| 📂 ARCHIVE DOCUMENTATION // SNAP-CTTW-002 |
+| :--- |
+| **EXHIBITION HISTORY:** CT Tech Week Pop-Up Exhibition <br> **PROVENANCE:** Ely Center for Contemporary Art <br> **PAYLOAD STATUS:** `🟡 SELECTION IN PROGRESS` |
+| <br> <div align="center"> <img src="images.css/black.jpg" width="450" alt="CT Tech Week layout" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
+| <a href="images.css/black.jpg">🔍 View Fullsize Asset</a> |
 
-<img src="images.css/deep-space-capture-silver-exoplanet.jpg" width="400" alt="Exoplanet WASP-12b capture" style="border-radius:6px; border:1px solid #30363d;" />
+---
+### 🌌 POSITION 3 // THE GALAXY CAPTURES
 
-
-
-**TARGET PARAMETER** // Exoplanet Class: WASP-12b  
-**PAYLOAD STATUS** // *Manifested // Print Queue*  
-**ASTRO-HAIKU** // *Raging hot flames reign...*  
+| 🪐 COSMIC DATA LOG // TARGET: WASP-12b |
+| :--- |
+| **ORIGINAL TARGET:** WASP-12b *(Exoplanet Watch Project)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
+| <br> <div align="center"> <img src="images.css/deep-space-capture-silver-exoplanet.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
+| **Astro-Poetry // Curatorial Text:** *“Spinning at top speeds....”* <br><br> <a href="images.css/deep-space-capture-silver-exoplanet.jpg">🔍 View Deep Space Capture</a> |
 
 ---
 
-#### 📂 Archive Documentation // SNAP-TrES-3b
-[🔍 View Fullsize Asset](images.css/deep-space-capture.jpg)
-
-<img src="images.css/deep-space-capture.jpg" width="400" alt="Exoplanet TrES-3b capture" style="border-radius:6px; border:1px solid #30363d;" />
-
-**TARGET PARAMETER** // Exoplanet Class: TrES-3b  
-**PAYLOAD STATUS** // *Manifested // Print Queue*  
-**ASTRO-HAIKU** // *Spinning at top speeds...*  
+| 🪐 COSMIC DATA LOG // TARGET: SKY-DATA |
+| :--- |
+| **ORIGINAL TARGET:** Sky-Data *(Zooniverse Platform)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
+| <br> <div align="center"> <img src="images.css/deep-space-capture.jpg" width="450" alt="Galaxy Map Visual Capture" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
+| **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a> |
 
 ---
-
-
-
-
-
-
 
