@@ -17,11 +17,15 @@
 
 This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log your find](https://coord.info)** on the tracking portal.
 
+📦 **REGISTRY LEDGER** // This portal houses the primary coin tracking registry. To view the expanded space exhibition catalog, access the **[Payload Image Manifest](./PAYLOAD_MANIFEST.md)**.
+
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in the real world.
 *   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures—including project highlights & cosmic visuals—are also releasing as limited-edition spacebound prints. 
-*   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track exhibition via **[SAT GUS](https://tr.ee)**).*
+*   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track display via **[SAT GUS](https://tr.ee)**).*
 
 <br />
+
+
 
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
