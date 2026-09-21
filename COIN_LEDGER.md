@@ -18,7 +18,7 @@
 This portal serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log](https://coord.info/TBB2WKZ)** your find on the geocaching portal.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in exchange.
-*   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select mementos including project highlights & cosmic visuals are also releasing as limited-edition spacebound prints. 
+*   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures including project highlights & visuals are also releasing as limited-edition spacebound prints. 
 *   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track the satellite via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
 <br />
