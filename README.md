@@ -66,7 +66,7 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px; border: 1px solid #30363d;" />
+        <img src="images.css/deep-space-capture-silver-exoplanet.jpg" alt="Galaxy Map Visual Capture" width="420" style="border-radius: 6px; border: 1px solid #30363d;" />
         <br />
         <br />
         <p align="center" style="margin: 0; max-width: 420px; line-height: 1.4;">
