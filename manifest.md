@@ -10,19 +10,15 @@
 
 ---
 
-### 🎨 POSITION 1 // THE CELESTIAL STAGE
+### 🎨 PHASE 1 // THE CELESTIAL STAGE
 
 | 🛰️ BROADCAST TRANSMISSION // [SAT GUS](https://tr.ee/P8Bv63Qkk6) |
 | :--- |
-| **ORIGINAL TARGET:** Satellite Transmission // In Outer Space <br> **ARCHIVE INITIATIVE:** To Launch an Exhibition Beyond the Globe <br> **MEDIUM / FORMAT:** Mixed-Media Piece & Featured Artifacts <br> **PAYLOAD STATUS:** `🟢 MANIFESTED / SLATED FOR BROADCAST` |
+| **ORIGINAL TARGET:** Satellite Transmission // Low Earth Orbit <br> **ARCHIVE INITIATIVE:** To Project Contemporary Art Beyond the Globe <br> **MEDIUM / FORMAT:** Mixed-Media Work & Core Artifacts <br> **PAYLOAD STATUS:** `🟢 MANIFESTED / SLATED FOR BROADCAST` |
 | <br> <div align="center"> <img src="images.css/IMG_9495.jpeg" width="550" alt="Flagship Mixed-Media Artwork" style="border-radius:6px; border:1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" /> </div> |
-| **Ledger Entry // Full Composition:**<br>Artwork slated to broadcast over the Pyramids of Giza.<br>Fragmented poetry traces the verso side of each token. |
+| **Ledger Entry // Full Composition:**<br>Artwork slated to broadcast over the Pyramids of Giza.<br>Fragmented poetry traces the verso side of each physical token. |
 
 ---
-
-
-
-### 📷 POSITION 2 // STUDIO FEATURES & RELEASES
 
 | 📂 ARCHIVE DOCUMENTATION // SNAP-CTTW-001 |
 | :--- |
@@ -40,7 +36,7 @@
 
 ---
 
-### 🌌 POSITION 3 // THE GALAXY CAPTURES
+### 🌌 PHASE 3 // THE GALAXY CAPTURES
 
 | 🪐 COSMIC DATA LOG // TARGET: SKY-DATA |
 | :--- |
@@ -53,7 +49,7 @@
 
 | 🪐 COSMIC DATA LOG // TARGET: WASP-12b |
 | :--- |
-| **ORIGINAL TARGET:** WASP-12b *(Exoplanet Watch Project)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
+| **ORIGINAL TARGET:** Celestial *(Exoplanet Watch Project)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
 | <br> <div align="center"> <img src="images.css/deep-space-capture.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
 | **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a> |
 
