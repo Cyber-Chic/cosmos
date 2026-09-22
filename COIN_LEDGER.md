@@ -20,7 +20,7 @@ This source serves as the digital archive for a global, real-world **[treasure h
 📦 **EXHIBIT SPOTLIGHT** // This site primarily houses the astro coin archive. To view the expanded space exhibition catalog, access the **[COSMIC SHOWCASE](manifest.md)**.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in the real world.
-*   **The Flight Manifests:** Custom captures of each coin are queued to board commercial rockets and launch into space. Select captures—including project highlights & visuals—are also releasing as spacebound prints. 
+*   **The Flight Manifests:** Custom captures of each coin are queued to board commercial rockets and launch into space. Select mementos—including project highlights & visuals—are also releasing as spacebound prints. 
 *   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
 <br />
