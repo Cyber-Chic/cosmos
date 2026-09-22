@@ -4,9 +4,9 @@
 
 ### 📜 SPACE BROADCASTS // THE PROGRAMME
 
-> **COSMIC SHOWCASE:** *Our upcoming orbital exhibition will beam original artwork directly over the **Pyramids of Giza** via satellite, debuting alongside limited-edition physical prints destined for space flight.*
+> **COSMIC SHOWCASE:** *Our upcoming orbital exhibition will beam original artwork directly over the **Pyramids of Giza** via satellite, debuting alongside limited-edition  pieces destined for space flight.*
 > 
-> **THE ARCHIVE** // This page preserves our extended spacebound art collection. These digital captures will manifest as physical gallery pieces, slated to launch aboard commercial rocket flights via **[Blue Origin](https://www.clubforfuture.org/postcards)**. To follow the real-world cosmic token hunt, return to the main **[HUB](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**.
+> **THE ARCHIVE** // This page preserves the extended spacebound art collection. These digital captures will manifest as physical studio prints, slated to launch aboard commercial rockets via **[Blue Origin](https://www.clubforfuture.org/postcards)**. To follow the real-world cosmic token hunt, return to the main **[HUB](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**.
 
 ---
 
