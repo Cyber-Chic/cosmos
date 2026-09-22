@@ -5,7 +5,7 @@
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
 > I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
 > 
-> Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the space phenomena that inspire my work.
+> Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
 
 ---
 
@@ -15,12 +15,12 @@
 
 ### 🔍 Archival Directory Overview
 
-This source serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log your find](https://coord.info/TBB2WKZ)** on the tracking portal.
+This source serves as the digital archive for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log your find](https://coord.info/TBB2WKZ)** on the tracking portal.
 
-📦 **EXHIBIT SPOTLIGHT** // This site primarily houses the Astro coin archive. To view the expanded space exhibition catalog, access the **[COSMIC SHOWCASE](manifest.md)**.
+📦 **EXHIBIT SPOTLIGHT** // This site primarily houses the astro coin archive. To view the expanded space exhibition catalog, access the **[COSMIC SHOWCASE](manifest.md)**.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in the real world.
-*   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures—including project highlights & cosmic visuals—are also releasing as limited-edition spacebound prints. 
+*   **The Flight Manifests:** Custom captures of each coin are queued to board commercial rockets and launch into space. Select captures—including project highlights & visuals—are also releasing as spacebound prints. 
 *   **The Orbital Broadcast:** Signature studio artwork is slated for a live digital broadcast via a satellite passing directly over the Pyramids of Giza. *(Track display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
 <br />
