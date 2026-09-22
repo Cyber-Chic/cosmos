@@ -17,7 +17,7 @@
 
 This source serves as the permanent digital registry for a global, real-world **[treasure hunt](https://linktr.ee/themooresignal)** bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. You are also invited to **[log your find](https://coord.info/TBB2WKZ)** on the tracking portal.
 
-📦 **THE SPOTLIGHT** // This site primarily houses the Astro coin archive. To view the expanded space exhibition catalog, access the **[FEATURED SHOWCASE](manifest.md)**.
+📦 **EXHIBIT SPOTLIGHT** // This site primarily houses the Astro coin archive. To view the expanded space exhibition catalog, access the **[COSMIC SHOWCASE](manifest.md)**.
 
 *   **The Kindness Protocol:** Physical tokens are complimentary keepsakes. To pay it forward, finders are requested to perform one anonymous act of kindness in the real world.
 *   **The Flight Manifests:** Custom prints representing each physical coin are queued to board commercial rockets and launch into space. Select captures—including project highlights & cosmic visuals—are also releasing as limited-edition spacebound prints. 
