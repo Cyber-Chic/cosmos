@@ -1,12 +1,12 @@
-# 🛰️ THE MOORE SIGNAL ARCHIVE // PAYLOAD IMAGE MANIFEST
+# 🛰️ MOORE SIGNAL // EXHIBIT SPOTLIGHT
 
 ---
 
-### 📜 MISSION OVERVIEW // COSMIC REGISTRY
+### 📜 SPACE BROADCASTS // THE PROGRAMME
 
-> **ORBITAL PARAMETER:** *This manifest serves as the primary visual ledger tracking conceptual art prints slated for spacebound release.*
+> **COSMIC SHOWCASE:** *Our upcoming orbital exhibition will beam original artwork directly over the **Pyramids of Giza** via satellite, debuting alongside limited-edition physical prints destined for space flight.*
 > 
-> Our upcoming orbital exhibition will broadcast directly over the **Pyramids of Giza**, operating in tandem with physical limited-edition prints launching into space via **[Club for the Future](https://www.clubforfuture.org/postcards)**.
+> **THE ARCHIVE** // This page preserves our extended spacebound art collection. To follow the real-world cosmic token hunt, return to the main **[HUB](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**.
 
 ---
 
@@ -14,11 +14,13 @@
 
 | 🛰️ BROADCAST TRANSMISSION // [SAT GUS](https://tr.ee/P8Bv63Qkk6) |
 | :--- |
-| **ORIGINAL TARGET:** Satellite Transmission // In Outer Space <br> **ARCHIVE INITIATIVE:** To Launch an Exhibition Beyond the Globe<br> **MEDIUM / FORMAT:** Mixed-Media Piece & Featured Artifacts <br> **PAYLOAD STATUS:** `🟢 MANIFESTED / SLATED FOR BROADCAST` |
+| **ORIGINAL TARGET:** Satellite Transmission // In Outer Space <br> **ARCHIVE INITIATIVE:** To Launch an Exhibition Beyond the Globe <br> **MEDIUM / FORMAT:** Mixed-Media Piece & Featured Artifacts <br> **PAYLOAD STATUS:** `🟢 MANIFESTED / SLATED FOR BROADCAST` |
 | <br> <div align="center"> <img src="images.css/IMG_9495.jpeg" width="550" alt="Flagship Mixed-Media Artwork" style="border-radius:6px; border:1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" /> </div> |
 | **Ledger Entry // Full Composition:**<br>Artwork slated to broadcast over the Pyramids of Giza.<br>Fragmented poetry traces the verso side of each token. |
 
 ---
+
+
 
 ### 📷 POSITION 2 // STUDIO FEATURES & RELEASES
 
@@ -56,5 +58,6 @@
 | **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a> |
 
 ---
+
 
 
