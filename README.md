@@ -1,4 +1,4 @@
-# 🛰️ THE SPACE EXHIBIT
+# 🛰️ THE SPACE STUDIO
 
 ---
 
