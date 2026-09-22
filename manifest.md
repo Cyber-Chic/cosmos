@@ -48,14 +48,12 @@
 
 ---
 
-| 🪐 COSMIC DATA LOG // **[TARGET: WASP-12b](https://nasa.gov)** |
+| 🪐 COSMIC DATA LOG // **[TARGET: WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)** |
 | :--- |
 | **ORIGINAL TARGET:** Celestial *(Exoplanet Watch Project)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
 | <br> <div align="center"> <img src="images.css/deep-space-capture.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
 | **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <div align="center"><a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a></div> |
 
 ---
-
-
 
 
