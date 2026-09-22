@@ -10,7 +10,6 @@
 
 ---
 
-
 ### 🎨 PHASE 1 // THE CELESTIAL STAGE
 
 | 🛰️ BROADCAST TRANSMISSION // [SAT GUS](https://tr.ee/P8Bv63Qkk6) |
@@ -21,11 +20,13 @@
 
 ---
 
+### 📷 PHASE 2 // STUDIO FEATURES & RELEASES
+
 | 📂 ARCHIVE DOCUMENTATION // **[SNAP-CTTW-001](https://luma.com/q0lm15pz)** |
 | :--- |
 | **EXHIBITION HISTORY:** CT Tech Week Pop-Up Exhibition <br> **PROVENANCE:** Ely Center for Contemporary Art <br> **PAYLOAD STATUS:** `🟡 SELECTION IN PROGRESS` |
 | <br> <div align="center"> <img src="images.css/black.jpg" width="450" alt="CT Tech Week community feature" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
-| <a href="images.css/black.jpg">🔍 View Fullsize Asset</a> |
+| <div align="center"><a href="images.css/black.jpg">🔍 View Fullsize Asset</a></div> |
 
 ---
 
@@ -33,7 +34,7 @@
 | :--- |
 | **EXHIBITION HISTORY:** CT Tech Week Pop-Up Exhibition <br> **PROVENANCE:** Ely Center for Contemporary Art <br> **PAYLOAD STATUS:** `🟡 SELECTION IN PROGRESS` |
 | <br> <div align="center"> <img src="images.css/black.jpg" width="450" alt="CT Tech Week layout" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
-| <a href="images.css/black.jpg">🔍 View Fullsize Asset</a> |
+| <div align="center"><a href="images.css/black.jpg">🔍 View Fullsize Asset</a></div> |
 
 ---
 
@@ -43,18 +44,18 @@
 | :--- |
 | **ORIGINAL TARGET:** Sky-Data *(Zooniverse Platform)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poetry <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
 | <br> <div align="center"> <img src="images.css/deep-space-capture-silver-exoplanet.jpg" width="450" alt="Galaxy Map Visual Capture" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
-| **Astro-Poetry // Curatorial Text:** *“Spinning at top speeds....”* <br><br> <a href="images.css/deep-space-capture-silver-exoplanet.jpg">🔍 View Deep Space Capture</a> |
+| **Astro-Poetry // Curatorial Text:** *“Spinning at top speeds....”* <br><br> <div align="center"><a href="images.css/deep-space-capture-silver-exoplanet.jpg">🔍 View Deep Space Capture</a></div> |
 
 ---
 
-
-| 🪐 COSMIC DATA LOG // **[TARGET: WASP-12b ](https://simple.wikipedia.org/wiki/WASP-12b)** |
+| 🪐 COSMIC DATA LOG // **[TARGET: WASP-12b](https://nasa.gov)** |
 | :--- |
 | **ORIGINAL TARGET:** Celestial *(Exoplanet Watch Project)* <br> **ARCHIVE INITIATIVE:** Convert research into haiku poem <br> **MEDIUM / FORMAT:** Procedurally Mapped Celestial Grid <br> **PAYLOAD STATUS:** `🔵 MANIFESTED // PRINT QUEUE` |
 | <br> <div align="center"> <img src="images.css/deep-space-capture.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border:1px solid #30363d;" /> </div> |
-| **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a> |
+| **Astro-Poetry // Curatorial Text:** *“Raging hot flames reign....”* <br><br> <div align="center"><a href="images.css/deep-space-capture.jpg">🔍 View Deep Space Capture</a></div> |
 
 ---
+
 
 
 
