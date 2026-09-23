@@ -45,6 +45,7 @@ This portal serves as a permanent digital archive for a global treasure hunt bri
 ### 📡 PARTICIPANT FEATURES & SPACE LEGACIES
 
 
+
 > 🛠️ **Archival Notice:** To protect your privacy, you are never required to fill out long forms or share personal tracking links to join our space manifests.
 
 The archive celebrates community discovery by randomly selecting tracking initials from active geocaching logs and other social shares. To thank participants for their role in the journey, these initials are embedded directly into the alternative metadata code of our single flagship image—scheduled for a live satellite broadcast over the Pyramids of Giza—and are subject to cycle randomly over time.
