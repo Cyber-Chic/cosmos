@@ -59,11 +59,11 @@ The archive celebrates community discovery by randomly selecting tracking initia
 
 **🔭 THE SCIENCE BACKSTORY**
 
-**The Inspiration:** Each art piece contains a unique haiku poem about space that I wrote based on my actual research as a citizen scientist. The poems are inspired by real cosmic data I helped analyze, from hunting planets for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
-
-**The Space Journeys:** Signed, limited-edition art prints are queued as cargo to launch beyond the clouds and above the globe aboard **[commercial rocket flights](https://www.clubforfuture.org/postcards)**, earning official flight certification upon their return to Earth.
+*   **The Inspiration** — Each token features a snippet of a unique celestial haiku composed from real-world citizen science data. The verses are inspired by cosmic observations I processed, from analyzing exoplanet data for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
+*   **The Space Journeys** — Signed, limited-edition art prints are queued as cargo to launch beyond the atmosphere aboard commercial rocket flights, earning official flight certification upon their return to Earth.
 
 ---
+
 
 #### 🌌 GALAXY VISUALIZER ENGINE
 
