@@ -5,7 +5,7 @@
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
 > I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
 > 
-> Simultaneously, the exhibition grounds are expanding across the globe through an interactive **[treasure hunt](https://linktr.ee/themooresignal)**, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
+> Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
 
 ---
 
@@ -23,45 +23,24 @@ This portal serves as a permanent digital archive for a global treasure hunt bri
 *   **The Flight Manifests** — Stylized 4x6 photographic prints displaying the front of each physical coin are actively queued to launch into space aboard commercial rockets.
 *   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
-
 <br />
 
-
 <div align="center">
-  <table style="border: none; border-collapse: collapse; background: transparent;">
-    <tr style="border: none;">
-      <td align="center" style="border: none; padding: 0;">
-        <img src="https://ugc.production.linktr.ee/1d34978d-0549-4a50-9f17-c7a79ce0fbab_deep-space-capture-hurling-speeds-2.jpeg?io=true&size=gallery-image" alt="Generative Visualizer Engine Snapshot (TrES-3b). Custom astropoetic verse mapped over a procedurally generated celestial grid mesh." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
-        <br />
-        <br />
-        <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
-          <sup><i>Generative Visualizer Engine Snapshot (TrES-3b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
+  <img src="https://ugc.production.linktr.ee/1d34978d-0549-4a50-9f17-c7a79ce0fbab_deep-space-capture-hurling-speeds-2.jpeg?io=true&size=gallery-image" alt="Generative Visualizer Engine Snapshot (TrES-3b)" width="440" style="border-radius: 6px; border: 1px solid #30363d;" />
+  <p><sup><i>Generative Visualizer Engine Snapshot (TrES-3b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup></p>
 </div>
 
 <br />
 
 <div align="center">
-  <table style="border: none; border-collapse: collapse; background: transparent;">
-    <tr style="border: none;">
-      <td align="center" style="border: none; padding: 0;">
-        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Scheduled for a satellite broadcast over the Pyramids of Giza. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
-        <br />
-        <br />
-        <p align="center" style="margin: 0; max-width: 480px; line-height: 1.4;">
-          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
+  <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact" width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
+  <p><sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup></p>
 </div>
 
 <br />
 
 ### 📡 PARTICIPANT FEATURES & SPACE LEGACIES
+
 
 > 🛠️ **Archival Notice:** To protect your privacy, you are never required to fill out long forms or share personal tracking links to join our space manifests.
 
