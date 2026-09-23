@@ -15,16 +15,16 @@
 
 ### 🔍 Archival Directory
 
-This portal serves as the permanent digital registry for a global, real-world treasure hunt bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Simply match your Coin ID below to unveil the full cosmic poem. 
+This portal serves as a permanent digital archive for a global treasure hunt bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back—simply match your **Coin ID** below to unveil the full cosmic poem, and officially **[log your discovery](https://coord.info/TBB2WKZ)** on the master Geocaching tracking ledger.
 
 🪐 **EXHIBIT MANIFEST** — To view the expanded catalog of spacebound artwork—featuring studio highlights and specific galaxy engine captures selected for flight—access the **[COSMIC SHOWCASE](https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md)**.
 
-*   **The Discovery Manifest** — If you have recovered an archival artifact, you can officially register your find on the **[Geocaching Tracking Portal](https://coord.info/TBB2WKZ)**.
-*   **The Kindness Protocol** — Physical tokens are completely complimentary; the archive operates on a philosophy that treats kindness as currency, requesting finders to trade one quiet act of real-world goodwill to keep the ecosystem open.
+*   **The Kindness Protocol** — Physical tokens are entirely complimentary; the archive operates on a philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to keep the ecosystem open.
 *   **The Flight Manifests** — Stylized 4x6 photographic prints displaying the front of each physical coin are actively queued to launch into space aboard commercial rockets.
 *   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
 
 
+<br />
 
 
 <div align="center">
