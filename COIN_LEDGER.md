@@ -26,15 +26,18 @@ This portal serves as a permanent digital archive for a global treasure hunt bri
 <br />
 
 <div align="center">
-  <img src="https://ugc.production.linktr.ee/1d34978d-0549-4a50-9f17-c7a79ce0fbab_deep-space-capture-hurling-speeds-2.jpeg?io=true&size=gallery-image" alt="Generative Visualizer Engine Snapshot (TrES-3b)" width="440" style="border-radius: 6px; border: 1px solid #30363d;" />
-  <p><sup><i>Generative Visualizer Engine Snapshot (TrES-3b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup></p>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact" width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
-  <p><sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup></p>
+  <table style="border: none; border-collapse: collapse; background: transparent;">
+    <tr style="border: none;">
+      <td align="center" style="border: none; padding: 0;">
+        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Scheduled for a satellite broadcast over the Pyramids of Giza. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
+        <br />
+        <br />
+        <p align="center" style="margin: 0; max-width: 480px; line-height: 1.4;">
+          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br />
