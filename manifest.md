@@ -41,7 +41,7 @@
 
 ---
 
-#### 📂 ARCHIVE DOCUMENTATION // **[SNAP-CTTW-002](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAYfOpcBrnwtnS9rgebG859ruEu2Hp25ylk)**
+#### 📂 ARCHIVE DOCUMENTATION // **[SNAP-CTTW-002](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/)**
 *   **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
 *   **Exhibition Status** — `🟡 SELECTION IN PROGRESS`
 
@@ -57,27 +57,27 @@
 ### 🌌 PHASE 3 // THE GALAXY CAPTURES
 
 #### 🪐 COSMIC DATA LOG // **[TARGET: SKY-DATA](https://www.zooniverse.org/projects?discipline=astronomy)**
-*   **Data Origin** — Deep-Space Anomaly Tracking *(Zooniverse Platform)*
-*   **Medium & Format** — Procedurally Mapped Celestial Grid
+*   **Data Inspiration** — Deep-Space Anomaly Tracking *(Zooniverse Platform)*
+*   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
 <br />
 
 <div align="center">
   <img src="images.css/deep-space-capture-silver-exoplanet.jpg" width="450" alt="Galaxy Map Visual Capture" style="border-radius:6px; border: 1px solid #30363d;" />
-  <p><sup><i>Astro-Poetry Verse: “Spinning at top speeds....” <br />Generative grid iteration mapped from raw citizen science observation logs.</i></sup></p>
+  <p><sup><i>Astro-Poetry Verse: “Spinning at top speeds....” <br />Generative visualizer snapshot: Original verse mapped over a procedural deep sky environment.</i></sup></p>
 </div>
 
 ---
 
 #### 🪐 COSMIC DATA LOG // **[TARGET: WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)**
-*   **Data Origin** — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
-*   **Medium & Format** — Procedurally Mapped Celestial Grid
+*   **Data Inspiration** — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
+*   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
 <br />
 
 <div align="center">
   <img src="images.css/deep-space-capture.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border: 1px solid #30363d;" />
-  <p><sup><i>Astro-Poetry Verse: “Raging hot flames reign....” <br />Generative grid iteration capturing localized thermal atmosphere modeling profiles.</i></sup></p>
+  <p><sup><i>Astro-Poetry Verse: “Raging hot flames reign....” <br />Generative visualizer snapshot: Original verse mapped over a procedural deep sky environment.</i></sup></p>
 </div>
