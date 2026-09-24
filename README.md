@@ -77,7 +77,7 @@ My research focus centers on aiding open-access astronomy projects, utilizing hu
   </table>
 </div>
 
-*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist haiku poetry.
+*   **Haiku Summaries:** I distill my favorite astronomical targets—including planets, galaxies, and celestial phenomena cataloged during research—into minimalist poetry.
 *   **Physical Artifacts:** Fragmented verses are hand-inscribed onto custom coins alongside additional treasures destined to cross multiple borders. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
 *   **Space Missions:** Limited-edition poetry prints are queued to board commercial rocket missions, attaining official flight certification upon return to Earth.
 *   **3D Galaxy Visualizer:** This application maps handwritten logs onto a rotating 3D canvas, transforming raw data classifications into a visual landscape. *[Launch the interactive visualizer.](https://cyber-chic.github.io/cosmos/universe)*
