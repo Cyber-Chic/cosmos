@@ -60,7 +60,7 @@ The archive celebrates community discovery by randomly selecting tracking initia
 **🔭 THE SCIENCE BACKSTORY**
 
 *   **The Inspiration** — Each token features a snippet of a unique haiku poem composed from real-world citizen science data. The verses are inspired by cosmic observations I processed, from analyzing exoplanet data for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
-*   **The Space Journeys** — Signed, limited-edition art prints are queued as cargo to launch beyond the atmosphere aboard commercial rocket flights, earning official flight certification upon their return to Earth.
+*   **The Space Journeys** — Signed, special-edition art prints are queued as cargo to launch beyond the atmosphere aboard commercial rocket flights, earning official flight certification upon their return to Earth.
 
 ---
 
