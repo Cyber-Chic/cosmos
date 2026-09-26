@@ -3,7 +3,7 @@
 ---
 
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to **[broadcast](https://tr.ee/P8Bv63Qkk6)**  from a digital satellite screen directly over the **Pyramids**, alongside a collection of my limited edition prints launching aboard commercial rockets via **[Blue Origin](https://www.clubforfuture.org/postcards)**. 
+> I contribute to open science projects and translate my cosmic observations into poetry and visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to **[broadcast](https://tr.ee/P8Bv63Qkk6)**  from a digital satellite screen directly over the **Pyramids**, alongside a collection of my special-edition prints launching aboard commercial rockets via **[Blue Origin](https://www.clubforfuture.org/postcards)**. 
 > 
 > Simultaneously, the exhibition grounds are expanding right here on Earth. The global treasure hunt has officially begun, with physical books and art pieces already hidden across multiple states, alongside an upcoming release of custom coins containing clues to the astro phenomena that inspire my work. Find a hidden piece, unveil the full verse, and connect the cosmos to Earth.
 
