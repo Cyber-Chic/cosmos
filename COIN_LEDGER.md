@@ -5,7 +5,7 @@
 > ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
 > I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
 > 
-> Simultaneously, the exhibition grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
+> Simultaneously, the **[exhibition](https://bio.site/mooresignal)** grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
 
 ---
 
