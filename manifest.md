@@ -56,8 +56,8 @@
 
 ### 🌌 PHASE 3 // THE GALAXY CAPTURES
 
-#### 🪐 COSMIC DATA LOG // **[TARGET: SKY-DATA](https://www.zooniverse.org/projects?discipline=astronomy)**
-*   **Data Inspiration** — Deep-Space Anomaly Tracking *(Zooniverse Platform)*
+#### 🪐 COSMIC DATA LOG // **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
+*   **Data Inspiration** — — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
 *   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
@@ -80,4 +80,18 @@
 <div align="center">
   <img src="images.css/deep-space-capture.jpg" width="450" alt="Exoplanet WASP-12b" style="border-radius:6px; border: 1px solid #30363d;" />
   <p><sup><i>Astro-Poetry Verse: “Raging hot flames reign....” <br />Generative visualizer snapshot: Original verse mapped over a procedural deep sky environment.</i></sup></p>
+</div>
+
+---
+
+#### 🪐 COSMIC DATA LOG // **[TARGET: SKY-DATA](https://www.zooniverse.org/projects?discipline=astronomy)**
+*   **Data Inspiration** — Deep-Space Anomaly Tracking *(Zooniverse Platform)*
+*   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
+*   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
+
+<br />
+
+<div align="center">
+  <img src="images.css/deep-space-crazy-light.jpg" width="450" alt="Galaxy Map Visual Capture" style="border-radius:6px; border: 1px solid #30363d;" />
+  <p><sup><i>Astro-Poetry Verse: “Crazy light flashes....” <br />Generative visualizer snapshot: Original verse mapped over a procedural deep sky environment.</i></sup></p>
 </div>
