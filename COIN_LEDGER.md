@@ -194,13 +194,39 @@ The archive celebrates community discovery by randomly selecting tracking initia
 
 ---
 
+#### 📡 [ STUDIO METADATA & COMPLIANCE ]
 
-#### 📡 [ REGULATORY NOTE ]
 <details>
-<summary>🛠️ Click to View Studio Safety Protocols & Disclaimers</summary>
+<summary>🔮 Open Visualizer Engine (Digital Capture Archive)</summary>
+<br />
+
+##### ⚡ `CAPTURE ID: VIS-001`
+> 📜 **Full Poem //** *TBD // TBD // TBD*
+> <div align="left" style="margin: 8px 0 4px 0;">
+>   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
+>     <tr style="border: none;">
+>       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
+>         <span style="padding: 6px 10px; background-color: #1f1f2e; border: 1px dashed #444466; border-radius: 6px; color: #8a99ad; font-size: 12px; display: inline-block;">🌐 DIGITAL ENGINE ONLY</span>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://www.zooniverse.org/about" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>       </td>
+>       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>       </td>
+>     </tr>
+>   </table>
+> </div>
+
+</details>
+
+
+<details>
+<summary>🛠️ Open Studio Safety Protocols & Disclaimers</summary>
 <br />
 
 **ART COLLECTOR NOTE & SAFETY COMPLIANCE:** This artifact is a solid piece of independent contemporary art. It is a custom keepsake intended solely for adult collectors and supervised youth explorers. It contains small parts and poses a choking hazard; please keep it completely out of reach of infants, toddlers, and pets.
-</details>
 
 </details>
+
+
