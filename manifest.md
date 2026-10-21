@@ -30,31 +30,33 @@
 
 #### 📂 ARCHIVE DOCUMENTATION // **[SNAP-CTTW-001](https://luma.com/q0lm15pz)**
 *   **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
-*   **Exhibition Status** — `🟡 SELECTION IN PROGRESS`
+*   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
-<br />
-
-<div align="center">
-  <img src="images.css/black.jpg" width="450" alt="CT Tech Week community feature" style="border-radius:6px; border: 1px solid #30363d;" />
-  <p><sup><i>Community snapshot capturing the active book release and local launch network.</i></sup></p>
-</div>
+<p align="center">
+  <img src="SPACE-GALLERY.jpeg" width="450" alt="CT Tech Week Exhibit 1" />
+  <br />
+  <sup><i>Founder Angela N. Moore presents the official Moore Signal book release to an engaged audience. Ely Center Director Aimée Burg is pictured on the far right. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup>
+</p>
 
 ---
 
 #### 📂 ARCHIVE DOCUMENTATION // **[SNAP-CTTW-002](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/)**
 *   **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
-*   **Exhibition Status** — `🟡 SELECTION IN PROGRESS`
+*   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
-<br />
-
-<div align="center">
-  <img src="images.css/black.jpg" width="450" alt="CT Tech Week layout" style="border-radius:6px; border: 1px solid #30363d;" />
-  <p><sup><i>Alternative layout configuration documenting the public gallery presentation footprint.</i></sup></p>
-</div>
+<p align="center">
+  <img src="CT_TECH_WEEK_2.jpg" width="550" alt="CT Tech Week Exhibit 2" />
+  <br />
+  <sup><i>Archive Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the Moore Signal project debut hosted at Ely Center. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup>
+</p>
 
 ---
 
 ### 🌌 PHASE 3 // THE GALAXY CAPTURES
+
+
+
+
 
 #### 🪐 COSMIC DATA LOG // **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
 *   **Data Inspiration** — — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
