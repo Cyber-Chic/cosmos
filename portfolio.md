@@ -1,15 +1,15 @@
 # 📡 THE MOORE SIGNAL ARCHIVE // VISUAL REGISTRY LOG
-*A public, open-access inventory separating our data signal from the noise.*
+A public, open-access network separating our data signal from the noise.
 
 ---
 
-### 🗺️ CHOOSE YOUR TRAJECTORY // NAVIGATIONAL RADAR
+### 🗺️ CHOOSE YOUR PATH // NAVIGATIONAL RADAR
 
-| Your Discovered Artifact | Action Protocol | Base Camp Link |
+| Your Discovered Artifact | Trajectory Info | Active Destination |
 | :--- | :--- | :--- |
 | 📘 **Physical Book or Art Print** | **Current Sector Active** | 🟢 *You are on the correct page! Scroll down.* |
-| 🪙 **Physical Space Coin** | Redirect to Master Token Hub | [🛰️ Active Token Registry](https://tr.ee) |
-| 🔑 **Trackable Vault Key** | Redirect to Geocaching Logs | [🛸 Log Key Card (TBB8P4T)](https://coord.info) |
+| 🪙 **Physical Space Coin** | Go to Coin Registry | [🛰️ Active Token Registry](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md) |
+| 🔑 **Trackable Vault Key** | Go to Geocaching Ledger | [🛸 Log Key Card (TBB8P4T)](https://tr.ee/JFZwU8QF8G) |
 
 ---
 
@@ -17,16 +17,16 @@
   <table style="border: none; border-collapse: collapse; background: transparent; margin-left: 0;">
     <tr style="border: none;">
       <td align="left" style="border: none; padding: 0; white-space: nowrap;">
-        <a href="https://linktr.ee" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME </b></a>
+        <a href="https://bio.site/mooresignal" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME</b></a>
       </td>
     </tr>
   </table>
 </div>
 
-
 ---
 
 ### 🌍 EARTHBOUND PHYSICAL DROPS (BOOKS & ART PRINTS)
+
 
 <details>
 <summary>🔑 <b>REGISTRY ➔ #TMA-001 │ Traveling Key [ WA DROP ]</b></summary>
