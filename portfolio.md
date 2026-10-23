@@ -8,10 +8,11 @@
 | Your Discovered Artifact | Trajectory Info | Active Destination |
 | :--- | :--- | :--- |
 | 📘 **Physical Book or Art Print** | **Current Sector Active** | 🟢 *You are on the correct page! Scroll down.* |
-| 🔑 **Trackable Vault Key (#TBB8P4T)** | **Current Sector Active** | 🟢 *Registry file below! [Jump to Key Data](#-registry---tbb8p4t--traveling-key--wa-drop-)* |
-| 🪙 **Physical Space Coin** | Go to Coin Registry | [🛰️ Active Token Registry](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md) |
+| 🔑 **Trackable Vault Key** | Go to Code TBB8P4T | <a href="#-registry---tbb8p4t--traveling-key--wa-drop-" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 JUMP TO KEY DATA</b></a> |
+| 🪙 **Physical Space Coin** | Go to Coin Registry | <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛰️ TOKEN REGISTRY</b></a> |
 
 ---
+
 
 <div align="left">
   <table style="border: none; border-collapse: collapse; background: transparent; margin-left: 0;">
