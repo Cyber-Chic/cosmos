@@ -31,7 +31,7 @@
 
 ### 🌍 EARTHBOUND PHYSICAL DROPS (BOOKS & ART PRINTS)
 
-<details id="-registry---tbb8p4t--traveling-key--wa-drop-">
+<details id="-registry---tbb8p4t--traveling-key--wa-drop-" open>
 <summary>🔑 <b>REGISTRY ➔ #TBB8P4T │ Traveling Key [ WA DROP ]</b></summary>
 <br />
 
