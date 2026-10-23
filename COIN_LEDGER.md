@@ -77,13 +77,13 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 ZENITH SIGNAL</b></a>
+>         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG </b></a>
 >       </td>
 >     </tr>
 >   </table>
@@ -97,14 +97,14 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 ZENITH SIGNAL</b></a>
+>         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://en.wikipedia.org/wiki/TrES-2b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://en.wikipedia.org/wiki/TrES-2b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
 >       </td>
 >     </tr>
 >   </table>
@@ -118,14 +118,14 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 ZENITH SIGNAL</b></a>
+>         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://simple.wikipedia.org/wiki/WASP-12b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://simple.wikipedia.org/wiki/WASP-12b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
 >       </td>
 >     </tr>
 >   </table>
@@ -139,14 +139,14 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 ZENITH SIGNAL</b></a>
+>         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://en.wikipedia.org/wiki/TrES-3b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://en.wikipedia.org/wiki/TrES-3b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
 >       </td>
 >     </tr>
 >   </table>
@@ -161,13 +161,14 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
 >         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/116315/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 ZENITH SIGNAL</b></a>
+>       </td></b></a>
 >       </td>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
 >       </td>
 >     </tr>
 >   </table>
@@ -190,10 +191,10 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >         <span style="padding: 6px 10px; background-color: #1f1f2e; border: 1px dashed #444466; border-radius: 6px; color: #8a99ad; font-size: 12px; display: inline-block;">🌐 DIGITAL ENGINE ONLY</span>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/about" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🪐 CELESTIAL DATA</b></a>
+>         <a href="https://www.zooniverse.org/about" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LEDGER</b></a>
+>         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
 >       </td>
 >     </tr>
 >   </table>
