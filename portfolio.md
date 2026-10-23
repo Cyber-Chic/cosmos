@@ -1,5 +1,5 @@
 # 📡 THE MOORE SIGNAL ARCHIVE // VISUAL REGISTRY LOG
-A public, open-access network separating our data signal from the noise.
+*A public, open-access network separating our data signal from the noise.*
 
 ---
 
@@ -8,16 +8,19 @@ A public, open-access network separating our data signal from the noise.
 | Your Discovered Artifact | Trajectory Info | Active Destination |
 | :--- | :--- | :--- |
 | 📘 **Physical Book or Art Print** | **Current Sector Active** | 🟢 *You are on the correct page! Scroll down.* |
+| 🔑 **Trackable Vault Key (#TBB8P4T)** | **Current Sector Active** | 🟢 *Registry file below! [Jump to Key Data](#-registry---tbb8p4t--traveling-key--wa-drop-)* |
 | 🪙 **Physical Space Coin** | Go to Coin Registry | [🛰️ Active Token Registry](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md) |
-| 🔑 **Trackable Vault Key** | Go to Geocaching Ledger | [🛸 Log Key Card (TBB8P4T)](https://tr.ee/JFZwU8QF8G) |
 
 ---
 
 <div align="left">
   <table style="border: none; border-collapse: collapse; background: transparent; margin-left: 0;">
     <tr style="border: none;">
-      <td align="left" style="border: none; padding: 0; white-space: nowrap;">
+      <td align="left" style="border: none; padding: 0 4px 0 0; white-space: nowrap;">
         <a href="https://bio.site/mooresignal" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME</b></a>
+      </td>
+      <td align="left" style="border: none; padding: 0 4px; white-space: nowrap;">
+        <a href="https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">📰 READ SPOTLIGHT STORY</b></a>
       </td>
     </tr>
   </table>
@@ -27,18 +30,16 @@ A public, open-access network separating our data signal from the noise.
 
 ### 🌍 EARTHBOUND PHYSICAL DROPS (BOOKS & ART PRINTS)
 
-
-<details>
-<summary>🔑 <b>REGISTRY ➔ #TMA-001 │ Traveling Key [ WA DROP ]</b></summary>
-...
-
+<details id="-registry---tbb8p4t--traveling-key--wa-drop-" open>
+<summary>🔑 <b>REGISTRY ➔ #TBB8P4T │ Traveling Key [ WA DROP ]</b></summary>
+<br />
 
 | Technical Vector | Artifact Parameters |
 | :--- | :--- |
 | **Artifact** | HIDDEN KEY • Mixed-media print on a metallic canvas substrate. |
 | **Medium** | Original ink, watercolor, and colored pencil framework. |
 | **Provenance** | <code style="color: #58a6ff;">CT</code> ➔ <code style="color: #58a6ff;">WA</code> ➔ <code style="color: #58a6ff;">AR</code> ➔ <code style="color: #58a6ff;">OK</code> ➔ <code style="color: #58a6ff;">OH</code> |
-| **Context** | Dispatched 2/27/26 • Securely anchored at [Geocaching HQ](https://coord.info/TBB8P4T) |
+| **Context** | Dispatched 2/27/26 • Securely anchored at [Geocaching HQ](https://tr.ee/JFZwU8QF8G) |
 | **Logistics** | Engraved *code en verso* unlocks virtual archive entry. |
 
 #### 📂 Archive Documentation
@@ -50,6 +51,7 @@ A public, open-access network separating our data signal from the noise.
 </div>
 <br />
 </details>
+
 
 ---
 
