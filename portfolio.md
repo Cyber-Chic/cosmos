@@ -8,7 +8,7 @@
 | Your Discovered Artifact | Trajectory Info | Active Destination |
 | :--- | :--- | :--- |
 | 📘 **Physical Book or Art Print** | **Current Sector Active** | 🟢 *You are on the correct page! Scroll down.* |
-| 🔑 **Trackable Vault Key** | Go to Code TBB8P4T | <a href="-registry---tbb8p4t--traveling-key--wa-drop-" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 JUMP TO KEY DATA</b></a> |
+| 🔑 **Trackable Vault Key** | Go to Code TBB8P4T | <a href="#-registry---tbb8p4t--traveling-key--wa-drop-" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 JUMP TO KEY DATA</b></a> |
 | 🪙 **Physical Space Coin** | Go to Coin Registry | <a href="https://coord.info/TBB2WKZ" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛰️ TOKEN REGISTRY</b></a> |
 
 ---
