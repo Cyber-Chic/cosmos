@@ -34,7 +34,7 @@
 
 ## 🔬 RESEARCH SCOPES & DATA VERIFICATION
 
-*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Research Page](https://aavso.org) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
+*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Overview](https://aavso.org) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
 *   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets are analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** using the **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python pipeline.
 *   🛠️ **Studio Bookings & Contact** — `themoorearchive@proton.me` | Official Hub: **[bio.site/mooresignal](https://bio.site/mooresignal)**
 
@@ -73,15 +73,17 @@ These planet worlds have been actively processed, analyzed, and cataloged into o
 ---
 
 <details>
-<summary><b>🛠️ Open Data Attribution Protocol & Administration</b></summary>
+<summary><b>🛠️ Open Source & Attribution Protocol</b></summary>
 <br />
 
-*   **Open-Access Data:** All astronomical records logged under the observer code `MANBA` are completely public domain. 
-*   **Academic Credit:** If a professional research team incorporates these custom transit curves into a formal study, standard academic attribution (Co-Author/Co-Investigator status) is required.
+All astronomical data logged under the observer code `MANBA` is openly shared with the public domain to support global open science initiatives. 
+
+Per standard AAVSO policy, if a professional research team incorporates these custom transit curves into a formal peer-reviewed study, standard academic attribution (Co-Author/Co-Investigator status) is required.
 
 <br />
 <p align="center">
   🏢 <b>Administration:</b> The Moore Signal Archive LLC, Glastonbury, CT 06033
 </p>
 </details>
+
 
