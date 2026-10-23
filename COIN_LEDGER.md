@@ -1,27 +1,24 @@
 # 🛰️ COSMIC ARTIFACTS
 
+> ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
+> 🎨 **FOUND A COIN IN A LITTLE ART GALLERY?** Scroll straight down to the [🌌 Active Token Registry](#-active-token-registry) to match your Coin ID and unlock its full cosmic verse!
+
 ---
 
-> ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
-> I translate my data observations from open science projects into poetry and contemporary visual art. Right now, a stellar art exhibition in outer space is officially underway: my flagship artwork is queued to broadcast from a digital satellite screen directly over the **Pyramids**, while a collection of cosmic prints is slated to launch via commercial rockets.
-> 
-> Simultaneously, the **[exhibition](https://bio.site/mooresignal)** grounds are expanding across the globe through an interactive treasure hunt, hiding physical books, art pieces, and custom coins containing clues to the astro phenomena that inspire my work.
+### ✨ THE MISSION IN BRIEF
+*   **The Exhibition** — Contemporary art pieces woven from real deep-space citizen science data.
+*   **Space Flights** — Studio prints are queued to launch via commercial rockets and broadcast from digital satellite screens.
+*   **The Hunt** — Physical books, art artifacts, and custom coins hidden globally across real-world spaces.
 
 ---
 
 <details>
-<summary><b>🛰️ ENTER MISSION CONTROL // VIEW REPOSITORY MANIFEST</b></summary>
+<summary><b>🛰️ ENTER MISSION CONTROL // ABOUT THE SPACEBOUND EXHIBITS</b></summary>
 <br />
 
-### 🔍 Archival Directory
-
-This portal serves as a permanent digital archive for a global treasure hunt bridging Earth and Outer Space. Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back—simply match your **Coin ID** below to unveil the full cosmic poem, and officially **[log your discovery](https://coord.info/TBB2WKZ)** on the master Geocaching tracking ledger.
-
-🪐 **EXHIBIT MANIFEST** — To view the expanded catalog of spacebound artwork—featuring studio highlights and specific galaxy engine captures selected for flight—access the **[COSMIC SHOWCASE](https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md)**.
-
-*   **The Kindness Protocol** — Physical tokens are entirely complimentary; the archive operates on a philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to keep the ecosystem open.
-*   **The Flight Manifests** — Stylized 4x6 photographic prints displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
 *   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
+*   **The Flight Manifests** — Stylized 4x6 photographic prints displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
+*   **The Kindness Protocol** — Physical tokens are entirely complimentary; the archive operates on a philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to keep the ecosystem open.
 
 <br />
 
@@ -29,66 +26,50 @@ This portal serves as a permanent digital archive for a global treasure hunt bri
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Scheduled for a satellite broadcast over the Pyramids of Giza. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="480" style="border-radius: 6px; border: 1px solid #30363d;" />
+        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" style="border-radius: 6px; border: 1px solid #30363d;" />
         <br />
-        <br />
-        <p align="center" style="margin: 0; max-width: 480px; line-height: 1.4;">
+        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
           <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
         </p>
       </td>
     </tr>
   </table>
 </div>
+</details>
 
+<details>
+<summary><b>🔬 THE SCIENCE BACKSTORY & PARTICIPANT CREDITS</b></summary>
 <br />
 
-### 📡 PARTICIPANT FEATURES & SPACE LEGACIES
+*   **The Inspiration** — Verses are inspired by cosmic observations processed from real-world citizen science data, from analyzing exoplanet worlds for **[Exoplanet Watch](https://nasa.gov)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
+*   **Space Legacies** — To thank community participants, randomly selected tracking initials from active geocaching logs are embedded directly into the metadata source code of our flagship satellite exhibition image.
 
-
-
-> 🛠️ **Archival Notice:** To protect your privacy, you are never required to fill out long forms or share personal tracking links to join our space manifests.
-
-The archive celebrates community discovery by randomly selecting tracking initials from active geocaching logs and other social shares. To thank participants for their role in the journey, these initials are embedded directly into the alternative metadata code of our single flagship image—scheduled for a live satellite broadcast over the Pyramids of Giza—and are subject to cycle randomly over time.
-
-💻 *Finders can verify if their initials have been archived into the mission manifest by checking the source code of our flagship satellite exhibit image featured above.*
-
-
----
-
-### 🧪 THE ARCHIVE // RESEARCH & VISUALIZER
-
-**🔭 THE SCIENCE BACKSTORY**
-
-*   **The Inspiration** — Each token features a snippet of a unique haiku poem composed from real-world citizen science data. The verses are inspired by cosmic observations I processed, from analyzing exoplanet data for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
-*   **The Space Journeys** — Signed, special-edition art prints are queued as cargo to launch beyond the atmosphere aboard commercial rocket flights, earning official flight certification upon their return to Earth.
-
----
-
-
-#### 🌌 GALAXY VISUALIZER ENGINE
+<br />
 
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
       <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot (WASP-12b). Custom astropoetic verse mapped over a procedurally generated celestial grid mesh." width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
+        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot" width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
         <br />
-        <br />
-        <p align="center" style="max-width: 440px; margin: 0 auto; line-height: 1.4;">
-          <sup><i>Generative Visualizer Engine Snapshot (WASP-12b)<br />Custom astropoetic verse rendered dynamically over a procedurally mapped celestial grid environment.</i></sup>
+        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
+          <sup><i>Generative Visualizer Engine Snapshot (WASP-12b)<br />Custom astropoetic verse rendered dynamically over a 3D celestial canvas.</i></sup>
         </p>
       </td>
     </tr>
   </table>
 </div>
 
-<br />
-
 🪐 **EXPLORE THE SKYMAP:** Access the interactive web app to see exactly where your hidden coin verses live inside our rotating 3D space canvas. *[Launch the 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe).*
+</details>
 
 ---
 
 ### 🌌 Active Token Registry
+
+Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Match your **Coin ID** below to unveil the full cosmic poem, and officially **[log your discovery](https://coord.info/TBB2WKZ)** on our tracking ledger.
+
+---
 
 #### 🪐 `CAPTURE ID: COIN-001`
 > 📜 **Full Poem //** *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
