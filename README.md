@@ -18,31 +18,31 @@
       <td align="left" style="border: none; padding: 6px 4px 6px 0; white-space: nowrap;">
         <a href="https://cyber-chic.github.io/cosmos/universe" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">🌌 3D GALAXY MAP</b></a>
       </td>
-      <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
+      <td align="left" style="border: none; padding: 6px 4px 6px 0; white-space: nowrap;">
         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">🪙 COSMIC ARTIFACTS</b></a>
       </td>
       <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
-        <a href="https://aavso.org" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">📊 EXOPLANET GRAPHS</b></a>
+        <a href="https://apps.aavso.org/exosite/?obscode=Manba&in_notes=&star_name=&exoplanet_name=&start_date=&end_date=&results_per_page=&search=true" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">📊 EXOPLANET GRAPHS</b></a>
       </td>
     </tr>
   </table>
 </div>
 
-> **Inside the Portal:** The interactive icons above provide direct access to featured directories. Launch my custom celestial 3D engine, trace hidden treasure hunt releases, or review my raw Exoplanet Watch light curves.
+> **Inside the Portal:** The interactive icons above provide direct access to featured directories. Launch my custom celestial 3D engine, trace hidden treasure hunt releases, or review my historical Exoplanet Watch light curves.
 
 ---
 
 ## 🔬 RESEARCH SCOPES & DATA VERIFICATION
 
-*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) \| [AAVSO Overview](https://aavso.org) \| [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
-*   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets are actively analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** using the open-source **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python pipeline.
+*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) \| [AAVSO Overview](https://archive.aavso.org/exoplanet-watch-pr) \| [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
+*   📊 **The Methodology** — Current research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Past exoplanet targets were modeled for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)** using the **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python pipeline.
 *   🛠️ **Studio Bookings & Contact** — `themoorearchive@proton.me` \| Official Hub: **[bio.site/mooresignal](https://bio.site/mooresignal)**
 
 ---
 
-## 🌌 My Active Exoplanets Ledger
+## 🌌 My Archived Exoplanets Ledger
 
-These planet worlds have been actively processed, analyzed, and cataloged into open-access research databases:
+These planet worlds represent historical tracking data processed, analyzed, and cataloged into open-access research databases:
 
 *   **TrES Catalog** — <code style="color: #58a6ff;">TrES-2 b</code> • <code style="color: #58a6ff;">TrES-3 b</code> • <code style="color: #58a6ff;">TrES-5 b</code>
 *   **Qatar Catalog** — <code style="color: #58a6ff;">Qatar-2 b</code>
@@ -66,9 +66,9 @@ These planet worlds have been actively processed, analyzed, and cataloged into o
   </table>
 </div>
 
-*   **Haiku Summaries** — Complex astronomical targets are distilled into minimalist three-line poetry structures.
+*   **Haiku Summaries** — Complex astronomical data sets are distilled into minimalist three-line poetry structures.
 *   **Physical Artifacts** — Fragmented verses are hand-inscribed onto custom coins hidden globally in real-world art galleries. *[Join the cosmic hunt.](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)*
-*   **Space Flights** — Signature studio prints are actively queued to broadcast via orbital satellites passing over the **Pyramids** and launch beyond the atmosphere via commercial rocketry.
+*   **Space Missions** — Signature studio artwork is set for a live digital display via a single satellite passing over the **Pyramids**, while a collection of physical prints is actively queued to launch via commercial rockets.
 
 ---
 
