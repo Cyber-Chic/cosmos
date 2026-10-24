@@ -28,21 +28,21 @@
   </table>
 </div>
 
-> **Inside the Portal:** The interactive icons above provide a direct gateway across our core directories. Launch our custom celestial 3D engine, trace hidden treasure hunt releases, or review my raw Exoplanet Watch light curves.
+> **Inside the Portal:** The interactive icons above provide direct access to featured directories. Launch my custom celestial 3D engine, trace hidden treasure hunt releases, or review my raw Exoplanet Watch light curves.
 
 ---
 
 ## 🔬 RESEARCH SCOPES & DATA VERIFICATION
 
-*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Overview](https://aavso.org) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
-*   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets were analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** via **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python software.
-*   🛠️ **Studio Bookings & Contact** — `themoorearchive@proton.me` | Official Hub: **[bio.site/mooresignal](https://bio.site/mooresignal)**
+*   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) \| [AAVSO Overview](https://aavso.org) \| [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
+*   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets are actively analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** using the open-source **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python pipeline.
+*   🛠️ **Studio Bookings & Contact** — `themoorearchive@proton.me` \| Official Hub: **[bio.site/mooresignal](https://bio.site/mooresignal)**
 
 ---
 
 ## 🌌 My Active Exoplanets Ledger
 
-These planet worlds have been actively processed, analyzed, and cataloged into our generative art engine:
+These planet worlds have been actively processed, analyzed, and cataloged into open-access research databases:
 
 *   **TrES Catalog** — <code style="color: #58a6ff;">TrES-2 b</code> • <code style="color: #58a6ff;">TrES-3 b</code> • <code style="color: #58a6ff;">TrES-5 b</code>
 *   **Qatar Catalog** — <code style="color: #58a6ff;">Qatar-2 b</code>
@@ -66,9 +66,9 @@ These planet worlds have been actively processed, analyzed, and cataloged into o
   </table>
 </div>
 
-*   **Haiku Summaries** — Complex data targets are distilled into minimalist three-line poetry structures.
+*   **Haiku Summaries** — Complex astronomical targets are distilled into minimalist three-line poetry structures.
 *   **Physical Artifacts** — Fragmented verses are hand-inscribed onto custom coins hidden globally in real-world art galleries. *[Join the cosmic hunt.](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)*
-*   **Space Flights** — Signature prints are actively queued to broadcast via orbital satellites passing over the **Pyramids** and launch to suborbital horizons via commercial rocketry.
+*   **Space Flights** — Signature studio prints are actively queued to broadcast via orbital satellites passing over the **Pyramids** and launch beyond the atmosphere via commercial rocketry.
 
 ---
 
@@ -85,5 +85,6 @@ Per standard AAVSO policy, if a professional research team incorporates these cu
   🏢 <b>Administration:</b> The Moore Signal Archive LLC, Glastonbury, CT 06033
 </p>
 </details>
+
 
 
