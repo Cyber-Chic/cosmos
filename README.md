@@ -19,7 +19,7 @@
         <a href="https://cyber-chic.github.io/cosmos/universe" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">🌌 3D GALAXY MAP</b></a>
       </td>
       <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
-        <a href="https://tr.ee/9DnwSyN7xp" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">🪙 COSMIC ARTIFACTS</b></a>
+        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">🪙 COSMIC ARTIFACTS</b></a>
       </td>
       <td align="left" style="border: none; padding: 6px 4px; white-space: nowrap;">
         <a href="https://aavso.org" style="text-decoration: none;"><b style="padding: 6px 12px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 13px; display: inline-block;">📊 EXOPLANET GRAPHS</b></a>
