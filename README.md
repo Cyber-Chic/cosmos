@@ -67,7 +67,7 @@ These planet worlds have been actively processed, analyzed, and cataloged into o
 </div>
 
 *   **Haiku Summaries** — Complex data targets are distilled into minimalist three-line poetry structures.
-*   **Physical Artifacts** — Fragmented verses are hand-inscribed onto custom coins hidden globally in real-world art galleries. *[Join the cosmic hunt.](https://linktr.ee/themooresignal)*
+*   **Physical Artifacts** — Fragmented verses are hand-inscribed onto custom coins hidden globally in real-world art galleries. *[Join the cosmic hunt.](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)*
 *   **Space Flights** — Signature prints are actively queued to broadcast via orbital satellites passing over the **Pyramids** and launch to suborbital horizons via commercial rocketry.
 
 ---
