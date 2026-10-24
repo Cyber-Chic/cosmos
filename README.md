@@ -35,14 +35,14 @@
 ## 🔬 RESEARCH SCOPES & DATA VERIFICATION
 
 *   📡 **Active Verification Records** — [Zooniverse Stats](https://www.zooniverse.org/groups/2959875?start_date=2026-08-16) | [AAVSO Overview](https://aavso.org) | [AAVSO Profile](https://apps.aavso.org/v2/users/angela_moore/)
-*   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets are analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** using the **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python pipeline.
+*   📊 **The Methodology** — Research focus centers on aiding open-access astronomy projects, utilizing human pattern recognition to chart the cosmos via **[Zooniverse](https://www.zooniverse.org/about)**. Exoplanets were analyzed for **[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/)** via **[EXOTIC](https://science.nasa.gov/citizen-science/exoplanet-watch/exotic/)** Python software.
 *   🛠️ **Studio Bookings & Contact** — `themoorearchive@proton.me` | Official Hub: **[bio.site/mooresignal](https://bio.site/mooresignal)**
 
 ---
 
 ## 🌌 My Active Exoplanets Ledger
 
-These planet worlds have been actively processed, analyzed, and cataloged into our tracking engines:
+These planet worlds have been actively processed, analyzed, and cataloged into our generative art engine:
 
 *   **TrES Catalog** — <code style="color: #58a6ff;">TrES-2 b</code> • <code style="color: #58a6ff;">TrES-3 b</code> • <code style="color: #58a6ff;">TrES-5 b</code>
 *   **Qatar Catalog** — <code style="color: #58a6ff;">Qatar-2 b</code>
