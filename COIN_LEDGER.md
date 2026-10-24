@@ -27,6 +27,21 @@
 
 ---
 
+<div align="center">
+  <table style="border: none; border-collapse: collapse; background: transparent;">
+    <tr style="border: none;">
+      <td align="center" style="border: none; padding: 0;">
+        <a href="https://tr.ee/P8Bv63Qkk6"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" style="border-radius: 6px; border: 1px solid #30363d;" /></a>
+        <br />
+        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
+          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+</details>
+
 <details>
 <summary><b>🛰️ ENTER MISSION CONTROL // ABOUT THE SPACEBOUND EXHIBITS</b></summary>
 <br />
@@ -36,22 +51,6 @@
 *   **The Kindness Protocol** — **[Physical artifacts](https://github.com/Cyber-Chic/cosmos/blob/main/portfolio.md)** are entirely complimentary; the archive operates on an open philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to access our ecosystem.
 
 <br />
-</details>
-
-
-<div align="center">
-  <table style="border: none; border-collapse: collapse; background: transparent;">
-    <tr style="border: none;">
-      <td align="center" style="border: none; padding: 0;">
-        <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" style="border-radius: 6px; border: 1px solid #30363d;" />
-        <br />
-        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
-          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
 </details>
 
 <details>
