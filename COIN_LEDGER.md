@@ -12,7 +12,7 @@
         <a href="https://bio.site/mooresignal" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME</b></a>
       </td>
       <td align="left" style="border: none; padding: 0 4px; white-space: nowrap;">
-        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🖼️ VIEW EXTENDED EXHIBITION</b></a>
+        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌠 VIEW EXTENDED EXHIBITION</b></a>
       </td>
     </tr>
   </table>
@@ -22,7 +22,7 @@
 
 ### ✨ THE MISSION IN BRIEF
 *   **The Exhibition** — Contemporary art pieces woven from real deep-space citizen science data.
-*   **Space Flights** — Studio artwork queued for digital satellite broadcasts and space launches via commercial rocketry.
+*   **Space Flights** — Studio artwork queued for live satellite broadcast and space launches via commercial rocketry.
 *   **The Hunt** — Limited-edition books, custom coins, and art artifacts placed globally within neighborhood art spaces.
 
 ---
@@ -47,7 +47,7 @@
 <br />
 
 *   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
-*   **The Flight Manifests** — Stylized 4x6 photographic payloads displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
+*   **The Flight Manifests** — Stylized 4x6 art prints displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
 *   **The Kindness Protocol** — **[Physical artifacts](https://github.com/Cyber-Chic/cosmos/blob/main/portfolio.md)** are entirely complimentary; the archive operates on an open philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to access our ecosystem.
 
 <br />
