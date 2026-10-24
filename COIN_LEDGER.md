@@ -27,6 +27,7 @@
 
 ---
 
+
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
@@ -57,7 +58,7 @@
 <summary><b>🔬 THE SCIENCE BACKSTORY & PARTICIPANT CREDITS</b></summary>
 <br />
 
-*   **The Inspiration** — Verses are inspired by cosmic observations processed from real-world citizen science data, from analyzing exoplanet worlds for **[Exoplanet Watch](https://nasa.gov)** to tracking deep-space anomalies on **[Zooniverse](https://www.zooniverse.org/about)**.
+*   **The Inspiration** — Verses are inspired by cosmic observations processed from real-world citizen science data, from analyzing exoplanet worlds for [Exoplanet Watch](https://nasa.gov) to tracking deep-space anomalies on [Zooniverse](https://www.zooniverse.org/about).
 *   **Space Legacies** — To thank community participants, randomly selected tracking initials from active geocaching logs are embedded directly into the metadata source code of our flagship satellite exhibition image.
 
 <br />
