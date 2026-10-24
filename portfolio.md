@@ -44,11 +44,12 @@
 | **Logistics** | Engraved *code en verso* initiates virtual archive entry ➔ **[🔮 KEYPAD](https://linktr.ee/keypad)** |
 
 #### 📂 Archive Documentation
-*   [🔍 View Fullsize Asset](https://github.com)
+*   [🔍 View Fullsize Asset](https://github.com/user-attachments/assets/82d91a6a-3fe5-413b-bc8f-96dc9a5ac1a5)
 
 <br />
 <div align="left">
-  <img src="https://github.com" width="420" alt="TMA-001 Gateway Documentation" style="border-radius: 6px; border: 1px solid #30363d;"/>
+  <img src="https://github.com/user-attachments/assets/82d91a6a-3fe5-413b-bc8f-96dc9a5ac1a5" width="420" alt="TMA-001 Gateway Documentation" style="border-radius: 6px; border: 1px solid #30363d;"/>
+</div>
 </div>
 <br />
 </details>
