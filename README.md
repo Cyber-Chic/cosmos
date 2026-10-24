@@ -68,7 +68,7 @@ These planet worlds represent historical tracking data processed, analyzed, and 
 
 *   **Haiku Summaries** — Complex astronomical data sets are distilled into minimalist three-line poetry structures.
 *   **Physical Artifacts** — Fragmented verses are hand-inscribed onto custom coins hidden globally in real-world art galleries. *[Join the cosmic hunt.](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)*
-*   **Space Missions** — Signature studio artwork is set for a live digital display via a single satellite passing over the **Pyramids**, while a collection of physical prints is actively queued to launch via commercial rockets.
+*   **Space Missions** — Signature studio artwork is set for a live digital display via a [single satellite](https://tr.ee/P8Bv63Qkk6) passing over the **Pyramids**, while a collection of physical prints is actively queued to launch via [commercial rockets](https://www.clubforfuture.org/postcards).
 
 ---
 
