@@ -27,7 +27,6 @@
 
 ---
 
-
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
     <tr style="border: none;">
@@ -41,7 +40,6 @@
     </tr>
   </table>
 </div>
-</details>
 
 <details>
 <summary><b>🛰️ ENTER MISSION CONTROL // ABOUT THE SPACEBOUND EXHIBITS</b></summary>
