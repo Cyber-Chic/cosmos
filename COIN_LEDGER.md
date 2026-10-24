@@ -7,8 +7,8 @@
 
 ### ✨ THE MISSION IN BRIEF
 *   **The Exhibition** — Contemporary art pieces woven from real deep-space citizen science data.
-*   **Space Flights** — Studio prints are queued to launch via commercial rockets and broadcast from digital satellite screens.
-*   **The Hunt** — Physical books, art artifacts, and custom coins hidden globally across real-world spaces.
+*   **Space Flights** — Studio artwork queued for digital satellite broadcasts and physical payload launches via commercial rocketry.
+*   **The Hunt** — Limited-edition books, custom coins, and art artifacts placed globally within neighborhood art spaces.
 
 ---
 
@@ -17,10 +17,12 @@
 <br />
 
 *   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
-*   **The Flight Manifests** — Stylized 4x6 photographic prints displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
-*   **The Kindness Protocol** — Physical tokens are entirely complimentary; the archive operates on a philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to keep the ecosystem open.
+*   **The Flight Manifests** — Stylized 4x6 photographic payloads displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
+*   **The Kindness Protocol** — **[Physical artifacts](https://github.com/Cyber-Chic/cosmos/blob/main/portfolio.md)** are entirely complimentary; the archive operates on an open philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to access our ecosystem.
 
 <br />
+</details>
+
 
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: transparent;">
