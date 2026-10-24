@@ -1,4 +1,4 @@
-# 📡 THE MOORE SIGNAL ARCHIVE // VISUAL REGISTRY LOG
+# 📡 THE MOORE SIGNAL ARCHIVE // VISUAL REGISTRY LOG™
 *A public, open-access network separating our data signal from the noise.*
 
 ---
@@ -11,6 +11,7 @@
 | 🪙 **Physical Space Coin** | <a href="https://coord.info/TBB2WKZ" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛰️ TOKEN REGISTRY</b></a> |
 
 ---
+
 
 
 <div align="left">
