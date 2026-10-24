@@ -37,19 +37,18 @@
 
 | Technical Vector | Artifact Parameters |
 | :--- | :--- |
-| **Artifact** | HIDDEN KEY • Mixed-media print on a metallic canvas substrate. |
-| **Medium** | Original ink, watercolor, and colored pencil framework. |
+| **Artifact** | TRAVELING KEY • Mixed-media print on a metallic base. |
+| **Medium** | Original: Ink, watercolor & colored pencil on canvas. |
 | **Provenance** | <code style="color: #58a6ff;">CT</code> ➔ <code style="color: #58a6ff;">WA</code> ➔ <code style="color: #58a6ff;">AR</code> ➔ <code style="color: #58a6ff;">OK</code> ➔ <code style="color: #58a6ff;">OH</code> |
-| **Context** | Dispatched 2/27/26 • Securely anchored at [Geocaching HQ](https://tr.ee/JFZwU8QF8G) |
-| **Logistics** | Engraved *code en verso* unlocks virtual archive entry. |
+| **Context** | Dispatched 2/27/26 • Securely anchored at **[Geocaching HQ](https://tr.ee/JFZwU8QF8G)** |
+| **Logistics** | Engraved *code en verso* initiates virtual archive entry ➔ **[🔮 KEYPAD](https://linktr.ee/keypad)** |
 
 #### 📂 Archive Documentation
-*   [🔍 View Fullsize Asset](https://github.com/user-attachments/assets/82d91a6a-3fe5-413b-bc8f-96dc9a5ac1a5)
+*   [🔍 View Fullsize Asset](https://github.com)
 
 <br />
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/82d91a6a-3fe5-413b-bc8f-96dc9a5ac1a5" width="420" alt="TMA-001 Gateway Documentation" style="border-radius: 6px; border: 1px solid #30363d;"/>
-</div>
+  <img src="https://github.com" width="420" alt="TMA-001 Gateway Documentation" style="border-radius: 6px; border: 1px solid #30363d;"/>
 </div>
 <br />
 </details>
