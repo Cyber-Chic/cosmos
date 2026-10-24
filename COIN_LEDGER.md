@@ -5,9 +5,24 @@
 
 ---
 
+<div align="left">
+  <table style="border: none; border-collapse: collapse; background: transparent; margin-left: 0;">
+    <tr style="border: none;">
+      <td align="left" style="border: none; padding: 0 4px 0 0; white-space: nowrap;">
+        <a href="https://bio.site/mooresignal" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME</b></a>
+      </td>
+      <td align="left" style="border: none; padding: 0 4px; white-space: nowrap;">
+        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🖼️ VIEW EXTENDED EXHIBITION</b></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ### ✨ THE MISSION IN BRIEF
 *   **The Exhibition** — Contemporary art pieces woven from real deep-space citizen science data.
-*   **Space Flights** — Studio artwork queued for digital satellite broadcasts and physical payload launches via commercial rocketry.
+*   **Space Flights** — Studio artwork queued for digital satellite broadcasts and space launches via commercial rocketry.
 *   **The Hunt** — Limited-edition books, custom coins, and art artifacts placed globally within neighborhood art spaces.
 
 ---
