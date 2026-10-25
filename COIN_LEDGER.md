@@ -197,7 +197,7 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 <br />
 
 ##### ⚡ `CAPTURE ID: VIS-001`
-> 📜 **Full Poem //** *TBD // TBD // TBD*
+> 📜 **Full Poem //** *Scorching frozen skies! //  blazing through a cool abyss, // buried light-years high...*
 > <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;"><i>✨ The cosmic source behind this verse</i></p>
 > <div align="left">
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
@@ -206,7 +206,7 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >         <span style="padding: 6px 10px; background-color: #1f1f2e; border: 1px dashed #444466; border-radius: 6px; color: #8a99ad; font-size: 12px; display: inline-block;">🌐 DIGITAL ENGINE</span>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/about" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
+>         <a href="https://en.wikipedia.org/wiki/TrES-5b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
 >         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
