@@ -1,9 +1,6 @@
-# 📡 THE MOORE SIGNAL ARCHIVE // VISUAL REGISTRY LOG™
-*A public, open-access network separating our data signal from the noise.*
+# 📡 THE MOORE SIGNAL ARCHIVE™
 
----
-
-### 🗺️ CHOOSE YOUR PATH // NAVIGATIONAL RADAR
+### 🗺️ TREASURE HUNT // NETWORK TRACKING:
 
 | Discovered Item | Registry Location |
 | :--- | :--- |
