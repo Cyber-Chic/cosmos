@@ -1,6 +1,6 @@
 # 📡 THE MOORE SIGNAL ARCHIVE™
 
-### 🗺️ TREASURE HUNT // NETWORK TRACKING:
+### 🗺️ TRACK THE NETWORK:
 
 | Discovered Item | Registry Location |
 | :--- | :--- |
