@@ -1,6 +1,5 @@
-# 🛰️ COSMIC ARTIFACTS
+# 🛰️ TOKEN REGISTRY
 
-> ### **Bridging Earth to stars: The globe and cosmos as my canvas.**
 > 🎨 **FOUND A COIN IN A LITTLE ART GALLERY?** Scroll straight down to the [🌌 Active Token Registry](#-active-token-registry) to match your Coin ID and unlock its full cosmic verse!
 
 ---
