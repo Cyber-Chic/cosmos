@@ -1,11 +1,3 @@
-
-
-<style>
-header, .site-header, #cosmos, h1:first-of-type { display: none !important; }
-body { background-color: #2c3e2b !important; margin: 0 !important; padding: 40px 20px !important; font-family: 'Courier Prime', monospace !important; display: flex !important; justify-content: center !important; }
-.markdown-body, main, #content { max-width: 800px !important; background: #fdfaf2 !important; border: 2px solid #1e120c !important; box-shadow: 0 20px 40px rgba(0,0,0,0.4) !important; padding: 40px !important; color: #2a1b12 !important; }
-</style>
-
 # 📡 THE MOORE SIGNAL ARCHIVE™
 
 ### 🗺 TRACK THE NETWORK:
