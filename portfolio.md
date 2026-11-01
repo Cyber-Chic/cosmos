@@ -28,7 +28,7 @@
 
 ### 🌍 EARTHBOUND PHYSICAL DROPS (BOOKS & ART PRINTS)
 
-<details>
+<details markdown="1">
 <summary><a id="key-data-target"></a>🔑 <b>REGISTRY ➔ #TBB8P4T │ Traveling Key [ WA DROP ]</b></summary>
 <br />
 
@@ -53,7 +53,7 @@
 
 ---
 
-<details>
+<details markdown="1">
 <summary>🖼️ <b>REGISTRY ➔ #ID-972411 │ Poetry Print [ CT FLAG ]</b></summary>
 <br />
 
@@ -81,7 +81,7 @@
 
 ---
 
-<details>
+<details markdown="1">
 <summary>📘 <b>REGISTRY ➔ #ID-819420 │ Poetry Book [ NY FLAG ]</b></summary>
 <br />
 
@@ -107,7 +107,7 @@
 
 ---
 
-<details>
+<details markdown="1">
 <summary>📕 <b>REGISTRY ➔ #ID-143527 │ Poetry Book [ CT EXHIBIT ]</b></summary>
 <br />
 
