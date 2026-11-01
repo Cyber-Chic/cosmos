@@ -1,11 +1,11 @@
 # 📡 THE MOORE SIGNAL ARCHIVE™
 
-### 🗺 TRACK THE NETWORK:
+### 🗺️ TRACK THE NETWORK:
 
 | Discovered Item | Registry Location |
 | :--- | :--- |
 | 📘 **Physical Book or Art Print** | 🟢 *Match your ID on this page! Scroll below.* |
-| 🪙 **Physical Space Coin** | <a href="https://cyber-chic.github.io/cosmos/COIN_LEDGER.html" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛰️ TOKEN REGISTRY</b></a> |
+| 🪙 **Physical Space Coin** | <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛰️ TOKEN REGISTRY</b></a> |
 
 ---
 
@@ -28,7 +28,7 @@
 
 ### 🌍 EARTHBOUND PHYSICAL DROPS (BOOKS & ART PRINTS)
 
-<details markdown="1">
+<details>
 <summary><a id="key-data-target"></a>🔑 <b>REGISTRY ➔ #TBB8P4T │ Traveling Key [ WA DROP ]</b></summary>
 <br />
 
@@ -53,7 +53,7 @@
 
 ---
 
-<details markdown="1">
+<details>
 <summary>🖼️ <b>REGISTRY ➔ #ID-972411 │ Poetry Print [ CT FLAG ]</b></summary>
 <br />
 
@@ -81,7 +81,7 @@
 
 ---
 
-<details markdown="1">
+<details>
 <summary>📘 <b>REGISTRY ➔ #ID-819420 │ Poetry Book [ NY FLAG ]</b></summary>
 <br />
 
@@ -107,7 +107,7 @@
 
 ---
 
-<details markdown="1">
+<details>
 <summary>📕 <b>REGISTRY ➔ #ID-143527 │ Poetry Book [ CT EXHIBIT ]</b></summary>
 <br />
 
