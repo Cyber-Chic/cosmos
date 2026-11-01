@@ -170,7 +170,7 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 
 #### 🪐 `CAPTURE ID: COIN-005`
 > 📜 **Full Poem //** *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
-> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;"><i>✨ The cosmic source behind this verse</i></p>
+> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;">
 > <div align="left">
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
@@ -197,7 +197,7 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 
 ##### ⚡ `CAPTURE ID: VIS-001`
 > 📜 **Full Poem //** *Scorching frozen skies! //  blazing through a cool abyss, // buried light-years high...*
-> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;"><i>✨ The cosmic source behind this verse</i></p>
+> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;">
 > <div align="left">
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
