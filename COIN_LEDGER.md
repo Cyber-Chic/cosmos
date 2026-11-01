@@ -113,7 +113,6 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
 >         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
->       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
 >         <a href="https://en.wikipedia.org/wiki/TrES-2b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
@@ -133,7 +132,6 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >     <tr style="border: none;">
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
 >         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
 >       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
 >         <a href="https://simple.wikipedia.org/wiki/WASP-12b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
@@ -155,7 +153,6 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 >       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
 >         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
 >       </td>
->       </td>
 >       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
 >         <a href="https://en.wikipedia.org/wiki/TrES-3b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
 >       </td>
@@ -170,7 +167,6 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 
 #### 🪐 `CAPTURE ID: COIN-005`
 > 📜 **Full Poem //** *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
-> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;"><i>✨ The cosmic source behind this verse</i></p>
 > <div align="left">
 >   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
 >     <tr style="border: none;">
