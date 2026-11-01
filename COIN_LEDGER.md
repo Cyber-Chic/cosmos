@@ -195,7 +195,7 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 <summary>🔮 <b>Open Visualizer Engine (Digital Capture Archive)</b></summary>
 <br />
 
-##### ⚡ `CAPTURE ID: VIS-001`
+#### ⚡ `CAPTURE ID: VIS-001`
 > 📜 **Full Poem //** *Scorching frozen skies! //  blazing through a cool abyss, // buried light-years high...*
 > <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;"><i>✨ The cosmic source behind this verse</i></p>
 > <div align="left">
