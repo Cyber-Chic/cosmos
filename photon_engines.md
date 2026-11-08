@@ -47,5 +47,5 @@ These quick, beginner-friendly tutorial blueprints demonstrate how real space co
 
 ---
 <p align="center">
-  🌐 <b>Open Source:</b> Explore the main <a href="https://github.com">GitHub Profile Dashboard</a>
+  🌐 <b>Open Source:</b> Explore the main <a href="https://github.com/cyber-chic">GitHub Profile Dashboard</a>
 </p>
