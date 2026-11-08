@@ -52,13 +52,8 @@
 
 ### 🌌 PHASE 3 // THE GALAXY CAPTURES
 
-
-
-
-
-
 #### 🪐 COSMIC DATA LOG // **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
-*   **Data Inspiration** — — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
+*   **Data Inspiration** — Transiting Exoplanet Data Analysis *(Exoplanet Watch Project)*
 *   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
@@ -85,7 +80,7 @@
 
 ---
 
-#### 🪐 COSMIC DATA LOG // **[TARGET: SKY-DATA](https://www.zooniverse.org/projects?discipline=astronomy)**
+#### 🪐 COSMIC DATA LOG // **[TARGET: SKY-DATA](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
 *   **Data Inspiration** — Deep-Space Anomaly Tracking *(Zooniverse Platform)*
 *   **Medium & Format** — Generative Art Engine // Procedural Celestial Canvas
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
