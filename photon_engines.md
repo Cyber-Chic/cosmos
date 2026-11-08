@@ -7,7 +7,7 @@
 #### **🎨 About the Archive**
 Operating as an independent boutique press and creative studio, the archive bridges contemporary art, literature, and open science. This repository serves as an approachable launchpad, translating complex cosmic concepts into low-barrier physics tutorials and hands-on stellar experiments.
 
-Our broader publishing scope and interdisciplinary works debuted publicly during **[CT Tech Week](https://cttechweek.com/)** at the Ely Center for Contemporary Art. To honor the spirit of shared knowledge, all digital blueprints and layout guides are completely open under our **[CC BY 4.0 Legal License](https://creativecommons.org)**.
+Our broader publishing scope and interdisciplinary works debuted publicly during **[CT Tech Week](https://cttechweek.com/)** at the Ely Center for Contemporary Art. To honor the spirit of shared knowledge, these digital blueprints and layout guides are completely open under our **[CC BY 4.0 Legal License](https://creativecommons.org)**.
 
 <br />
 
