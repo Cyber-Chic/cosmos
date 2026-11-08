@@ -32,11 +32,10 @@
 *   **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
-<p align="center">
-  <img src="SPACE-GALLERY.jpeg" width="450" alt="CT Tech Week Exhibit 1" />
-  <br />
-  <sup><i>Founder Angela N. Moore presents the official Moore Signal book release to an engaged audience. Ely Center Director Aimée Burg is pictured on the far right. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup>
-</p>
+<div align="center" style="margin: 20px 0;">
+  <img src="SPACE-GALLERY.jpeg" width="450" alt="CT Tech Week Exhibit 1" style="border-radius:6px; border: 1px solid #30363d;" />
+  <p align="center"><sup><i>Founder Angela N. Moore presents the official Moore Signal book release to an engaged audience. Ely Center Director Aimée Burg is pictured on the far right. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup></p>
+</div>
 
 ---
 
@@ -44,15 +43,15 @@
 *   **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
 *   **Exhibition Status** — `🔵 ACTIVE QUEUE // FLIGHT INTEGRATION`
 
-<p align="center">
-  <img src="CT_TECH_WEEK_2.jpg" width="550" alt="CT Tech Week Exhibit 2" />
-  <br />
-  <sup><i>Archive Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the Moore Signal project debut hosted at Ely Center. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup>
-</p>
+<div align="center" style="margin: 20px 0;">
+  <img src="CT_TECH_WEEK_2.jpg" width="550" alt="CT Tech Week Exhibit 2" style="border-radius:6px; border: 1px solid #30363d;" />
+  <p align="center"><sup><i>Archive Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the Moore Signal project debut hosted at Ely Center. <br /><b>Image Credit:</b> Courtesy of Ely Center for Contemporary Art</i></sup></p>
+</div>
 
 ---
 
 ### 🌌 PHASE 3 // THE GALAXY CAPTURES
+
 
 
 
