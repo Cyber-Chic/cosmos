@@ -228,10 +228,12 @@ canvas {
     <!-- 2. CONTENT CONTAINER: Tightly holding your canvas and data text blocks -->
     <div class="container">
       
-      <h1 class="main-title">
-        System Visualization // 
-        <a id="displayTitleLink" href="#"></a>
+      <!-- MASTER SYSTEM TITLE BLOCK -->
+      <h1 class="main-title" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(194, 65, 12, 0.2); padding-bottom: 8px; margin-bottom: 16px; font-family: var(--font-mono); font-size: clamp(12px, 3.2vw, 18px); letter-spacing: 0.05em; text-transform: uppercase;">
+        <span style="color: var(--text-main); font-weight: 700;">From Sirius to the Sun™ //</span> 
+        <a id="displayTitleLink" href="#" style="color: #ea580c; text-decoration: none; font-weight: bold; padding: 2px 10px; border: 1px dashed rgba(234, 88, 12, 0.4); border-radius: 4px; transition: all 0.2s ease;" onmouseover="this.style.color='#ff4d4d'; this.style.backgroundColor='rgba(234, 88, 12, 0.05)'" onmouseout="this.style.color='#ea580c'; this.style.backgroundColor='transparent'"></a>
       </h1>
+
 
       <!-- HIGH-IMMERSIVE POETRY GRID: Configured with frictionless mobile swipe tracking -->
       <div style="font-family: monospace; font-size: clamp(10px, 1.6vw, 12px); color: #d1d9e6; line-height: 1.6; letter-spacing: 2px; text-align: center; margin-bottom: clamp(15px, 3vh, 25px); text-transform: uppercase; width: 100%;">
@@ -393,14 +395,13 @@ if (isDeepField) {
 }
 
 window.MASTER_CONFIG = window.MASTER_CONFIG || {
-  mainTitle: "Deep Space Capture ⟳", 
+  mainTitle: "NEW ZONE ⟳", 
   paletteLabel: calculatedLabel,
   viewMode: "STAR",
   quantumRadius: currentCoreRadius, 
   quantumRingCount: currentRingCount,
   quantumFlickerSpeed: 0.015,
   showCrossHairs: true,
-  
   colorCore: activePalette.core,                     
   colorInnerGlow: activePalette.inner,  
   colorMidPlasma: activePalette.mid, 
@@ -724,4 +725,3 @@ draw();
 </script>
 </body>
 </html>
-
