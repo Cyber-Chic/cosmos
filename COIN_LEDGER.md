@@ -20,84 +20,29 @@ For complete listings, full haiku verses, coin specifications, and research logs
 
 #### 🪐 `CAPTURE ID: COIN-001`
 > 📜 **Full Poem //** *Crazy light flashes! // With rays bursting round the core— // Eclipsing the scene...*
-> <div align="left" style="margin: 8px 0 4px 0;">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG </b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
+>
+> **[🪙 Coin Specs](https://www.icollecteverything.com/db/custom/1157864/coin/113788/?n=The+Pretty+Coinz+Collection)** • **[🌌 Cosmic Target](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)** • **[🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-002`
 > 📜 **Full Poem //** *A void drenched by night. // Darker than the mind's shadows. // With lifeless coal pulse.*
-> <div align="left" style="margin: 8px 0 4px 0;">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://en.wikipedia.org/wiki/TrES-2b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
+>
+> **[🪙 Coin Specs](https://www.icollecteverything.com/db/custom/1157864/coin/113802/?n=The+Pretty+Coinz+Collection)** • **[🌌 Cosmic Target](https://en.wikipedia.org/wiki/TrES-2b)** • **[🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-003`
 > 📜 **Full Poem //** *Raging hot flames reign. // Furiously scorching airs. // Ruled by pure chaos.*
-> <div align="left" style="margin: 8px 0 4px 0;">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://simple.wikipedia.org/wiki/WASP-12b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
+>
+> **[🪙 Coin Specs](https://www.icollecteverything.com/db/custom/1157864/coin/113803/?n=The+Pretty+Coinz+Collection)** • **[🌌 Cosmic Target](https://simple.wikipedia.org/wiki/WASP-12b)** • **[🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**
 
 ---
 
 #### 🪐 `CAPTURE ID: COIN-004`
 > 📜 **Full Poem //** *Spinning at top speeds. // Hurling round the galaxy. // Transcending time's sand.*
-> <div align="left" style="margin: 8px 0 4px 0;">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://en.wikipedia.org/wiki/TrES-3b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
+>
+> **[🪙 Coin Specs](https://www.icollecteverything.com/db/custom/1157864/coin/113804/?n=The+Pretty+Coinz+Collection)** • **[🌌 Cosmic Target](https://en.wikipedia.org/wiki/TrES-3b)** • **[🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**
 
 ---
 
