@@ -48,22 +48,8 @@ For complete listings, full haiku verses, coin specifications, and research logs
 
 #### 🪐 `CAPTURE ID: COIN-005`
 > 📜 **Full Poem //** *A frosted scape looms. // Searing an ice cold beauty— // On the eye's canvas...*
-> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;">
-> <div align="left">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <a href="https://www.icollecteverything.com/db/custom/1157864/coin/116315/?n=The+Pretty+Coinz+Collection" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🛸 SPACE COIN</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
+>
+> **[🪙 Coin Specs](https://www.icollecteverything.com/db/custom/1157864/coin/116315/?n=The+Pretty+Coinz+Collection)** • **[🌌 Cosmic Target](https://www.zooniverse.org/projects/lepnoir/clear-skies-kiruna/talk/subjects/121516995)** • **[🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)**
 
 ---
 
