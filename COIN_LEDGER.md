@@ -1,87 +1,20 @@
 # 🛰️ TOKEN REGISTRY
 
-> 🎨 **FOUND A COIN IN A LITTLE ART GALLERY?** Scroll straight down to the [🌌 Active Token Registry](#-active-token-registry) to match your Coin ID and unlock its full cosmic verse!
+> 🎨 **FOUND A COIN IN A LITTLE ART GALLERY?** Match your **Coin ID** below to unlock your full cosmic poem, explore the space target behind it, and **[log your discovery](https://www.geocaching.com/track/details.aspx?tracker=TBB2WKZ)**!
 
----
-
-<div align="left">
-  <table style="border: none; border-collapse: collapse; background: transparent; margin-left: 0;">
-    <tr style="border: none;">
-      <td align="left" style="border: none; padding: 0 4px 0 0; white-space: nowrap;">
-        <a href="https://bio.site/mooresignal" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌐 RETURN TO STUDIO HOME</b></a>
-      </td>
-      <td align="left" style="border: none; padding: 0 4px; white-space: nowrap;">
-        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md" style="text-decoration: none;"><b style="padding: 10px 16px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 14px; display: inline-block;">🌠 VIEW EXTENDED EXHIBITION</b></a>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### ✨ THE MISSION IN BRIEF
-*   **The Exhibition** — Contemporary art pieces woven from real deep-space citizen science data.
-*   **Space Flights** — Studio artwork queued for live satellite broadcast and space launches via commercial rocketry.
-*   **The Hunt** — Limited-edition books, custom coins, and art artifacts placed globally within neighborhood art spaces.
-
----
-
-<div align="center">
-  <table style="border: none; border-collapse: collapse; background: transparent;">
-    <tr style="border: none;">
-      <td align="center" style="border: none; padding: 0;">
-        <a href="https://tr.ee/P8Bv63Qkk6"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" style="border-radius: 6px; border: 1px solid #30363d;" /></a>
-        <br />
-        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
-          <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<details>
-<summary><b>🛰️ ENTER MISSION CONTROL // ABOUT THE SPACEBOUND EXHIBITS</b></summary>
-<br />
-
-*   **The Orbital Broadcast** — Signature studio artwork is set for a live digital broadcast via a satellite passing over the Pyramids of Giza. *(Track the display via **[SAT GUS](https://tr.ee/P8Bv63Qkk6)**).*
-*   **The Flight Manifests** — Stylized 4x6 art prints displaying the front of each physical coin are actively queued to launch into space aboard commercial **[rockets](https://www.clubforfuture.org/postcards)**.
-*   **The Kindness Protocol** — **[Physical artifacts](https://github.com/Cyber-Chic/cosmos/blob/main/portfolio.md)** are entirely complimentary; the archive operates on an open philosophy that treats kindness as currency, requesting a single quiet act of real-world goodwill to access our ecosystem.
-
-<br />
-</details>
-
-<details>
-<summary><b>🔬 THE SCIENCE BACKSTORY & PARTICIPANT CREDITS</b></summary>
-<br />
-
-*   **The Inspiration** — Verses are inspired by cosmic observations processed from real-world citizen science data, from analyzing exoplanet worlds for [Exoplanet Watch](https://nasa.gov) to tracking deep-space anomalies on [Zooniverse](https://www.zooniverse.org/about).
-*   **Space Legacies** — To thank community participants, randomly selected tracking initials from active geocaching logs are embedded directly into the metadata source code of our flagship satellite exhibition image.
-
-<br />
-
-<div align="center">
-  <table style="border: none; border-collapse: collapse; background: transparent;">
-    <tr style="border: none;">
-      <td align="center" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/Cyber-Chic/cosmos/refs/heads/main/images.css/deep-space-capture.jpg" alt="Generative Visualizer Engine Snapshot" width="440" style="border-radius: 6px; border: 1px solid #30363d; max-width: 100%;" />
-        <br />
-        <p align="center" style="margin: 5px 0 0 0; max-width: 440px; line-height: 1.4;">
-          <sup><i>Generative Visualizer Engine Snapshot (WASP-12b)<br />Custom astropoetic verse rendered dynamically over a 3D celestial canvas.</i></sup>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-🪐 **EXPLORE THE SKYMAP:** Access the interactive web app to see exactly where your hidden coin verses live inside our rotating 3D space canvas. *[Launch the 3D Galaxy Map](https://cyber-chic.github.io/cosmos/universe).*
-</details>
+**[ 🌐 STUDIO HUB ](https://bio.site/mooresignal)** │ **[ 🌌 3D GALAXY MAP ](https://cyber-chic.github.io/cosmos/universe)** │ **[ 🌠 EXTENDED EXHIBITION ](https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md)**
 
 ---
 
 ### 🌌 Active Token Registry
 
-Each physical coin features a unique ID on the front with a fragmented verse inscribed on the back. Match your **Coin ID** below to unveil the full cosmic poem, and officially **[log your discovery](https://coord.info/TBB2WKZ)** on our tracking ledger.
+Each physical coin features a unique ID on the front and a fragmented verse hand-inked on the back. Find your ID below to read the complete haiku:
+
+#### 🪐 `COIN-001` to `COIN-005`
+For complete listings, full haiku verses, coin specifications, and research logs—covering cosmic targets like TrES-2b, WASP-12b, and phenomena across multiple Zooniverse citizen-science projects—consult the individual coin logs below alongside our [official repository documentation](https://github.com/Cyber-Chic/cosmos).
+
+
+
 
 ---
 
@@ -189,37 +122,34 @@ Each physical coin features a unique ID on the front with a fragmented verse ins
 
 ---
 
-### 📡 STUDIO METADATA & COMPLIANCE
+
+### ✨ The Story Behind Your Coin
+
+* **The Exhibition** — Contemporary art pieces inspired by real cosmic citizen-science observations.
+* **Space Flights** — Studio artwork queued for live satellite broadcast and commercial space launches.
+* **The Hunt** — Complimentary books, custom coins, and art artifacts hidden inside Free Little Art Galleries worldwide.
+
+<div align="center">
+  <a href="https://tr.ee"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" /></a>
+  <p align="center">
+    <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
+  </p>
+</div>
+
+---
+
+### 📡 Studio Metadata & Compliance
 
 <details>
 <summary>🔮 <b>Open Visualizer Engine (Digital Capture Archive)</b></summary>
-<br />
 
-##### ⚡ `CAPTURE ID: VIS-001`
-> 📜 **Full Poem //** *Scorching frozen skies! //  blazing through a cool abyss, // buried light-years high...*
-> <p style="margin: -2px 0 6px 0; font-size: 11px; color: #8b949e;">
-> <div align="left">
->   <table style="border: none; border-collapse: collapse; background: transparent; width: 100%; max-width: 480px; margin-left: 0;">
->     <tr style="border: none;">
->       <td align="left" style="border: none; padding: 4px 4px 4px 0; white-space: nowrap;">
->         <span style="padding: 6px 10px; background-color: #1f1f2e; border: 1px dashed #444466; border-radius: 6px; color: #8a99ad; font-size: 12px; display: inline-block;">🌐 DIGITAL ENGINE</span>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://en.wikipedia.org/wiki/TrES-5b" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🌌 COSMIC MUSE</b></a>
->       </td>
->       <td align="left" style="border: none; padding: 4px 4px; white-space: nowrap;">
->         <a href="https://github.com/Cyber-Chic/cosmos/blob/main/README.md" style="text-decoration: none;"><b style="padding: 6px 10px; background-color: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #58a6ff; font-size: 12px; display: inline-block;">🔬 RESEARCH LOG</b></a>
->       </td>
->     </tr>
->   </table>
-> </div>
-<br />
+* **Capture ID:** `VIS-001` (Digital-Only Capture)
+* **Poem Excerpt:** *Scorching frozen skies! blazing through a cool abyss...* (For the full text, see the linked research log below)
+* **Links:** [🌌 Cosmic Target (TrES-5b)](https://wikipedia.org) • [🔬 Research Log](https://github.com)
 </details>
 
 <details>
 <summary>🛠️ <b>Open Studio Safety Protocols & Disclaimers</b></summary>
-<br />
 
-**ART COLLECTOR NOTE & SAFETY COMPLIANCE:** This artifact is a solid piece of independent contemporary art. It is a custom keepsake intended solely for adult collectors and supervised youth explorers. It contains small parts and poses a choking hazard; please keep it completely out of reach of infants, toddlers, and pets.
-<br />
+**Art Collector Note & Safety Compliance:** Independent contemporary art keepsake for adult collectors and supervised youth explorers. Contains small parts—keep away from infants, toddlers, and pets (choking hazard).
 </details>
