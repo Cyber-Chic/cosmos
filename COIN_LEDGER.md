@@ -61,7 +61,7 @@ For complete listings, full haiku verses, coin specifications, and research logs
 * **The Hunt** — Complimentary books, custom coins, and art artifacts hidden inside Free Little Art Galleries worldwide.
 
 <div align="center">
-  <a href="https://tr.ee"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" /></a>
+  <a href="https://space.crunchlabs.com/selfie/VnpvzMO"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" /></a>
   <p align="center">
     <sup><i>Archival Artifacts (Full Composition)<br />Scheduled for a live orbital satellite display passing over the Pyramids of Giza.</i></sup>
   </p>
@@ -76,7 +76,7 @@ For complete listings, full haiku verses, coin specifications, and research logs
 
 * **Capture ID:** `VIS-001` (Digital-Only Capture)
 * **Poem Excerpt:** *Scorching frozen skies! blazing through a cool abyss...* (For the full text, see the linked research log below)
-* **Links:** [🌌 Cosmic Target (TrES-5b)](https://wikipedia.org) • [🔬 Research Log](https://github.com)
+* **Links:** [🌌 Cosmic Target (TrES-5b)](hhttps://en.wikipedia.org/wiki/TrES-5b) • [🔬 Research Log](hhttps://github.com/Cyber-Chic/cosmos/blob/main/README.md)
 </details>
 
 <details>
