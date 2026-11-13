@@ -75,8 +75,8 @@ For complete listings, full haiku verses, coin specifications, and research logs
 <summary>🔮 <b>Open Visualizer Engine (Digital Capture Archive)</b></summary>
 
 * **Capture ID:** `VIS-001` (Digital-Only Capture)
-* **Poem Excerpt:** *Scorching frozen skies! blazing through a cool abyss...* (For the full text, see the linked research log below)
-* **Links:** [🌌 Cosmic Target (TrES-5b)](hhttps://en.wikipedia.org/wiki/TrES-5b) • [🔬 Research Log](hhttps://github.com/Cyber-Chic/cosmos/blob/main/README.md)
+* **Full Poem :** *Scorching frozen skies! • Blazing through a cool abyss, • buried light-years high...*
+* **Links:** [🌌 Cosmic Target (TrES-5b)](https://en.wikipedia.org/wiki/TrES-5b) • [🔬 Research Log](https://github.com/Cyber-Chic/cosmos/blob/main/README.md)
 </details>
 
 <details>
