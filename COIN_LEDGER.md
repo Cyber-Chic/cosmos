@@ -33,9 +33,9 @@ For complete collection details and research logs—covering exoplanets like TrE
 
 ### ✨ The Story Behind Your Coin
 
-* **The Exhibition** — Contemporary art pieces inspired by real cosmic citizen-science observations.
-* **Space Flights** — Studio artwork queued for live satellite broadcast and commercial space launches.
-* **The Hunt** — Complimentary books, custom coins, and art artifacts hidden inside Free Little Art Galleries worldwide.
+* **[The Exhibition](https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md)** — Contemporary art pieces inspired by real cosmic citizen-science observations.
+* **[Space Flights](https://tr.ee/P8Bv63Qkk6)** — Studio artwork queued for live satellite broadcast and commercial space launches.
+* **[The Hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** — Complimentary books, custom coins, and art artifacts hidden inside Free Little Art Galleries worldwide.
 
 <div align="center">
   <a href="https://space.crunchlabs.com/selfie/VnpvzMO"><img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." width="440" /></a>
