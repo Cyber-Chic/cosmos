@@ -32,8 +32,9 @@ Each physical coin features a unique ID on the front and a fragmented verse hand
 ### ✨ The Story Behind Your Coin
 
 * **[The Exhibition](https://github.com/Cyber-Chic/cosmos/blob/main/manifest.md)** — Contemporary art pieces inspired by real cosmic citizen-science observations.
-* **[Space Flights](https://tr.ee/P8Bv63Qkk6)** — Studio artwork queued for live satellite broadcast and commercial space launches.
+* **[Space Flights](https://tr.ee/P8Bv63Qkk6)** — Follow a satellite in real time as it prepares to broadcast studio artwork over the Pyramids.
 * **[The Hunt](https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/)** — Complimentary books, custom coins, and art artifacts hidden inside Free Little Art Galleries worldwide.
+
 
 
 <div align="center">
