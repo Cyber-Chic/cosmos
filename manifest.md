@@ -13,7 +13,9 @@
 
 > **Cosmic Showcase** — Our upcoming orbital exhibition will broadcast original artwork directly over the Pyramids of Giza via satellite, debuting alongside limited-edition physical prints destined for spaceflight.
 > 
-> **The Archive** — This catalogue preserves the extended spacebound art collection. Select captures are compiled as physical prints queued for spaceflight aboard commercial rockets via **[Blue Origin](https://www.clubforfuture.org/postcards)**. To track the real-world token hunt, visit the **[Coin Ledger](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**.
+> **The Archive** — This catalogue preserves the extended spacebound art collection. These digital captures are produced as physical postcards and queued for spaceflight aboard commercial rockets via **[Blue Origin](https://www.clubforfuture.org/postcards)**. To track the real-world token hunt, visit the **[Coin Ledger](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)**.
+
+
 
 ---
 
