@@ -3,13 +3,13 @@
 ### **THE MOORE SIGNAL ARCHIVE™**
 *Physical Artifact & Cosmic Poetry Ledger*
 
-**[ ✦ LOG YOUR DISCOVERY ](https://www.geocaching.com/track/details.aspx?tracker=TBB2WKZ)** │ **[ ✦ 3D GALAXY MAP ](https://cyber-chic.github.io/cosmos/universe)** │ **[ ✦ STUDIO HUB ](https://bio.site/mooresignal)**
+**[ ✦ GEOCACHE INFO ](https://www.geocaching.com)** │ **[ ✦ 3D GALAXY MAP ](https://cyber-chic.github.io/cosmos/universe)** │ **[ ✦ STUDIO HUB ](https://bio.site/mooresignal)**
 
 </div>
 
 ---
 
-> **Found a coin in a Free Little Art Gallery?** Match the **Coin ID** stamped on the front to unveil the complete haiku below, explore the celestial target behind it, and **[log your discovery](https://www.geocaching.com/track/details.aspx?tracker=TBB2WKZ)** in the global Geocache Network.
+> **Found a coin in a Free Little Art Gallery?** Match the **Coin ID** written on the front to unveil the complete haiku below, explore the celestial target behind it, and **[log your discovery](https://www.geocaching.com/track/details.aspx?tracker=TBB2WKZ)** in the global Geocache Network.
 
 ---
 
