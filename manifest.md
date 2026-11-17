@@ -79,8 +79,8 @@
 ### ✦ Phase 3 // The Galaxy Captures
 
 #### Cosmic Data Log — **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
-* **Data Inspiration** — Exoplanet Transit Modeling *(Exoplanet Watch)*
-* **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
+* **Data Inspiration** — Exoplanet Transit Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11122/)]
+* **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
@@ -98,8 +98,8 @@
 ---
 
 #### Cosmic Data Log — **[WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)**
-* **Data Inspiration** — Exoplanet Transit Modeling *(Exoplanet Watch)*
-* **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
+* **Data Inspiration** — Exoplanet Transit Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11335/)]
+* **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
@@ -117,8 +117,8 @@
 ---
 
 #### Cosmic Data Log — **[Daily Minor Planet](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
-* **Data Inspiration** — All-Sky Astronomy *(Zooniverse)*
-* **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
+* **Data Inspiration** — All-Sky Astronomy Phenomena (**[Zooniverse](https://www.zooniverse.org/about)**)
+* **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
