@@ -116,8 +116,8 @@
 
 ---
 
-#### Cosmic Data Log — **[Daily Minor Planet](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
-* **Data Inspiration** — All-Sky Astronomy Phenomena (**[Zooniverse](https://www.zooniverse.org/about)**)
+#### Cosmic Data Log — **[Daily Minor Planet](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/about/research)**
+* **Data Inspiration** — Astronomy Observation (**[Zooniverse](https://www.zooniverse.org/about)**) [[Sky-Data](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)]
 * **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
