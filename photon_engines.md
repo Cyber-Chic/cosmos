@@ -22,14 +22,15 @@ Debuted at the Ely Center for Contemporary Art during **[CT Tech Week](https://l
 ### ✦ Hands-On STEM Crafts & Tutorials
 Quick, classroom- and family-friendly activities demonstrating how light propulsion, energy conversion, and space science work.
 
-| Project | How It Works | Link & Notes |
-| :--- | :--- | :--- |
-| **1-Min Lightsail** <br> *Edition Alpha* | **Sailing on Light:** Build an index-card solar sail pushed by a flashlight beam to model propellantless space travel. | [Launch Guide](https://cyber-chic.github.io/cosmos/spacecraft) |
-| **10-Sec Photon Rocket** <br> *Edition Beta* | **Action & Reaction:** Tape an LED to a coin battery to demonstrate the concept of light-powered spacecrafts.<br><br>⚠️ **Safety:** *Lithium coin-cell hazard. Adult supervision required; keep away from small children and pets.* | [Launch Guide](https://cyber-chic.github.io/cosmos/rockets) |
-| **Invisible Ink Capsule** <br> *Edition Gamma* | **Light & Phosphors:** Write hidden notes in UV ink and reveal glowing compounds with a mini ultraviolet light. | [Launch Guide](https://cyber-chic.github.io/cosmos/cosmic-capsule) |
+| Project & Guide | How It Works |
+| :--- | :--- |
+| **1-Min Lightsail** <br> *Edition Alpha* <br> → [Launch Guide](https://cyber-chic.github.io/cosmos/spacecraft) | **Sailing on Light:** Build an index-card solar sail pushed by a flashlight beam to model propellantless space travel. |
+| **10-Sec Photon Rocket** <br> *Edition Beta* <br> → [Launch Guide](https://cyber-chic.github.io/cosmos/rockets) | **Action & Reaction:** Tape an LED to a coin battery to demonstrate the concept of light-powered spacecraft.<br><br>⚠️ **Safety:** *Lithium coin-cell hazard. Adult supervision required; keep away from small children and pets.* |
+| **Invisible Ink Capsule** <br> *Edition Gamma* <br> → [Launch Guide](https://cyber-chic.github.io/cosmos/cosmic-capsule) | **Light & Phosphors:** Write hidden notes in UV ink and reveal glowing compounds with a mini ultraviolet light. |
 
 ---
 
 ### ✦ Studio Information
 **The Moore Signal Archive LLC** • Glastonbury, CT 06033  
 Explore more projects on the main **[GitHub Profile Dashboard](https://github.com/cyber-chic)**.
+
