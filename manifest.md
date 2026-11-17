@@ -52,7 +52,7 @@
       <td align="center">
         <img src="SPACE-GALLERY.jpeg" width="480" alt="CT Tech Week Exhibit 1" />
         <br /><br />
-        <sup><i>Founder Angela N. Moore presents the official Moore Signal book release at the Ely Center.<br />Ely Center Director Aimée Burg is pictured on the far right. (Courtesy of Ely Center for Contemporary Art)</i></sup>
+        <sup><i>Founder Angela N. Moore presents her book release alongside Gallery Director Aimée Burg (far right).<br />(Courtesy of Ely Center for Contemporary Art)</i></sup>
       </td>
     </tr>
   </table>
