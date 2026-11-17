@@ -56,7 +56,7 @@ Each observed target inspires an original three-line haiku mapped onto our inter
 <summary><b>▸ Open Source & Attribution Protocol (Click to Expand)</b></summary>
 <br />
 
-All astronomical observations logged under observer code `MANBA` are shared openly to support public science initiatives. Per standard AAVSO policy, if a research team incorporates these custom transit curves into a formal peer-reviewed study, standard academic attribution (Co-Author / Co-Investigator credit) is required.
+All astronomical observations logged under observer code `MANBA` are shared openly to support public science initiatives. Per standard AAVSO policy, if a research team incorporates these transit light curves into a formal peer-reviewed study, standard academic co-author attribution applies.
 
 <br />
 
