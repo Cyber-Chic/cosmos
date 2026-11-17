@@ -41,7 +41,7 @@
 ### ✦ Phase 2 // Pop-Up Features & History
 
 #### Exhibition Log — **[SNAP-CTTW-001](https://luma.com/q0lm15pz)**
-* **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
+* **Provenance** — Ely Center for Contemporary Art *(CT Tech Week)*
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
@@ -50,7 +50,7 @@
       <td align="center">
         <img src="SPACE-GALLERY.jpeg" width="480" alt="CT Tech Week Exhibit 1" />
         <br /><br />
-        <sup><i>Founder Angela N. Moore presents the official Moore Signal book release at the Ely Center.<br />Ely Center Director Aimée Burg is pictured on the far right. (Photo courtesy of Ely Center for Contemporary Art)</i></sup>
+        <sup><i>Founder Angela N. Moore presents the official Moore Signal book release at the Ely Center.<br />Ely Center Director Aimée Burg is pictured on the far right. (Courtesy of Ely Center for Contemporary Art)</i></sup>
       </td>
     </tr>
   </table>
@@ -59,7 +59,7 @@
 ---
 
 #### Exhibition Log — **[SNAP-CTTW-002](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/)**
-* **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
+* **Provenance** — Ely Center for Contemporary Art *(CT Tech Week)*
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
@@ -68,7 +68,7 @@
       <td align="center">
         <img src="CT_TECH_WEEK_2.jpg" width="480" alt="CT Tech Week Exhibit 2" />
         <br /><br />
-        <sup><i>Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the studio debut.<br />(Photo courtesy of Ely Center for Contemporary Art)</i></sup>
+        <sup><i>Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the studio debut.<br />(Courtesy of Ely Center for Contemporary Art)</i></sup>
       </td>
     </tr>
   </table>
@@ -79,7 +79,7 @@
 ### ✦ Phase 3 // The Galaxy Captures
 
 #### Cosmic Data Log — **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
-* **Data Inspiration** — Exoplanet Transit Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11122/)]
+* **Data Inspiration** — Planetary Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11122/)]
 * **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
@@ -98,7 +98,7 @@
 ---
 
 #### Cosmic Data Log — **[WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)**
-* **Data Inspiration** — Exoplanet Transit Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11335/)]
+* **Data Inspiration** — Planetary Modeling (**[Exoplanet Watch](https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/)**) [[Light Curve](https://apps.aavso.org/exosite/g/11335/)]
 * **Medium & Format** — 3D Poetry Engine • **[Rotating Celestial Canvas](https://cyber-chic.github.io/cosmos/universe)**
 * **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
