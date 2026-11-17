@@ -42,7 +42,7 @@
 
 #### Exhibition Log — **[SNAP-CTTW-001](https://luma.com/q0lm15pz)**
 * **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
-* **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
+* **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
   <table>
@@ -60,7 +60,7 @@
 
 #### Exhibition Log — **[SNAP-CTTW-002](https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/)**
 * **Provenance** — Ely Center for Contemporary Art *(CT Tech Week Pop-Up)*
-* **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
+* **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
   <table>
@@ -79,9 +79,9 @@
 ### ✦ Phase 3 // The Galaxy Captures
 
 #### Cosmic Data Log — **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
-* **Data Inspiration** — Transiting Exoplanet Analysis *(Exoplanet Watch)*
+* **Data Inspiration** — Exoplanet Transit Modeling *(Exoplanet Watch)*
 * **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
-* **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
+* **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
   <table>
@@ -98,9 +98,9 @@
 ---
 
 #### Cosmic Data Log — **[WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)**
-* **Data Inspiration** — Transiting Exoplanet Analysis *(Exoplanet Watch)*
+* **Data Inspiration** — Exoplanet Transit Modeling *(Exoplanet Watch)*
 * **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
-* **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
+* **Exhibition Status** — `QUEUED • PREPARING FOR LAUNCH`
 
 <div align="center">
   <table>
@@ -119,7 +119,7 @@
 #### Cosmic Data Log — **[Daily Minor Planet](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
 * **Data Inspiration** — All-Sky Astronomy *(Zooniverse)*
 * **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
-* **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
+*** **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`**
 
 <div align="center">
   <table>
