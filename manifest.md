@@ -3,7 +3,7 @@
 ### **THE MOORE SIGNAL ARCHIVE™**
 *Exhibit Spotlight & Spacebound Art Catalogue*
 
-**[ ✦ COIN LEDGER ](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)** │ **[ ✦ 3D GALAXY MAP ](https://github.io)** │ **[ ✦ STUDIO HUB ](https://bio.site)**
+**[ ✦ COIN LEDGER ](https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md)** │ **[ ✦ 3D GALAXY MAP ](https://cyber-chic.github.io/cosmos/universe)** │ **[ ✦ STUDIO HUB ](https://bio.site/mooresignal)**
 
 </div>
 
@@ -80,7 +80,7 @@
 
 #### Cosmic Data Log — **[TrES-3b](https://en.wikipedia.org/wiki/TrES-3b)**
 * **Data Inspiration** — Transiting Exoplanet Analysis *(Exoplanet Watch)*
-* **Medium & Format** — 3D Visualizer Engine • Procedural Celestial Canvas
+* **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
 * **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
 
 <div align="center">
@@ -89,7 +89,7 @@
       <td align="center">
         <img src="images.css/deep-space-capture-silver-exoplanet.jpg" width="480" alt="TrES-3b Visualizer Capture" />
         <br /><br />
-        <sup><i>Cosmic Poetry: “Spinning at top speeds....”<br />Original verse mapped over a procedural deep-sky environment.</i></sup>
+        <sup><i>Cosmic Poetry: “Spinning at top speeds....”<br />Original verse mapped over a rotating 3D starfield.</i></sup>
       </td>
     </tr>
   </table>
@@ -99,7 +99,7 @@
 
 #### Cosmic Data Log — **[WASP-12b](https://simple.wikipedia.org/wiki/WASP-12b)**
 * **Data Inspiration** — Transiting Exoplanet Analysis *(Exoplanet Watch)*
-* **Medium & Format** — 3D Visualizer Engine • Procedural Celestial Canvas
+* **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
 * **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
 
 <div align="center">
@@ -108,7 +108,7 @@
       <td align="center">
         <img src="images.css/deep-space-capture.jpg" width="480" alt="WASP-12b Visualizer Capture" />
         <br /><br />
-        <sup><i>Cosmic Poetry: “Raging hot flames reign....”<br />Original verse mapped over a procedural deep-sky environment.</i></sup>
+        <sup><i>Cosmic Poetry: “Raging hot flames reign....”<br />Original verse mapped over a rotating 3D starfield.</i></sup>
       </td>
     </tr>
   </table>
@@ -117,7 +117,7 @@
 ---
 
 #### Cosmic Data Log — **[Daily Minor Planet](https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882)**
-* **Data Inspiration** — All-Sky Astronomy Tracking *(Zooniverse)*
+* **Data Inspiration** — All-Sky Astronomy *(Zooniverse)*
 * **Medium & Format** — 3D Poetry Engine • Rotating Celestial Canvas
 * **Exhibition Status** — `ACTIVE QUEUE • FLIGHT INTEGRATION`
 
@@ -127,11 +127,12 @@
       <td align="center">
         <img src="images.css/deep-space-crazy-light.jpg" width="480" alt="Daily Minor Planet Visualizer Capture" />
         <br /><br />
-        <sup><i>Cosmic Poetry: “Crazy light flashes....”<br />Original verse mapped over a procedural deep-sky environment.</i></sup>
+        <sup><i>Cosmic Poetry: “Crazy light flashes....”<br />Original verse mapped over a rotating 3D starfield.</i></sup>
       </td>
     </tr>
   </table>
 </div>
+
 
 ---
 
