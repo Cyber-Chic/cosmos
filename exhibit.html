@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Moore Signal Archive™ — Spacebound Exhibition Catalogue</title>
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --surface: #12141b;
+      --border: #242836;
+      --text-main: #f2efe9;
+      --text-muted: #a3a098;
+      --accent: #d6b87c;
+      --serif: 'Cormorant Garamond', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      padding: 2rem 1.25rem 5rem;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Header & Navigation */
+    header {
+      text-align: center;
+      padding: 3rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      font-size: 0.75rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.35rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem 1.75rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: var(--text-main);
+      text-decoration: none;
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Curatorial Statement */
+    .programme {
+      margin: 3.5rem 0;
+      padding: 2.25rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+    }
+
+    .programme-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .programme p {
+      font-size: 1.02rem;
+      color: var(--text-main);
+      margin-bottom: 1rem;
+    }
+
+    .programme p:last-child {
+      margin-bottom: 0;
+    }
+
+    .programme a, .plate-meta a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.4);
+    }
+
+    .programme a:hover, .plate-meta a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    /* Section Headings */
+    .section-header {
+      margin: 4.5rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+
+    .section-num {
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-size: clamp(1.75rem, 3.5vw, 2.35rem);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    /* Exhibition Plates */
+    .plate {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .plate-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h3 {
+      font-family: var(--serif);
+      font-size: 1.65rem;
+      font-weight: 500;
+    }
+
+    h3 a {
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    h3 a:hover {
+      color: var(--accent);
+    }
+
+    .status-pill {
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(214, 184, 124, 0.35);
+      padding: 0.25rem 0.7rem;
+      border-radius: 2px;
+    }
+
+    .plate-meta {
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+    }
+
+    .plate-meta li {
+      margin-bottom: 0.35rem;
+    }
+
+    .plate-meta strong {
+      color: var(--text-main);
+      font-weight: 400;
+    }
+
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    .frame {
+      display: inline-block;
+      padding: 0.75rem;
+      background: #08090c;
+      border: 1px solid var(--border);
+      max-width: 100%;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      margin-top: 1.1rem;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.12rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .verse-quote {
+      display: block;
+      color: var(--text-main);
+      font-size: 1.25rem;
+      margin-bottom: 0.2rem;
+    }
+
+    /* Two-column grid for Gallery Debut photos */
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .grid-two .plate {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Native Expandable Drawers (Zero JS needed) */
+    details {
+      margin-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      list-style: none;
+      user-select: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::before {
+      content: "+ ";
+      font-weight: 500;
+    }
+
+    details[open] summary::before {
+      content: "− ";
+    }
+
+    .drawer-content {
+      margin-top: 0.85rem;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1.25rem 1rem 3.5rem;
+      }
+      .programme, .plate {
+        padding: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="eyebrow">Independent Press &amp; Curatorial Monograph</div>
+      <h1>THE MOORE SIGNAL ARCHIVE™</h1>
+      <p class="subtitle">Exhibition Spotlight &amp; Spacebound Art Catalogue</p>
+      <nav aria-label="Primary">
+        <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md">Coin Ledger</a>
+        <a href="https://cyber-chic.github.io/cosmos/universe">3D Galaxy Map</a>
+        <a href="https://bio.site/mooresignal">Studio Hub</a>
+      </nav>
+    </header>
+
+    <section class="programme" aria-label="Curatorial Note">
+      <span class="programme-label">Curatorial Note</span>
+      <p>
+        <strong>The Orbital Showcase</strong> — An upcoming satellite transmission will broadcast original mixed-media artwork directly above the Pyramids of Giza, accompanied by limited-edition physical prints bound for spaceflight.
+      </p>
+      <p>
+        <strong>The Spacebound Collection</strong> — As an independent boutique press, we pair original verse with astronomical observation. Select plates from this catalogue are printed as archival postcards and manifested for flight aboard <a href="https://www.clubforfuture.org/postcards" target="_blank" rel="noopener">Blue Origin</a> commercial rockets. To trace the physical keepsake coins hidden around the world, consult the <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md">Coin Ledger</a>.
+      </p>
+    </section>
+
+    <!-- PHASE I -->
+    <div class="section-header">
+      <span class="section-num">Part I // The Orbital Stage</span>
+      <h2>Satellite Transmission</h2>
+    </div>
+
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://space.crunchlabs.com/selfie/VnpvzMO" target="_blank" rel="noopener">Broadcast Piece — Sat Gus</a></h3>
+        <span class="status-pill">Manifested for Orbit</span>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Venue:</strong> Low Earth Orbit Satellite Broadcast (Passing Over Giza)</li>
+        <li><strong>Medium:</strong> Mixed-Media Composition &amp; Archival Photograph</li>
+      </ul>
+      <figure>
+        <div class="frame">
+          <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artwork slated to broadcast over the Pyramids of Giza" />
+        </div>
+        <figcaption>
+          <span class="verse-quote">Archival Artifacts (Full Composition)</span>
+          Slated for orbital broadcast above the Pyramids of Giza. Fragmented lines of original verse are engraved onto the reverse of corresponding physical coins.
+        </figcaption>
+      </figure>
+      <details>
+             <summary>Archival Provenance &amp; Edition Notes</summary>
+        <div class="drawer-content">
+          Each physical coin seeded into independent art spaces carries a fragment of the poem paired with this composition. Finders can match their coin's serial ID in the Coin Ledger to read the complete verse.
+        </div>
+      </details>
+    </article>
+
+    <!-- PHASE II -->
+    <div class="section-header">
+      <span class="section-num">Part II // Gallery Debut</span>
+      <h2>Exhibition History</h2>
+    </div>
+
+    <div class="grid-two">
+      <article class="plate">
+        <div>
+          <div class="plate-header">
+            <h3><a href="https://luma.com/q0lm15pz" target="_blank" rel="noopener">Plate I — Book Release</a></h3>
+            <span class="status-pill">Ely Center Debut</span>
+          </div>
+          <ul class="plate-meta">
+            <li><strong>Venue:</strong> Ely Center for Contemporary Art (CT Tech Week)</li>
+            <li><strong>Ref:</strong> SNAP-CTTW-001</li>
+          </ul>
+        </div>
+        <figure>
+          <div class="frame">
+            <img src="SPACE-GALLERY.jpeg" alt="Founder Angela N. Moore presents her book release alongside Gallery Director Aimée Burg" />
+          </div>
+          <figcaption>
+            Founder Angela N. Moore presents her studio release alongside Gallery Director Aimée Burg (far right). Courtesy of Ely Center for Contemporary Art.
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="plate">
+        <div>
+          <div class="plate-header">
+            <h3><a href="https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/" target="_blank" rel="noopener">Plate II — Studio Showcase</a></h3>
+            <span class="status-pill">Ely Center Debut</span>
+          </div>
+          <ul class="plate-meta">
+            <li><strong>Venue:</strong> Ely Center for Contemporary Art (CT Tech Week)</li>
+            <li><strong>Ref:</strong> SNAP-CTTW-002</li>
+          </ul>
+        </div>
+        <figure>
+          <div class="frame">
+            <img src="CT_TECH_WEEK_2.jpg" alt="Founder Angela N. Moore alongside Prakaithip Romanow celebrating the studio debut" />
+          </div>
+          <figcaption>
+            Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the studio debut. Courtesy of Ely Center for Contemporary Art.
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <!-- PHASE III -->
+    <div class="section-header">
+      <span class="section-num">Part III // Spacebound Postcard Editions</span>
+      <h2>Celestial Plates &amp; Verse</h2>
+    </div>
+
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://en.wikipedia.org/wiki/TrES-3b" target="_blank" rel="noopener">Exoplanet TrES-3b</a></h3>
+        <span class="status-pill">Spacebound Print Edition</span>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Medium:</strong> Original Haiku &amp; Interactive Starfield (<a href="https://cyber-chic.github.io/cosmos/universe">Explore in 3D</a>)</li>
+        <li><strong>Astronomical Source:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/" target="_blank" rel="noopener">Exoplanet Watch</a> &middot; <a href="https://apps.aavso.org/exosite/g/11122/" target="_blank" rel="noopener">Light Curve Record</a></li>
+      </ul>
+      <figure>
+        <div class="frame">
+          <img src="images.css/deep-space-capture-silver-exoplanet.jpg" alt="TrES-3b Visualizer Capture" />
+        </div>
+        <figcaption>
+          <span class="verse-quote">“Spinning at top speeds....”</span>
+          Original verse set against a rotating three-dimensional starfield.
+        </figcaption>
+      </figure>
+    </article>
+
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://wikipedia.org" target="_blank" rel="noopener">Exoplanet WASP-12b</a></h3>
+        <span class="status-pill">Spacebound Print Edition</span>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Medium:</strong> Original Haiku &amp; Interactive Starfield (<a href="https://cyber-chic.github.io/cosmos/universe">Explore in 3D</a>)</li>
+        <li><strong>Astronomical Source:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/ target="_blank" rel="noopener">Exoplanet Watch</a> &middot; <a href="https://apps.aavso.org/exosite/g/11335/" target="_blank" rel="noopener">Light Curve Record</a></li>
+      </ul>
+      <figure>
+        <div class="frame">
+          <img src="images.css/deep-space-capture.jpg" alt="WASP-12b Visualizer Capture" />
+        </div>
+        <figcaption>
+          <span class="verse-quote">“Raging hot flames reign....”</span>
+          Original verse set against a rotating three-dimensional starfield.
+        </figcaption>
+      </figure>
+    </article>
+
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://zooniverse.org" target="_blank" rel="noopener">Daily Minor Planet</a></h3>
+        <span class="status-pill">Spacebound Print Edition</span>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Medium:</strong> Original Haiku &amp; Interactive Starfield (<a href="https://cyber-chic.github.io/cosmos/universe">Explore in 3D</a>)</li>
+        <li><strong>Astronomical Source:</strong> <a href="https://www.zooniverse.org/about" target="_blank" rel="noopener">Zooniverse Sky Survey</a> &middot; <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" target="_blank" rel="noopener">Observation Plate</a></li>
+      </ul>
+      <figure>
+        <div class="frame">
+          <img src="images.css/deep-space-crazy-light.jpg" alt="Daily Minor Planet Visualizer Capture" />
+        </div>
+        <figcaption>
+          <span class="verse-quote">“Crazy light flashes....”</span>
+          Original verse set against a rotating three-dimensional starfield.
+        </figcaption>
+      </figure>
+    </article>
+
+    <footer>
+      <p>&copy; 2026 The Moore Signal Archive LLC &bull; Glastonbury, CT &bull; <a href="https://bio.site/mooresignal">Studio Directory</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
