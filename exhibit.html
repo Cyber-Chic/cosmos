@@ -445,6 +445,68 @@
         padding: 1.35rem;
       }
     }
+
+        /* Prevent orphaned words & dangling arrows across all screens */
+    h1, h2, h3, .subtitle, .verse-quote {
+      text-wrap: balance;
+    }
+
+    nav a, .status-pill, .plate-meta a, .drawer-content a {
+      white-space: nowrap;
+    }
+
+    /* iPad Portrait & Tablet Refinement (768px - 820px) */
+    @media (max-width: 820px) {
+      .grid-two {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile Phone Refinement (< 600px) */
+    @media (max-width: 600px) {
+      body {
+        padding: 1.25rem 0.95rem 3.5rem;
+      }
+
+      .programme, .plate {
+        padding: 1.35rem 1.15rem;
+      }
+
+      /* Stack nav into clean, equal-width mobile buttons (no orphaned 3rd link) */
+      nav {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.6rem;
+        max-width: 320px;
+        margin: 0 auto;
+      }
+
+      nav a {
+        display: block;
+        padding: 0.6rem 1rem;
+        border: 1px solid rgba(214, 184, 124, 0.35);
+        background: rgba(18, 20, 27, 0.7);
+        border-radius: 2px;
+      }
+
+      /* Stack plate title and badge cleanly instead of colliding */
+      .plate-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.45rem;
+      }
+
+      /* Allow long metadata links to wrap gracefully on tiny screens */
+      .plate-meta a, .drawer-content a {
+        white-space: normal;
+      }
+
+      .tap-cue {
+        font-size: 0.68rem;
+        letter-spacing: 0.11em;
+      }
+    }
+
   </style>
 </head>
 <body>
