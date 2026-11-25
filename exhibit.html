@@ -337,12 +337,35 @@
       gap: 1.75rem;
     }
 
+    /* Keep Plate I & Plate II credit lines aligned at the bottom on desktop */
     .grid-two .plate {
-      margin-bottom: 0;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
     }
+
+    .grid-two figure {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-two figcaption {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .grid-two .credit-line {
+      margin-top: auto;
+      padding-top: 0.75rem;
+    }
+
+    /* Prevent single-word orphans on mobile captions */
+    figcaption, .plate-meta li {
+      text-wrap: pretty;
+    }
+
 
     /* Posh Collapsible Drawers */
     details {
@@ -651,10 +674,10 @@
         <summary>About the Research &amp; Visual Method</summary>
         <div class="drawer-content">
           <p>
-            Named after founder Angela N. Moore’s 2021 poem <a href="https://literaryyard.com/2021/12/15/your-true-worth-and-other-poems/" target="_blank" rel="noopener"><em>“From Sirius to The Sun”</em></a> in <em>The Literary Yard</em>, this interactive anthology presents an expanding series of original haiku drawn from her log of over 4,000 citizen-science astronomy classifications.
+            Named after founder Angela N. Moore’s 2021 poem <a href="https://literaryyard.com/2021/12/15/your-true-worth-and-other-poems/" target="_blank" rel="noopener"><em>“From Sirius to The Sun”</em></a> in <em>The Literary Yard</em>, this interactive anthology presents an expanding series of original haiku drawn from her personal log of over 4,000 citizen-science astronomy classifications.
           </p>
           <p>
-            While each poem describes a specific log, the rotating starfield acts as an atmospheric stage—an artistic interpretation evoking the quiet wonder of studying the cosmos rather than a literal telescope image.
+            While each poem describes a specific research record, the rotating starfield acts as an atmospheric stage—an artistic interpretation evoking the quiet wonder of studying the cosmos rather than a literal telescope image.
           </p>
         </div>
       </details>
