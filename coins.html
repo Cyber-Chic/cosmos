@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Moore Signal Archive™ — Earthbound Coin Registry</title>
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --surface: #12141b;
+      --border: #242836;
+      --text-main: #f2efe9;
+      --text-muted: #a3a098;
+      --accent: #d6b87c;
+      --parchment: #f4efe6;
+      --ink: #16181f;
+      --serif: 'Cormorant Garamond', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding: 2rem 1.25rem 5rem;
+    }
+
+    .container { max-width: 920px; margin: 0 auto; }
+
+    /* Header & Navigation */
+    header {
+      text-align: center;
+      padding: 2.75rem 0 2.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      font-size: 0.72rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.65rem;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(2.15rem, 5vw, 3.35rem);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      line-height: 1.15;
+      margin-bottom: 0.45rem;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.3rem;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+      text-wrap: balance;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem 1.75rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: var(--text-main);
+      text-decoration: none;
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.35);
+      white-space: nowrap;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+    /* Programme / Finder's Guide */
+    .programme {
+      margin: 2.75rem 0;
+      padding: 1.85rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+    }
+
+    .programme-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.85rem;
+      display: block;
+    }
+
+    .highlight-list { list-style: none; }
+
+    .highlight-list li {
+      position: relative;
+      padding-left: 1.25rem;
+      margin-bottom: 0.65rem;
+      font-size: 0.98rem;
+    }
+
+    .highlight-list li:last-child { margin-bottom: 0; }
+
+    .highlight-list li::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.75rem;
+      top: 0.15rem;
+    }
+
+    .programme a, .plate-meta a, .drawer-content a, figcaption a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.45);
+      transition: border-color 0.2s ease;
+    }
+
+    .programme a:hover, .plate-meta a:hover, .drawer-content a:hover, figcaption a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+
+    .btn-gold {
+      display: inline-block;
+      padding: 0.55rem 1.05rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(214, 184, 124, 0.45);
+      background: rgba(214, 184, 124, 0.05);
+      text-decoration: none;
+      border-radius: 2px;
+      white-space: nowrap;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .btn-gold:hover { background: rgba(214, 184, 124, 0.14); border-color: var(--accent); }
+
+    /* Section Headings */
+    .section-header {
+      margin: 4rem 0 1.75rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.65rem;
+    }
+
+    .section-num {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-size: clamp(1.7rem, 3.5vw, 2.3rem);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-wrap: balance;
+    }
+
+    /* Museum Plates (Identical to exhibit.html) */
+    .plate {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 1.85rem;
+      margin-bottom: 2.25rem;
+      transition: border-color 0.25s ease;
+    }
+
+    .plate:hover { border-color: rgba(214, 184, 124, 0.45); }
+
+    .plate-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-family: var(--serif);
+      font-size: 1.65rem;
+      font-weight: 500;
+      text-wrap: balance;
+    }
+
+    h3 a {
+      color: var(--text-main);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.5);
+      padding-bottom: 1px;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    h3 a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+    .arrow { white-space: nowrap; color: var(--accent); font-family: var(--sans); font-size: 0.85rem; }
+    .nowrap { white-space: nowrap; }
+
+    .status-pill {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(214, 184, 124, 0.4);
+      padding: 0.22rem 0.68rem;
+      border-radius: 2px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    a.status-pill:hover { background-color: rgba(214, 184, 124, 0.12); border-color: var(--accent); }
+
+    .plate-meta {
+      list-style: none;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .plate-meta li { margin-bottom: 0.3rem; }
+    .plate-meta strong { color: var(--text-main); font-weight: 400; }
+
+    figure { margin: 0; text-align: center; }
+
+    .frame-link {
+      display: inline-block;
+      text-decoration: none;
+      width: 100%;
+      max-width: 560px;
+    }
+
+    .frame {
+      display: block;
+      padding: 0.7rem;
+      background: #08090c;
+      border: 1px solid var(--border);
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .frame-link:hover .frame { border-color: var(--accent); transform: translateY(-2px); }
+
+    /* High-Contrast Letterpress Broadside Card (Replaces photo inside frame) */
+    .broadside {
+      background: var(--parchment);
+      color: var(--ink);
+      padding: 2.35rem 1.75rem;
+      border: 1px solid rgba(22, 24, 31, 0.18);
+      box-shadow: inset 0 0 0 5px var(--parchment), inset 0 0 0 6px rgba(158, 126, 67, 0.45);
+      text-align: center;
+    }
+
+    .broadside-serial {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #7c6232;
+      margin-bottom: 1.1rem;
+    }
+
+    .broadside-poem {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(1.3rem, 3vw, 1.65rem);
+      line-height: 1.6;
+      color: var(--ink);
+      margin-bottom: 1.15rem;
+    }
+
+    .broadside-seal {
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.88rem;
+      letter-spacing: 0.08em;
+      color: #5c5850;
+    }
+
+    figure img { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }
+
+    .tap-cue {
+      display: inline-block;
+      margin-top: 0.65rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid rgba(214, 184, 124, 0.4);
+      padding-bottom: 2px;
+    }
+
+    figcaption {
+      margin-top: 1.15rem;
+      text-align: left;
+      font-size: 0.92rem;
+      line-height: 1.65;
+      color: var(--text-muted);
+      max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .verse-quote {
+      display: block;
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--text-main);
+      font-size: 1.28rem;
+      line-height: 1.35;
+      margin-bottom: 0.35rem;
+    }
+    /* Drawers & Footer */
+    details {
+      margin-top: 1.25rem;
+      border: 1px solid var(--border);
+      background: rgba(8, 9, 12, 0.55);
+      border-radius: 2px;
+      transition: border-color 0.2s ease;
+    }
+
+    details:hover, details[open] { border-color: rgba(214, 184, 124, 0.4); }
+
+    summary {
+      cursor: pointer;
+      padding: 0.85rem 1.15rem;
+      font-size: 0.74rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      list-style: none;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; font-size: 1rem; color: var(--accent); }
+    details[open] summary::after { content: "−"; }
+
+    .drawer-content {
+      padding: 1.25rem 1.15rem 1.15rem;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(36, 40, 54, 0.6);
+    }
+
+    footer {
+      margin-top: 4.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
+
+    .disclaimer {
+      margin-top: 0.75rem;
+      font-size: 0.75rem;
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1.25rem 0.95rem 3.5rem; }
+      .programme, .plate { padding: 1.35rem 1.15rem; }
+      .broadside { padding: 1.75rem 1.15rem; }
+      .plate-header { flex-direction: column; align-items: flex-start; gap: 0.45rem; }
+
+      nav {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.6rem;
+        max-width: 320px;
+        margin: 0 auto;
+      }
+
+      nav a {
+        display: block;
+        padding: 0.6rem 1rem;
+        border: 1px solid rgba(214, 184, 124, 0.35);
+        background: rgba(18, 20, 27, 0.7);
+        border-radius: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">Numismatic Editions &amp; Earthbound Registry</div>
+      <h1>THE MOORE SIGNAL ARCHIVE™</h1>
+      <p class="subtitle">Physical Artifact &amp; Cosmic Poetry Ledger</p>
+      <nav aria-label="Primary">
+        <a href="https://github.io">Space Exhibition</a>
+        <a href="https://github.io">From Sirius to the Sun™</a>
+        <a href="https://bio.site">Studio Hub</a>
+      </nav>
+    </header>
+
+    <section class="programme" aria-label="Finder's Guide">
+      <span class="programme-label">Finder’s Guide</span>
+      <ul class="highlight-list">
+        <li><strong>Uncover Your Poem:</strong> Match the Coin ID on the front of your coin below to unveil its complete verse from <a href="https://github.io"><em>From Sirius to the Sun™</em></a>.</li>
+        <li><strong>Spacebound Twins:</strong> Tap any broadside card below to inspect your coin alongside its artistically inverted spacebound postcard twin.</li>
+      </ul>
+      <div class="cta-row">
+        <a href="https://geocaching.com" target="_blank" rel="noopener" class="btn-gold">Log Find (Trackable TBB2WKZ) <span class="arrow">↗</span></a>
+        <a href="https://freelittleartgalleries.art" target="_blank" rel="noopener" class="btn-gold">“The Heart of the Project” <span class="arrow">↗</span></a>
+      </div>
+      <details>
+        <summary>How the Coin Hunt &amp; Honor System Work</summary>
+        <div class="drawer-content">
+          Each coin is a hand-inked physical micro-edition released into independent art spaces worldwide. While its front face is photographed and sent to space as an archival print, the reverse poetry fragment stays earthbound for in-person finders. In return for keeping your coin, we simply ask that you pass along one quiet act of kindness.
+        </div>
+      </details>
+    </section>
+
+    <div class="section-header">
+      <span class="section-num">Part I // Earthbound Editions</span>
+      <h2>Active Coin Registry</h2>
+    </div>
+
+    <!-- COIN-001 -->
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://zooniverse.org" target="_blank" rel="noopener">COIN-001 — Daily Minor <span class="nowrap">Planet <span class="arrow">↗</span></span></a></h3>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="status-pill">Physical Edition <span class="arrow">↗</span></a>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Published In:</strong> <a href="https://github.io"><em>From Sirius to the Sun™</em> (Interactive Anthology) <span class="arrow">↗</span></a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://zooniverse.org" target="_blank" rel="noopener">Zooniverse Sky Survey <span class="arrow">↗</span></a> &middot; <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a></li>
+      </ul>
+      <figure>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="frame-link">
+          <div class="frame">
+            <div class="broadside">
+              <span class="broadside-serial">Archival Edition &bull; COIN-001</span>
+              <div class="broadside-poem">
+                Crazy light flashes!<br />
+                With rays bursting round the core—<br />
+                Eclipsing the scene...
+              </div>
+              <span class="broadside-seal">From Sirius to the Sun™</span>
+            </div>
+          </div>
+          <span class="tap-cue">↗ Tap Broadside to View Coin &amp; Spacebound Print</span>
+        </a>
+      </figure>
+    </article>
+
+    <!-- COIN-002 -->
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://wikipedia.org" target="_blank" rel="noopener">COIN-002 — Exoplanet <span class="nowrap">TrES-2b <span class="arrow">↗</span></span></a></h3>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="status-pill">Physical Edition <span class="arrow">↗</span></a>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Published In:</strong> <a href="https://github.io"><em>From Sirius to the Sun™</em> (Interactive Anthology) <span class="arrow">↗</span></a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://nasa.gov" target="_blank" rel="noopener">Exoplanet Watch <span class="arrow">↗</span></a> &middot; <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a></li>
+      </ul>
+      <figure>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="frame-link">
+          <div class="frame">
+            <div class="broadside">
+              <span class="broadside-serial">Archival Edition &bull; COIN-002</span>
+              <div class="broadside-poem">
+                A void drenched by night.<br />
+                Darker than the mind's shadows.<br />
+                With lifeless coal pulse.
+              </div>
+              <span class="broadside-seal">From Sirius to the Sun™</span>
+            </div>
+          </div>
+          <span class="tap-cue">↗ Tap Broadside to View Coin &amp; Spacebound Print</span>
+        </a>
+      </figure>
+    </article>
+
+    <!-- COIN-003 -->
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://wikipedia.org" target="_blank" rel="noopener">COIN-003 — Exoplanet <span class="nowrap">WASP-12b <span class="arrow">↗</span></span></a></h3>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="status-pill">Physical Edition <span class="arrow">↗</span></a>
+      </div>
+      <ul class="plate-meta">
+        <li><strong>Published In:</strong> <a href="https://github.io"><em>From Sirius to the Sun™</em> (Interactive Anthology) <span class="arrow">↗</span></a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://nasa.gov" target="_blank" rel="noopener">Exoplanet Watch <span class="arrow">↗</span></a> &middot; <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a></li>
+      </ul>
+      <figure>
+        <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="frame-link">
+          <div class="frame">
+            <div class="broadside">
+              <span class="broadside-serial">Archival Edition &bull; COIN-003</span>
+              <div class="broadside-poem">
+                Raging hot flames reign.<br />
+                Furiously scorching airs.<br />
+                Ruled by pure chaos.
+              </div>
+              <span class="broadside-seal">From Sirius to the Sun™</span>
+            </div>
+          </div>
+
+          <span class="tap-cue">↗ Tap Broadside to View Coin &amp; Spacebound Print</span>
+        </a>
+      </figure>
+    </article>
+
+    <!-- ARCHIVAL VAULT (Future-proof drawer for annual releases) -->
+    <details>
+      <summary>Earlier Releases &amp; Extended Ledger (COIN-004 &amp; COIN-005)</summary>
+      <div class="drawer-content">
+
+        <!-- COIN-004 -->
+        <article class="plate" style="margin-bottom: 1.75rem;">
+          <div class="plate-header">
+            <h3><a href="https://wikipedia.org" target="_blank" rel="noopener">COIN-004 — Exoplanet <span class="nowrap">TrES-3b <span class="arrow">↗</span></span></a></h3>
+            <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="status-pill">Physical Edition <span class="arrow">↗</span></a>
+          </div>
+          <ul class="plate-meta">
+            <li><strong>Published In:</strong> <a href="https://github.io"><em>From Sirius to the Sun™</em> (Interactive Anthology) <span class="arrow">↗</span></a></li>
+            <li><strong>Verse Inspired By:</strong> <a href="https://nasa.gov" target="_blank" rel="noopener">Exoplanet Watch <span class="arrow">↗</span></a> &middot; <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a></li>
+          </ul>
+          <figure>
+            <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="frame-link">
+              <div class="frame">
+                <div class="broadside">
+                  <span class="broadside-serial">Archival Edition &bull; COIN-004</span>
+                  <div class="broadside-poem">
+                    Spinning at top speeds.<br />
+                    Hurling round the galaxy.<br />
+                    Transcending time's sand.
+                  </div>
+                  <span class="broadside-seal">From Sirius to the Sun™</span>
+                </div>
+              </div>
+              <span class="tap-cue">↗ Tap Broadside to View Coin &amp; Spacebound Print</span>
+            </a>
+          </figure>
+        </article>
+
+        <!-- COIN-005 -->
+        <article class="plate" style="margin-bottom: 0;">
+          <div class="plate-header">
+            <h3><a href="https://zooniverse.org" target="_blank" rel="noopener">COIN-005 — Clear Skies <span class="nowrap">Kiruna <span class="arrow">↗</span></span></a></h3>
+            <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="status-pill">Physical Edition <span class="arrow">↗</span></a>
+          </div>
+          <ul class="plate-meta">
+            <li><strong>Published In:</strong> <a href="https://github.io"><em>From Sirius to the Sun™</em> (Interactive Anthology) <span class="arrow">↗</span></a></li>
+            <li><strong>Verse Inspired By:</strong> <a href="https://zooniverse.org" target="_blank" rel="noopener">Zooniverse Sky Survey <span class="arrow">↗</span></a> &middot; <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a></li>
+          </ul>
+          <figure>
+            <a href="https://icollecteverything.com" target="_blank" rel="noopener" class="frame-link">
+              <div class="frame">
+                <div class="broadside">
+                  <span class="broadside-serial">Archival Edition &bull; COIN-005</span>
+                  <div class="broadside-poem">
+                    A frosted scape looms.<br />
+                    Searing an ice cold beauty—<br />
+                    On the eye's canvas...
+                  </div>
+                  <span class="broadside-seal">From Sirius to the Sun™</span>
+                </div>
+              </div>
+              <span class="tap-cue">↗ Tap Broadside to View Coin &amp; Spacebound Print</span>
+            </a>
+          </figure>
+        </article>
+
+      </div>
+    </details>
+
+    <!-- PART II -->
+    <div class="section-header">
+      <span class="section-num">Part II // Orbital Connection</span>
+      <h2>From Earth to Orbit</h2>
+    </div>
+
+    <article class="plate">
+      <div class="plate-header">
+        <h3><a href="https://crunchlabs.com" target="_blank" rel="noopener">Broadcast Piece — Sat <span class="nowrap">Gus <span class="arrow">↗</span></span></a></h3>
+        <span class="status-pill">Manifested for Orbit</span>
+      </div>
+      <figure>
+        <a href="https://crunchlabs.com" target="_blank" rel="noopener" class="frame-link" aria-label="Track Sat Gus satellite location in real time">
+          <div class="frame">
+            <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artifact. Backend metadata code securely logs a community shout-out to thank active participants: J. & S." />
+          </div>
+          <span class="tap-cue">↗ Tap Artwork to Track Satellite Over Giza in Real Time</span>
+        </a>
+        <figcaption>
+          <span class="verse-quote">Archival Artifacts (Full Composition)</span>
+          Slated for orbital broadcast above the Pyramids of Giza. Two hand-inked coins rest face-up atop an original mixed-media rocket painting as symbolic spacebound cargo—explore the full exhibition in the <a href="https://github.io">Spacebound Art Catalogue</a>.
+        </figcaption>
+      </figure>
+    </article>
+
+    <!-- PART III -->
+    <div class="section-header">
+      <span class="section-num">Part III // Archival Notes</span>
+      <h2>Digital Editions &amp; Compliance</h2>
+    </div>
+
+    <details>
+      <summary>Digital Visualizer Archive — VIS-001 (TrES-5b)</summary>
+      <div class="drawer-content">
+        <p style="margin-bottom: 1rem;">
+          <strong>VIS-001 &bull; <a href="https://wikipedia.org" target="_blank" rel="noopener">Exoplanet <span class="nowrap">TrES-5b <span class="arrow">↗</span></span></a></strong> (Digital-Only Edition)
+        </p>
+        <div class="frame" style="max-width: 520px; margin: 0 auto 1rem;">
+          <div class="broadside">
+            <span class="broadside-serial">Digital Edition &bull; VIS-001</span>
+            <div class="broadside-poem">
+              Scorching frozen skies!<br />
+              Blazing through a cool abyss,<br />
+              buried light-years high...
+            </div>
+            <span class="broadside-seal">From Sirius to the Sun™</span>
+          </div>
+        </div>
+        <p>
+          Explore the underlying observation in the <a href="https://github.com" target="_blank" rel="noopener">Research <span class="nowrap">Log <span class="arrow">↗</span></span></a> or view the interactive anthology in <a href="https://github.io"><em>From Sirius to the Sun™</em></a>.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Collector Safety &amp; Disclaimers</summary>
+      <div class="drawer-content">
+        <p>
+          <strong>Art Collector Note &amp; Safety Compliance:</strong> Independent contemporary art keepsake intended for adult collectors and supervised youth explorers. Contains small parts—keep away from infants, toddlers, and pets (choking hazard).
+        </p>
+      </div>
+    </details>
+
+    <footer>
+      <p>&copy; 2026 The Moore Signal Archive LLC &bull; Glastonbury, CT &bull; <a href="https://github.com">Studio Directory</a></p>
+      <p class="disclaimer">
+        Independent data art and literary press utilizing open public domain assets. Not affiliated with, funded by, or endorsed by NASA, Zooniverse, SAT GUS, or Blue Origin.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
