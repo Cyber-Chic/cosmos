@@ -11,6 +11,7 @@
     :root {
       --bg: #0b0c10;
       --surface: #12141b;
+      --surface-hover: #171a24;
       --border: #242836;
       --text-main: #f2efe9;
       --text-muted: #a3a098;
@@ -30,7 +31,7 @@
       color: var(--text-main);
       font-family: var(--sans);
       font-weight: 300;
-      line-height: 1.75;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
       padding: 2rem 1.25rem 5rem;
     }
@@ -43,33 +44,33 @@
     /* Header & Navigation */
     header {
       text-align: center;
-      padding: 3rem 0 2.5rem;
+      padding: 2.75rem 0 2.25rem;
       border-bottom: 1px solid var(--border);
     }
 
     .eyebrow {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       letter-spacing: 0.24em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
     }
 
     h1 {
       font-family: var(--serif);
-      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-size: clamp(2.15rem, 5vw, 3.35rem);
       font-weight: 500;
       letter-spacing: 0.04em;
       line-height: 1.15;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.45rem;
     }
 
     .subtitle {
       font-family: var(--serif);
       font-style: italic;
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       color: var(--text-muted);
-      margin-bottom: 2rem;
+      margin-bottom: 1.75rem;
     }
 
     nav {
@@ -77,7 +78,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 0.75rem 1.75rem;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
     }
@@ -86,7 +87,7 @@
       color: var(--text-main);
       text-decoration: none;
       padding-bottom: 0.2rem;
-      border-bottom: 1px solid transparent;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.35);
       transition: color 0.2s ease, border-color 0.2s ease;
     }
 
@@ -95,64 +96,79 @@
       border-bottom-color: var(--accent);
     }
 
-    /* Curatorial Statement */
+    /* Skimmable Curatorial Box */
     .programme {
-      margin: 3.5rem 0;
-      padding: 2.25rem;
+      margin: 2.75rem 0;
+      padding: 1.85rem 2rem;
       background: var(--surface);
       border: 1px solid var(--border);
       border-left: 3px solid var(--accent);
     }
 
     .programme-label {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 1rem;
+      margin-bottom: 0.85rem;
       display: block;
     }
 
-    .programme p {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      margin-bottom: 1rem;
+    .highlight-list {
+      list-style: none;
+      margin-bottom: 0.5rem;
     }
 
-    .programme p:last-child {
+    .highlight-list li {
+      position: relative;
+      padding-left: 1.25rem;
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+    }
+
+    .highlight-list li:last-child {
       margin-bottom: 0;
+    }
+
+    .highlight-list li::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.75rem;
+      top: 0.15rem;
     }
 
     .programme a, .plate-meta a, .drawer-content a {
       color: var(--accent);
       text-decoration: none;
-      border-bottom: 1px solid rgba(214, 184, 124, 0.4);
+      border-bottom: 1px solid rgba(214, 184, 124, 0.45);
+      transition: border-color 0.2s ease;
     }
 
     .programme a:hover, .plate-meta a:hover, .drawer-content a:hover {
       border-bottom-color: var(--accent);
     }
 
-
     /* Section Headings */
     .section-header {
-      margin: 4.5rem 0 2rem;
+      margin: 4rem 0 1.75rem;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 0.75rem;
+      padding-bottom: 0.65rem;
     }
 
     .section-num {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--accent);
       display: block;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.2rem;
     }
 
     h2 {
       font-family: var(--serif);
-      font-size: clamp(1.75rem, 3.5vw, 2.35rem);
+      font-size: clamp(1.7rem, 3.5vw, 2.3rem);
       font-weight: 500;
       letter-spacing: 0.02em;
     }
@@ -161,8 +177,13 @@
     .plate {
       background: var(--surface);
       border: 1px solid var(--border);
-      padding: 2rem;
-      margin-bottom: 2.5rem;
+      padding: 1.85rem;
+      margin-bottom: 2.25rem;
+      transition: border-color 0.25s ease;
+    }
+
+    .plate:hover {
+      border-color: rgba(214, 184, 124, 0.45);
     }
 
     .plate-header {
@@ -170,8 +191,8 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: baseline;
-      gap: 0.5rem 1.5rem;
-      margin-bottom: 1.25rem;
+      gap: 0.5rem 1.25rem;
+      margin-bottom: 1rem;
     }
 
     h3 {
@@ -183,31 +204,43 @@
     h3 a {
       color: var(--text-main);
       text-decoration: none;
+      border-bottom: 1px solid rgba(214, 184, 124, 0.5);
+      padding-bottom: 1px;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    h3 a::after {
+      content: " ↗";
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--accent);
+      vertical-align: middle;
     }
 
     h3 a:hover {
       color: var(--accent);
+      border-bottom-color: var(--accent);
     }
 
     .status-pill {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       letter-spacing: 0.16em;
       text-transform: uppercase;
       color: var(--accent);
       border: 1px solid rgba(214, 184, 124, 0.35);
-      padding: 0.25rem 0.7rem;
+      padding: 0.22rem 0.65rem;
       border-radius: 2px;
     }
 
     .plate-meta {
       list-style: none;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       color: var(--text-muted);
-      margin-bottom: 1.75rem;
+      margin-bottom: 1.5rem;
     }
 
     .plate-meta li {
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.3rem;
     }
 
     .plate-meta strong {
@@ -220,12 +253,25 @@
       text-align: center;
     }
 
-    .frame {
+    /* Clickable Frame */
+    .frame-link {
       display: inline-block;
-      padding: 0.75rem;
+      text-decoration: none;
+      max-width: 100%;
+      group: true;
+    }
+
+    .frame {
+      display: block;
+      padding: 0.7rem;
       background: #08090c;
       border: 1px solid var(--border);
-      max-width: 100%;
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .frame-link:hover .frame {
+      border-color: var(--accent);
+      transform: translateY(-2px);
     }
 
     figure img {
@@ -236,8 +282,23 @@
       margin: 0 auto;
     }
 
+    .tap-cue {
+      display: inline-block;
+      margin-top: 0.65rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid rgba(214, 184, 124, 0.4);
+      padding-bottom: 2px;
+    }
+
+    .frame-link:hover .tap-cue {
+      border-bottom-color: var(--accent);
+    }
+
     figcaption {
-      margin-top: 1.1rem;
+      margin-top: 1rem;
       font-family: var(--serif);
       font-style: italic;
       font-size: 1.12rem;
@@ -258,7 +319,7 @@
     .grid-two {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
+      gap: 1.75rem;
     }
 
     .grid-two .plate {
@@ -268,45 +329,67 @@
       justify-content: space-between;
     }
 
-    /* Native Expandable Drawers (Zero JS needed) */
+    /* Posh Collapsible Drawers */
     details {
-      margin-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      padding-top: 1rem;
+      margin-top: 1.25rem;
+      border: 1px solid var(--border);
+      background: rgba(8, 9, 12, 0.55);
+      border-radius: 2px;
+      transition: border-color 0.2s ease;
+    }
+
+    details:hover, details[open] {
+      border-color: rgba(214, 184, 124, 0.4);
     }
 
     summary {
       cursor: pointer;
-      font-size: 0.78rem;
+      padding: 0.75rem 1rem;
+      font-size: 0.74rem;
       letter-spacing: 0.16em;
       text-transform: uppercase;
       color: var(--accent);
       list-style: none;
       user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     summary::-webkit-details-marker {
       display: none;
     }
 
-    summary::before {
-      content: "+ ";
-      font-weight: 500;
+    summary::after {
+      content: "+";
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--accent);
     }
 
-    details[open] summary::before {
-      content: "− ";
+    details[open] summary::after {
+      content: "−";
     }
 
     .drawer-content {
-      margin-top: 0.85rem;
+      padding: 0 1rem 1rem;
       font-size: 0.92rem;
       color: var(--text-muted);
+      border-top: 1px solid rgba(36, 40, 54, 0.6);
+      padding-top: 0.85rem;
+    }
+
+    .drawer-content p {
+      margin-bottom: 0.75rem;
+    }
+
+    .drawer-content p:last-child {
+      margin-bottom: 0;
     }
 
     /* Footer */
     footer {
-      margin-top: 5rem;
+      margin-top: 4.5rem;
       padding-top: 2rem;
       border-top: 1px solid var(--border);
       text-align: center;
@@ -320,12 +403,21 @@
       text-decoration: none;
     }
 
+    .disclaimer {
+      margin-top: 0.75rem;
+      font-size: 0.75rem;
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
     @media (max-width: 600px) {
       body {
         padding: 1.25rem 1rem 3.5rem;
       }
       .programme, .plate {
-        padding: 1.4rem;
+        padding: 1.35rem;
       }
     }
   </style>
@@ -344,14 +436,26 @@
       </nav>
     </header>
 
-    <section class="programme" aria-label="Curatorial Note">
-      <span class="programme-label">Curatorial Note</span>
-      <p>
-        <strong>The Orbital Showcase</strong> — An upcoming satellite transmission will broadcast original mixed-media artwork directly above the Pyramids of Giza, debuting alongside spacebound postcard editions from our flagship interactive anthology, <a href="https://www.clubforfuture.org/postcards"><em>From Sirius to the Sun™</em></a>, manifested for flight aboard Blue Origin commercial rockets.
-      </p>
-      <p>
-        <strong>The Earthbound Coin Series</strong> — Extending this series onto Earth, we hide hand-inked collectible coins—special physical editions of <em>From Sirius to the Sun™</em>—inside independent art spaces worldwide. While the front of each coin is photographed and launched into space as an archival art print, the back holds a hand-inked poetry fragment that remains hidden unless found in person. In return for engaging with the archive, we simply ask finders to pass along one quiet act of kindness—and visit the <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md">Coin Ledger</a> to uncover their coin's complete poem and the space research that inspired it.
-      </p>
+
+
+     <section class="programme" aria-label="Exhibition Overview">
+      <span class="programme-label">At a Glance</span>
+      <ul class="highlight-list">
+        <li><strong>Art in Orbit:</strong> Original mixed-media art slated for satellite broadcast above the Pyramids of Giza, alongside spacebound postcard editions from <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em></a> flying aboard Blue Origin.</li>
+        <li><strong>Coins on Earth:</strong> Hand-inked collectible coins hidden in neighborhood art galleries—each carrying a hidden verse fragment on the back for finders who pass along one quiet act of kindness.</li>
+      </ul>
+
+      <details>
+        <summary>How the Space &amp; Earth Archive Connects</summary>
+        <div class="drawer-content">
+          <p>
+            Extending <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em></a> onto Earth, we release hand-inked collectible coins inside independent <strong>Free Little Art Galleries</strong> worldwide. While the front of each coin is photographed and launched into space as an archival art print, the back holds a hand-inked poetry fragment that remains hidden unless discovered in person.
+          </p>
+          <p>
+            In return for engaging with the work, we simply ask finders to pass along one quiet act of kindness—and visit the <a href="https://github.com/Cyber-Chic/cosmos/blob/main/COIN_LEDGER.md">Coin Ledger</a> to read their coin's complete poem and explore the space research behind it. Read the backstory in founder Angela N. Moore’s essay, <a href="https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/" target="_blank" rel="noopener"><em>“The Heart of the Project”</em></a>.
+          </p>
+        </div>
+      </details>
     </section>
 
     <!-- PHASE I -->
@@ -367,23 +471,20 @@
       </div>
       <ul class="plate-meta">
         <li><strong>Venue:</strong> Low Earth Orbit Satellite Broadcast (Passing Over Giza)</li>
-        <li><strong>Medium:</strong> Mixed-Media Composition &amp; Archival Photograph</li>
+        <li><strong>Medium:</strong> Mixed-Media Rocket Painting &amp; Hand-Inked Coins</li>
       </ul>
       <figure>
-        <div class="frame">
-          <img src="images.css/IMG_9495.jpeg" alt="Flagship Mixed-Media Artwork slated to broadcast over the Pyramids of Giza" />
-        </div>
+        <a href="https://space.crunchlabs.com/selfie/VnpvzMO" target="_blank" rel="noopener" class="frame-link" aria-label="Track Sat Gus satellite location in real time">
+          <div class="frame">
+            <img src="images.css/IMG_9495.jpeg" alt="Original mixed-media rocket painting with two hand-inked coins placed atop as spacebound cargo" />
+          </div>
+          <span class="tap-cue">↗ Tap Artwork to Track Satellite Location in Real Time</span>
+        </a>
         <figcaption>
           <span class="verse-quote">Archival Artifacts (Full Composition)</span>
           Slated for orbital broadcast above the Pyramids of Giza. Two hand-inked coins rest face-up atop an original mixed-media rocket painting as symbolic spacebound cargo, while their reverse poetry fragments remain hidden unless discovered in person.
         </figcaption>
       </figure>
-      <details>
-        <summary>About the Earthbound Coin Hunt &amp; Essay</summary>
-        <div class="drawer-content">
-          While photographic prints of these works travel to space, the original hand-inked coins remain on Earth—seeded inside neighborhood <strong>Free Little Art Galleries</strong> as part of a borderless treasure hunt built on an honor system of quiet kindness. To read the backstory of the broader art hunt, read founder Angela N. Moore’s essay, <a href="https://freelittleartgalleries.art/2026/05/the-heart-of-the-project/" target="_blank" rel="noopener"><em>“The Heart of the Project”</em></a>.
-        </div>
-      </details>
     </article>
 
     <!-- PHASE II -->
@@ -405,9 +506,12 @@
           </ul>
         </div>
         <figure>
-          <div class="frame">
-            <img src="SPACE-GALLERY.jpeg" alt="Founder Angela N. Moore presents her book release alongside Gallery Director Aimée Burg" />
-          </div>
+          <a href="https://luma.com/q0lm15pz" target="_blank" rel="noopener" class="frame-link" aria-label="View CT Tech Week Book Release exhibition details">
+            <div class="frame">
+              <img src="SPACE-GALLERY.jpeg" alt="Founder Angela N. Moore presents her book release alongside Gallery Director Aimée Burg" />
+            </div>
+            <span class="tap-cue">↗ Tap Photo for Exhibition Archive</span>
+          </a>
           <figcaption>
             Founder Angela N. Moore presents her studio release alongside Gallery Director Aimée Burg (far right). Courtesy of Ely Center for Contemporary Art.
           </figcaption>
@@ -426,9 +530,12 @@
           </ul>
         </div>
         <figure>
-          <div class="frame">
-            <img src="CT_TECH_WEEK_2.jpg" alt="Founder Angela N. Moore alongside Prakaithip Romanow celebrating the studio debut" />
-          </div>
+          <a href="https://www.linkedin.com/posts/promanow_cttechweek-women-innovation-ugcPost-7468021297931825152-XZgR/" target="_blank" rel="noopener" class="frame-link" aria-label="View CT Tech Week Studio Showcase feature">
+            <div class="frame">
+              <img src="CT_TECH_WEEK_2.jpg" alt="Founder Angela N. Moore alongside Prakaithip Romanow celebrating the studio debut" />
+            </div>
+            <span class="tap-cue">↗ Tap Photo for Showcase Feature</span>
+          </a>
           <figcaption>
             Founder Angela N. Moore alongside Prakaithip Romanow, Director of Manufacturing AI, celebrating the studio debut. Courtesy of Ely Center for Contemporary Art.
           </figcaption>
@@ -442,49 +549,67 @@
       <h2>Celestial Plates &amp; Verse</h2>
     </div>
 
-    <div class="programme" style="margin: 0 0 2.5rem;">
-      <span class="programme-label">From Sirius to the Sun™ — Anthology &amp; Visual Method</span>
-      <p>
-        Each plate below originates in <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em></a>, the studio’s interactive poetry anthology inspired by over 4,000 citizen-science classifications across nine astronomy initiatives. The linked research records inspired each original haiku, while the visualizer sets a randomized, atmospheric starfield mood around the verse—an artistic interpretation of cosmic light rather than a literal telescope image. Digital captures from the anthology are printed as physical postcards and manifested for spaceflight aboard <a href="https://www.clubforfuture.org/postcards" target="_blank" rel="noopener">Blue Origin</a>.
-      </p>
+    <div class="programme" style="margin: 0 0 2.25rem;">
+      <span class="programme-label">From Sirius to the Sun™</span>
+      <ul class="highlight-list">
+        <li>Original haiku inspired by real citizen-science astronomy observations, captured from <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em></a> and printed as physical postcards for Blue Origin spaceflight.</li>
+      </ul>
+      <details>
+        <summary>About the Research &amp; Visual Method</summary>
+        <div class="drawer-content">
+          <p>
+            Each poem originates in <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em></a>, the studio’s interactive anthology inspired by over 4,000 citizen-science classifications across nine astronomy initiatives.
+          </p>
+          <p>
+            The linked research records inspired each original haiku, while the visualizer sets a randomized, atmospheric starfield mood around the verse—an artistic interpretation of cosmic light rather than a literal telescope photograph.
+          </p>
+        </div>
+      </details>
     </div>
 
     <article class="plate">
       <div class="plate-header">
         <h3><a href="https://en.wikipedia.org/wiki/TrES-3b" target="_blank" rel="noopener">Exoplanet TrES-3b</a></h3>
-        <span class="status-pill">Spacebound Postcard Edition</span>
+        <span class="status-pill">Spacebound Postcard</span>
       </div>
       <ul class="plate-meta">
-        <li><strong>Published In:</strong> <a href="hhttps://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em> (Interactive Anthology)</a></li>
-        <li><strong>Verse Inspired By:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/ target="_blank" rel="noopener">Exoplanet Watch</a> &middot; <a href="https://apps.aavso.org/exosite/g/11122/ target="_blank" rel="noopener">Light Curve Observation</a></li>
+        <li><strong>Published In:</strong> <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em> (Interactive Anthology)</a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/" target="_blank" rel="noopener">Exoplanet Watch ↗</a> &middot; <a href="https://apps.aavso.org/exosite/g/11122/%20target=" target="_blank" rel="noopener">Light Curve Observation ↗</a></li>
       </ul>
       <figure>
-        <div class="frame">
-          <img src="images.css/deep-space-capture-silver-exoplanet.jpg" alt="TrES-3b Visualizer Capture" />
-        </div>
+        <a href="https://github.io" class="frame-link" aria-label="Explore TrES-3b in From Sirius to the Sun interactive anthology">
+          <div class="frame">
+            <img src="images.css/deep-space-capture-silver-exoplanet.jpg" alt="TrES-3b Visualizer Capture" />
+          </div>
+          <span class="tap-cue">↗ Tap Plate to Launch Interactive Anthology</span>
+        </a>
         <figcaption>
           <span class="verse-quote">“Spinning at top speeds....”</span>
-          Digital capture from <em>From Sirius to the Sun™</em>, queued for physical postcard printing and Blue Origin spaceflight.
+          Digital capture queued for physical postcard printing and Blue Origin spaceflight.
         </figcaption>
       </figure>
     </article>
 
+
     <article class="plate">
       <div class="plate-header">
-        <h3><a href="https://wikipedia.org" target="_blank" rel="noopener">Exoplanet WASP-12b</a></h3>
-        <span class="status-pill">Spacebound Postcard Edition</span>
+        <h3><a href="https://simple.wikipedia.org/wiki/WASP-12b" target="_blank" rel="noopener">Exoplanet WASP-12b</a></h3>
+        <span class="status-pill">Spacebound Postcard</span>
       </div>
       <ul class="plate-meta">
         <li><strong>Published In:</strong> <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em> (Interactive Anthology)</a></li>
-        <li><strong>Verse Inspired By:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/" target="_blank" rel="noopener">Exoplanet Watch</a> &middot; <a href="https://apps.aavso.org/exosite/g/11122/" target="_blank" rel="noopener">Light Curve Observation</a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://science.nasa.gov/citizen-science/exoplanet-watch/exoplanet-watch-overview/" target="_blank" rel="noopener">Exoplanet Watch ↗</a> &middot; <a href="https://apps.aavso.org/exosite/g/11122/" target="_blank" rel="noopener">Light Curve Observation ↗</a></li>
       </ul>
       <figure>
-        <div class="frame">
-          <img src="images.css/deep-space-capture.jpg" alt="WASP-12b Visualizer Capture" />
-        </div>
+        <a href="https://cyber-chic.github.io/cosmos/universe" class="frame-link" aria-label="Explore WASP-12b in From Sirius to the Sun interactive anthology">
+          <div class="frame">
+            <img src="images.css/deep-space-capture.jpg" alt="WASP-12b Visualizer Capture" />
+          </div>
+          <span class="tap-cue">↗ Tap Plate to Launch Interactive Anthology</span>
+        </a>
         <figcaption>
           <span class="verse-quote">“Raging hot flames reign....”</span>
-          Digital capture from <em>From Sirius to the Sun™</em>, queued for physical postcard printing and Blue Origin spaceflight.
+          Digital capture queued for physical postcard printing and Blue Origin spaceflight.
         </figcaption>
       </figure>
     </article>
@@ -492,31 +617,33 @@
     <article class="plate">
       <div class="plate-header">
         <h3><a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/about/research" target="_blank" rel="noopener">Daily Minor Planet</a></h3>
-        <span class="status-pill">Spacebound Postcard Edition</span>
+        <span class="status-pill">Spacebound Postcard</span>
       </div>
       <ul class="plate-meta">
         <li><strong>Published In:</strong> <a href="https://cyber-chic.github.io/cosmos/universe"><em>From Sirius to the Sun™</em> (Interactive Anthology)</a></li>
-        <li><strong>Verse Inspired By:</strong> <a href="https://www.zooniverse.org/about" target="_blank" rel="noopener">Zooniverse Research</a> &middot; <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" target="_blank" rel="noopener">Sky-Data Observation</a></li>
+        <li><strong>Verse Inspired By:</strong> <a href="https://www.zooniverse.org/about" target="_blank" rel="noopener">Zooniverse Research ↗</a> &middot; <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/talk/subjects/105418882" target="_blank" rel="noopener">Sky-Data Observation ↗</a></li>
       </ul>
       <figure>
-        <div class="frame">
-          <img src="images.css/deep-space-crazy-light.jpg" alt="Daily Minor Planet Visualizer Capture" />
-        </div>
+        <a href="https://www.zooniverse.org/projects/fulsdavid/the-daily-minor-planet/about/research" class="frame-link" aria-label="Explore Daily Minor Planet in From Sirius to the Sun interactive anthology">
+          <div class="frame">
+            <img src="images.css/deep-space-crazy-light.jpg" alt="Daily Minor Planet Visualizer Capture" />
+          </div>
+          <span class="tap-cue">↗ Tap Plate to Launch Interactive Anthology</span>
+        </a>
         <figcaption>
           <span class="verse-quote">“Crazy light flashes....”</span>
-          Digital capture from <em>From Sirius to the Sun™</em>, queued for physical postcard printing and Blue Origin spaceflight.
+          Digital capture queued for physical postcard printing and Blue Origin spaceflight.
         </figcaption>
       </figure>
     </article>
 
     <footer>
       <p>&copy; 2026 The Moore Signal Archive LLC &bull; Glastonbury, CT &bull; <a href="https://bio.site/mooresignal">Studio Directory</a></p>
-      <p style="margin-top: 0.75rem; font-size: 0.75rem; max-width: 680px; margin-left: auto; margin-right: auto; line-height: 1.6;">
-        Independent data art and literary press utilizing open public domain assets. Not affiliated with, funded by, or endorsed by NASA, Zooniverse, or Blue Origin.
+      <p class="disclaimer">
+        Independent data art and literary press utilizing open public domain assets. Not affiliated with, funded by, or endorsed by NASA, Zooniverse, Sat Gus or Blue Origin.
       </p>
     </footer>
   </div>
 
 </body>
 </html>
-
